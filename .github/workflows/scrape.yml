@@ -1,0 +1,36 @@
+name: Scrape LMArena Overall (daily)
+
+on:
+  schedule:
+    - cron: "7 5 * * *"   # tous les jours à 05:07 UTC (~06:07 local)
+  workflow_dispatch: {}    # exécution manuelle possible
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps
+        run: npm ci || npm i
+
+      - name: Install Playwright (Chromium only)
+        run: npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Commit JSON
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update lmarena_overall_top3.json"
+          file_pattern: public/lmarena_overall_top3.json
