@@ -1,0 +1,19 @@
+{
+  "source": "https://lmarena.ai/leaderboard",
+  "last_updated_raw": null,
+  "generated_at_iso": "2025-11-09T17:52:44.504Z",
+  "top3_overall": [
+    {
+      "model": "claude-opus-4-1-20250805-thinking-16k",
+      "overall": "1"
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "overall": "1"
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "overall": "1"
+    }
+  ]
+}
