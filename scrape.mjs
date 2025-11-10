@@ -14,10 +14,10 @@ function writeOutput(payload) {
   console.log("✅ Écrit -> public/lmarena_overall_top3.json");
 }
 
-async function getTop10(page) {
-  // Chercher la table qui contient un <th> "Overall"
+async function extractTop10(page) {
+  // Table qui contient un <th> "Overall"
   const table = page.locator('table:has(th:has-text("Overall"))').first();
-  await table.waitFor({ state: "visible", timeout: 120_000 });
+  await table.waitFor({ state: "visible", timeout: 90_000 });
 
   const headers = await table.locator("thead tr th").allInnerTexts();
   console.log("🧭 Headers:", headers);
@@ -39,47 +39,51 @@ async function getTop10(page) {
 }
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch(); // headless par défaut en CI
   const ctx = await browser.newContext({
-    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
     locale: "en-US",
     timezoneId: "UTC",
     viewport: { width: 1280, height: 900 }
   });
   const page = await ctx.newPage();
-  page.setDefaultTimeout(120_000);
+  page.setDefaultTimeout(90_000);
 
   try {
-    console.log("➡️  Goto:", URL);
-    await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 120_000 });
-    await page.waitForLoadState("networkidle", { timeout: 120_000 });
-    await page.waitForTimeout(6000); // laisser Cloudflare/JS finir
-
     let top = null;
-    try {
-      console.log("🔎 Essai #1 extraction…");
-      top = await getTop10(page);
-    } catch (e) {
-      console.warn("⚠️  Essai #1 a échoué:", e.message);
-      console.log("🔄 Reload & essai #2…");
-      await page.reload({ waitUntil: "domcontentloaded", timeout: 120_000 });
-      await page.waitForLoadState("networkidle", { timeout: 120_000 });
-      await page.waitForTimeout(6000);
-      top = await getTop10(page); // si ça échoue ici, on laisse remonter l’erreur
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      const isFirst = attempt === 1;
+      console.log(`${isFirst ? "➡️  Goto" : "🔄 Reload"} (essai #${attempt})`);
+      if (isFirst) {
+        await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 120_000 });
+      } else {
+        await page.reload({ waitUntil: "domcontentloaded", timeout: 120_000 });
+      }
+
+      // Laisse le temps à Cloudflare / hydratation Next.js
+      await page.waitForTimeout(7000);
+
+      try {
+        top = await extractTop10(page);
+        console.log("🏆 Top10:", top.map(t => t.model));
+        break; // succès
+      } catch (e) {
+        console.warn(`⚠️  Essai #${attempt} KO: ${e.message}`);
+        if (attempt === 3) throw e; // après 3 essais, on remonte l'erreur
+      }
     }
 
-    console.log("🏆 Top10:", top.map(t => t.model));
-
-    // Bandeau "Last Updated" (optionnel / parfois absent)
+    // "Last Updated" (pas toujours visible sur la page overview)
     let lastUpdatedText = null;
     try {
       const lu = page.locator('text=Last Updated').first();
       await lu.waitFor({ state: "visible", timeout: 5000 });
       lastUpdatedText = await lu.evaluate(el => (el.closest("div") || el.parentElement || el).innerText || el.textContent || null);
-    } catch {}
+    } catch { /* silencieux */ }
 
     const now = new Date();
-    const payload = {
+    writeOutput({
       source: URL,
       last_updated_raw: lastUpdatedText || null,
       last_updated_iso: lastUpdatedText ? null : now.toISOString().slice(0, 10),
@@ -87,8 +91,7 @@ async function getTop10(page) {
       generated_at_iso: now.toISOString(),
       top10_overall: top,
       top3_overall: top.slice(0, 3)
-    };
-    writeOutput(payload);
+    });
   } catch (err) {
     console.error("❌ Erreur scrape:", err?.message || err);
     writeOutput({
