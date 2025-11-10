@@ -1,17 +1,74 @@
 {
   "source": "https://lmarena.ai/leaderboard",
   "last_updated_raw": null,
-  "generated_at_iso": "2025-11-10T05:43:14.994Z",
-  "top3_overall": [
+  "last_updated_iso": "2025-11-10",
+  "last_updated_human": "10 novembre 2025",
+  "generated_at_iso": "2025-11-10T19:43:31.704Z",
+  "top10_overall": [
     {
+      "rank": 1,
       "model": "claude-opus-4-1-20250805-thinking-16k",
       "overall": "1"
     },
     {
+      "rank": 2,
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
       "overall": "1"
     },
     {
+      "rank": 3,
+      "model": "gemini-2.5-pro",
+      "overall": "1"
+    },
+    {
+      "rank": 4,
+      "model": "claude-opus-4-1-20250805",
+      "overall": "2"
+    },
+    {
+      "rank": 5,
+      "model": "claude-sonnet-4-5-20250929",
+      "overall": "2"
+    },
+    {
+      "rank": 6,
+      "model": "gpt-4.5-preview-2025-02-27",
+      "overall": "2"
+    },
+    {
+      "rank": 7,
+      "model": "chatgpt-4o-latest-20250326",
+      "overall": "4"
+    },
+    {
+      "rank": 8,
+      "model": "gpt-5-high",
+      "overall": "4"
+    },
+    {
+      "rank": 9,
+      "model": "o3-2025-04-16",
+      "overall": "4"
+    },
+    {
+      "rank": 10,
+      "model": "qwen3-max-preview",
+      "overall": "4"
+    }
+  ],
+  "top3_overall": [
+    {
+      "rank": 1,
+      "model": "claude-opus-4-1-20250805-thinking-16k",
+      "overall": "1"
+    },
+    {
+      "rank": 2,
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "overall": "1"
+    },
+    {
+      "rank": 3,
       "model": "gemini-2.5-pro",
       "overall": "1"
     }
