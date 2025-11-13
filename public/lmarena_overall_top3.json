@@ -1,9 +1,9 @@
 {
   "source": "https://lmarena.ai/leaderboard",
   "last_updated_raw": null,
-  "last_updated_iso": "2025-11-12",
-  "last_updated_human": "12 novembre 2025",
-  "generated_at_iso": "2025-11-12T05:42:03.548Z",
+  "last_updated_iso": "2025-11-13",
+  "last_updated_human": "13 novembre 2025",
+  "generated_at_iso": "2025-11-13T05:42:30.594Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -12,22 +12,22 @@
     },
     {
       "rank": 2,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "model": "claude-sonnet-4-5-20250929",
       "overall": "1"
     },
     {
       "rank": 3,
-      "model": "gemini-2.5-pro",
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
       "overall": "1"
     },
     {
       "rank": 4,
-      "model": "claude-opus-4-1-20250805",
-      "overall": "2"
+      "model": "gemini-2.5-pro",
+      "overall": "1"
     },
     {
       "rank": 5,
-      "model": "claude-sonnet-4-5-20250929",
+      "model": "claude-opus-4-1-20250805",
       "overall": "2"
     },
     {
@@ -53,7 +53,7 @@
     {
       "rank": 10,
       "model": "qwen3-max-preview",
-      "overall": "4"
+      "overall": "5"
     }
   ],
   "top3_overall": [
@@ -64,12 +64,12 @@
     },
     {
       "rank": 2,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "model": "claude-sonnet-4-5-20250929",
       "overall": "1"
     },
     {
       "rank": 3,
-      "model": "gemini-2.5-pro",
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
       "overall": "1"
     }
   ]
