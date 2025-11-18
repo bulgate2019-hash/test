@@ -1,12 +1,8 @@
-import { firefox } from "playwright-extra"; // On passe à FIREFOX
+import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
-// Le mode stealth fonctionne mieux sur Chrome, mais aide aussi sur Firefox
-const stealth = stealthPlugin();
-// Hack pour éviter un bug de stealth avec Firefox
-stealth.enabledEvasions.delete('user-agent-override');
-firefox.use(stealth);
+chromium.use(stealthPlugin());
 
 const URL = "https://lmarena.ai/leaderboard";
 
@@ -21,19 +17,18 @@ function writeOutput(payload) {
 }
 
 async function extractTop10(page) {
-  console.log("🕵️ Recherche du tableau...");
+  console.log("🕵️  Recherche du tableau...");
   
-  // Attente que le texte "Model" apparaisse (max 30s)
+  // On attend 30s max
   try {
       await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 30000 });
   } catch(e) {
-      // Si échec, on prend une photo pour comprendre
-      await page.screenshot({ path: "public/debug_fail_firefox.png" });
       const title = await page.title();
-      throw new Error(`Tableau non trouvé. Titre de la page: "${title}"`);
+      // Capture d'écran pour voir si l'écran virtuel fonctionne
+      await page.screenshot({ path: "public/debug_xvfb.png" });
+      throw new Error(`Élément non trouvé. Titre page: "${title}" (Voir debug_xvfb.png)`);
   }
 
-  // Extraction brute
   const bodyText = await page.locator('body').innerText();
   const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
   
@@ -48,13 +43,10 @@ async function extractTop10(page) {
     const line = lines[i];
     if (top.length >= 10) break;
 
-    // Regex pour trouver le score Elo (ex: 1310)
-    // LMArena format typique: "1   GPT-4o-2024-05-13   1287"
     if (/\d{4}/.test(line)) {
-        let modelName = line.replace(/^\d+\s+/, ''); // Enlever le rang au début
-        modelName = modelName.split(/\d{4}/)[0].trim(); // Garder ce qui est avant le score
+        let modelName = line.replace(/^\d+\s+/, ''); 
+        modelName = modelName.split(/\d{4}/)[0].trim(); 
         
-        // Petit nettoyage si le nom est vide ou trop court
         if (modelName.length < 2) continue;
 
         top.push({
@@ -68,29 +60,21 @@ async function extractTop10(page) {
 }
 
 (async () => {
-  console.log("🦊 Lancement de Firefox...");
+  console.log("🖥️  Lancement Chromium avec écran virtuel (Xvfb)...");
   
-  const browser = await firefox.launch({
-    headless: true, // Firefox headless est moins détecté que Chrome headless
+  const browser = await chromium.launch({
+    headless: false, // <--- C'EST LA CLÉ : On lance comme un VRAI navigateur
+    args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--window-size=1280,960',
+        '--disable-blink-features=AutomationControlled' // Masque le fait que c'est un robot
+    ]
   });
   
   const ctx = await browser.newContext({
-    viewport: { width: 1920, height: 1080 },
-    // User Agent légitime de Firefox Windows
-    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
-    // Headers indispensables pour passer pour un humain
-    extraHTTPHeaders: {
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.5",
-        "Accept-Encoding": "gzip, deflate, br",
-        "DNT": "1",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "Sec-Fetch-Dest": "document",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-Site": "none",
-        "Sec-Fetch-User": "?1"
-    }
+    viewport: { width: 1280, height: 960 },
+    userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
   });
 
   const page = await ctx.newPage();
@@ -98,16 +82,15 @@ async function extractTop10(page) {
 
   try {
     console.log(`➡️  Navigation vers ${URL}`);
-    
-    // Navigation fluide
     await page.goto(URL, { waitUntil: "domcontentloaded" });
     
-    // Pause tactique pour laisser les scripts tourner
-    await page.waitForTimeout(8000);
+    // Attente longue pour laisser passer la vérif Cloudflare (souvent 5-10s)
+    console.log("⏳ Pause Cloudflare...");
+    await page.waitForTimeout(10000);
 
-    // Petit scroll pour déclencher le lazy loading éventuel
-    await page.mouse.wheel(0, 500);
-    await page.waitForTimeout(2000);
+    // Simulation de mouvement souris
+    await page.mouse.move(100, 100);
+    await page.mouse.move(500, 500);
 
     const top = await extractTop10(page);
     console.log(`🏆 Succès ! ${top.length} modèles trouvés.`);
