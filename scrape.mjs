@@ -1,5 +1,11 @@
-import { chromium } from "playwright";
+// scrape.mjs
+// Note: On utilise maintenant playwright-extra pour le mode Stealth
+import { chromium } from "playwright-extra";
+import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
+
+// Active le plugin de camouflage
+chromium.use(stealthPlugin());
 
 const URL = "https://lmarena.ai/leaderboard";
 
@@ -14,115 +20,98 @@ function writeOutput(payload) {
 }
 
 async function extractTop10(page) {
-  console.log("🕵️ Recherche du tableau via le texte des colonnes...");
-
-  // On cherche un élément qui contient "Model" (souvent l'entête)
-  // On attend jusqu'à 30s que cet élément apparaisse visuellement
-  const modelHeader = page.getByText('Model', { exact: true }).first();
+  console.log("🕵️  Analyse du contenu de la page...");
   
+  // Vérification anti-Cloudflare: Si le titre reste "Just a moment...", on est bloqué
+  const title = await page.title();
+  if (title.includes("Just a moment")) {
+      throw new Error("⛔ Bloqué par Cloudflare (Challenge non passé).");
+  }
+
+  // On cherche le tableau via le texte "Model" (plus robuste que <table>)
   try {
-    await modelHeader.waitFor({ state: "visible", timeout: 30_000 });
+    await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 15000 });
   } catch (e) {
-    console.log("⚠️ HEADER 'Model' NON TROUVÉ. Dump partiel du HTML:");
-    const html = await page.content();
-    console.log(html.slice(0, 1000)); // Affiche le début du HTML pour debug
-    throw new Error("Le site a chargé mais l'entête 'Model' est introuvable.");
+     // Si échec, on dump le HTML pour debug
+     const html = await page.content();
+     // On vérifie si on est sur la page Cloudflare malgré tout
+     if (html.includes("Challenge") || html.includes("Verify")) {
+         throw new Error("⛔ Détecté comme bot par Cloudflare.");
+     }
+     throw new Error("Tableau introuvable (problème de structure HTML).");
   }
 
-  console.log("✅ Entête 'Model' trouvé. Extraction des lignes...");
-
-  // Récupération de toutes les lignes potentielles (divs ou tr avec du texte)
-  // On récupère le texte brut du body pour analyse si le DOM est trop complexe
-  const bodyHandle = await page.locator('body');
-  const bodyText = await bodyHandle.innerText();
+  // Extraction robuste (via texte brut si nécessaire)
+  const bodyText = await page.locator('body').innerText();
   const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-
-  // On cherche la ligne qui contient les entêtes pour commencer juste après
-  // Ex: "Rank Model Arena Elo ..."
-  const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo") || l.includes("Score")));
   
-  if (headerIndex === -1) {
-      throw new Error("Impossible de trouver la ligne d'entête dans le texte visible.");
-  }
+  // Recherche de la ligne d'entête
+  const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
+  
+  if (headerIndex === -1) throw new Error("Structure du tableau non trouvée dans le texte.");
 
   const top = [];
   let rankCounter = 1;
 
-  // On parcourt les lignes suivantes
   for (let i = headerIndex + 1; i < lines.length; i++) {
     const line = lines[i];
-    
-    // Sécurité: on arrête si on a 10 éléments ou si la ligne ne ressemble pas à une donnée
     if (top.length >= 10) break;
 
-    // Une ligne de donnée typique sur lmarena : "1   GPT-4o   1310"
-    // Ou parfois le rang est sur une ligne, le modèle sur l'autre.
-    // On fait une heuristic simple : si la ligne contient un nombre > 1000 (score Elo), c'est une ligne de score.
-    
-    // Cette logique est simplifiée pour la robustesse : on capture la ligne entière comme "model" pour l'instant
-    // si on n'arrive pas à séparer proprement.
-    
-    // Si la ligne est juste un petit nombre (ex: "1"), c'est le rang, on passe à la suivante pour le modèle
-    if (/^\d+$/.test(line) && parseInt(line) < 100) continue;
-
-    // Si la ligne contient un score ELO (ex: 1287)
+    // Logique de parsing simplifiée pour lmarena
+    // On cherche les lignes qui contiennent un score ELO (ex: 1310)
     if (/\d{4}/.test(line)) {
+        // Nettoyage basique : on enlève le rang s'il est au début (ex "1 GPT-4")
+        let modelName = line;
+        // Si la ligne commence par un chiffre seul suivi d'espace
+        modelName = modelName.replace(/^\d+\s+/, ''); 
+        
         top.push({
             rank: rankCounter++,
-            model: line, // On stocke la ligne brute pour éviter de couper le nom du modèle
-            overall: "Voir json" 
+            model: modelName, 
+            overall: "Voir json pour raw" 
         });
     }
   }
   
-  // Si l'heuristique texte échoue, on tente l'ancienne méthode via sélecteur
-  if (top.length === 0) {
-      console.log("⚠️ Parsing texte échoué, tentative via sélecteurs CSS...");
-      const rows = await page.locator('tbody tr').all();
-      for (let i = 0; i < Math.min(10, rows.length); i++) {
-        const txt = await rows[i].innerText();
-        top.push({ rank: i+1, model: txt.replace(/\n/g, ' '), overall: "" });
-      }
-  }
-
   return top;
 }
 
 (async () => {
-  const browser = await chromium.launch();
-  const ctx = await browser.newContext({
-    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    viewport: { width: 1280, height: 800 }
-  });
+  // Lancement avec playwright-extra (déjà configuré avec stealth)
+  const browser = await chromium.launch({ headless: true });
   
+  const ctx = await browser.newContext({
+    // User Agent "Chrome Windows" très standard pour se fondre dans la masse
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    viewport: { width: 1920, height: 1080 },
+    locale: "en-US",
+    deviceScaleFactor: 1,
+  });
+
   const page = await ctx.newPage();
+  // Masquer webdriver est géré par le plugin stealth, mais on ajoute un timeout généreux
   page.setDefaultTimeout(60_000);
 
   try {
     let top = null;
-    for (let attempt = 1; attempt <= 3; attempt++) {
-      console.log(`➡️  Essai #${attempt}`);
-      try {
-        // CORRECTION ICI : domcontentloaded au lieu de networkidle
-        await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
-        
-        // Petite pause tactique pour l'hydratation JS
-        await page.waitForTimeout(5000);
+    
+    // On ne fait qu'un seul essai "long" pour laisser Cloudflare passer le challenge
+    console.log("➡️  Navigation vers l'arène (Attente résolution challenge)...");
+    
+    await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
+    
+    // ASTUCE : On attend 10 secondes pour laisser le script Cloudflare tourner
+    // Souvent, la page se recharge toute seule après 5s
+    await page.waitForTimeout(10000);
+    
+    // Petite simulation humaine (mouvement de souris)
+    try {
+        await page.mouse.move(100, 100);
+        await page.mouse.move(200, 200);
+    } catch {}
 
-        top = await extractTop10(page);
-        
-        if (top && top.length > 0) {
-            console.log(`🏆 Succès ! ${top.length} modèles récupérés.`);
-            break;
-        } else {
-            throw new Error("Tableau vide récupéré.");
-        }
-      } catch (e) {
-        console.warn(`⚠️  Essai #${attempt} échec: ${e.message}`);
-        await page.screenshot({ path: `public/debug_error_${attempt}.png` });
-        if (attempt === 3) throw e;
-      }
-    }
+    top = await extractTop10(page);
+    console.log(`🏆 Succès ! ${top.length} modèles trouvés.`);
 
     const now = new Date();
     writeOutput({
@@ -133,7 +122,9 @@ async function extractTop10(page) {
     });
 
   } catch (err) {
-    console.error("❌ Erreur fatale:", err);
+    console.error("❌ Erreur:", err.message);
+    // Snapshot en cas d'erreur finale
+    await page.screenshot({ path: "public/debug_final_error.png" });
     process.exit(1);
   }
 
