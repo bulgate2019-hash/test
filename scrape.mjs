@@ -2,6 +2,7 @@ import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
+// On garde le plugin stealth car il aide toujours à passer Cloudflare
 chromium.use(stealthPlugin());
 
 const URL = "https://lmarena.ai/leaderboard";
@@ -17,64 +18,61 @@ function writeOutput(payload) {
 }
 
 async function extractTop10(page) {
-  console.log("🕵️  Recherche du tableau...");
+  console.log("🕵️  Recherche du tableau HTML...");
   
-  // On attend 30s max
+  // 🧩 1️⃣ CONSIGNE : Remplacer le détecteur par waitForSelector('table')
+  // On attend que le tableau apparaisse dans le DOM
   try {
-      await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 30000 });
-  } catch(e) {
-      const title = await page.title();
-      // Capture d'écran pour voir si l'écran virtuel fonctionne
-      await page.screenshot({ path: "public/debug_xvfb.png" });
-      throw new Error(`Élément non trouvé. Titre page: "${title}" (Voir debug_xvfb.png)`);
+    await page.waitForSelector('table', { state: "visible", timeout: 30000 });
+  } catch (e) {
+    // Si pas de table, c'est probablement encore Cloudflare ou un changement de structure
+    const title = await page.title();
+    await page.screenshot({ path: "public/debug_no_table.png" });
+    throw new Error(`Tableau introuvable après attente. Titre de la page: "${title}"`);
   }
 
-  const bodyText = await page.locator('body').innerText();
-  const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-  
-  const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
-  
-  if (headerIndex === -1) throw new Error("Structure introuvable dans le texte.");
+  console.log("📊 Tableau trouvé ! Extraction des données...");
 
-  const top = [];
-  let rankCounter = 1;
+  // 🧩 2️⃣ CONSIGNE : Extraction directe via $$eval
+  // On exécute ce code DANS le navigateur pour récupérer proprement les données
+  const rows = await page.$$eval('table tbody tr', trs => {
+    return trs.slice(0, 10).map((tr, i) => {
+      const cols = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim());
+      
+      // Logique de colonne : souvent Rank=0, Model=1, ELO=2 ou 3
+      return {
+        rank: i + 1,
+        model: cols[1] || 'Inconnu',
+        // On prend la colonne 3 (souvent ELO) ou fallback sur la 2
+        overall: cols[3] || cols[2] || 'N/A'
+      };
+    });
+  });
 
-  for (let i = headerIndex + 1; i < lines.length; i++) {
-    const line = lines[i];
-    if (top.length >= 10) break;
-
-    if (/\d{4}/.test(line)) {
-        let modelName = line.replace(/^\d+\s+/, ''); 
-        modelName = modelName.split(/\d{4}/)[0].trim(); 
-        
-        if (modelName.length < 2) continue;
-
-        top.push({
-            rank: rankCounter++,
-            model: modelName, 
-            overall: "Voir JSON"
-        });
-    }
+  if (!rows || rows.length === 0) {
+      throw new Error("Aucune ligne de donnée extraite du tableau.");
   }
-  return top;
+
+  return rows;
 }
 
 (async () => {
-  console.log("🖥️  Lancement Chromium avec écran virtuel (Xvfb)...");
-  
+  console.log("🚀 Lancement du scraper (Mode Table + Headless)...");
+
+  // 🧩 3️⃣ CONSIGNE : headless: true
   const browser = await chromium.launch({
-    headless: false, // <--- C'EST LA CLÉ : On lance comme un VRAI navigateur
+    headless: true, 
     args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
-        '--window-size=1280,960',
-        '--disable-blink-features=AutomationControlled' // Masque le fait que c'est un robot
+        '--disable-blink-features=AutomationControlled' // Aide discrète contre la détection
     ]
   });
   
   const ctx = await browser.newContext({
-    viewport: { width: 1280, height: 960 },
-    userAgent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+    // User Agent moderne pour ressembler à un vrai Chrome
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    viewport: { width: 1920, height: 1080 }
   });
 
   const page = await ctx.newPage();
@@ -84,16 +82,15 @@ async function extractTop10(page) {
     console.log(`➡️  Navigation vers ${URL}`);
     await page.goto(URL, { waitUntil: "domcontentloaded" });
     
-    // Attente longue pour laisser passer la vérif Cloudflare (souvent 5-10s)
-    console.log("⏳ Pause Cloudflare...");
-    await page.waitForTimeout(10000);
+    // 🧩 4️⃣ CONSIGNE : Pause augmentée à 15 secondes
+    console.log("⏳ Pause de 15s pour laisser passer Cloudflare/Hydratation...");
+    await page.waitForTimeout(15000);
 
-    // Simulation de mouvement souris
-    await page.mouse.move(100, 100);
-    await page.mouse.move(500, 500);
+    // Petit scroll pour forcer le chargement visuel si nécessaire
+    await page.mouse.wheel(0, 200);
 
     const top = await extractTop10(page);
-    console.log(`🏆 Succès ! ${top.length} modèles trouvés.`);
+    console.log(`🏆 Succès ! ${top.length} modèles récupérés.`);
 
     const now = new Date();
     writeOutput({
