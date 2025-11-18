@@ -2,11 +2,8 @@ name: Scrape LMArena Overall (daily)
 
 on:
   schedule:
-    - cron: "7 5 * * *"   # tous les jours à 05:07 UTC (~06:07 local)
-  workflow_dispatch: {}    # exécution manuelle possible
-
-permissions:
-  contents: write
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -18,22 +15,24 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
-      - name: Install deps
-        run: npm install
+      # 1. ON INSTALLE L'ÉCRAN VIRTUEL
+      - name: Install dependencies and Xvfb
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb
+          npm install
+          npx playwright install chromium
 
-      - name: Install Playwright Browsers
-        run: npx playwright install firefox
-
-      - name: Install Playwright (Chromium only)
-        run: npx playwright install --with-deps chromium
-
-      - name: Run scraper
-        run: npm run scrape
+      # 2. ON LANCE LE SCRIPT DANS L'ÉCRAN VIRTUEL
+      - name: Run scraper with Xvfb
+        run: xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" npm run scrape
+        env:
+          CI: true
 
       - name: Commit JSON
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update lmarena_overall_top3.json"
-          file_pattern: public/lmarena_overall_top3.json
+          commit_message: "data: update lmarena top3"
+          file_pattern: "public/*.json"
