@@ -23,6 +23,9 @@ jobs:
       - name: Install deps
         run: npm install
 
+      - name: Install Playwright Browsers
+        run: npx playwright install firefox
+
       - name: Install Playwright (Chromium only)
         run: npx playwright install --with-deps chromium
 
