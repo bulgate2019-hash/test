@@ -1,76 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "last_updated_raw": null,
-  "last_updated_iso": "2025-11-15",
-  "last_updated_human": "15 novembre 2025",
-  "generated_at_iso": "2025-11-15T05:38:50.765Z",
+  "generated_at_iso": "2025-11-18T09:37:05.282Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "1"
+      "model": "grok-4.1-thinking",
+      "overall": "3,298"
     },
     {
       "rank": 2,
-      "model": "claude-sonnet-4-5-20250929",
-      "overall": "1"
+      "model": "grok-4.1",
+      "overall": "3,413"
     },
     {
       "rank": 3,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "1"
+      "model": "gemini-2.5-pro",
+      "overall": "65,503"
     },
     {
       "rank": 4,
-      "model": "gemini-2.5-pro",
-      "overall": "1"
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "overall": "16,549"
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-1-20250805",
-      "overall": "2"
+      "model": "claude-opus-4-1-20250805-thinking-16k",
+      "overall": "32,080"
     },
     {
       "rank": 6,
-      "model": "gpt-4.5-preview-2025-02-27",
-      "overall": "2"
+      "model": "claude-sonnet-4-5-20250929",
+      "overall": "11,121"
     },
     {
       "rank": 7,
-      "model": "chatgpt-4o-latest-20250326",
-      "overall": "4"
+      "model": "gpt-4.5-preview-2025-02-27",
+      "overall": "14,644"
     },
     {
       "rank": 8,
-      "model": "gpt-5-high",
-      "overall": "4"
+      "model": "claude-opus-4-1-20250805",
+      "overall": "44,792"
     },
     {
       "rank": 9,
-      "model": "o3-2025-04-16",
-      "overall": "4"
+      "model": "chatgpt-4o-latest-20250326",
+      "overall": "51,321"
     },
     {
       "rank": 10,
-      "model": "qwen3-max-preview",
-      "overall": "5"
+      "model": "gpt-5-high",
+      "overall": "32,955"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "1"
+      "model": "grok-4.1-thinking",
+      "overall": "3,298"
     },
     {
       "rank": 2,
-      "model": "claude-sonnet-4-5-20250929",
-      "overall": "1"
+      "model": "grok-4.1",
+      "overall": "3,413"
     },
     {
       "rank": 3,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "1"
+      "model": "gemini-2.5-pro",
+      "overall": "65,503"
     }
   ]
 }
