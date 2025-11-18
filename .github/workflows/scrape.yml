@@ -17,22 +17,10 @@ jobs:
         with:
           node-version: '20'
 
-      # 1. ON INSTALLE L'ÉCRAN VIRTUEL
-      - name: Install dependencies and Xvfb
+      - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb
           npm install
           npx playwright install chromium
 
-      # 2. ON LANCE LE SCRIPT DANS L'ÉCRAN VIRTUEL
-      - name: Run scraper with Xvfb
-        run: xvfb-run --auto-servernum --server-args="-screen 0 1280x960x24" npm run scrape
-        env:
-          CI: true
-
-      - name: Commit JSON
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "data: update lmarena top3"
-          file_pattern: "public/*.json"
+      - name: Run scraper
+        run: npm run scrape  # Plus besoin de xvfb-run
