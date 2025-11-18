@@ -135,7 +135,7 @@ async function extractTop10(page) {
 (async () => {
   // Lancement avec des arguments anti-détection agressifs
   const browser = await chromium.launch({
-    headless: "new", // Nouveau mode headless de Chrome (plus difficile à détecter)
+    headless: true, // Correction : Playwright veut un booléen
     args: [
       '--disable-blink-features=AutomationControlled',
       '--no-sandbox',
@@ -185,3 +185,4 @@ async function extractTop10(page) {
 
   await browser.close();
 })();
+
