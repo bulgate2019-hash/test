@@ -2,10 +2,11 @@ import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
-// Active le mode furtif
 chromium.use(stealthPlugin());
 
-const URL = "https://lmarena.ai/leaderboard";
+// NOUVELLE CIBLE : La source directe sur Hugging Face
+// Souvent moins protégée par Cloudflare que le domaine .ai
+const URL = "https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard";
 
 function writeOutput(payload) {
   fs.mkdirSync("public", { recursive: true });
@@ -17,165 +18,108 @@ function writeOutput(payload) {
   console.log("✅ Écrit -> public/lmarena_overall_top3.json");
 }
 
-async function solveCloudflare(page) {
-  console.log("🛡️ Vérification du challenge Cloudflare...");
-  
+async function extractFromFrame(frame) {
   try {
-    // On attend un peu pour voir si ça passe tout seul
-    await page.waitForTimeout(5000);
+    // On récupère le texte brut de la frame
+    const text = await frame.innerText('body');
+    const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+    
+    // On cherche si cette frame contient notre tableau
+    const hasHeaders = lines.some(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
+    
+    if (!hasHeaders) return null;
 
-    const title = await page.title();
-    if (!title.includes("Just a moment") && !title.includes("Security")) {
-      console.log("✅ Pas de blocage détecté (ou redirection déjà faite).");
-      return;
-    }
+    console.log("🎯 Tableau trouvé dans une iframe ! Extraction...");
+    
+    const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
+    const top = [];
+    let rankCounter = 1;
 
-    console.log("⚠️ Blocage détecté. Tentative de résolution du CAPTCHA...");
+    for (let i = headerIndex + 1; i < lines.length; i++) {
+        const line = lines[i];
+        if (top.length >= 10) break;
 
-    // On cherche toutes les iframes (le bouton est souvent dans une iframe)
-    const frames = page.frames();
-    let clicked = false;
+        // Regex pour un score Elo (ex: 1310)
+        if (/\d{4}/.test(line)) {
+            // Nettoyage basique
+            let modelName = line.replace(/^\d+\s+/, ''); 
+            modelName = modelName.split(/\d{4}/)[0].trim();
+            
+            // Exclusion des lignes bizarres
+            if (modelName.length < 2) continue;
 
-    for (const frame of frames) {
-      // On cherche une iframe qui ressemble à celle de Cloudflare (turnstile ou challenge)
-      const url = frame.url();
-      if (url.includes("cloudflare") || url.includes("turnstile") || url.includes("challenge")) {
-        console.log("⚡ Frame Cloudflare trouvée, tentative de clic...");
-        try {
-            // On essaie de cliquer au milieu de l'iframe
-            const box = await frame.frameElement().boundingBox();
-            if (box) {
-                await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
-                console.log("🖱️ Clic envoyé !");
-                clicked = true;
-            }
-            // On essaie aussi de cliquer sur les éléments input/label s'ils existent
-            const checkbox = await frame.locator('input[type="checkbox"], label, .ctp-checkbox-label').first();
-            if (await checkbox.isVisible()) {
-                await checkbox.click({ force: true });
-                console.log("🖱️ Clic ciblé sur checkbox !");
-                clicked = true;
-            }
-        } catch (e) {
-            console.log("⚠️ Erreur clic frame:", e.message);
+            top.push({
+                rank: rankCounter++,
+                model: modelName, 
+                overall: "Voir JSON" 
+            });
         }
-      }
     }
-
-    if (!clicked) {
-        // Tentative désespérée : cliquer au milieu de la page
-        console.log("⚠️ Pas d'iframe explicite, clic au centre de la page...");
-        await page.mouse.click(400, 300);
-    }
-
-    // On attend la redirection après le clic
-    console.log("⏳ Attente après tentative de résolution...");
-    await page.waitForTimeout(15000);
-
+    return top.length > 0 ? top : null;
   } catch (e) {
-    console.log("⚠️ Erreur dans solveCloudflare (non bloquant):", e.message);
+    return null;
   }
-}
-
-async function extractTop10(page) {
-  // Étape 1 : Essayer de passer Cloudflare
-  await solveCloudflare(page);
-
-  // Étape 2 : Vérifier si on est passé
-  const title = await page.title();
-  if (title.includes("Just a moment")) {
-      // Screenshot pour debug final
-      await page.screenshot({ path: "public/blocked_screenshot.png" });
-      throw new Error("⛔ Toujours bloqué par Cloudflare après tentatives.");
-  }
-
-  console.log("🕵️  Accès réussi ! Recherche du tableau...");
-  
-  // Attente de l'élément "Model"
-  try {
-    await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 20000 });
-  } catch (e) {
-     const html = await page.content();
-     // Petit check pour voir si c'est une erreur 403/429 cachée
-     if (html.includes("Just a moment")) throw new Error("⛔ Cloudflare est revenu.");
-     throw new Error("Tableau introuvable (Timeout).");
-  }
-
-  // Extraction des données (Méthode Texte Brut pour robustesse)
-  const bodyText = await page.locator('body').innerText();
-  const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-  
-  const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
-  if (headerIndex === -1) throw new Error("Structure du tableau non trouvée.");
-
-  const top = [];
-  let rankCounter = 1;
-
-  for (let i = headerIndex + 1; i < lines.length; i++) {
-    const line = lines[i];
-    if (top.length >= 10) break;
-
-    // Regex pour trouver un score Elo (ex: 1310)
-    if (/\d{4}/.test(line)) {
-        let modelName = line.replace(/^\d+\s+/, ''); // Retire le rang du début
-        // Nettoyage sommaire
-        modelName = modelName.split(/\d{4}/)[0].trim(); 
-        
-        top.push({
-            rank: rankCounter++,
-            model: modelName || "Unknown", 
-            overall: "Voir JSON"
-        });
-    }
-  }
-  
-  return top;
 }
 
 (async () => {
-  // Lancement avec des arguments anti-détection agressifs
   const browser = await chromium.launch({
-    headless: true, // Correction : Playwright veut un booléen
+    headless: true, // On reste en true pour Playwright standard
     args: [
-      '--disable-blink-features=AutomationControlled',
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-infobars',
-      '--window-position=0,0',
-      '--ignore-certifcate-errors',
-      '--ignore-certificate-errors-spki-list',
-      '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+        "--disable-blink-features=AutomationControlled", 
+        "--no-sandbox", 
+        "--disable-setuid-sandbox"
     ]
   });
   
   const ctx = await browser.newContext({
-    viewport: { width: 1366, height: 768 },
-    locale: "en-US",
-    deviceScaleFactor: 1,
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    viewport: { width: 1920, height: 1080 }
   });
 
   const page = await ctx.newPage();
-  page.setDefaultTimeout(90_000); // Timeout global très long
+  page.setDefaultTimeout(60_000);
 
   try {
-    let top = null;
+    console.log(`➡️  Navigation vers la source HF: ${URL}`);
+    // Hugging Face est lourd à charger, on attend "networkidle" ou juste un bon timeout
+    await page.goto(URL, { waitUntil: "domcontentloaded" });
     
-    console.log("➡️  Navigation vers l'arène...");
-    await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
-    
-    // Petite simulation de souris immédiate pour montrer qu'on est "vivant"
-    await page.mouse.move(100, 100);
-    await page.mouse.move(200, 200);
+    console.log("⏳ Chargement de l'application (Gradio)...");
+    await page.waitForTimeout(15000); // On laisse le temps aux scripts JS de monter le tableau
 
-    top = await extractTop10(page);
-    console.log(`🏆 Succès ! ${top.length} modèles trouvés.`);
+    // Hugging Face utilise souvent des iframes pour isoler les Apps (Gradio)
+    // Nous allons scanner la page principale ET toutes les iframes
+    let top = null;
+
+    // 1. Test sur la page principale
+    top = await extractFromFrame(page);
+
+    // 2. Si pas trouvé, on cherche dans les iframes
+    if (!top) {
+        console.log("🕵️  Recherche dans les iframes...");
+        for (const frame of page.frames()) {
+            const res = await extractFromFrame(frame);
+            if (res) {
+                top = res;
+                break;
+            }
+        }
+    }
+
+    if (!top) {
+        // Dernier recours: Dump du texte pour voir ce qui se passe
+        await page.screenshot({ path: "public/debug_hf.png" });
+        throw new Error("Impossible de trouver le tableau (même dans les iframes). Voir screenshot.");
+    }
+
+    console.log(`🏆 Succès ! ${top.length} modèles récupérés.`);
 
     const now = new Date();
     writeOutput({
       source: URL,
       generated_at_iso: now.toISOString(),
-      top10_overall: top || [],
-      top3_overall: top ? top.slice(0, 3) : []
+      top10_overall: top,
+      top3_overall: top.slice(0, 3)
     });
 
   } catch (err) {
@@ -185,4 +129,3 @@ async function extractTop10(page) {
 
   await browser.close();
 })();
-
