@@ -1,10 +1,8 @@
-// scrape.mjs
-// Note: On utilise maintenant playwright-extra pour le mode Stealth
 import { chromium } from "playwright-extra";
 import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
-// Active le plugin de camouflage
+// Active le mode furtif
 chromium.use(stealthPlugin());
 
 const URL = "https://lmarena.ai/leaderboard";
@@ -19,36 +17,96 @@ function writeOutput(payload) {
   console.log("✅ Écrit -> public/lmarena_overall_top3.json");
 }
 
-async function extractTop10(page) {
-  console.log("🕵️  Analyse du contenu de la page...");
+async function solveCloudflare(page) {
+  console.log("🛡️ Vérification du challenge Cloudflare...");
   
-  // Vérification anti-Cloudflare: Si le titre reste "Just a moment...", on est bloqué
+  try {
+    // On attend un peu pour voir si ça passe tout seul
+    await page.waitForTimeout(5000);
+
+    const title = await page.title();
+    if (!title.includes("Just a moment") && !title.includes("Security")) {
+      console.log("✅ Pas de blocage détecté (ou redirection déjà faite).");
+      return;
+    }
+
+    console.log("⚠️ Blocage détecté. Tentative de résolution du CAPTCHA...");
+
+    // On cherche toutes les iframes (le bouton est souvent dans une iframe)
+    const frames = page.frames();
+    let clicked = false;
+
+    for (const frame of frames) {
+      // On cherche une iframe qui ressemble à celle de Cloudflare (turnstile ou challenge)
+      const url = frame.url();
+      if (url.includes("cloudflare") || url.includes("turnstile") || url.includes("challenge")) {
+        console.log("⚡ Frame Cloudflare trouvée, tentative de clic...");
+        try {
+            // On essaie de cliquer au milieu de l'iframe
+            const box = await frame.frameElement().boundingBox();
+            if (box) {
+                await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+                console.log("🖱️ Clic envoyé !");
+                clicked = true;
+            }
+            // On essaie aussi de cliquer sur les éléments input/label s'ils existent
+            const checkbox = await frame.locator('input[type="checkbox"], label, .ctp-checkbox-label').first();
+            if (await checkbox.isVisible()) {
+                await checkbox.click({ force: true });
+                console.log("🖱️ Clic ciblé sur checkbox !");
+                clicked = true;
+            }
+        } catch (e) {
+            console.log("⚠️ Erreur clic frame:", e.message);
+        }
+      }
+    }
+
+    if (!clicked) {
+        // Tentative désespérée : cliquer au milieu de la page
+        console.log("⚠️ Pas d'iframe explicite, clic au centre de la page...");
+        await page.mouse.click(400, 300);
+    }
+
+    // On attend la redirection après le clic
+    console.log("⏳ Attente après tentative de résolution...");
+    await page.waitForTimeout(15000);
+
+  } catch (e) {
+    console.log("⚠️ Erreur dans solveCloudflare (non bloquant):", e.message);
+  }
+}
+
+async function extractTop10(page) {
+  // Étape 1 : Essayer de passer Cloudflare
+  await solveCloudflare(page);
+
+  // Étape 2 : Vérifier si on est passé
   const title = await page.title();
   if (title.includes("Just a moment")) {
-      throw new Error("⛔ Bloqué par Cloudflare (Challenge non passé).");
+      // Screenshot pour debug final
+      await page.screenshot({ path: "public/blocked_screenshot.png" });
+      throw new Error("⛔ Toujours bloqué par Cloudflare après tentatives.");
   }
 
-  // On cherche le tableau via le texte "Model" (plus robuste que <table>)
+  console.log("🕵️  Accès réussi ! Recherche du tableau...");
+  
+  // Attente de l'élément "Model"
   try {
-    await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 15000 });
+    await page.getByText('Model', { exact: true }).first().waitFor({ state: "visible", timeout: 20000 });
   } catch (e) {
-     // Si échec, on dump le HTML pour debug
      const html = await page.content();
-     // On vérifie si on est sur la page Cloudflare malgré tout
-     if (html.includes("Challenge") || html.includes("Verify")) {
-         throw new Error("⛔ Détecté comme bot par Cloudflare.");
-     }
-     throw new Error("Tableau introuvable (problème de structure HTML).");
+     // Petit check pour voir si c'est une erreur 403/429 cachée
+     if (html.includes("Just a moment")) throw new Error("⛔ Cloudflare est revenu.");
+     throw new Error("Tableau introuvable (Timeout).");
   }
 
-  // Extraction robuste (via texte brut si nécessaire)
+  // Extraction des données (Méthode Texte Brut pour robustesse)
   const bodyText = await page.locator('body').innerText();
   const lines = bodyText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
   
-  // Recherche de la ligne d'entête
   const headerIndex = lines.findIndex(l => l.includes("Model") && (l.includes("Overall") || l.includes("Elo")));
-  
-  if (headerIndex === -1) throw new Error("Structure du tableau non trouvée dans le texte.");
+  if (headerIndex === -1) throw new Error("Structure du tableau non trouvée.");
 
   const top = [];
   let rankCounter = 1;
@@ -57,18 +115,16 @@ async function extractTop10(page) {
     const line = lines[i];
     if (top.length >= 10) break;
 
-    // Logique de parsing simplifiée pour lmarena
-    // On cherche les lignes qui contiennent un score ELO (ex: 1310)
+    // Regex pour trouver un score Elo (ex: 1310)
     if (/\d{4}/.test(line)) {
-        // Nettoyage basique : on enlève le rang s'il est au début (ex "1 GPT-4")
-        let modelName = line;
-        // Si la ligne commence par un chiffre seul suivi d'espace
-        modelName = modelName.replace(/^\d+\s+/, ''); 
+        let modelName = line.replace(/^\d+\s+/, ''); // Retire le rang du début
+        // Nettoyage sommaire
+        modelName = modelName.split(/\d{4}/)[0].trim(); 
         
         top.push({
             rank: rankCounter++,
-            model: modelName, 
-            overall: "Voir json pour raw" 
+            model: modelName || "Unknown", 
+            overall: "Voir JSON"
         });
     }
   }
@@ -77,38 +133,39 @@ async function extractTop10(page) {
 }
 
 (async () => {
-  // Lancement avec playwright-extra (déjà configuré avec stealth)
-  const browser = await chromium.launch({ headless: true });
+  // Lancement avec des arguments anti-détection agressifs
+  const browser = await chromium.launch({
+    headless: "new", // Nouveau mode headless de Chrome (plus difficile à détecter)
+    args: [
+      '--disable-blink-features=AutomationControlled',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-infobars',
+      '--window-position=0,0',
+      '--ignore-certifcate-errors',
+      '--ignore-certificate-errors-spki-list',
+      '--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+    ]
+  });
   
   const ctx = await browser.newContext({
-    // User Agent "Chrome Windows" très standard pour se fondre dans la masse
-    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    viewport: { width: 1920, height: 1080 },
+    viewport: { width: 1366, height: 768 },
     locale: "en-US",
     deviceScaleFactor: 1,
   });
 
   const page = await ctx.newPage();
-  // Masquer webdriver est géré par le plugin stealth, mais on ajoute un timeout généreux
-  page.setDefaultTimeout(60_000);
+  page.setDefaultTimeout(90_000); // Timeout global très long
 
   try {
     let top = null;
     
-    // On ne fait qu'un seul essai "long" pour laisser Cloudflare passer le challenge
-    console.log("➡️  Navigation vers l'arène (Attente résolution challenge)...");
-    
+    console.log("➡️  Navigation vers l'arène...");
     await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60_000 });
     
-    // ASTUCE : On attend 10 secondes pour laisser le script Cloudflare tourner
-    // Souvent, la page se recharge toute seule après 5s
-    await page.waitForTimeout(10000);
-    
-    // Petite simulation humaine (mouvement de souris)
-    try {
-        await page.mouse.move(100, 100);
-        await page.mouse.move(200, 200);
-    } catch {}
+    // Petite simulation de souris immédiate pour montrer qu'on est "vivant"
+    await page.mouse.move(100, 100);
+    await page.mouse.move(200, 200);
 
     top = await extractTop10(page);
     console.log(`🏆 Succès ! ${top.length} modèles trouvés.`);
@@ -122,9 +179,7 @@ async function extractTop10(page) {
     });
 
   } catch (err) {
-    console.error("❌ Erreur:", err.message);
-    // Snapshot en cas d'erreur finale
-    await page.screenshot({ path: "public/debug_final_error.png" });
+    console.error("❌ Erreur fatale:", err.message);
     process.exit(1);
   }
 
