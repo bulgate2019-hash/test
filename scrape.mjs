@@ -15,14 +15,33 @@ function writeOutput(payload) {
 }
 
 async function extractTop10(page) {
-  // Table qui contient un <th> "Overall"
-  const table = page.locator('table:has(th:has-text("Overall"))').first();
-  await table.waitFor({ state: "visible", timeout: 90_000 });
+  // 1. On cherche n'importe quel tableau visible
+  const table = page.locator('table').first();
+  
+  // On attend qu'il soit visible
+  await table.waitFor({ state: "visible", timeout: 30_000 });
 
+  // 2. On récupère tous les headers pour trouver la bonne colonne dynamiquement
   const headers = await table.locator("thead tr th").allInnerTexts();
-  console.log("🧭 Headers:", headers);
-  const overallIdx = headers.findIndex(h => h.trim().toLowerCase() === "overall");
-  if (overallIdx < 0) throw new Error(`Colonne "Overall" introuvable. Headers: ${JSON.stringify(headers)}`);
+  console.log("🧭 Headers trouvés:", headers);
+
+  // 3. On cherche l'index de la colonne qui ressemble à "Overall" ou "Arena Elo" ou "Elo"
+  const overallIdx = headers.findIndex(h => {
+    const t = h.trim().toLowerCase();
+    return t.includes("overall") || t.includes("elo") || t.includes("score");
+  });
+
+  if (overallIdx < 0) {
+    // Screenshot ici aussi si on ne trouve pas la colonne
+    await page.screenshot({ path: 'public/error_headers.png' });
+    throw new Error(`Colonne de score introuvable. Headers: ${JSON.stringify(headers)}`);
+  }
+
+  // ... reste du code identique pour extraire les lignes
+  const rows = await table.locator("tbody tr").all();
+  // ...
+  // Assurez-vous de retourner les données
+}
 
   const rows = await table.locator("tbody tr").all();
   if (rows.length === 0) throw new Error("Aucune ligne trouvée dans le tableau.");
@@ -70,6 +89,7 @@ async function extractTop10(page) {
         break; // succès
       } catch (e) {
         console.warn(`⚠️  Essai #${attempt} KO: ${e.message}`);
+        await page.screenshot({ path: `public/error_attempt_${attempt}.png` });
         if (attempt === 3) throw e; // après 3 essais, on remonte l'erreur
       }
     }
@@ -108,3 +128,4 @@ async function extractTop10(page) {
   await browser.close();
   console.log("✅ Terminé sans erreur.");
 })();
+
