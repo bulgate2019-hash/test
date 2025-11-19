@@ -83,8 +83,8 @@ async function extractTop10(page) {
     await page.goto(URL, { waitUntil: "domcontentloaded" });
     
     // 🧩 4️⃣ CONSIGNE : Pause augmentée à 15 secondes
-    console.log("⏳ Pause de 15s pour laisser passer Cloudflare/Hydratation...");
-    await page.waitForTimeout(15000);
+    console.log("⏳ Pause de 20s pour laisser passer Cloudflare/Hydratation...");
+    await page.waitForTimeout(20000);
 
     // Petit scroll pour forcer le chargement visuel si nécessaire
     await page.mouse.wheel(0, 200);
@@ -107,3 +107,4 @@ async function extractTop10(page) {
 
   await browser.close();
 })();
+
