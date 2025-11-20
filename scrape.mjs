@@ -72,7 +72,7 @@ async function extractTop10(page) {
   console.log("🚀 Lancement du scraper...");
 
   const browser = await chromium.launch({
-    headless: "new",
+    headless: true,
     channel: 'chrome', // Utilise le vrai Chrome installé par l'action Github
     args: [
         '--no-sandbox',
@@ -129,3 +129,4 @@ async function extractTop10(page) {
 
   await browser.close();
 })();
+
