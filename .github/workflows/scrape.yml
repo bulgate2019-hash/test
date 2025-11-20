@@ -2,7 +2,7 @@ name: Scrape LMArena Overall (daily)
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Tous les jours à 6h
+    - cron: '*/5 * * * *' # Toutes les 5 minutes (minimum technique GitHub)
   workflow_dispatch:      # Permet le lancement manuel
 
 # INDISPENSABLE : Donne la permission d'écrire dans le dépôt
