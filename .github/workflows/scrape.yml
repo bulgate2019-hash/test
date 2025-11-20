@@ -2,10 +2,10 @@ name: Scrape LMArena Overall (daily)
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Toutes les 5 minutes (minimum technique GitHub)
-  workflow_dispatch:      # Permet le lancement manuel
+    # On remet à 6h du matin (UTC) une fois les tests finis
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
-# INDISPENSABLE : Donne la permission d'écrire dans le dépôt
 permissions:
   contents: write
 
@@ -26,11 +26,17 @@ jobs:
           npm install
           npx playwright install chromium
 
-      - name: Run scraper
-        run: npm run scrape
-        timeout-minutes: 5
+      # 👇 C'EST ICI QUE LA MAGIE OPÈRE
+      # Si le script échoue (erreur Cloudflare), il attend 30s et recommence.
+      # Il va essayer 3 fois maximum.
+      - name: Run scraper with Retry
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          retry_wait_seconds: 30
+          command: npm run scrape
 
-      # C'EST CETTE ÉTAPE QUI MANQUAIT 👇
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
