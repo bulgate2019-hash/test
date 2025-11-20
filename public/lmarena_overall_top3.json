@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2025-11-19T09:35:51.975Z",
+  "generated_at_iso": "2025-11-20T08:36:02.164Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "3,089"
+      "overall": "3,768"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "3,394"
+      "overall": "3,467"
     },
     {
       "rank": 3,
       "model": "grok-4.1",
-      "overall": "3,508"
+      "overall": "3,588"
     },
     {
       "rank": 4,
-      "model": "gemini-2.5-pro",
-      "overall": "65,549"
+      "model": "gpt-5.1-high",
+      "overall": "3,796"
     },
     {
       "rank": 5,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "16,595"
+      "model": "gemini-2.5-pro",
+      "overall": "66,734"
     },
     {
       "rank": 6,
-      "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "32,125"
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "overall": "17,822"
     },
     {
       "rank": 7,
-      "model": "claude-sonnet-4-5-20250929",
-      "overall": "11,156"
+      "model": "claude-opus-4-1-20250805-thinking-16k",
+      "overall": "33,404"
     },
     {
       "rank": 8,
+      "model": "claude-sonnet-4-5-20250929",
+      "overall": "12,510"
+    },
+    {
+      "rank": 9,
       "model": "gpt-4.5-preview-2025-02-27",
       "overall": "14,644"
     },
     {
-      "rank": 9,
-      "model": "claude-opus-4-1-20250805",
-      "overall": "44,844"
-    },
-    {
       "rank": 10,
-      "model": "chatgpt-4o-latest-20250326",
-      "overall": "51,366"
+      "model": "claude-opus-4-1-20250805",
+      "overall": "46,166"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "3,089"
+      "overall": "3,768"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "3,394"
+      "overall": "3,467"
     },
     {
       "rank": 3,
       "model": "grok-4.1",
-      "overall": "3,508"
+      "overall": "3,588"
     }
   ]
 }
