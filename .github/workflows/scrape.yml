@@ -28,6 +28,7 @@ jobs:
 
       - name: Run scraper
         run: npm run scrape
+        timeout-minutes: 5
 
       # C'EST CETTE ÉTAPE QUI MANQUAIT 👇
       - name: Commit and Push changes
