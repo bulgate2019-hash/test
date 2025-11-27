@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2025-11-26T06:58:18.332Z",
+  "generated_at_iso": "2025-11-27T06:57:11.864Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "5,471"
+      "overall": "9,799"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "5,822"
+      "overall": "10,067"
     },
     {
       "rank": 3,
-      "model": "grok-4.1",
-      "overall": "5,825"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "4,677"
     },
     {
       "rank": 4,
-      "model": "gpt-5.1-high",
-      "overall": "4,980"
+      "model": "grok-4.1",
+      "overall": "9,967"
     },
     {
       "rank": 5,
-      "model": "gemini-2.5-pro",
-      "overall": "67,956"
+      "model": "gpt-5.1-high",
+      "overall": "7,893"
     },
     {
       "rank": 6,
-      "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "19,073"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "2,763"
     },
     {
       "rank": 7,
-      "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "34,691"
+      "model": "gemini-2.5-pro",
+      "overall": "70,875"
     },
     {
       "rank": 8,
-      "model": "claude-sonnet-4-5-20250929",
-      "overall": "13,765"
+      "model": "claude-sonnet-4-5-20250929-thinking-32k",
+      "overall": "22,000"
     },
     {
       "rank": 9,
-      "model": "gpt-4.5-preview-2025-02-27",
-      "overall": "14,644"
+      "model": "claude-opus-4-1-20250805-thinking-16k",
+      "overall": "37,617"
     },
     {
       "rank": 10,
-      "model": "claude-opus-4-1-20250805",
-      "overall": "47,504"
+      "model": "claude-sonnet-4-5-20250929",
+      "overall": "16,961"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "5,471"
+      "overall": "9,799"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "5,822"
+      "overall": "10,067"
     },
     {
       "rank": 3,
-      "model": "grok-4.1",
-      "overall": "5,825"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "4,677"
     }
   ]
 }
