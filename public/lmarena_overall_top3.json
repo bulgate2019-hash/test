@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2025-12-02T07:01:53.188Z",
+  "generated_at_iso": "2025-12-03T06:57:40.766Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "9,799"
+      "overall": "12,087"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "10,067"
+      "overall": "12,571"
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-5-20251101",
-      "overall": "4,677"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "6,264"
     },
     {
       "rank": 4,
       "model": "grok-4.1",
-      "overall": "9,967"
+      "overall": "12,347"
     },
     {
       "rank": 5,
-      "model": "gpt-5.1-high",
-      "overall": "7,893"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "7,003"
     },
     {
       "rank": 6,
-      "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "2,763"
+      "model": "gpt-5.1-high",
+      "overall": "10,201"
     },
     {
       "rank": 7,
       "model": "gemini-2.5-pro",
-      "overall": "70,875"
+      "overall": "73,165"
     },
     {
       "rank": 8,
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "22,000"
+      "overall": "24,230"
     },
     {
       "rank": 9,
       "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "37,617"
+      "overall": "39,954"
     },
     {
       "rank": 10,
       "model": "claude-sonnet-4-5-20250929",
-      "overall": "16,961"
+      "overall": "19,246"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "9,799"
+      "overall": "12,087"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "10,067"
+      "overall": "12,571"
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-5-20251101",
-      "overall": "4,677"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "6,264"
     }
   ]
 }
