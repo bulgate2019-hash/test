@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2025-12-16T06:24:02.371Z",
+  "generated_at_iso": "2025-12-17T06:23:22.918Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "17,644"
+      "overall": "18,120"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "18,594"
+      "overall": "19,094"
     },
     {
       "rank": 3,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "11,567"
+      "overall": "11,942"
     },
     {
       "rank": 4,
       "model": "claude-opus-4-5-20251101",
-      "overall": "12,396"
+      "overall": "12,785"
     },
     {
       "rank": 5,
       "model": "grok-4.1",
-      "overall": "18,340"
+      "overall": "18,855"
     },
     {
       "rank": 6,
       "model": "gpt-5.1-high",
-      "overall": "15,728"
+      "overall": "16,188"
     },
     {
       "rank": 7,
       "model": "gemini-2.5-pro",
-      "overall": "78,560"
+      "overall": "79,015"
     },
     {
       "rank": 8,
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "29,787"
+      "overall": "30,277"
     },
     {
       "rank": 9,
       "model": "claude-opus-4-1-20250805-thinking-16k",
-      "overall": "45,552"
+      "overall": "46,023"
     },
     {
       "rank": 10,
       "model": "claude-sonnet-4-5-20250929",
-      "overall": "25,032"
+      "overall": "25,512"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "17,644"
+      "overall": "18,120"
     },
     {
       "rank": 2,
       "model": "grok-4.1-thinking",
-      "overall": "18,594"
+      "overall": "19,094"
     },
     {
       "rank": 3,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "11,567"
+      "overall": "11,942"
     }
   ]
 }
