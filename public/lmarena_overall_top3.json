@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-01-08T06:26:48.639Z",
+  "generated_at_iso": "2026-01-10T06:21:39.743Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "21,938"
+      "overall": "25,178"
     },
     {
       "rank": 2,
-      "model": "gemini-3-flash",
-      "overall": "7,020"
+      "model": "grok-4.1-thinking",
+      "overall": "25,440"
     },
     {
       "rank": 3,
-      "model": "grok-4.1-thinking",
-      "overall": "22,618"
+      "model": "gemini-3-flash",
+      "overall": "10,204"
     },
     {
       "rank": 4,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "14,992"
+      "overall": "17,570"
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-5-20251101",
-      "overall": "15,914"
+      "model": "grok-4.1",
+      "overall": "29,539"
     },
     {
       "rank": 6,
-      "model": "grok-4.1",
-      "overall": "24,682"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "18,754"
     },
     {
       "rank": 7,
       "model": "gemini-3-flash (thinking-minimal)",
-      "overall": "5,631"
+      "overall": "5,624"
     },
     {
       "rank": 8,
       "model": "gpt-5.1-high",
-      "overall": "19,416"
+      "overall": "22,116"
     },
     {
       "rank": 9,
       "model": "gemini-2.5-pro",
-      "overall": "82,231"
+      "overall": "84,916"
     },
     {
       "rank": 10,
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
-      "overall": "33,533"
+      "overall": "36,318"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "gemini-3-pro",
-      "overall": "21,938"
+      "overall": "25,178"
     },
     {
       "rank": 2,
-      "model": "gemini-3-flash",
-      "overall": "7,020"
+      "model": "grok-4.1-thinking",
+      "overall": "25,440"
     },
     {
       "rank": 3,
-      "model": "grok-4.1-thinking",
-      "overall": "22,618"
+      "model": "gemini-3-flash",
+      "overall": "10,204"
     }
   ]
 }
