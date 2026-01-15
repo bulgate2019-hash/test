@@ -1,6 +1,6 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-01-14T06:24:57.161Z",
+  "generated_at_iso": "2026-01-15T06:24:29.297Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -39,18 +39,18 @@
     },
     {
       "rank": 8,
+      "model": "ernie-5.0-0110",
+      "overall": "4,813"
+    },
+    {
+      "rank": 9,
       "model": "gpt-5.1-high",
       "overall": "23,068"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "claude-sonnet-4-5-20250929-thinking-32k",
       "overall": "37,043"
-    },
-    {
-      "rank": 10,
-      "model": "gemini-2.5-pro",
-      "overall": "86,296"
     }
   ],
   "top3_overall": [
