@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-09T06:57:27.446Z",
+  "generated_at_iso": "2026-02-10T06:57:30.152Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6",
-      "overall": "2,829"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "3,401"
     },
     {
       "rank": 2,
-      "model": "gemini-3-pro",
-      "overall": "34,419"
+      "model": "claude-opus-4-6",
+      "overall": "4,131"
     },
     {
       "rank": 3,
-      "model": "grok-4.1-thinking",
-      "overall": "34,455"
+      "model": "gemini-3-pro",
+      "overall": "35,204"
     },
     {
       "rank": 4,
-      "model": "gemini-3-flash",
-      "overall": "25,085"
+      "model": "grok-4.1-thinking",
+      "overall": "34,891"
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "26,178"
+      "model": "gemini-3-flash",
+      "overall": "25,859"
     },
     {
       "rank": 6,
-      "model": "claude-opus-4-5-20251101",
-      "overall": "31,069"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "26,925"
     },
     {
       "rank": 7,
-      "model": "grok-4.1",
-      "overall": "38,605"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "31,852"
     },
     {
       "rank": 8,
-      "model": "gemini-3-flash (thinking-minimal)",
-      "overall": "16,255"
+      "model": "grok-4.1",
+      "overall": "39,008"
     },
     {
       "rank": 9,
-      "model": "gpt-5.1-high",
-      "overall": "30,500"
+      "model": "gemini-3-flash (thinking-minimal)",
+      "overall": "17,043"
     },
     {
       "rank": 10,
-      "model": "ernie-5.0-0110",
-      "overall": "10,184"
+      "model": "gpt-5.1-high",
+      "overall": "31,211"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6",
-      "overall": "2,829"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "3,401"
     },
     {
       "rank": 2,
-      "model": "gemini-3-pro",
-      "overall": "34,419"
+      "model": "claude-opus-4-6",
+      "overall": "4,131"
     },
     {
       "rank": 3,
-      "model": "grok-4.1-thinking",
-      "overall": "34,455"
+      "model": "gemini-3-pro",
+      "overall": "35,204"
     }
   ]
 }
