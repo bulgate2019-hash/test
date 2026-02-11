@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-10T06:57:30.152Z",
+  "generated_at_iso": "2026-02-11T06:54:03.919Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "3,401"
+      "overall": "3,679"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "4,131"
+      "overall": "4,427"
     },
     {
       "rank": 3,
       "model": "gemini-3-pro",
-      "overall": "35,204"
+      "overall": "35,513"
     },
     {
       "rank": 4,
       "model": "grok-4.1-thinking",
-      "overall": "34,891"
+      "overall": "35,214"
     },
     {
       "rank": 5,
       "model": "gemini-3-flash",
-      "overall": "25,859"
+      "overall": "26,167"
     },
     {
       "rank": 6,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "26,925"
+      "overall": "27,282"
     },
     {
       "rank": 7,
       "model": "claude-opus-4-5-20251101",
-      "overall": "31,852"
+      "overall": "32,179"
     },
     {
       "rank": 8,
       "model": "grok-4.1",
-      "overall": "39,008"
+      "overall": "39,284"
     },
     {
       "rank": 9,
       "model": "gemini-3-flash (thinking-minimal)",
-      "overall": "17,043"
+      "overall": "17,361"
     },
     {
       "rank": 10,
       "model": "gpt-5.1-high",
-      "overall": "31,211"
+      "overall": "31,519"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "3,401"
+      "overall": "3,679"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "4,131"
+      "overall": "4,427"
     },
     {
       "rank": 3,
       "model": "gemini-3-pro",
-      "overall": "35,204"
+      "overall": "35,513"
     }
   ]
 }
