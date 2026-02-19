@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-18T06:54:16.214Z",
+  "generated_at_iso": "2026-02-19T06:52:57.953Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "4,745"
+      "model": "claude-opus-4-6",
+      "overall": "6,030"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "5,540"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "5,186"
     },
     {
       "rank": 3,
       "model": "gemini-3-pro",
-      "overall": "36,354"
+      "overall": "36,906"
     },
     {
       "rank": 4,
-      "model": "grok-4.1-thinking",
-      "overall": "35,833"
+      "model": "dola-seed-2.0-preview",
+      "overall": "3,376"
     },
     {
       "rank": 5,
-      "model": "gemini-3-flash",
-      "overall": "27,116"
+      "model": "grok-4.1-thinking",
+      "overall": "36,125"
     },
     {
       "rank": 6,
-      "model": "dola-seed-2.0-preview",
-      "overall": "3,164"
+      "model": "gemini-3-flash",
+      "overall": "27,662"
     },
     {
       "rank": 7,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "28,493"
+      "overall": "29,006"
     },
     {
       "rank": 8,
       "model": "claude-opus-4-5-20251101",
-      "overall": "33,328"
+      "overall": "33,899"
     },
     {
       "rank": 9,
       "model": "grok-4.1",
-      "overall": "39,912"
+      "overall": "40,291"
     },
     {
       "rank": 10,
       "model": "gemini-3-flash (thinking-minimal)",
-      "overall": "18,480"
+      "overall": "19,015"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "4,745"
+      "model": "claude-opus-4-6",
+      "overall": "6,030"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "5,540"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "5,186"
     },
     {
       "rank": 3,
       "model": "gemini-3-pro",
-      "overall": "36,354"
+      "overall": "36,906"
     }
   ]
 }
