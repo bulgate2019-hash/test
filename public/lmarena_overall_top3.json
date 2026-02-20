@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-19T06:52:57.953Z",
+  "generated_at_iso": "2026-02-20T06:45:32.357Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6",
-      "overall": "6,030"
+      "overall": "6,176"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": "5,186"
+      "overall": "5,321"
     },
     {
       "rank": 3,
-      "model": "gemini-3-pro",
-      "overall": "36,906"
+      "model": "gemini-3.1-pro-preview",
+      "overall": "4,072"
     },
     {
       "rank": 4,
-      "model": "dola-seed-2.0-preview",
-      "overall": "3,376"
+      "model": "gemini-3-pro",
+      "overall": "37,053"
     },
     {
       "rank": 5,
-      "model": "grok-4.1-thinking",
-      "overall": "36,125"
+      "model": "dola-seed-2.0-preview",
+      "overall": "3,379"
     },
     {
       "rank": 6,
-      "model": "gemini-3-flash",
-      "overall": "27,662"
+      "model": "grok-4.1-thinking",
+      "overall": "36,224"
     },
     {
       "rank": 7,
-      "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "29,006"
+      "model": "gemini-3-flash",
+      "overall": "27,834"
     },
     {
       "rank": 8,
-      "model": "claude-opus-4-5-20251101",
-      "overall": "33,899"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "29,153"
     },
     {
       "rank": 9,
-      "model": "grok-4.1",
-      "overall": "40,291"
+      "model": "claude-opus-4-5-20251101",
+      "overall": "34,076"
     },
     {
       "rank": 10,
-      "model": "gemini-3-flash (thinking-minimal)",
-      "overall": "19,015"
+      "model": "grok-4.1",
+      "overall": "40,418"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6",
-      "overall": "6,030"
+      "overall": "6,176"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": "5,186"
+      "overall": "5,321"
     },
     {
       "rank": 3,
-      "model": "gemini-3-pro",
-      "overall": "36,906"
+      "model": "gemini-3.1-pro-preview",
+      "overall": "4,072"
     }
   ]
 }
