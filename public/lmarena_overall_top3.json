@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-23T06:56:38.526Z",
+  "generated_at_iso": "2026-02-24T06:52:08.871Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "5,662"
+      "model": "claude-opus-4-6",
+      "overall": "6,774"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "6,526"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "5,934"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "4,071"
+      "overall": "4,059"
     },
     {
       "rank": 4,
       "model": "gemini-3-pro",
-      "overall": "37,394"
+      "overall": "37,602"
     },
     {
       "rank": 5,
       "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "2,333"
+      "overall": "2,771"
     },
     {
       "rank": 6,
       "model": "dola-seed-2.0-preview",
-      "overall": "3,610"
+      "overall": "3,924"
     },
     {
       "rank": 7,
-      "model": "gemini-3-flash",
-      "overall": "28,220"
+      "model": "grok-4.1-thinking",
+      "overall": "36,844"
     },
     {
       "rank": 8,
-      "model": "grok-4.1-thinking",
-      "overall": "36,584"
+      "model": "gemini-3-flash",
+      "overall": "28,520"
     },
     {
       "rank": 9,
       "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "29,500"
+      "overall": "29,789"
     },
     {
       "rank": 10,
       "model": "claude-opus-4-5-20251101",
-      "overall": "34,478"
+      "overall": "34,720"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "5,662"
+      "model": "claude-opus-4-6",
+      "overall": "6,774"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "6,526"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "5,934"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "4,071"
+      "overall": "4,059"
     }
   ]
 }
