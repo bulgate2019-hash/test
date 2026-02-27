@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-02-26T06:51:59.136Z",
+  "generated_at_iso": "2026-02-27T06:43:10.000Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6",
-      "overall": "7,042"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "6,583"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "6,181"
+      "model": "claude-opus-4-6",
+      "overall": "7,454"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "4,060"
+      "overall": "4,052"
     },
     {
       "rank": 4,
       "model": "grok-4.20-beta1",
-      "overall": "3,695"
+      "overall": "3,818"
     },
     {
       "rank": 5,
       "model": "gemini-3-pro",
-      "overall": "37,854"
+      "overall": "38,248"
     },
     {
       "rank": 6,
       "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "3,093"
+      "overall": "3,605"
     },
     {
       "rank": 7,
       "model": "gemini-3-flash",
-      "overall": "28,847"
+      "overall": "29,334"
     },
     {
       "rank": 8,
       "model": "grok-4.1-thinking",
-      "overall": "37,167"
+      "overall": "37,474"
     },
     {
       "rank": 9,
-      "model": "dola-seed-2.0-preview",
-      "overall": "4,180"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "30,541"
     },
     {
       "rank": 10,
-      "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "30,067"
+      "model": "dola-seed-2.0-preview",
+      "overall": "4,620"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6",
-      "overall": "7,042"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "6,583"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "6,181"
+      "model": "claude-opus-4-6",
+      "overall": "7,454"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "4,060"
+      "overall": "4,052"
     }
   ]
 }
