@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-03-05T06:41:40.446Z",
+  "generated_at_iso": "2026-03-06T06:38:06.785Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6",
-      "overall": "8,675"
+      "overall": "8,945"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "7,815"
-    },
-    {
-      "rank": 3,
       "model": "gemini-3.1-pro-preview",
       "overall": "4,042"
     },
     {
+      "rank": 3,
+      "model": "claude-opus-4-6-thinking",
+      "overall": "8,073"
+    },
+    {
       "rank": 4,
       "model": "grok-4.20-beta1",
-      "overall": "4,853"
+      "overall": "5,071"
     },
     {
       "rank": 5,
       "model": "gemini-3-pro",
-      "overall": "39,405"
+      "overall": "39,673"
     },
     {
       "rank": 6,
       "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "5,189"
+      "overall": "5,502"
     },
     {
       "rank": 7,
+      "model": "gpt-5.4-high",
+      "overall": "2,290"
+    },
+    {
+      "rank": 8,
       "model": "gemini-3-flash",
       "overall": "30,621"
     },
     {
-      "rank": 8,
-      "model": "grok-4.1-thinking",
-      "overall": "38,748"
-    },
-    {
       "rank": 9,
-      "model": "claude-opus-4-5-20251101-thinking-32k",
-      "overall": "31,948"
+      "model": "grok-4.1-thinking",
+      "overall": "39,058"
     },
     {
       "rank": 10,
-      "model": "dola-seed-2.0-preview",
-      "overall": "6,092"
+      "model": "claude-opus-4-5-20251101-thinking-32k",
+      "overall": "32,254"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6",
-      "overall": "8,675"
+      "overall": "8,945"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "7,815"
+      "model": "gemini-3.1-pro-preview",
+      "overall": "4,042"
     },
     {
       "rank": 3,
-      "model": "gemini-3.1-pro-preview",
-      "overall": "4,042"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "8,073"
     }
   ]
 }
