@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-07T07:07:19.817Z",
+  "generated_at_iso": "2026-04-08T07:09:16.806Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "13,979"
+      "overall": "15,493"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "14,934"
+      "overall": "16,533"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "17,559"
+      "overall": "19,482"
     },
     {
       "rank": 4,
       "model": "grok-4.20-beta1",
-      "overall": "7,380"
+      "overall": "8,341"
     },
     {
       "rank": 5,
       "model": "gemini-3-pro",
-      "overall": "41,632"
+      "overall": "41,615"
     },
     {
       "rank": 6,
       "model": "gpt-5.4-high",
-      "overall": "7,160"
+      "overall": "8,835"
     },
     {
       "rank": 7,
       "model": "grok-4.20-beta-0309-reasoning",
-      "overall": "7,344"
+      "overall": "9,003"
     },
     {
       "rank": 8,
       "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "13,083"
+      "overall": "14,798"
     },
     {
       "rank": 9,
-      "model": "gemini-3-flash",
-      "overall": "30,966"
+      "model": "grok-4.20-multi-agent-beta-0309",
+      "overall": "9,422"
     },
     {
       "rank": 10,
-      "model": "grok-4.20-multi-agent-beta-0309",
-      "overall": "7,815"
+      "model": "gemini-3-flash",
+      "overall": "30,937"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "13,979"
+      "overall": "15,493"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "14,934"
+      "overall": "16,533"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "17,559"
+      "overall": "19,482"
     }
   ]
 }
