@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-09T07:13:36.339Z",
+  "generated_at_iso": "2026-04-10T07:18:12.225Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "15,493"
+      "overall": "16,071"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "16,533"
+      "overall": "17,186"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "19,482"
+      "overall": "20,226"
     },
     {
       "rank": 4,
-      "model": "grok-4.20-beta1",
-      "overall": "8,341"
+      "model": "muse-spark",
+      "overall": "1,554"
     },
     {
       "rank": 5,
-      "model": "gemini-3-pro",
-      "overall": "41,615"
+      "model": "grok-4.20-beta1",
+      "overall": "9,346"
     },
     {
       "rank": 6,
-      "model": "gpt-5.4-high",
-      "overall": "8,835"
+      "model": "gemini-3-pro",
+      "overall": "41,608"
     },
     {
       "rank": 7,
-      "model": "grok-4.20-beta-0309-reasoning",
-      "overall": "9,003"
+      "model": "gpt-5.4-high",
+      "overall": "9,451"
     },
     {
       "rank": 8,
-      "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "14,798"
+      "model": "grok-4.20-beta-0309-reasoning",
+      "overall": "9,538"
     },
     {
       "rank": 9,
-      "model": "grok-4.20-multi-agent-beta-0309",
-      "overall": "9,422"
+      "model": "gpt-5.2-chat-latest-20260210",
+      "overall": "15,473"
     },
     {
       "rank": 10,
-      "model": "gemini-3-flash",
-      "overall": "30,937"
+      "model": "grok-4.20-multi-agent-beta-0309",
+      "overall": "9,896"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "15,493"
+      "overall": "16,071"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "16,533"
+      "overall": "17,186"
     },
     {
       "rank": 3,
       "model": "gemini-3.1-pro-preview",
-      "overall": "19,482"
+      "overall": "20,226"
     }
   ]
 }
