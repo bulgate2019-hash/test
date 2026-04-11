@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-10T07:18:12.225Z",
+  "generated_at_iso": "2026-04-11T06:53:36.675Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "16,071"
+      "overall": "16,278"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "17,186"
+      "overall": "17,416"
     },
     {
       "rank": 3,
-      "model": "gemini-3.1-pro-preview",
-      "overall": "20,226"
+      "model": "muse-spark",
+      "overall": "3,268"
     },
     {
       "rank": 4,
-      "model": "muse-spark",
-      "overall": "1,554"
+      "model": "gemini-3.1-pro-preview",
+      "overall": "20,531"
     },
     {
       "rank": 5,
-      "model": "grok-4.20-beta1",
-      "overall": "9,346"
+      "model": "gemini-3-pro",
+      "overall": "41,585"
     },
     {
       "rank": 6,
-      "model": "gemini-3-pro",
-      "overall": "41,608"
+      "model": "grok-4.20-beta1",
+      "overall": "9,689"
     },
     {
       "rank": 7,
       "model": "gpt-5.4-high",
-      "overall": "9,451"
+      "overall": "9,681"
     },
     {
       "rank": 8,
       "model": "grok-4.20-beta-0309-reasoning",
-      "overall": "9,538"
+      "overall": "9,781"
     },
     {
       "rank": 9,
       "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "15,473"
+      "overall": "15,704"
     },
     {
       "rank": 10,
       "model": "grok-4.20-multi-agent-beta-0309",
-      "overall": "9,896"
+      "overall": "10,112"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": "16,071"
+      "overall": "16,278"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "overall": "17,186"
+      "overall": "17,416"
     },
     {
       "rank": 3,
-      "model": "gemini-3.1-pro-preview",
-      "overall": "20,226"
+      "model": "muse-spark",
+      "overall": "3,268"
     }
   ]
 }
