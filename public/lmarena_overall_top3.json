@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-17T07:22:29.052Z",
+  "generated_at_iso": "2026-04-18T06:58:55.749Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "1502"
+      "model": "claude-opus-4-7-thinking",
+      "overall": "1505"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "1496"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "1503"
     },
     {
       "rank": 3,
-      "model": "muse-spark",
-      "overall": "1495"
+      "model": "claude-opus-4-7",
+      "overall": "1498"
     },
     {
       "rank": 4,
-      "model": "gemini-3.1-pro-preview",
-      "overall": "1493"
+      "model": "claude-opus-4-6",
+      "overall": "1497"
     },
     {
       "rank": 5,
+      "model": "muse-spark",
+      "overall": "1496"
+    },
+    {
+      "rank": 6,
+      "model": "gemini-3.1-pro-preview",
+      "overall": "1492"
+    },
+    {
+      "rank": 7,
       "model": "gemini-3-pro",
       "overall": "1486"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "grok-4.20-beta1",
       "overall": "1485"
     },
     {
-      "rank": 7,
-      "model": "gpt-5.4-high",
-      "overall": "1481"
-    },
-    {
-      "rank": 8,
-      "model": "grok-4.20-beta-0309-reasoning",
-      "overall": "1479"
-    },
-    {
       "rank": 9,
-      "model": "gpt-5.2-chat-latest-20260210",
-      "overall": "1476"
+      "model": "gpt-5.4-high",
+      "overall": "1482"
     },
     {
       "rank": 10,
-      "model": "grok-4.20-multi-agent-beta-0309",
-      "overall": "1476"
+      "model": "grok-4.20-beta-0309-reasoning",
+      "overall": "1480"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "claude-opus-4-6-thinking",
-      "overall": "1502"
+      "model": "claude-opus-4-7-thinking",
+      "overall": "1505"
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "overall": "1496"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "1503"
     },
     {
       "rank": 3,
-      "model": "muse-spark",
-      "overall": "1495"
+      "model": "claude-opus-4-7",
+      "overall": "1498"
     }
   ]
 }
