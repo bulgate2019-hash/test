@@ -1,36 +1,36 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-20T07:54:39.175Z",
+  "generated_at_iso": "2026-04-21T07:24:47.218Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1505"
+      "overall": "1504"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": "1503"
+      "overall": "1502"
     },
     {
       "rank": 3,
       "model": "claude-opus-4-7",
-      "overall": "1498"
+      "overall": "1497"
     },
     {
       "rank": 4,
       "model": "claude-opus-4-6",
-      "overall": "1497"
+      "overall": "1496"
     },
     {
       "rank": 5,
       "model": "muse-spark",
-      "overall": "1496"
+      "overall": "1493"
     },
     {
       "rank": 6,
       "model": "gemini-3.1-pro-preview",
-      "overall": "1492"
+      "overall": "1493"
     },
     {
       "rank": 7,
@@ -40,7 +40,7 @@
     {
       "rank": 8,
       "model": "grok-4.20-beta1",
-      "overall": "1485"
+      "overall": "1482"
     },
     {
       "rank": 9,
@@ -57,17 +57,17 @@
     {
       "rank": 1,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1505"
+      "overall": "1504"
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": "1503"
+      "overall": "1502"
     },
     {
       "rank": 3,
       "model": "claude-opus-4-7",
-      "overall": "1498"
+      "overall": "1497"
     }
   ]
 }
