@@ -1,11 +1,11 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-22T07:22:39.675Z",
+  "generated_at_iso": "2026-04-23T07:25:47.508Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1504"
+      "overall": "1503"
     },
     {
       "rank": 2,
@@ -14,23 +14,23 @@
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7",
-      "overall": "1497"
-    },
-    {
-      "rank": 4,
       "model": "claude-opus-4-6",
       "overall": "1496"
     },
     {
+      "rank": 4,
+      "model": "claude-opus-4-7",
+      "overall": "1494"
+    },
+    {
       "rank": 5,
-      "model": "muse-spark",
+      "model": "gemini-3.1-pro-preview",
       "overall": "1493"
     },
     {
       "rank": 6,
-      "model": "gemini-3.1-pro-preview",
-      "overall": "1493"
+      "model": "muse-spark",
+      "overall": "1490"
     },
     {
       "rank": 7,
@@ -57,7 +57,7 @@
     {
       "rank": 1,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1504"
+      "overall": "1503"
     },
     {
       "rank": 2,
@@ -66,8 +66,8 @@
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7",
-      "overall": "1497"
+      "model": "claude-opus-4-6",
+      "overall": "1496"
     }
   ]
 }
