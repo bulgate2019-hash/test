@@ -1,73 +1,73 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-04-29T08:04:37.836Z",
+  "generated_at_iso": "2026-04-30T08:08:34.209Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "1",
-      "overall": "3"
+      "model": "claude-opus-4-7-thinking",
+      "overall": "1503"
     },
     {
       "rank": 2,
-      "model": "2",
-      "overall": "1"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "1502"
     },
     {
       "rank": 3,
-      "model": "3",
-      "overall": "2"
+      "model": "claude-opus-4-6",
+      "overall": "1497"
     },
     {
       "rank": 4,
-      "model": "4",
-      "overall": "4"
+      "model": "claude-opus-4-7",
+      "overall": "1495"
     },
     {
       "rank": 5,
-      "model": "5",
-      "overall": "5"
+      "model": "gemini-3.1-pro-preview",
+      "overall": "1493"
     },
     {
       "rank": 6,
-      "model": "6",
-      "overall": "6"
+      "model": "muse-spark",
+      "overall": "1489"
     },
     {
       "rank": 7,
-      "model": "7",
-      "overall": "9"
+      "model": "gpt-5.5-high",
+      "overall": "1488"
     },
     {
       "rank": 8,
-      "model": "8",
-      "overall": "7"
+      "model": "gemini-3-pro",
+      "overall": "1486"
     },
     {
       "rank": 9,
-      "model": "9",
-      "overall": "16"
+      "model": "grok-4.20-beta1",
+      "overall": "1479"
     },
     {
       "rank": 10,
-      "model": "10",
-      "overall": "8"
+      "model": "gpt-5.4-high",
+      "overall": "1478"
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "1",
-      "overall": "3"
+      "model": "claude-opus-4-7-thinking",
+      "overall": "1503"
     },
     {
       "rank": 2,
-      "model": "2",
-      "overall": "1"
+      "model": "claude-opus-4-6-thinking",
+      "overall": "1502"
     },
     {
       "rank": 3,
-      "model": "3",
-      "overall": "2"
+      "model": "claude-opus-4-6",
+      "overall": "1497"
     }
   ]
 }
