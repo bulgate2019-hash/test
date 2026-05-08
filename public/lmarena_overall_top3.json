@@ -1,6 +1,6 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-05-07T08:21:51.714Z",
+  "generated_at_iso": "2026-05-08T07:19:08.260Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -40,7 +40,7 @@
     {
       "rank": 8,
       "model": "gpt-5.5-high",
-      "overall": "1485"
+      "overall": "1484"
     },
     {
       "rank": 9,
