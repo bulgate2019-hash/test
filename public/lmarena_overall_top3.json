@@ -1,6 +1,6 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-05-14T08:29:58.210Z",
+  "generated_at_iso": "2026-05-15T08:40:54.891Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -10,7 +10,7 @@
     {
       "rank": 2,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1501"
+      "overall": "1500"
     },
     {
       "rank": 3,
@@ -25,12 +25,12 @@
     {
       "rank": 5,
       "model": "muse-spark",
-      "overall": "1491"
+      "overall": "1490"
     },
     {
       "rank": 6,
       "model": "gemini-3.1-pro-preview",
-      "overall": "1490"
+      "overall": "1489"
     },
     {
       "rank": 7,
@@ -44,12 +44,12 @@
     },
     {
       "rank": 9,
-      "model": "grok-4.20-beta1",
+      "model": "gpt-5.4-high",
       "overall": "1479"
     },
     {
       "rank": 10,
-      "model": "gpt-5.4-high",
+      "model": "grok-4.20-beta1",
       "overall": "1479"
     }
   ],
@@ -62,7 +62,7 @@
     {
       "rank": 2,
       "model": "claude-opus-4-7-thinking",
-      "overall": "1501"
+      "overall": "1500"
     },
     {
       "rank": 3,
