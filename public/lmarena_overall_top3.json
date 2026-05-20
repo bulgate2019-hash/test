@@ -1,6 +1,6 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-05-19T09:29:39.348Z",
+  "generated_at_iso": "2026-05-20T08:56:27.779Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -40,17 +40,17 @@
     {
       "rank": 8,
       "model": "gpt-5.5-high",
-      "overall": "1482"
+      "overall": "1481"
     },
     {
       "rank": 9,
-      "model": "gpt-5.4-high",
+      "model": "gemini-3.5-flash",
       "overall": "1480"
     },
     {
       "rank": 10,
-      "model": "grok-4.20-beta1",
-      "overall": "1478"
+      "model": "gpt-5.4-high",
+      "overall": "1480"
     }
   ],
   "top3_overall": [
