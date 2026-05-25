@@ -21,7 +21,7 @@ function writeOutput(payload) {
 const RSS_FEEDS = [
   { url: 'https://www.actuia.com/feed/', source: 'Actu IA' },
   { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital' },
-  { url: 'https://www.presse-citron.net/categorie/intelligence-artificielle/feed/', source: 'Presse-Citron' },
+  { url: 'https://www.clubic.com/feed/news.rss', source: 'Clubic' },
   { url: 'https://www.lebigdata.fr/feed/', source: 'LeBigData' }
 ];
 
