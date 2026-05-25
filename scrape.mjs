@@ -19,11 +19,11 @@ function writeOutput(payload) {
 // NOUVEAU BLOC : Récupération des Flux RSS
 // ==========================================
 const RSS_FEEDS = [
-  { url: 'https://www.actuia.com/feed/', source: 'Actu IA' },
-  { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital' },
-  { url: 'https://www.clubic.com/feed/news.rss', source: 'Clubic' },
-  { url: 'https://www.presse-citron.net/feed/', source: 'Presse-Citron', keyword: 'Intelligence Artificielle' },
-  { url: 'https://www.lebigdata.fr/feed/', source: 'LeBigData' }
+  { url: 'https://www.actuia.com/feed/', source: 'Actu IA', isGeneral: false },
+  { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital', isGeneral: false },
+  { url: 'https://www.clubic.com/feed/news.rss', source: 'Clubic', isGeneral: true },
+  { url: 'https://www.presse-citron.net/feed/', source: 'Presse-Citron', isGeneral: true },
+  { url: 'https://www.lebigdata.fr/feed/', source: 'LeBigData', isGeneral: true }
 ];
 
 async function updateNews() {
@@ -46,8 +46,19 @@ async function updateNews() {
           
           let count = 0;
           for (const item of items) {
-              // Si le flux a un mot-clé requis, on ignore les articles qui ne l'ont pas
-              if (feed.keyword && !item.includes(feed.keyword)) continue;
+              // Filtre ultra-robuste pour les flux généralistes
+              if (feed.isGeneral) {
+                  const contentLower = item.toLowerCase();
+                  const isAiRelated = 
+                      /\b(ia|ai)\b/.test(contentLower) || // Cherche le mot exact "ia" ou "ai"
+                      contentLower.includes('intelligence artificielle') ||
+                      contentLower.includes('chatgpt') ||
+                      contentLower.includes('openai') ||
+                      contentLower.includes('gemini') ||
+                      contentLower.includes('claude');
+                      
+                  if (!isAiRelated) continue; // Si ça ne parle pas d'IA, on zappe !
+              }
               
               const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
               const linkMatch = item.match(/<link>(.*?)<\/link>/);
@@ -63,7 +74,7 @@ async function updateNews() {
                   count++;
               }
               
-              // On s'arrête dès qu'on a trouvé 4 articles correspondants pour ce site
+              // On s'arrête à 4 articles pertinents par source
               if (count >= 4) break;
           }
       } catch (err) {
