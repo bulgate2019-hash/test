@@ -20,21 +20,31 @@ function writeOutput(payload) {
 // ==========================================
 const RSS_FEEDS = [
   { url: 'https://www.actuia.com/feed/', source: 'Actu IA' },
-  { url: 'https://www.numerama.com/tech/ia/feed/', source: 'Numerama' },
   { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital' },
-  { url: 'https://www.journaldugeek.com/technologie/intelligence-artificielle/feed/', source: 'Journal du Geek' }
+  { url: 'https://www.presse-citron.net/categorie/intelligence-artificielle/feed/', source: 'Presse-Citron' },
+  { url: 'https://www.lebigdata.fr/feed/', source: 'LeBigData' }
 ];
 
-async function updateNews(page) {
+async function updateNews() {
   console.log("📰 Récupération des actualités IA...");
   let allNews = [];
 
   for (const feed of RSS_FEEDS) {
       try {
-          const res = await page.goto(feed.url);
-          if (!res || !res.ok()) continue;
+          // On utilise fetch avec de faux en-têtes pour rassurer les serveurs
+          const res = await fetch(feed.url, {
+              headers: {
+                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36',
+                  'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+              }
+          });
+          
+          if (!res.ok) {
+              console.log(`⚠️ Impossible de lire ${feed.source} (Erreur ${res.status})`);
+              continue;
+          }
+          
           const xml = await res.text();
-
           const items = xml.split('<item>').slice(1); 
           
           for (let i = 0; i < Math.min(4, items.length); i++) {
@@ -64,13 +74,12 @@ async function updateNews(page) {
   // On garde les 12 dernières actus
   const finalNews = allNews.slice(0, 12);
 
-  // Utilisation de ton module 'fs' déjà existant pour écrire le fichier
   fs.writeFileSync(
     "public/news.json",
     JSON.stringify(finalNews, null, 2),
     "utf-8"
   );
-  console.log("✅ Actualités écrites -> public/news.json");
+  console.log(`✅ ${finalNews.length} Actualités écrites -> public/news.json`);
 }
 // ==========================================
 // Fonction pour simuler un comportement humain (bouger la souris)
@@ -179,7 +188,7 @@ async function extractTop10(page) {
       top3_overall: top ? top.slice(0, 3) : []
     });
     //Lancement de la récupération RSS
-    await updateNews(page);
+    await updateNews();
 
   } catch (err) {
     console.error("❌ Erreur fatale:", err.message);
