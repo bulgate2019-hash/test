@@ -15,7 +15,64 @@ function writeOutput(payload) {
   );
   console.log("✅ Écrit -> public/lmarena_overall_top3.json");
 }
+// ==========================================
+// NOUVEAU BLOC : Récupération des Flux RSS
+// ==========================================
+const RSS_FEEDS = [
+  { url: 'https://www.actuia.com/feed/', source: 'Actu IA' },
+  { url: 'https://www.numerama.com/tech/ia/feed/', source: 'Numerama' },
+  { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital' },
+  { url: 'https://www.journaldugeek.com/technologie/intelligence-artificielle/feed/', source: 'Journal du Geek' }
+];
 
+async function updateNews() {
+  console.log("📰 Récupération des actualités IA...");
+  let allNews = [];
+
+  for (const feed of RSS_FEEDS) {
+      try {
+          const res = await fetch(feed.url);
+          if (!res.ok) continue;
+          const xml = await res.text();
+
+          const items = xml.split('<item>').slice(1); 
+          
+          for (let i = 0; i < Math.min(4, items.length); i++) {
+              const item = items[i];
+              
+              const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
+              const linkMatch = item.match(/<link>(.*?)<\/link>/);
+              const dateMatch = item.match(/<pubDate>(.*?)<\/pubDate>/);
+
+              if (titleMatch && linkMatch) {
+                  allNews.push({
+                      source: feed.source,
+                      title: titleMatch[1].replace(/&#8217;/g, "'").replace(/&quot;/g, '"'),
+                      link: linkMatch[1],
+                      pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
+                  });
+              }
+          }
+      } catch (err) {
+          console.error(`❌ Erreur avec ${feed.source}:`, err.message);
+      }
+  }
+
+  // Tri du plus récent au plus ancien
+  allNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+  
+  // On garde les 12 dernières actus
+  const finalNews = allNews.slice(0, 12);
+
+  // Utilisation de ton module 'fs' déjà existant pour écrire le fichier
+  fs.writeFileSync(
+    "public/news.json",
+    JSON.stringify(finalNews, null, 2),
+    "utf-8"
+  );
+  console.log("✅ Actualités écrites -> public/news.json");
+}
+// ==========================================
 // Fonction pour simuler un comportement humain (bouger la souris)
 async function humanize(page) {
   console.log("🖱️ Simulation de mouvements humains...");
@@ -121,6 +178,8 @@ async function extractTop10(page) {
       top10_overall: top || [],
       top3_overall: top ? top.slice(0, 3) : []
     });
+    //Lancement de la récupération RSS
+    await updateNews();
 
   } catch (err) {
     console.error("❌ Erreur fatale:", err.message);
