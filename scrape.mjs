@@ -25,14 +25,14 @@ const RSS_FEEDS = [
   { url: 'https://www.journaldugeek.com/technologie/intelligence-artificielle/feed/', source: 'Journal du Geek' }
 ];
 
-async function updateNews() {
+async function updateNews(page) {
   console.log("📰 Récupération des actualités IA...");
   let allNews = [];
 
   for (const feed of RSS_FEEDS) {
       try {
-          const res = await fetch(feed.url);
-          if (!res.ok) continue;
+          const res = await page.goto(feed.url);
+          if (!res || !res.ok()) continue;
           const xml = await res.text();
 
           const items = xml.split('<item>').slice(1); 
@@ -179,7 +179,7 @@ async function extractTop10(page) {
       top3_overall: top ? top.slice(0, 3) : []
     });
     //Lancement de la récupération RSS
-    await updateNews();
+    await updateNews(page);
 
   } catch (err) {
     console.error("❌ Erreur fatale:", err.message);
