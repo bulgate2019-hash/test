@@ -22,6 +22,7 @@ const RSS_FEEDS = [
   { url: 'https://www.actuia.com/feed/', source: 'Actu IA' },
   { url: 'https://siecledigital.fr/intelligence-artificielle/feed/', source: 'Siècle Digital' },
   { url: 'https://www.clubic.com/feed/news.rss', source: 'Clubic' },
+  { url: 'https://www.presse-citron.net/feed/', source: 'Presse-Citron', keyword: 'Intelligence Artificielle' },
   { url: 'https://www.lebigdata.fr/feed/', source: 'LeBigData' }
 ];
 
@@ -31,7 +32,6 @@ async function updateNews() {
 
   for (const feed of RSS_FEEDS) {
       try {
-          // On utilise fetch avec de faux en-têtes pour rassurer les serveurs
           const res = await fetch(feed.url, {
               headers: {
                   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36',
@@ -39,16 +39,15 @@ async function updateNews() {
               }
           });
           
-          if (!res.ok) {
-              console.log(`⚠️ Impossible de lire ${feed.source} (Erreur ${res.status})`);
-              continue;
-          }
+          if (!res.ok) continue;
           
           const xml = await res.text();
           const items = xml.split('<item>').slice(1); 
           
-          for (let i = 0; i < Math.min(4, items.length); i++) {
-              const item = items[i];
+          let count = 0;
+          for (const item of items) {
+              // Si le flux a un mot-clé requis, on ignore les articles qui ne l'ont pas
+              if (feed.keyword && !item.includes(feed.keyword)) continue;
               
               const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
               const linkMatch = item.match(/<link>(.*?)<\/link>/);
@@ -61,7 +60,11 @@ async function updateNews() {
                       link: linkMatch[1],
                       pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
                   });
+                  count++;
               }
+              
+              // On s'arrête dès qu'on a trouvé 4 articles correspondants pour ce site
+              if (count >= 4) break;
           }
       } catch (err) {
           console.error(`❌ Erreur avec ${feed.source}:`, err.message);
