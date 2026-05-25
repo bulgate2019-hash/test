@@ -46,33 +46,43 @@ async function updateNews() {
           
           let count = 0;
           for (const item of items) {
-              // Filtre ultra-robuste pour les flux généralistes
-              if (feed.isGeneral) {
-                  const contentLower = item.toLowerCase();
-                  const isAiRelated = 
-                      /\b(ia|ai)\b/.test(contentLower) || // Cherche le mot exact "ia" ou "ai"
-                      contentLower.includes('intelligence artificielle') ||
-                      contentLower.includes('chatgpt') ||
-                      contentLower.includes('openai') ||
-                      contentLower.includes('gemini') ||
-                      contentLower.includes('claude');
-                      
-                  if (!isAiRelated) continue; // Si ça ne parle pas d'IA, on zappe !
-              }
-              
+              // Extraction propre avant toute analyse
               const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
               const linkMatch = item.match(/<link>(.*?)<\/link>/);
+              const descMatch = item.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/);
+              
+              if (!titleMatch || !linkMatch) continue;
+
+              const title = titleMatch[1].replace(/&#8217;/g, "'").replace(/&quot;/g, '"');
+              const desc = descMatch ? descMatch[1] : '';
+
+              // Filtre ultra-robuste pour les flux généralistes
+              if (feed.isGeneral) {
+                  // On cherche UNIQUEMENT dans le titre et la description
+                  const textToSearch = (title + " " + desc).toLowerCase();
+                  
+                  const isAiRelated = 
+                      /\b(ia|llm)\b/.test(textToSearch) || // On a supprimé "ai" pour éviter le "J'ai" français
+                      textToSearch.includes('intelligence artificielle') ||
+                      textToSearch.includes('chatgpt') ||
+                      textToSearch.includes('openai') ||
+                      textToSearch.includes('gemini') ||
+                      textToSearch.includes('claude') ||
+                      textToSearch.includes('copilot') ||
+                      textToSearch.includes('anthropic');
+                      
+                  if (!isAiRelated) continue; // Si ça ne parle pas d'IA, on passe au suivant
+              }
+
               const dateMatch = item.match(/<pubDate>(.*?)<\/pubDate>/);
 
-              if (titleMatch && linkMatch) {
-                  allNews.push({
-                      source: feed.source,
-                      title: titleMatch[1].replace(/&#8217;/g, "'").replace(/&quot;/g, '"'),
-                      link: linkMatch[1],
-                      pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
-                  });
-                  count++;
-              }
+              allNews.push({
+                  source: feed.source,
+                  title: title,
+                  link: linkMatch[1],
+                  pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
+              });
+              count++;
               
               // On s'arrête à 4 articles pertinents par source
               if (count >= 4) break;
