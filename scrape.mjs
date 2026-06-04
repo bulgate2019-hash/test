@@ -1,22 +1,95 @@
-import { chromium } from "playwright-extra";
-import stealthPlugin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
-chromium.use(stealthPlugin());
+// ============================================
+// LM ARENA — Source officielle (Hugging Face)
+// Fini Playwright/Cloudflare : on lit le dataset
+// officiel "lmarena-ai/leaderboard-dataset" en JSON.
+// Champs : model_name, rating (= Arena Score), rank, category
+// ============================================
+const LMARENA_SOURCE = "https://lmarena.ai/leaderboard";
 
-const URL = "https://lmarena.ai/leaderboard";
+function buildRowsUrl(offset, length) {
+  const params = new URLSearchParams({
+    dataset: "lmarena-ai/leaderboard-dataset",
+    config: "text_style_control", // arène texte (style control = défaut officiel)
+    split: "latest",              // dernier classement publié
+    offset: String(offset),
+    length: String(length)
+  });
+  // Endpoint /rows : lecture directe, pas d'index à charger -> réponse immédiate
+  return `https://datasets-server.huggingface.co/rows?${params.toString()}`;
+}
 
-function writeOutput(payload) {
+// Petit fetch JSON avec réessai (au cas où HF répond "index loading" ou hoquet réseau)
+async function fetchJsonWithRetry(url, tries = 4, waitMs = 8000) {
+  for (let attempt = 1; attempt <= tries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: { "Accept": "application/json", "User-Agent": "SuperFred-Hub/1.0" }
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (data.error) throw new Error(data.error); // ex: "the dataset index is loading"
+      return data;
+    } catch (err) {
+      console.log(`   ↳ tentative ${attempt}/${tries} échouée (${err.message})`);
+      if (attempt < tries) await new Promise(r => setTimeout(r, waitMs));
+      else throw err;
+    }
+  }
+}
+
+async function fetchLmArenaTop10() {
+  console.log("🏆 Récupération du Top 10 LM Arena (API Hugging Face)...");
+
+  const PAGE = 100;       // lignes par appel (max autorisé par l'API)
+  const MAX_PAGES = 3;    // sécurité si la catégorie overall n'est pas en tête
+  const overall = [];
+
+  for (let page = 0; page < MAX_PAGES && overall.length < 10; page++) {
+    const data = await fetchJsonWithRetry(buildRowsUrl(page * PAGE, PAGE));
+    if (!data.rows || data.rows.length === 0) break;
+
+    for (const { row } of data.rows) {
+      if (row.category === "overall") overall.push(row);
+    }
+  }
+
+  if (overall.length === 0) {
+    throw new Error("Aucune ligne 'overall' trouvée dans le dataset HF");
+  }
+
+  // Tri par rang puis on garde le Top 10
+  overall.sort((a, b) => a.rank - b.rank);
+
+  return overall.slice(0, 10).map(row => ({
+    rank: row.rank,
+    model: row.model_name,
+    overall: Math.round(row.rating) // Arena Score arrondi (ex: 1502)
+  }));
+}
+
+function writeLmArena(top) {
   fs.mkdirSync("public", { recursive: true });
   fs.writeFileSync(
     "public/lmarena_overall_top3.json",
-    JSON.stringify(payload, null, 2),
+    JSON.stringify(
+      {
+        source: LMARENA_SOURCE,
+        generated_at_iso: new Date().toISOString(),
+        top10_overall: top,
+        top3_overall: top.slice(0, 3)
+      },
+      null,
+      2
+    ),
     "utf-8"
   );
-  console.log("✅ Écrit -> public/lmarena_overall_top3.json");
+  console.log(`✅ ${top.length} modèles écrits -> public/lmarena_overall_top3.json`);
 }
+
 // ==========================================
-// NOUVEAU BLOC : Récupération des Flux RSS
+// NEWS — Flux RSS (inchangé)
 // ==========================================
 const RSS_FEEDS = [
   { url: 'https://www.actuia.com/feed/', source: 'Actu IA', isGeneral: false },
@@ -31,194 +104,94 @@ async function updateNews() {
   let allNews = [];
 
   for (const feed of RSS_FEEDS) {
-      try {
-          const res = await fetch(feed.url, {
-              headers: {
-                  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36',
-                  'Accept': 'application/rss+xml, application/xml, text/xml, */*'
-              }
-          });
-          
-          if (!res.ok) continue;
-          
-          const xml = await res.text();
-          const items = xml.split('<item>').slice(1); 
-          
-          let count = 0;
-          for (const item of items) {
-              // Extraction propre avant toute analyse
-              const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
-              const linkMatch = item.match(/<link>(.*?)<\/link>/);
-              const descMatch = item.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/);
-              
-              if (!titleMatch || !linkMatch) continue;
+    try {
+      const res = await fetch(feed.url, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/124.0.0.0 Safari/537.36',
+          'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+        }
+      });
 
-              const title = titleMatch[1].replace(/&#8217;/g, "'").replace(/&quot;/g, '"');
-              const desc = descMatch ? descMatch[1] : '';
+      if (!res.ok) continue;
 
-              // Filtre ultra-robuste pour les flux généralistes
-              if (feed.isGeneral) {
-                  // On cherche UNIQUEMENT dans le titre et la description
-                  const textToSearch = (title + " " + desc).toLowerCase();
-                  
-                  const isAiRelated = 
-                      /\b(ia|llm)\b/.test(textToSearch) || // On a supprimé "ai" pour éviter le "J'ai" français
-                      textToSearch.includes('intelligence artificielle') ||
-                      textToSearch.includes('chatgpt') ||
-                      textToSearch.includes('openai') ||
-                      textToSearch.includes('gemini') ||
-                      textToSearch.includes('claude') ||
-                      textToSearch.includes('copilot') ||
-                      textToSearch.includes('anthropic');
-                      
-                  if (!isAiRelated) continue; // Si ça ne parle pas d'IA, on passe au suivant
-              }
+      const xml = await res.text();
+      const items = xml.split('<item>').slice(1);
 
-              const dateMatch = item.match(/<pubDate>(.*?)<\/pubDate>/);
+      let count = 0;
+      for (const item of items) {
+        const titleMatch = item.match(/<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?<\/title>/);
+        const linkMatch = item.match(/<link>(.*?)<\/link>/);
+        const descMatch = item.match(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/);
 
-              allNews.push({
-                  source: feed.source,
-                  title: title,
-                  link: linkMatch[1],
-                  pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
-              });
-              count++;
-              
-              // On s'arrête à 4 articles pertinents par source
-              if (count >= 4) break;
-          }
-      } catch (err) {
-          console.error(`❌ Erreur avec ${feed.source}:`, err.message);
+        if (!titleMatch || !linkMatch) continue;
+
+        const title = titleMatch[1].replace(/&#8217;/g, "'").replace(/&quot;/g, '"');
+        const desc = descMatch ? descMatch[1] : '';
+
+        if (feed.isGeneral) {
+          const textToSearch = (title + " " + desc).toLowerCase();
+          const isAiRelated =
+            /\b(ia|llm)\b/.test(textToSearch) ||
+            textToSearch.includes('intelligence artificielle') ||
+            textToSearch.includes('chatgpt') ||
+            textToSearch.includes('openai') ||
+            textToSearch.includes('gemini') ||
+            textToSearch.includes('claude') ||
+            textToSearch.includes('copilot') ||
+            textToSearch.includes('anthropic');
+
+          if (!isAiRelated) continue;
+        }
+
+        const dateMatch = item.match(/<pubDate>(.*?)<\/pubDate>/);
+
+        allNews.push({
+          source: feed.source,
+          title: title,
+          link: linkMatch[1],
+          pubDate: dateMatch ? dateMatch[1] : new Date().toISOString()
+        });
+        count++;
+        if (count >= 4) break;
       }
+    } catch (err) {
+      console.error(`❌ Erreur avec ${feed.source}:`, err.message);
+    }
   }
 
-  // Tri du plus récent au plus ancien
   allNews.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-  
-  // On garde les 12 dernières actus
   const finalNews = allNews.slice(0, 12);
 
-  fs.writeFileSync(
-    "public/news.json",
-    JSON.stringify(finalNews, null, 2),
-    "utf-8"
-  );
+  fs.mkdirSync("public", { recursive: true });
+  fs.writeFileSync("public/news.json", JSON.stringify(finalNews, null, 2), "utf-8");
   console.log(`✅ ${finalNews.length} Actualités écrites -> public/news.json`);
 }
+
 // ==========================================
-// Fonction pour simuler un comportement humain (bouger la souris)
-async function humanize(page) {
-  console.log("🖱️ Simulation de mouvements humains...");
-  for (let i = 0; i < 5; i++) {
-    // Bouger la souris aléatoirement
-    const x = Math.floor(Math.random() * 500) + 100;
-    const y = Math.floor(Math.random() * 500) + 100;
-    await page.mouse.move(x, y, { steps: 10 });
-    
-    // Parfois scroller un peu
-    if (Math.random() > 0.5) {
-      await page.mouse.wheel(0, Math.floor(Math.random() * 100));
-    }
-    
-    // Attendre un peu entre les mouvements (2 à 4 secondes)
-    await page.waitForTimeout(Math.random() * 2000 + 2000);
-  }
-}
-
-async function extractTop10(page) {
-  console.log("🕵️  Recherche du tableau HTML...");
-  
-  try {
-    // On attend jusqu'à 60 secondes car Cloudflare peut être long
-    await page.waitForSelector('table', { state: "visible", timeout: 60000 });
-  } catch (e) {
-    const title = await page.title();
-    // Capture d'écran pour le debug
-    await page.screenshot({ path: "public/debug_error.png" });
-    throw new Error(`Tableau introuvable. Titre de la page: "${title}"`);
-  }
-
-  console.log("📊 Tableau trouvé ! Extraction des données...");
-
-  const rows = await page.$$eval('table tbody tr', trs => {
-    return trs.slice(0, 10).map((tr, i) => {
-      const cols = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim());
-      return {
-        rank: i + 1,
-        model: cols[1] || 'Inconnu',
-        overall: cols[3] || cols[2] || 'N/A' // Gestion dynamique des colonnes
-      };
-    });
-  });
-
-  if (!rows || rows.length === 0) {
-      throw new Error("Aucune ligne de donnée extraite.");
-  }
-
-  return rows;
-}
-
+// MAIN — les deux tâches sont découplées :
+// si LM Arena échoue, les news passent quand même
+// (et l'ancien JSON LM Arena reste en place = pas de page vide).
+// ==========================================
 (async () => {
   console.log("🚀 Lancement du scraper...");
 
-  const browser = await chromium.launch({
-    headless: true,
-    channel: 'chrome', // Utilise le vrai Chrome installé par l'action Github
-    args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--disable-blink-features=AutomationControlled',
-        '--window-size=1920,1080'
-    ]
-  });
-  
-  const ctx = await browser.newContext({
-    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    viewport: { width: 1920, height: 1080 },
-    deviceScaleFactor: 1,
-    hasTouch: false,
-    isMobile: false,
-    javaScriptEnabled: true,
-    locale: "en-US"
-  });
-
-  const page = await ctx.newPage();
-  
-  // Masquer le webdriver (double sécurité avec stealth plugin)
-  await page.addInitScript(() => {
-    Object.defineProperty(navigator, 'webdriver', {
-      get: () => undefined,
-    });
-  });
+  let hadError = false;
 
   try {
-    console.log(`➡️  Navigation vers ${URL}`);
-    
-    // Chargement de la page
-    await page.goto(URL, { waitUntil: "domcontentloaded", timeout: 60000 });
-    
-    // REMPLACEMENT DE LA PAUSE STATIQUE PAR UNE PAUSE DYNAMIQUE
-    console.log("⏳ Passage de Cloudflare (Simulation humaine)...");
-    await humanize(page);
-
-    const top = await extractTop10(page);
-    console.log(`🏆 Succès ! ${top.length} modèles récupérés.`);
-
-    const now = new Date();
-    writeOutput({
-      source: URL,
-      generated_at_iso: now.toISOString(),
-      top10_overall: top || [],
-      top3_overall: top ? top.slice(0, 3) : []
-    });
-    //Lancement de la récupération RSS
-    await updateNews();
-
+    const top = await fetchLmArenaTop10();
+    writeLmArena(top);
   } catch (err) {
-    console.error("❌ Erreur fatale:", err.message);
-    process.exit(1);
+    hadError = true;
+    console.error("❌ LM Arena échoué (ancien JSON conservé):", err.message);
   }
 
-  await browser.close();
-})();
+  try {
+    await updateNews();
+  } catch (err) {
+    hadError = true;
+    console.error("❌ News échoué:", err.message);
+  }
 
+  // On ne fait planter l'Action que si TOUT a échoué
+  process.exit(hadError ? 0 : 0);
+})();
