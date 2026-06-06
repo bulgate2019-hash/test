@@ -1,27 +1,63 @@
 [
   {
-    "source": "Clubic",
-    "title": "Facebook : Meta lance une IA pour les créateurs, mais peut-on lui faire confiance ?",
-    "link": "https://www.clubic.com/actualite-615550-facebook-meta-lance-une-ia-pour-les-createurs-mais-peut-on-lui-faire-confiance.html",
-    "pubDate": "Fri, 05 Jun 2026 08:34:00 GMT"
-  },
-  {
-    "source": "LeBigData",
-    "title": "Oups, Meta cache du code de reconnaissance faciale dans son appli IA ",
-    "link": "https://www.lebigdata.fr/oups-meta-cache-du-code-de-reconnaissance-faciale-dans-son-appli-ia",
-    "pubDate": "Fri, 05 Jun 2026 08:27:00 +0000"
+    "source": "Presse-Citron",
+    "title": "L’un des plus grands dangers de l’IA est passé sous silence, cette jeune pousse française le combat",
+    "link": "https://www.presse-citron.net/lun-des-plus-grands-dangers-de-lia-est-passe-sous-silence-cette-jeune-pousse-francaise-le-combat/",
+    "pubDate": "Sat, 06 Jun 2026 08:00:36 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Brave Origin : une version payante et épurée du navigateur, sans les extras",
-    "link": "https://www.clubic.com/actualite-615535-brave-origin-une-version-payante-et-epuree-du-navigateur-sans-les-extras.html",
-    "pubDate": "Fri, 05 Jun 2026 07:05:00 GMT"
+    "title": "26€ pour remplacer ChatGPT Plus, Claude Pro et Gemini Advanced ? C'est ce que propose 1minAI",
+    "link": "https://www.clubic.com/bons-plans-615034-gpt-5-claude-et-gemini-sans-abonnement-l-offre-a-vie-de-1minai-revient-a-moins-de-27.html",
+    "pubDate": "Sat, 06 Jun 2026 07:30:00 GMT"
+  },
+  {
+    "source": "Presse-Citron",
+    "title": "Le “premier” vaccin conçu avec l'IA a été testé sur des humains&#160;: voici comment il pourrait nous protéger de la prochaine pandémie",
+    "link": "https://www.presse-citron.net/vaccin-concu-avec-ia-teste-sur-humains/",
+    "pubDate": "Fri, 05 Jun 2026 18:01:33 +0000"
   },
   {
     "source": "LeBigData",
-    "title": "Vous débutez en musculation ? Cette IA veut vous éviter une blessure dès le premier jour",
-    "link": "https://www.lebigdata.fr/vous-debutez-en-musculation-cette-ia-veut-vous-eviter-une-blessure-des-le-premier-jour",
-    "pubDate": "Fri, 05 Jun 2026 07:02:02 +0000"
+    "title": "La France va-t-elle gagner la Coupe du monde 2026 ? L'IA prédit le vainqueur !",
+    "link": "https://www.lebigdata.fr/la-france-va-t-elle-gagner-la-coupe-du-monde-2026-lia-predit-le-vainqueur",
+    "pubDate": "Fri, 05 Jun 2026 17:57:09 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "De 4 milliards à 150 millions de dollars : comment GoPro s'est retrouvé au bord du gouffre",
+    "link": "https://www.clubic.com/actualite-615688-de-4-milliards-a-150-millions-de-dollars-comment-gopro-s-est-retrouve-au-bord-du-gouffre.html",
+    "pubDate": "Fri, 05 Jun 2026 17:16:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Ce navigateur bâti de zéro, sans Chrome ni Firefox, vient d'interdire toute contribution externe à son code",
+    "link": "https://www.clubic.com/actualite-615619-ce-navigateur-open-source-ferme-ses-portes-aux-developpeurs-externes-a-cause-de-l-ia.html",
+    "pubDate": "Fri, 05 Jun 2026 14:11:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Siri boosté à l'IA, iOS 27, dernière keynote de Tim Cook : qu'attendre de la WWDC 2026 ?",
+    "link": "https://www.clubic.com/actualite-615604-siri-booste-a-l-ia-ios-27-derniere-keynote-de-tim-cook-qu-attendre-de-la-wwdc-2026.html",
+    "pubDate": "Fri, 05 Jun 2026 13:25:00 GMT"
+  },
+  {
+    "source": "LeBigData",
+    "title": "IBM et Google Cloud veulent accélérer l’adoption de l’IA dans les entreprises",
+    "link": "https://www.lebigdata.fr/ibm-et-google-cloud-veulent-accelerer-ladoption-de-lia-dans-les-entreprises",
+    "pubDate": "Fri, 05 Jun 2026 13:20:03 +0000"
+  },
+  {
+    "source": "Presse-Citron",
+    "title": "Anthropic tire la sonnette d'alarme&#160;: si l’IA peut se construire toute seule, elle risque d'échapper au contrôle de l’humanité",
+    "link": "https://www.presse-citron.net/anthropic-tire-la-sonnette-dalarme-ia-peut-se-construire-toute-seule/",
+    "pubDate": "Fri, 05 Jun 2026 12:01:12 +0000"
+  },
+  {
+    "source": "LeBigData",
+    "title": "Lassie lève 35 millions de dollars afin d’automatiser les opérations des PME avec l’IA",
+    "link": "https://www.lebigdata.fr/lassie-leve-35-millions-de-dollars-afin-dautomatiser-les-operations-des-pme-avec-lia",
+    "pubDate": "Fri, 05 Jun 2026 10:40:55 +0000"
   },
   {
     "source": "Presse-Citron",
@@ -30,45 +66,9 @@
     "pubDate": "Fri, 05 Jun 2026 07:00:20 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Stockage cloud sécurisé : pourquoi 2026 marque un tournant majeur pour la vie privée en ligne ?",
-    "link": "https://www.clubic.com/actualite-614956-stockage-cloud-securise-pourquoi-2026-marque-un-tournant-majeur-pour-la-vie-privee-en-ligne.html",
-    "pubDate": "Fri, 05 Jun 2026 06:30:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Suno, la start-up qui génère des chansons par IA, lève 400 millions de dollars malgré les poursuites des maisons de disques",
     "link": "https://siecledigital.fr/2026/06/05/suno-la-start-up-qui-genere-des-chansons-par-ia-leve-400-millions-de-dollars-malgre-les-poursuites-des-maisons-de-disques/",
     "pubDate": "Fri, 05 Jun 2026 06:13:17 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Le Google Pixel 10 tombe à 679 € sur Amazon : 220 € de remise sur le flagship Android avec téléobjectif 5x et IA Gemini",
-    "link": "https://www.clubic.com/bons-plans-615451-le-google-pixel-10-tombe-a-679-sur-amazon-220-de-remise-sur-le-flagship-android-avec-teleobjectif-5x-et-ia-gemini.html",
-    "pubDate": "Fri, 05 Jun 2026 06:11:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "L'inventeur du Web s'inquiète de l'essor de l'IA et appelle à protéger l'esprit ouvert des débuts d'Internet",
-    "link": "https://siecledigital.fr/2026/06/04/linventeur-du-web-sinquiete-de-lessor-de-lia-et-appelle-a-proteger-lesprit-ouvert-des-debuts-dinternet/",
-    "pubDate": "Fri, 05 Jun 2026 06:08:02 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Mistral AI part en guerre contre une proposition de loi sur le droit d'auteur",
-    "link": "https://siecledigital.fr/2026/06/04/mistral-ai-part-en-guerre-contre-une-proposition-de-loi-sur-le-droit-dauteur/",
-    "pubDate": "Fri, 05 Jun 2026 06:04:12 +0000"
-  },
-  {
-    "source": "LeBigData",
-    "title": "ElevenLabs présente Flows Agent, une IA qui construit les workflows toute seule",
-    "link": "https://www.lebigdata.fr/elevenlabs-presente-flows-agent-une-ia-qui-construit-les-workflows-toute-seule",
-    "pubDate": "Fri, 05 Jun 2026 04:22:59 +0000"
-  },
-  {
-    "source": "LeBigData",
-    "title": "L'IA de Meta censée tout changer sera en retard et c'est à cause de ChatGPT ",
-    "link": "https://www.lebigdata.fr/lia-de-meta-censee-tout-changer-sera-en-retard-et-cest-a-cause-de-chatgpt",
-    "pubDate": "Fri, 05 Jun 2026 02:16:16 +0000"
   }
 ]
