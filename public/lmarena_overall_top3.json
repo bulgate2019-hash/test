@@ -1,11 +1,11 @@
 {
   "source": "https://lmarena.ai/leaderboard",
-  "generated_at_iso": "2026-06-08T10:21:32.519Z",
+  "generated_at_iso": "2026-06-09T09:27:49.929Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1502
+      "overall": 1503
     },
     {
       "rank": 2,
@@ -20,7 +20,7 @@
     {
       "rank": 4,
       "model": "claude-opus-4-7",
-      "overall": 1494
+      "overall": 1493
     },
     {
       "rank": 5,
@@ -30,26 +30,26 @@
     {
       "rank": 6,
       "model": "gemini-3.1-pro-preview",
-      "overall": 1487
+      "overall": 1488
     },
     {
       "rank": 7,
-      "model": "gemini-3-pro",
+      "model": "claude-opus-4-8-thinking",
       "overall": 1486
     },
     {
       "rank": 8,
+      "model": "gemini-3-pro",
+      "overall": 1486
+    },
+    {
+      "rank": 9,
       "model": "gpt-5.5-high",
       "overall": 1482
     },
     {
-      "rank": 9,
-      "model": "gpt-5.4-high",
-      "overall": 1480
-    },
-    {
       "rank": 10,
-      "model": "gemini-3.5-flash",
+      "model": "claude-opus-4-8",
       "overall": 1479
     }
   ],
@@ -57,7 +57,7 @@
     {
       "rank": 1,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1502
+      "overall": 1503
     },
     {
       "rank": 2,
