@@ -1,11 +1,5 @@
 [
   {
-    "source": "LeBigData",
-    "title": "Ask DoorDash : dites ce que vous avez envie de manger, l’IA se charge du reste",
-    "link": "https://www.lebigdata.fr/ask-doordash-dites-ce-que-vous-avez-envie-de-manger-lia-se-charge-du-reste",
-    "pubDate": "Thu, 11 Jun 2026 16:47:18 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "Machine unlearning : Google Research valide un test d'audit, mais pas encore sur les LLMs",
     "link": "https://www.actuia.com/actualite/machine-unlearning-google-research-valide-un-test-daudit-mais-pas-encore-sur-les-llms/",
@@ -16,24 +10,6 @@
     "title": "InnAIO veut défier Plaud avec un enregistreur IA dopé pour la traduction en temps réel",
     "link": "https://www.clubic.com/actualite-616531-innaio-veut-defier-plaud-avec-un-enregistreur-ia-dope-pour-la-traduction.html",
     "pubDate": "Thu, 11 Jun 2026 16:29:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Le jour où les GAFAM sont devenus les MANGOS",
-    "link": "https://www.clubic.com/actualite-616522-le-jour-ou-les-gafam-sont-devenus-les-mangos.html",
-    "pubDate": "Thu, 11 Jun 2026 15:46:00 GMT"
-  },
-  {
-    "source": "Presse-Citron",
-    "title": "Qui est Shakers, la plateforme espagnole pour les freelances qui veut bousculer le marché français&#160;?",
-    "link": "https://www.presse-citron.net/shakers-plateforme-espagnole-freelances-bousculer-marche-francais/",
-    "pubDate": "Thu, 11 Jun 2026 15:00:25 +0000"
-  },
-  {
-    "source": "LeBigData",
-    "title": "DiffusionGemma : l’IA de Google met un coup d’accélérateur à la génération de texte",
-    "link": "https://www.lebigdata.fr/diffusiongemma-lia-de-google-met-un-coup-daccelerateur-a-la-generation-de-texte",
-    "pubDate": "Thu, 11 Jun 2026 14:16:25 +0000"
   },
   {
     "source": "Clubic",
@@ -55,7 +31,7 @@
   },
   {
     "source": "Siècle Digital",
-    "title": "L'Europe accorde cinq jours à Meta pour laisser revenir les IA concurrentes dans WhatsApp",
+    "title": "L&#8217;Europe accorde cinq jours à Meta pour laisser revenir les IA concurrentes dans WhatsApp",
     "link": "https://siecledigital.fr/2026/06/11/leurope-accorde-cinq-jours-a-meta-pour-laisser-revenir-les-ia-concurrentes-dans-whatsapp/",
     "pubDate": "Thu, 11 Jun 2026 12:38:13 +0000"
   },
@@ -66,9 +42,33 @@
     "pubDate": "Thu, 11 Jun 2026 12:37:02 +0000"
   },
   {
-    "source": "LeBigData",
-    "title": "Mendo lève 12 millions d’euros pour accélérer le déploiement de l’IA en Europe",
-    "link": "https://www.lebigdata.fr/mendo-leve-12-millions-deuros-pour-accelerer-le-deploiement-de-lia-en-europe",
-    "pubDate": "Thu, 11 Jun 2026 11:53:28 +0000"
+    "source": "Clubic",
+    "title": "Des messages anti-IA générés avec ChatGPT : OpenAI pointe la Chine du doigt",
+    "link": "https://www.clubic.com/actualite-616357-des-messages-anti-ia-generes-avec-chatgpt-openai-pointe-la-chine-du-doigt.html",
+    "pubDate": "Thu, 11 Jun 2026 11:17:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Enfin une fonction IA qui donne envie : sur Instagram, vous pourrez dicter à l'algorithme ce que vous souhaitez voir",
+    "link": "https://www.clubic.com/actualite-616381-enfin-une-fonction-ia-qui-donne-envie-sur-instagram-vous-pourrez-dicter-a-l-algorithme-ce-que-vous-souhaitez-voir.html",
+    "pubDate": "Thu, 11 Jun 2026 09:22:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google peut-il être tenu responsable des erreurs de son IA dans Search ? Le géant prend position",
+    "link": "https://www.clubic.com/actualite-616378-google-peut-il-etre-tenu-responsable-des-erreurs-de-son-ia-dans-search-le-geant-prend-position.html",
+    "pubDate": "Thu, 11 Jun 2026 09:08:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI et Anthropic se livrent à une course contre la montre pour entrer en Bourse",
+    "link": "https://siecledigital.fr/2026/06/10/openai-et-anthropic-se-livrent-a-une-course-contre-la-montre-pour-entrer-en-bourse/",
+    "pubDate": "Wed, 10 Jun 2026 13:16:40 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Anthropic lance son IA la plus puissante, mais préfère la garder sous contrôle",
+    "link": "https://siecledigital.fr/2026/06/10/anthropic-lance-son-ia-la-plus-puissante-mais-prefere-la-garder-sous-controle/",
+    "pubDate": "Wed, 10 Jun 2026 13:11:14 +0000"
   }
 ]

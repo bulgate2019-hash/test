@@ -6,9 +6,38 @@
     "cssClass": "cat-ranking",
     "isSpecial": true,
     "tools": [
-      { "name": "LM Arena (Chatbot Arena)", "url": "https://lmarena.ai/leaderboard", "domain": "lmarena.ai", "desc": "Classement officiel en direct des meilleurs modèles IA, basé sur les votes humains.", "tags": ["free"] },
-      { "name": "Artificial Analysis", "url": "https://artificialanalysis.ai", "domain": "artificialanalysis.ai", "desc": "Comparaison technique des modèles : vitesse, prix, qualité, contexte.", "tags": ["new", "free"] },
-      { "name": "LiveBench", "url": "https://livebench.ai", "domain": "livebench.ai", "desc": "Benchmark continuellement renouvelé, anti-contamination, par Yann LeCun.", "tags": ["new", "free"] }
+      {
+        "name": "LM Arena (Chatbot Arena)",
+        "url": "https://lmarena.ai/leaderboard",
+        "domain": "lmarena.ai",
+        "desc": "Classement officiel en direct des meilleurs modèles IA, basé sur les votes humains.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Artificial Analysis",
+        "url": "https://artificialanalysis.ai",
+        "domain": "artificialanalysis.ai",
+        "desc": "Comparaison technique des modèles : vitesse, prix, qualité, contexte.",
+        "tags": [
+          "new",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "LiveBench",
+        "url": "https://livebench.ai",
+        "domain": "livebench.ai",
+        "desc": "Benchmark continuellement renouvelé, anti-contamination, par Yann LeCun.",
+        "tags": [
+          "new",
+          "free"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -17,18 +46,129 @@
     "icon": "fa-solid fa-comments",
     "cssClass": "cat-chat",
     "tools": [
-      { "name": "ChatGPT", "url": "https://chatgpt.com", "domain": "chatgpt.com", "desc": "L'assistant IA d'OpenAI, le plus populaire au monde.", "tags": ["star"] },
-      { "name": "Claude", "url": "https://claude.ai", "domain": "claude.ai", "desc": "Anthropic Claude Opus 4.7 — excellent pour le code et l'analyse longue.", "tags": ["star", "new"] },
-      { "name": "Google Gemini", "url": "https://gemini.google.com", "domain": "gemini.google.com", "desc": "Gemini 3.1 Pro — top niveau en raisonnement et code.", "tags": ["star", "new"] },
-      { "name": "Microsoft Copilot", "url": "https://copilot.microsoft.com", "domain": "copilot.microsoft.com", "desc": "Assistant IA de Microsoft, intégré à Windows et Office.", "tags": ["free"] },
-      { "name": "Le Chat (Mistral)", "url": "https://chat.mistral.ai", "domain": "mistral.ai", "desc": "IA française de Mistral, rapide et performante en français.", "tags": ["fr", "free"] },
-      { "name": "Grok (xAI)", "url": "https://grok.com", "domain": "grok.com", "desc": "IA de xAI avec accès temps réel à X/Twitter, mode Companion 3D.", "tags": [] },
-      { "name": "DeepSeek Chat", "url": "https://chat.deepseek.com", "domain": "deepseek.com", "desc": "IA chinoise puissante avec raisonnement R1, gratuit et open source.", "tags": ["star", "free"] },
-      { "name": "Qwen Chat (Alibaba)", "url": "https://chat.qwen.ai", "domain": "qwen.ai", "desc": "IA d'Alibaba, excellente en français, multilingue et code.", "tags": ["new", "free"] },
-      { "name": "Meta AI", "url": "https://www.meta.ai", "domain": "meta.ai", "desc": "IA de Meta intégrée à WhatsApp, Instagram, Facebook.", "tags": ["free"] },
-      { "name": "Perplexity", "url": "https://www.perplexity.ai", "domain": "perplexity.ai", "desc": "Moteur de recherche IA avec sources citées en temps réel.", "tags": ["star"] },
-      { "name": "Pi (Inflection)", "url": "https://pi.ai", "domain": "pi.ai", "desc": "IA conversationnelle empathique, conçue pour les discussions personnelles.", "tags": ["free"] },
-      { "name": "HuggingChat", "url": "https://huggingface.co/chat", "domain": "huggingface.co", "desc": "Chatbot open source avec accès à de nombreux modèles libres.", "tags": ["free"] }
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "domain": "chatgpt.com",
+        "desc": "L'assistant IA d'OpenAI, le plus populaire au monde.",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "domain": "claude.ai",
+        "desc": "Anthropic Claude Opus 4.7 — excellent pour le code et l'analyse longue.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com",
+        "domain": "gemini.google.com",
+        "desc": "Gemini 3.1 Pro — top niveau en raisonnement et code.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Microsoft Copilot",
+        "url": "https://copilot.microsoft.com",
+        "domain": "copilot.microsoft.com",
+        "desc": "Assistant IA de Microsoft, intégré à Windows et Office.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Le Chat (Mistral)",
+        "url": "https://chat.mistral.ai",
+        "domain": "mistral.ai",
+        "desc": "IA française de Mistral, rapide et performante en français.",
+        "tags": [
+          "fr",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Grok (xAI)",
+        "url": "https://grok.com",
+        "domain": "grok.com",
+        "desc": "IA de xAI avec accès temps réel à X/Twitter, mode Companion 3D.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "DeepSeek Chat",
+        "url": "https://chat.deepseek.com",
+        "domain": "deepseek.com",
+        "desc": "IA chinoise puissante avec raisonnement R1, gratuit et open source.",
+        "tags": [
+          "star",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Qwen Chat (Alibaba)",
+        "url": "https://chat.qwen.ai",
+        "domain": "qwen.ai",
+        "desc": "IA d'Alibaba, excellente en français, multilingue et code.",
+        "tags": [
+          "new",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Meta AI",
+        "url": "https://www.meta.ai",
+        "domain": "meta.ai",
+        "desc": "IA de Meta intégrée à WhatsApp, Instagram, Facebook.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai",
+        "domain": "perplexity.ai",
+        "desc": "Moteur de recherche IA avec sources citées en temps réel.",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Pi (Inflection)",
+        "url": "https://pi.ai",
+        "domain": "pi.ai",
+        "desc": "IA conversationnelle empathique, conçue pour les discussions personnelles.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "HuggingChat",
+        "url": "https://huggingface.co/chat",
+        "domain": "huggingface.co",
+        "desc": "Chatbot open source avec accès à de nombreux modèles libres.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -37,12 +177,69 @@
     "icon": "fa-solid fa-robot",
     "cssClass": "cat-agent",
     "tools": [
-      { "name": "ChatGPT Agent", "url": "https://chatgpt.com", "domain": "chatgpt.com", "desc": "Agent OpenAI qui navigue, clique et accomplit des tâches en autonomie.", "tags": ["star", "new"] },
-      { "name": "Claude Computer Use", "url": "https://claude.ai", "domain": "claude.ai", "desc": "Agent Anthropic capable de contrôler ton ordinateur via captures écran.", "tags": ["star", "new"] },
-      { "name": "Operator (OpenAI)", "url": "https://operator.chatgpt.com", "domain": "operator.chatgpt.com", "desc": "Agent web qui navigue, remplit formulaires et réserve pour toi.", "tags": ["new"] },
-      { "name": "Manus AI", "url": "https://manus.im", "domain": "manus.im", "desc": "Agent IA autonome chinois pour recherche, analyse et création.", "tags": ["new"] },
-      { "name": "Devin (Cognition)", "url": "https://devin.ai", "domain": "devin.ai", "desc": "Le premier ingénieur logiciel IA autonome — fait tout un projet seul.", "tags": ["new"] },
-      { "name": "Browser Use", "url": "https://browser-use.com", "domain": "browser-use.com", "desc": "Framework open source pour créer des agents qui pilotent le navigateur.", "tags": ["new", "free"] }
+      {
+        "name": "ChatGPT Agent",
+        "url": "https://chatgpt.com",
+        "domain": "chatgpt.com",
+        "desc": "Agent OpenAI qui navigue, clique et accomplit des tâches en autonomie.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Claude Computer Use",
+        "url": "https://claude.ai",
+        "domain": "claude.ai",
+        "desc": "Agent Anthropic capable de contrôler ton ordinateur via captures écran.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Operator (OpenAI)",
+        "url": "https://operator.chatgpt.com",
+        "domain": "operator.chatgpt.com",
+        "desc": "Agent web qui navigue, remplit formulaires et réserve pour toi.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Manus AI",
+        "url": "https://manus.im",
+        "domain": "manus.im",
+        "desc": "Agent IA autonome chinois pour recherche, analyse et création.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Devin (Cognition)",
+        "url": "https://devin.ai",
+        "domain": "devin.ai",
+        "desc": "Le premier ingénieur logiciel IA autonome — fait tout un projet seul.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Browser Use",
+        "url": "https://browser-use.com",
+        "domain": "browser-use.com",
+        "desc": "Framework open source pour créer des agents qui pilotent le navigateur.",
+        "tags": [
+          "new",
+          "free"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -51,16 +248,107 @@
     "icon": "fa-solid fa-code",
     "cssClass": "cat-dev",
     "tools": [
-      { "name": "Cursor", "url": "https://cursor.com", "domain": "cursor.com", "desc": "L'éditeur de code IA n°1 actuellement, fork de VS Code.", "tags": ["star", "new"] },
-      { "name": "Claude Code", "url": "https://claude.com/claude-code", "domain": "claude.com", "desc": "Outil CLI d'Anthropic pour coder en autonomie depuis le terminal.", "tags": ["star", "new"] },
-      { "name": "GitHub Copilot", "url": "https://github.com/features/copilot", "domain": "github.com", "desc": "Autocomplétion IA dans VS Code, JetBrains, Vim. Gratuit pour étudiants.", "tags": ["star"] },
-      { "name": "Windsurf (Codeium)", "url": "https://codeium.com/windsurf", "domain": "codeium.com", "desc": "Concurrent direct de Cursor par Codeium, racheté par OpenAI.", "tags": ["new"] },
-      { "name": "v0 (Vercel)", "url": "https://v0.dev", "domain": "v0.dev", "desc": "Génère des composants UI React/Next.js à partir d'un prompt texte.", "tags": ["star", "new"] },
-      { "name": "Bolt.new", "url": "https://bolt.new", "domain": "bolt.new", "desc": "Crée des applications full-stack complètes depuis un simple prompt.", "tags": ["new"] },
-      { "name": "Lovable", "url": "https://lovable.dev", "domain": "lovable.dev", "desc": "No-code IA — décris ton app, Lovable la code, déploie et héberge.", "tags": ["new"] },
-      { "name": "Replit Agent", "url": "https://replit.com", "domain": "replit.com", "desc": "Dev cloud avec agent IA qui crée des projets de zéro.", "tags": ["new"] },
-      { "name": "Tabnine", "url": "https://www.tabnine.com", "domain": "tabnine.com", "desc": "Assistant IA pour code, alternative à Copilot orientée entreprise.", "tags": [] },
-      { "name": "Google Colab", "url": "https://colab.research.google.com", "domain": "colab.research.google.com", "desc": "Notebooks Python cloud avec GPU gratuit pour Machine Learning.", "tags": ["free"] }
+      {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "domain": "cursor.com",
+        "desc": "L'éditeur de code IA n°1 actuellement, fork de VS Code.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Claude Code",
+        "url": "https://claude.com/claude-code",
+        "domain": "claude.com",
+        "desc": "Outil CLI d'Anthropic pour coder en autonomie depuis le terminal.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "GitHub Copilot",
+        "url": "https://github.com/features/copilot",
+        "domain": "github.com",
+        "desc": "Autocomplétion IA dans VS Code, JetBrains, Vim. Gratuit pour étudiants.",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Windsurf (Codeium)",
+        "url": "https://codeium.com/windsurf",
+        "domain": "codeium.com",
+        "desc": "Concurrent direct de Cursor par Codeium, racheté par OpenAI.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "v0 (Vercel)",
+        "url": "https://v0.dev",
+        "domain": "v0.dev",
+        "desc": "Génère des composants UI React/Next.js à partir d'un prompt texte.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Bolt.new",
+        "url": "https://bolt.new",
+        "domain": "bolt.new",
+        "desc": "Crée des applications full-stack complètes depuis un simple prompt.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Lovable",
+        "url": "https://lovable.dev",
+        "domain": "lovable.dev",
+        "desc": "No-code IA — décris ton app, Lovable la code, déploie et héberge.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Replit Agent",
+        "url": "https://replit.com",
+        "domain": "replit.com",
+        "desc": "Dev cloud avec agent IA qui crée des projets de zéro.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "domain": "tabnine.com",
+        "desc": "Assistant IA pour code, alternative à Copilot orientée entreprise.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Google Colab",
+        "url": "https://colab.research.google.com",
+        "domain": "colab.research.google.com",
+        "desc": "Notebooks Python cloud avec GPU gratuit pour Machine Learning.",
+        "tags": [
+          "free"
+        ],
+        "failures": 1
+      }
     ]
   },
   {
@@ -69,16 +357,106 @@
     "icon": "fa-solid fa-image",
     "cssClass": "cat-image",
     "tools": [
-      { "name": "Midjourney", "url": "https://www.midjourney.com", "domain": "midjourney.com", "desc": "Référence artistique et photoréaliste de très haute qualité.", "tags": ["star"] },
-      { "name": "Ideogram", "url": "https://ideogram.ai", "domain": "ideogram.ai", "desc": "Le meilleur pour les images contenant du texte lisible.", "tags": ["star", "new"] },
-      { "name": "Flux (BFL)", "url": "https://blackforestlabs.ai", "domain": "blackforestlabs.ai", "desc": "Modèle open source de référence depuis 2024 par Black Forest Labs.", "tags": ["star", "new"] },
-      { "name": "Nano Banana 2", "url": "https://gemini.google.com", "domain": "gemini.google.com", "desc": "Gemini Image 3.1 Flash — génération et édition d'images Google.", "tags": ["new"] },
-      { "name": "Leonardo.Ai", "url": "https://leonardo.ai", "domain": "leonardo.ai", "desc": "Plateforme complète pour créateurs avec contrôle fin du style.", "tags": [] },
-      { "name": "Krea AI", "url": "https://krea.ai", "domain": "krea.ai", "desc": "Génération en temps réel pendant que tu tapes ton prompt.", "tags": ["new"] },
-      { "name": "Adobe Firefly", "url": "https://firefly.adobe.com", "domain": "firefly.adobe.com", "desc": "IA d'Adobe, intégrée Photoshop. Copyright safe pour usage commercial.", "tags": ["new"] },
-      { "name": "Recraft", "url": "https://recraft.ai", "domain": "recraft.ai", "desc": "Spécialisé design vectoriel, logos, illustrations professionnelles.", "tags": ["new"] },
-      { "name": "Civitai", "url": "https://civitai.com", "domain": "civitai.com", "desc": "Hub communautaire de modèles Stable Diffusion gratuits.", "tags": ["free"] },
-      { "name": "Stability AI", "url": "https://stability.ai", "domain": "stability.ai", "desc": "Créateur de Stable Diffusion, modèles open source pour les pros.", "tags": ["free"] }
+      {
+        "name": "Midjourney",
+        "url": "https://www.midjourney.com",
+        "domain": "midjourney.com",
+        "desc": "Référence artistique et photoréaliste de très haute qualité.",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Ideogram",
+        "url": "https://ideogram.ai",
+        "domain": "ideogram.ai",
+        "desc": "Le meilleur pour les images contenant du texte lisible.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Flux (BFL)",
+        "url": "https://blackforestlabs.ai",
+        "domain": "blackforestlabs.ai",
+        "desc": "Modèle open source de référence depuis 2024 par Black Forest Labs.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Nano Banana 2",
+        "url": "https://gemini.google.com",
+        "domain": "gemini.google.com",
+        "desc": "Gemini Image 3.1 Flash — génération et édition d'images Google.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Leonardo.Ai",
+        "url": "https://leonardo.ai",
+        "domain": "leonardo.ai",
+        "desc": "Plateforme complète pour créateurs avec contrôle fin du style.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Krea AI",
+        "url": "https://krea.ai",
+        "domain": "krea.ai",
+        "desc": "Génération en temps réel pendant que tu tapes ton prompt.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Adobe Firefly",
+        "url": "https://firefly.adobe.com",
+        "domain": "firefly.adobe.com",
+        "desc": "IA d'Adobe, intégrée Photoshop. Copyright safe pour usage commercial.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Recraft",
+        "url": "https://recraft.ai",
+        "domain": "recraft.ai",
+        "desc": "Spécialisé design vectoriel, logos, illustrations professionnelles.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Civitai",
+        "url": "https://civitai.com",
+        "domain": "civitai.com",
+        "desc": "Hub communautaire de modèles Stable Diffusion gratuits.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Stability AI",
+        "url": "https://stability.ai",
+        "domain": "stability.ai",
+        "desc": "Créateur de Stable Diffusion, modèles open source pour les pros.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -87,16 +465,103 @@
     "icon": "fa-solid fa-video",
     "cssClass": "cat-video",
     "tools": [
-      { "name": "Runway Gen-4", "url": "https://runwayml.com", "domain": "runwayml.com", "desc": "Le leader historique de la vidéo IA, qualité cinématographique.", "tags": ["star", "new"] },
-      { "name": "Sora (OpenAI)", "url": "https://sora.com", "domain": "sora.com", "desc": "Génération vidéo d'OpenAI, qualité photoréaliste, prompts complexes.", "tags": ["star", "new"] },
-      { "name": "Veo 3.1 (Google)", "url": "https://labs.google/fx/tools/flow", "domain": "labs.google", "desc": "Veo 3.1 de Google avec audio synchronisé intégré.", "tags": ["star", "new"] },
-      { "name": "Kling", "url": "https://klingai.com", "domain": "klingai.com", "desc": "IA chinoise de Kuaishou, vidéos longues réalistes jusqu'à 2 min.", "tags": [] },
-      { "name": "Luma Dream Machine", "url": "https://dream-machine.lumalabs.ai", "domain": "lumalabs.ai", "desc": "Génère des vidéos de qualité depuis texte ou image.", "tags": [] },
-      { "name": "Pika Labs", "url": "https://pika.art", "domain": "pika.art", "desc": "Création vidéo avec effets spéciaux Pikaffects et lipsync.", "tags": ["new"] },
-      { "name": "HailuoAI (MiniMax)", "url": "https://hailuoai.video", "domain": "hailuoai.video", "desc": "IA vidéo chinoise très performante et économique.", "tags": ["new"] },
-      { "name": "HeyGen", "url": "https://heygen.com", "domain": "heygen.com", "desc": "Avatars IA parlants pour vidéos pro, traduction automatique.", "tags": ["new"] },
-      { "name": "Synthesia", "url": "https://synthesia.io", "domain": "synthesia.io", "desc": "Avatars IA pour formations et vidéos d'entreprise.", "tags": [] },
-      { "name": "Hedra", "url": "https://hedra.com", "domain": "hedra.com", "desc": "Génère des personnages parlants depuis une image et un audio.", "tags": ["new"] }
+      {
+        "name": "Runway Gen-4",
+        "url": "https://runwayml.com",
+        "domain": "runwayml.com",
+        "desc": "Le leader historique de la vidéo IA, qualité cinématographique.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Sora (OpenAI)",
+        "url": "https://sora.com",
+        "domain": "sora.com",
+        "desc": "Génération vidéo d'OpenAI, qualité photoréaliste, prompts complexes.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Veo 3.1 (Google)",
+        "url": "https://labs.google/fx/tools/flow",
+        "domain": "labs.google",
+        "desc": "Veo 3.1 de Google avec audio synchronisé intégré.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Kling",
+        "url": "https://klingai.com",
+        "domain": "klingai.com",
+        "desc": "IA chinoise de Kuaishou, vidéos longues réalistes jusqu'à 2 min.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Luma Dream Machine",
+        "url": "https://dream-machine.lumalabs.ai",
+        "domain": "lumalabs.ai",
+        "desc": "Génère des vidéos de qualité depuis texte ou image.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Pika Labs",
+        "url": "https://pika.art",
+        "domain": "pika.art",
+        "desc": "Création vidéo avec effets spéciaux Pikaffects et lipsync.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "HailuoAI (MiniMax)",
+        "url": "https://hailuoai.video",
+        "domain": "hailuoai.video",
+        "desc": "IA vidéo chinoise très performante et économique.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "HeyGen",
+        "url": "https://heygen.com",
+        "domain": "heygen.com",
+        "desc": "Avatars IA parlants pour vidéos pro, traduction automatique.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Synthesia",
+        "url": "https://synthesia.io",
+        "domain": "synthesia.io",
+        "desc": "Avatars IA pour formations et vidéos d'entreprise.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Hedra",
+        "url": "https://hedra.com",
+        "domain": "hedra.com",
+        "desc": "Génère des personnages parlants depuis une image et un audio.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -105,11 +570,50 @@
     "icon": "fa-solid fa-music",
     "cssClass": "cat-music",
     "tools": [
-      { "name": "Suno AI", "url": "https://www.suno.ai", "domain": "suno.ai", "desc": "Génère des chansons complètes (paroles + instruments + voix).", "tags": ["star"] },
-      { "name": "Udio", "url": "https://www.udio.com", "domain": "udio.com", "desc": "Concurrent de Suno avec contrôles avancés de structure musicale.", "tags": [] },
-      { "name": "Stable Audio", "url": "https://stableaudio.com", "domain": "stableaudio.com", "desc": "Génération de musique et effets sonores par Stability AI.", "tags": ["new"] },
-      { "name": "AIVA", "url": "https://www.aiva.ai", "domain": "aiva.ai", "desc": "Composition musicale IA orientée musique de film et orchestrale.", "tags": [] },
-      { "name": "Soundraw", "url": "https://soundraw.io", "domain": "soundraw.io", "desc": "Génération de musique royalty-free pour vidéos et podcasts.", "tags": [] }
+      {
+        "name": "Suno AI",
+        "url": "https://www.suno.ai",
+        "domain": "suno.ai",
+        "desc": "Génère des chansons complètes (paroles + instruments + voix).",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Udio",
+        "url": "https://www.udio.com",
+        "domain": "udio.com",
+        "desc": "Concurrent de Suno avec contrôles avancés de structure musicale.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Stable Audio",
+        "url": "https://stableaudio.com",
+        "domain": "stableaudio.com",
+        "desc": "Génération de musique et effets sonores par Stability AI.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "AIVA",
+        "url": "https://www.aiva.ai",
+        "domain": "aiva.ai",
+        "desc": "Composition musicale IA orientée musique de film et orchestrale.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Soundraw",
+        "url": "https://soundraw.io",
+        "domain": "soundraw.io",
+        "desc": "Génération de musique royalty-free pour vidéos et podcasts.",
+        "tags": [],
+        "failures": 0
+      }
     ]
   },
   {
@@ -118,12 +622,61 @@
     "icon": "fa-solid fa-microphone",
     "cssClass": "cat-voice",
     "tools": [
-      { "name": "ElevenLabs", "url": "https://elevenlabs.io", "domain": "elevenlabs.io", "desc": "Référence mondiale en synthèse vocale ultra-réaliste, clonage de voix.", "tags": ["star", "new"] },
-      { "name": "OpenAI Voice", "url": "https://platform.openai.com", "domain": "platform.openai.com", "desc": "Synthèse vocale d'OpenAI, intégrée à ChatGPT Advanced Voice.", "tags": ["new"] },
-      { "name": "Play.ht", "url": "https://play.ht", "domain": "play.ht", "desc": "Voix IA réalistes en plus de 130 langues pour podcasts et vidéos.", "tags": [] },
-      { "name": "Resemble AI", "url": "https://www.resemble.ai", "domain": "resemble.ai", "desc": "Clonage de voix professionnel et synthèse vocale émotionnelle.", "tags": [] },
-      { "name": "Speechify", "url": "https://speechify.com", "domain": "speechify.com", "desc": "Lecteur vocal IA pour transformer textes/PDF/livres en audio.", "tags": [] },
-      { "name": "Coqui TTS", "url": "https://coqui.ai", "domain": "coqui.ai", "desc": "Synthèse vocale open source, idéale pour usage local et privé.", "tags": ["free"] }
+      {
+        "name": "ElevenLabs",
+        "url": "https://elevenlabs.io",
+        "domain": "elevenlabs.io",
+        "desc": "Référence mondiale en synthèse vocale ultra-réaliste, clonage de voix.",
+        "tags": [
+          "star",
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "OpenAI Voice",
+        "url": "https://platform.openai.com",
+        "domain": "platform.openai.com",
+        "desc": "Synthèse vocale d'OpenAI, intégrée à ChatGPT Advanced Voice.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Play.ht",
+        "url": "https://play.ht",
+        "domain": "play.ht",
+        "desc": "Voix IA réalistes en plus de 130 langues pour podcasts et vidéos.",
+        "tags": [],
+        "failures": 1
+      },
+      {
+        "name": "Resemble AI",
+        "url": "https://www.resemble.ai",
+        "domain": "resemble.ai",
+        "desc": "Clonage de voix professionnel et synthèse vocale émotionnelle.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Speechify",
+        "url": "https://speechify.com",
+        "domain": "speechify.com",
+        "desc": "Lecteur vocal IA pour transformer textes/PDF/livres en audio.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Coqui TTS",
+        "url": "https://coqui.ai",
+        "domain": "coqui.ai",
+        "desc": "Synthèse vocale open source, idéale pour usage local et privé.",
+        "tags": [
+          "free"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -132,13 +685,79 @@
     "icon": "fa-solid fa-lightbulb",
     "cssClass": "cat-research",
     "tools": [
-      { "name": "NotebookLM", "url": "https://notebooklm.google.com", "domain": "notebooklm.google.com", "desc": "Analyse PDF/docs + génère des podcasts audio. Killer feature.", "tags": ["star", "new", "free"] },
-      { "name": "You.com", "url": "https://you.com", "domain": "you.com", "desc": "Moteur de recherche IA avec agents et personnalisation.", "tags": ["new"] },
-      { "name": "Phind", "url": "https://www.phind.com", "domain": "phind.com", "desc": "Moteur de recherche IA spécialisé pour développeurs.", "tags": ["new", "free"] },
-      { "name": "Notion AI", "url": "https://www.notion.so/product/ai", "domain": "notion.so", "desc": "IA intégrée à Notion pour notes, résumés, génération de contenu.", "tags": ["new"] },
-      { "name": "Otter.ai", "url": "https://otter.ai", "domain": "otter.ai", "desc": "Transcription automatique de réunions avec résumés et actions.", "tags": ["new"] },
-      { "name": "Fireflies.ai", "url": "https://fireflies.ai", "domain": "fireflies.ai", "desc": "Assistant IA qui rejoint et résume tes meetings Zoom/Meet/Teams.", "tags": ["new"] },
-      { "name": "Consensus", "url": "https://consensus.app", "domain": "consensus.app", "desc": "Moteur de recherche IA pour articles scientifiques peer-reviewed.", "tags": ["new"] }
+      {
+        "name": "NotebookLM",
+        "url": "https://notebooklm.google.com",
+        "domain": "notebooklm.google.com",
+        "desc": "Analyse PDF/docs + génère des podcasts audio. Killer feature.",
+        "tags": [
+          "star",
+          "new",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "You.com",
+        "url": "https://you.com",
+        "domain": "you.com",
+        "desc": "Moteur de recherche IA avec agents et personnalisation.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Phind",
+        "url": "https://www.phind.com",
+        "domain": "phind.com",
+        "desc": "Moteur de recherche IA spécialisé pour développeurs.",
+        "tags": [
+          "new",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Notion AI",
+        "url": "https://www.notion.so/product/ai",
+        "domain": "notion.so",
+        "desc": "IA intégrée à Notion pour notes, résumés, génération de contenu.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Otter.ai",
+        "url": "https://otter.ai",
+        "domain": "otter.ai",
+        "desc": "Transcription automatique de réunions avec résumés et actions.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Fireflies.ai",
+        "url": "https://fireflies.ai",
+        "domain": "fireflies.ai",
+        "desc": "Assistant IA qui rejoint et résume tes meetings Zoom/Meet/Teams.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Consensus",
+        "url": "https://consensus.app",
+        "domain": "consensus.app",
+        "desc": "Moteur de recherche IA pour articles scientifiques peer-reviewed.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      }
     ]
   },
   {
@@ -147,15 +766,92 @@
     "icon": "fa-solid fa-server",
     "cssClass": "cat-platform",
     "tools": [
-      { "name": "Hugging Face", "url": "https://huggingface.co", "domain": "huggingface.co", "desc": "Hub n°1 des modèles open source, datasets et démos.", "tags": ["star", "free"] },
-      { "name": "OpenRouter", "url": "https://openrouter.ai", "domain": "openrouter.ai", "desc": "API unifiée pour accéder à tous les modèles (GPT, Claude, Gemini, etc).", "tags": ["star"] },
-      { "name": "Replicate", "url": "https://replicate.com", "domain": "replicate.com", "desc": "Exécute n'importe quel modèle open source via API simple.", "tags": ["new"] },
-      { "name": "Together AI", "url": "https://together.ai", "domain": "together.ai", "desc": "Inférence très rapide pour modèles open source.", "tags": ["new"] },
-      { "name": "Fal.ai", "url": "https://fal.ai", "domain": "fal.ai", "desc": "Inférence ultra-rapide spécialisée image et vidéo.", "tags": ["new"] },
-      { "name": "Groq Console", "url": "https://console.groq.com", "domain": "groq.com", "desc": "Inférence ultra-rapide sur puces LPU (jusqu'à 1000 tok/sec).", "tags": [] },
-      { "name": "Google AI Studio", "url": "https://aistudio.google.com", "domain": "aistudio.google.com", "desc": "Studio Google pour prototyper avec Gemini, gratuit jusqu'à 1000 req/jour.", "tags": ["star", "free"] },
-      { "name": "Vertex AI Studio", "url": "https://console.cloud.google.com/vertex-ai/studio/", "domain": "cloud.google.com", "desc": "Plateforme Google Cloud pour personnaliser et déployer des IA.", "tags": [] },
-      { "name": "Poe (Quora)", "url": "https://poe.com", "domain": "poe.com", "desc": "Accès à plein de chatbots (Claude, GPT, Gemini) en un seul lieu.", "tags": [] }
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "domain": "huggingface.co",
+        "desc": "Hub n°1 des modèles open source, datasets et démos.",
+        "tags": [
+          "star",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai",
+        "domain": "openrouter.ai",
+        "desc": "API unifiée pour accéder à tous les modèles (GPT, Claude, Gemini, etc).",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Replicate",
+        "url": "https://replicate.com",
+        "domain": "replicate.com",
+        "desc": "Exécute n'importe quel modèle open source via API simple.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Together AI",
+        "url": "https://together.ai",
+        "domain": "together.ai",
+        "desc": "Inférence très rapide pour modèles open source.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Fal.ai",
+        "url": "https://fal.ai",
+        "domain": "fal.ai",
+        "desc": "Inférence ultra-rapide spécialisée image et vidéo.",
+        "tags": [
+          "new"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Groq Console",
+        "url": "https://console.groq.com",
+        "domain": "groq.com",
+        "desc": "Inférence ultra-rapide sur puces LPU (jusqu'à 1000 tok/sec).",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Google AI Studio",
+        "url": "https://aistudio.google.com",
+        "domain": "aistudio.google.com",
+        "desc": "Studio Google pour prototyper avec Gemini, gratuit jusqu'à 1000 req/jour.",
+        "tags": [
+          "star",
+          "free"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Vertex AI Studio",
+        "url": "https://console.cloud.google.com/vertex-ai/studio/",
+        "domain": "cloud.google.com",
+        "desc": "Plateforme Google Cloud pour personnaliser et déployer des IA.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "Poe (Quora)",
+        "url": "https://poe.com",
+        "domain": "poe.com",
+        "desc": "Accès à plein de chatbots (Claude, GPT, Gemini) en un seul lieu.",
+        "tags": [],
+        "failures": 0
+      }
     ]
   },
   {
@@ -164,11 +860,52 @@
     "icon": "fa-solid fa-book",
     "cssClass": "cat-resource",
     "tools": [
-      { "name": "There's An AI For That", "url": "https://theresanaiforthat.com", "domain": "theresanaiforthat.com", "desc": "Le plus grand annuaire d'outils IA classés par cas d'usage.", "tags": ["star"] },
-      { "name": "Futurepedia", "url": "https://www.futurepedia.io", "domain": "futurepedia.io", "desc": "Catalogue maintenu d'outils IA avec critiques et catégories.", "tags": [] },
-      { "name": "AIxploria", "url": "https://www.aixploria.com", "domain": "aixploria.com", "desc": "Plateforme française d'exploration des IA, actualités et guides.", "tags": ["fr"] },
-      { "name": "ChatGPT.fr (iA Finder)", "url": "https://www.chatgpt.fr/ia-finder", "domain": "chatgpt.fr", "desc": "Passerelle française vers les plateformes et modèles IA.", "tags": ["fr"] },
-      { "name": "1min.ai", "url": "https://app.1min.ai", "domain": "1min.ai", "desc": "Plateforme pour créer rapidement du contenu IA en 1 minute.", "tags": [] }
+      {
+        "name": "There's An AI For That",
+        "url": "https://theresanaiforthat.com",
+        "domain": "theresanaiforthat.com",
+        "desc": "Le plus grand annuaire d'outils IA classés par cas d'usage.",
+        "tags": [
+          "star"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "Futurepedia",
+        "url": "https://www.futurepedia.io",
+        "domain": "futurepedia.io",
+        "desc": "Catalogue maintenu d'outils IA avec critiques et catégories.",
+        "tags": [],
+        "failures": 0
+      },
+      {
+        "name": "AIxploria",
+        "url": "https://www.aixploria.com",
+        "domain": "aixploria.com",
+        "desc": "Plateforme française d'exploration des IA, actualités et guides.",
+        "tags": [
+          "fr"
+        ],
+        "failures": 0
+      },
+      {
+        "name": "ChatGPT.fr (iA Finder)",
+        "url": "https://www.chatgpt.fr/ia-finder",
+        "domain": "chatgpt.fr",
+        "desc": "Passerelle française vers les plateformes et modèles IA.",
+        "tags": [
+          "fr"
+        ],
+        "failures": 1
+      },
+      {
+        "name": "1min.ai",
+        "url": "https://app.1min.ai",
+        "domain": "1min.ai",
+        "desc": "Plateforme pour créer rapidement du contenu IA en 1 minute.",
+        "tags": [],
+        "failures": 0
+      }
     ]
   }
 ]
