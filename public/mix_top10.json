@@ -1,71 +1,44 @@
 {
-  "generated_at_iso": "2026-06-11T17:39:34.193Z",
+  "generated_at_iso": "2026-06-12T15:57:14.002Z",
   "top10_mix": [
     {
       "rank": 1,
-      "model": "claude-fable-5",
+      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "score": 100,
-      "coverage": 1,
+      "coverage": 2,
       "lmarena": {
         "elo": 1510
       }
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
-      "score": 83.7,
-      "coverage": 1,
+      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+      "score": 46.9,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1504
+        "elo": 1477
       }
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7-thinking",
-      "score": 80,
-      "coverage": 1,
+      "model": "Gemini 3.1 Pro Preview",
+      "score": 43.3,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1502
+        "elo": 1487
       }
     },
     {
       "rank": 4,
-      "model": "claude-opus-4-6",
-      "score": 69.9,
-      "coverage": 1,
+      "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
+      "score": 40.8,
+      "coverage": 2,
       "lmarena": {
         "elo": 1498
       }
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-7",
-      "score": 56.4,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1492
-      }
-    },
-    {
-      "rank": 6,
-      "model": "muse-spark",
-      "score": 43.3,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1487
-      }
-    },
-    {
-      "rank": 7,
-      "model": "gemini-3.1-pro-preview",
-      "score": 43.3,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1487
-      }
-    },
-    {
-      "rank": 8,
       "model": "gemini-3-pro",
       "score": 40.4,
       "coverage": 1,
@@ -74,21 +47,48 @@
       }
     },
     {
-      "rank": 9,
-      "model": "claude-opus-4-8-thinking",
-      "score": 39.8,
-      "coverage": 1,
+      "rank": 6,
+      "model": "GPT-5.4 (xhigh)",
+      "score": 32,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1486
+        "elo": 1479
+      }
+    },
+    {
+      "rank": 7,
+      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+      "score": 30.1,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1492
+      }
+    },
+    {
+      "rank": 8,
+      "model": "Qwen3.7 Max",
+      "score": 25.5,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1474
+      }
+    },
+    {
+      "rank": 9,
+      "model": "GPT-5.5 (medium)",
+      "score": 25.3,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1474
       }
     },
     {
       "rank": 10,
-      "model": "gpt-5.5-high",
-      "score": 27.8,
-      "coverage": 1,
+      "model": "Muse Spark",
+      "score": 25,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1481
+        "elo": 1487
       }
     }
   ]

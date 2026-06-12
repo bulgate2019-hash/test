@@ -347,7 +347,7 @@
         "tags": [
           "free"
         ],
-        "failures": 1
+        "failures": 2
       }
     ]
   },
@@ -649,7 +649,7 @@
         "domain": "play.ht",
         "desc": "Voix IA réalistes en plus de 130 langues pour podcasts et vidéos.",
         "tags": [],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "Resemble AI",
@@ -896,7 +896,7 @@
         "tags": [
           "fr"
         ],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "1min.ai",
