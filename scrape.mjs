@@ -8,7 +8,7 @@ const POIDS_HUMAIN = 0.5;
 const POIDS_BENCH = 0.5;
 const TAILLE_POOL = 25;
 
-const LMARENA_API_BASE = "https://datasets-server.huggingface.co/rows?dataset=lmarena-ai/leaderboard-dataset&config=text_style_control&split=latest";
+const LMARENA_API = "https://datasets-server.huggingface.co/first-rows?dataset=lmarena-ai/leaderboard-dataset&config=text_style_control&split=latest";
 const LMARENA_PAGE = "https://lmarena.ai/leaderboard";
 const AA_API = "https://artificialanalysis.ai/api/v2/data/llms/models";
 const AA_PAGE = "https://artificialanalysis.ai/";
@@ -84,14 +84,11 @@ async function recupererActus() {
 
 /* ==================== 2) Classements (LM Arena & AA) ==================== */
 async function recupererLmArena() {
-  const lignes = [];
-  for (let page = 0; page < 3; page++) {
-    const url = `${LMARENA_API_BASE}&offset=${page * 100}&length=100`;
-    const reponse = await fetchAvecReprises(url);
-    const json = await reponse.json();
-    lignes.push(...(json.rows ?? []).map((r) => r.row).filter((l) => l?.category === "overall" && l.model_name));
-    if (lignes.length >= TAILLE_POOL) break;
-  }
+  const reponse = await fetchAvecReprises(LMARENA_API);
+  const json = await reponse.json();
+  const lignes = (json.rows ?? [])
+    .map((r) => r.row)
+    .filter((l) => l?.category === "overall" && l.model_name);
   lignes.sort((a, b) => a.rank - b.rank);
   const pool = lignes.slice(0, TAILLE_POOL).map((l) => ({ model: l.model_name, elo: +l.rating, rank: l.rank }));
   const top10 = pool.slice(0, 10).map((m) => ({ rank: m.rank, model: m.model, overall: Math.round(m.elo) }));
@@ -109,17 +106,55 @@ async function recupererArtificialAnalysis() {
 }
 
 /* ==================== 3) Mix, Annuaire (Ping) & Radar ==================== */
+// Clé de correspondance robuste entre les deux sources :
+// on ignore les parenthèses et les suffixes de variante (thinking, high, preview...)
+// pour que "claude-opus-4-6-thinking" <-> "Claude Opus 4.6" se reconnaissent.
+const MOTS_VARIANTE = new Set(["thinking","think","high","low","medium","minimal","max","effort","adaptive","reasoning","reasoner","standard","default","latest","preview","exp","experimental","beta","instruct","chat","it","tuned"]);
+function cleNormalisee(nom) {
+  const s = String(nom ?? "").toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9]+/g, " ").trim();
+  return s.split(/\s+/).filter((t) => t && !MOTS_VARIANTE.has(t)).join("");
+}
+
 function construireMix(poolHumain, poolBench) {
   const normaliseur = (valeurs) => {
+    if (valeurs.length === 0) return () => 0;
     const min = Math.min(...valeurs), max = Math.max(...valeurs);
     return (v) => (max === min ? 100 : ((v - min) / (max - min)) * 100);
   };
+
   const normHumain = normaliseur(poolHumain.map((m) => m.elo));
-  const lignes = poolHumain.slice(0, 10).map((lm, i) => {
-    const nH = normHumain(lm.elo);
-    return { rank: i + 1, model: lm.model, score: arrondi1(nH), coverage: 1, lmarena: { elo: Math.round(lm.elo) } };
+  const normBench = normaliseur(poolBench.map((m) => m.index));
+
+  const mapModeles = new Map();
+
+  poolHumain.forEach((m) => {
+    const cle = cleNormalisee(m.model);
+    mapModeles.set(cle, { nomOriginal: m.model, scoreHumain: normHumain(m.elo), scoreBench: 0, coverage: 1, lmarena: { elo: Math.round(m.elo) } });
   });
-  return { generated_at_iso: MAINTENANT_ISO, top10_mix: lignes };
+
+  poolBench.forEach((m) => {
+    const cle = cleNormalisee(m.name);
+    if (mapModeles.has(cle)) {
+      const existant = mapModeles.get(cle);
+      existant.scoreBench = normBench(m.index);
+      existant.coverage = 2;
+      // on garde le nom AA (plus lisible) une fois apparié
+      existant.nomOriginal = m.name;
+    } else {
+      mapModeles.set(cle, { nomOriginal: m.name, scoreHumain: 0, scoreBench: normBench(m.index), coverage: 1, lmarena: null });
+    }
+  });
+
+  const mix = Array.from(mapModeles.values()).map((m) => {
+    const scoreFinal = (m.coverage === 2)
+      ? (m.scoreHumain * POIDS_HUMAIN) + (m.scoreBench * POIDS_BENCH)
+      : (m.scoreHumain > 0 ? m.scoreHumain : m.scoreBench);
+    return { model: m.nomOriginal, score: arrondi1(scoreFinal), coverage: m.coverage, lmarena: m.lmarena };
+  });
+
+  mix.sort((a, b) => b.score - a.score);
+  const top10_mix = mix.slice(0, 10).map((m, i) => ({ rank: i + 1, model: m.model, score: m.score, coverage: m.coverage, lmarena: m.lmarena }));
+  return { generated_at_iso: MAINTENANT_ISO, top10_mix };
 }
 
 async function verifierAnnuaire() {
@@ -164,24 +199,52 @@ async function recupererRadarPH() {
 /* ============================== Pilotage ============================== */
 async function main() {
   await mkdir(DOSSIER_SORTIE, { recursive: true });
-  
-  await ecrireJsonSiValide("news.json", await recupererActus(), d => d.length > 0);
-  
-  const h = await recupererLmArena();
-  await ecrireJsonSiValide("lmarena_overall_top3.json", h.fichier, d => d.top10_overall.length > 0);
-  
-  const b = await recupererArtificialAnalysis();
-  await ecrireJsonSiValide("benchmark_top10.json", b.fichier, d => d.top10.length > 0);
-  
-  await ecrireJsonSiValide("mix_top10.json", construireMix(h.pool, b.pool), d => d.top10_mix.length > 0);
-  
-  await verifierAnnuaire();
-  await recupererRadarPH();
-  
-  console.log("Scrape terminé avec succès.");
+
+  let toutOk = true;
+  // Exécute une tâche en isolant ses erreurs : une source qui tombe
+  // ne bloque jamais les autres (et donc le commit final a toujours lieu).
+  const tache = async (nom, fn) => {
+    try { await fn(); console.log(`✅ ${nom}`); }
+    catch (e) { toutOk = false; console.error(`❌ ${nom} : ${e.message}`); }
+  };
+
+  // Actus
+  await tache("Actus", async () => {
+    await ecrireJsonSiValide("news.json", await recupererActus(), d => d.length > 0);
+  });
+
+  // LM Arena (humain) — on conserve le pool pour le Mix
+  let h = null;
+  await tache("LM Arena", async () => {
+    h = await recupererLmArena();
+    await ecrireJsonSiValide("lmarena_overall_top3.json", h.fichier, d => d.top10_overall.length > 0);
+  });
+
+  // Artificial Analysis (benchmark)
+  let b = null;
+  await tache("Artificial Analysis", async () => {
+    b = await recupererArtificialAnalysis();
+    await ecrireJsonSiValide("benchmark_top10.json", b.fichier, d => d.top10.length > 0);
+  });
+
+  // Mix — seulement si les DEUX sources sont disponibles
+  if (h && b) {
+    await tache("Mix", async () => {
+      await ecrireJsonSiValide("mix_top10.json", construireMix(h.pool, b.pool), d => d.top10_mix.length > 0);
+    });
+  } else {
+    console.warn("ℹ Mix ignoré : il manque une des deux sources (humain ou benchmark).");
+  }
+
+  // Annuaire (ping des liens) & Radar Product Hunt
+  await tache("Annuaire", () => verifierAnnuaire());
+  await tache("Radar", () => recupererRadarPH());
+
+  console.log(toutOk
+    ? "✅ Scrape terminé — toutes les sources OK."
+    : "⚠ Scrape terminé — certaines sources ont échoué, les autres ont bien été publiées.");
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exitCode = 1;
-});
+// On ne sort JAMAIS en erreur sur un échec partiel : sinon l'étape "commit"
+// est sautée et même les données valides ne sont pas publiées.
+main().catch((e) => { console.error("Erreur inattendue :", e); });
