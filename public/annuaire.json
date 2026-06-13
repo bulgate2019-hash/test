@@ -345,9 +345,10 @@
         "domain": "colab.research.google.com",
         "desc": "Notebooks Python cloud avec GPU gratuit pour Machine Learning.",
         "tags": [
-          "free"
+          "free",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       }
     ]
   },
@@ -648,8 +649,10 @@
         "url": "https://play.ht",
         "domain": "play.ht",
         "desc": "Voix IA réalistes en plus de 130 langues pour podcasts et vidéos.",
-        "tags": [],
-        "failures": 2
+        "tags": [
+          "dead"
+        ],
+        "failures": 3
       },
       {
         "name": "Resemble AI",
@@ -894,9 +897,10 @@
         "domain": "chatgpt.fr",
         "desc": "Passerelle française vers les plateformes et modèles IA.",
         "tags": [
-          "fr"
+          "fr",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       },
       {
         "name": "1min.ai",

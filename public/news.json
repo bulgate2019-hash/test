@@ -1,5 +1,29 @@
 [
   {
+    "source": "Clubic",
+    "title": "Claude Fable 5 et Mythos 5 suspendus : Anthropic obéit à une directive Trump",
+    "link": "https://www.clubic.com/actualite-616708-claude-fable-5-et-mythos-5-suspendus-anthropic-obeit-a-une-directive-trump.html",
+    "pubDate": "Sat, 13 Jun 2026 08:06:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Claude Fable 5 : Anthropic s'excuse pour un filtre anti-distillation non documenté",
+    "link": "https://www.clubic.com/actualite-616498-claude-fable-5-anthropic-s-excuse-pour-un-filtre-anti-distillation-non-documente.html",
+    "pubDate": "Sat, 13 Jun 2026 07:15:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Anthropic contraint de suspendre Fable 5 et Mythos 5 après une directive du gouvernement américain",
+    "link": "https://www.actuia.com/actualite/anthropic-contraint-de-suspendre-fable-5-et-mythos-5-apres-une-directive-du-gouvernement-americain/",
+    "pubDate": "Sat, 13 Jun 2026 06:32:24 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "JPMorgan et Goldman Sachs entrent dans une levée IA pre-revenue à 41 Md$",
+    "link": "https://www.actuia.com/actualite/jpmorgan-et-goldman-sachs-entrent-dans-une-levee-ia-pre-revenue-a-41-md/",
+    "pubDate": "Fri, 12 Jun 2026 18:59:26 +0000"
+  },
+  {
     "source": "Actu IA",
     "title": "Aidés par GPT-5, puis livrés à eux-mêmes : un essai randomisé mesure le coût d'apprentissage de l'assistance IA",
     "link": "https://www.actuia.com/actualite/aides-par-gpt-5-puis-livres-a-eux-memes-un-essai-randomise-mesure-le-cout-dapprentissage-de-lassistance-ia/",
@@ -46,29 +70,5 @@
     "title": "OpenAI préparerait une baisse massive des prix de ChatGPT pour tenir Anthropic à distance",
     "link": "https://siecledigital.fr/2026/06/12/openai-preparerait-une-baisse-massive-des-prix-de-chatgpt-pour-tenir-anthropic-a-distance/",
     "pubDate": "Fri, 12 Jun 2026 12:51:26 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Claude Mythos : Orange et le Crédit Agricole veulent pouvoir accéder au puissant modèle IA",
-    "link": "https://www.clubic.com/actualite-616612-claude-mythos-orange-et-le-credit-agricole-veulent-pouvoir-acceder-au-puissant-modele-ia.html",
-    "pubDate": "Fri, 12 Jun 2026 11:23:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Encore 3 jours pour obtenir 1min.AI Pro à vie pour 22€ : GPT-5, Claude et Gemini dans une seule interface",
-    "link": "https://www.clubic.com/bons-plans-616588-encore-3-jours-pour-obtenir-1min-ai-pro-a-vie-pour-22-gpt-5-claude-et-gemini-dans-une-seule-interface.html",
-    "pubDate": "Fri, 12 Jun 2026 10:50:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "La guerre des agents : OpenAI opère une autre acquisition pour faire son retard sur Claude... Est-ce trop tard ?",
-    "link": "https://www.clubic.com/actualite-616594-la-guerre-des-agents-openai-opere-une-autre-acquisition-pour-faire-son-retard-sur-claude-est-ce-trop-tard.html",
-    "pubDate": "Fri, 12 Jun 2026 10:22:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Bientôt des IA capables de payer entre elles ? Mastercard ouvre une nouvelle étape",
-    "link": "https://siecledigital.fr/2026/06/12/bientot-des-ia-capables-de-payer-entre-elles-mastercard-ouvre-une-nouvelle-etape/",
-    "pubDate": "Fri, 12 Jun 2026 10:02:06 +0000"
   }
 ]
