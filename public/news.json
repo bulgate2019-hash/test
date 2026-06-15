@@ -1,5 +1,35 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "Près de deux Français sur trois disent utiliser l&#8217;intelligence artificielle, selon un nouveau sondage",
+    "link": "https://siecledigital.fr/2026/06/14/pres-de-deux-francais-sur-trois-disent-utiliser-lintelligence-artificielle-selon-un-nouveau-sondage/",
+    "pubDate": "Mon, 15 Jun 2026 09:29:54 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Anthropic contraint de couper en urgence ses IA jugées les plus dangereuses",
+    "link": "https://siecledigital.fr/2026/06/14/anthropic-contraint-de-couper-en-urgence-ses-ia-jugees-les-plus-dangereuses/",
+    "pubDate": "Mon, 15 Jun 2026 09:28:10 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "C'est inédit dans l'IA : 42 États américains ouvrent une enquête sur OpenAI, et elle joue très gros",
+    "link": "https://www.clubic.com/actualite-616861-c-est-inedit-dans-l-ia-42-etats-americains-ouvrent-une-enquete-sur-openai-et-elle-joue-tres-gros.html",
+    "pubDate": "Mon, 15 Jun 2026 07:27:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "La Chine aurait accédé au modèle IA secret d'Anthropic : pourquoi la Maison Blanche a coupé l'accès à Mythos",
+    "link": "https://www.clubic.com/actualite-616870-la-chine-aurait-accede-au-modele-ia-secret-d-anthropic-pourquoi-la-maison-blanche-a-coupe-l-acces-a-mythos.html",
+    "pubDate": "Mon, 15 Jun 2026 07:17:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Les États-Unis coupent l'accès aux modèles Fable 5 et Mythos 5 d'Anthropic : un précédent pour la souveraineté IA",
+    "link": "https://www.actuia.com/actualite/les-etats-unis-coupent-lacces-aux-modeles-fable-5-et-mythos-5-danthropic-un-precedent-pour-la-souverainete-ia/",
+    "pubDate": "Mon, 15 Jun 2026 07:08:13 +0000"
+  },
+  {
     "source": "Clubic",
     "title": "\"Le match n'est pas plié\" pour l'Europe, dit le PDG de Scaleway sur la course mondiale à l'intelligence artificielle",
     "link": "https://www.clubic.com/actualite-616741-le-match-n-est-pas-plie-pour-l-europe-dit-le-pdg-de-scaleway-sur-la-course-mondiale-a-l-intelligence-artificielle.html",
@@ -10,18 +40,6 @@
     "title": "Bornes de recharge électrique : des agents IA montent la garde contre les pirates et les voleurs d'énergie",
     "link": "https://www.clubic.com/actualite-616726-bornes-de-recharge-electrique-des-agents-ia-montent-la-garde-contre-les-pirates-et-les-voleurs-d-energie.html",
     "pubDate": "Sat, 13 Jun 2026 15:18:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Claude Fable 5 et Mythos 5 suspendus : Anthropic obéit à une directive Trump",
-    "link": "https://www.clubic.com/actualite-616708-claude-fable-5-et-mythos-5-suspendus-anthropic-obeit-a-une-directive-trump.html",
-    "pubDate": "Sat, 13 Jun 2026 08:06:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Claude Fable 5 : Anthropic s'excuse pour un filtre anti-distillation non documenté",
-    "link": "https://www.clubic.com/actualite-616498-claude-fable-5-anthropic-s-excuse-pour-un-filtre-anti-distillation-non-documente.html",
-    "pubDate": "Sat, 13 Jun 2026 07:15:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -52,23 +70,5 @@
     "title": "Siri AI : Gemini comme professeur, pas comme moteur - ce que la WWDC n'a pas dit",
     "link": "https://www.actuia.com/actualite/siri-ai-gemini-comme-professeur-pas-comme-moteur-ce-que-la-wwdc-na-pas-dit/",
     "pubDate": "Fri, 12 Jun 2026 14:08:38 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "S-1 confidentiels : OpenAI emboîte le pas à Anthropic, et la SEC obtiendra ce que les valorisations privées cachaient",
-    "link": "https://www.actuia.com/actualite/s-1-confidentiels-openai-emboite-le-pas-a-anthropic-et-la-sec-obtiendra-ce-que-les-valorisations-privees-cachaient/",
-    "pubDate": "Fri, 12 Jun 2026 13:51:15 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "À Lille, « L'IA avec nous » teste la promesse d'une vallée européenne de l'IA appliquée",
-    "link": "https://www.actuia.com/actualite/a-lille-lia-avec-nous-teste-la-promesse-dune-vallee-europeenne-de-lia-appliquee/",
-    "pubDate": "Fri, 12 Jun 2026 13:50:38 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Jeff Bezos mise 1,2 milliard de dollars sur Prometheus, une IA pensée pour les ingénieurs",
-    "link": "https://siecledigital.fr/2026/06/12/jeff-bezos-mise-12-milliard-de-dollars-sur-prometheus-une-ia-pensee-pour-les-ingenieurs/",
-    "pubDate": "Fri, 12 Jun 2026 12:52:11 +0000"
   }
 ]
