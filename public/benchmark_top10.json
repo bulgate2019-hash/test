@@ -1,65 +1,65 @@
 {
-  "generated_at_iso": "2026-06-15T11:49:16.918Z",
+  "generated_at_iso": "2026-06-16T10:57:26.685Z",
   "top10": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
-      "index": 64.9
+      "index": 59.9
     },
     {
       "rank": 2,
       "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 61.4
+      "index": 55.7
     },
     {
       "rank": 3,
       "model": "GPT-5.5 (xhigh)",
       "creator": "OpenAI",
-      "index": 60.2
+      "index": 54.8
     },
     {
       "rank": 4,
-      "model": "GPT-5.5 (high)",
-      "creator": "OpenAI",
-      "index": 58.9
+      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+      "creator": "Anthropic",
+      "index": 53.5
     },
     {
       "rank": 5,
-      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-      "creator": "Anthropic",
-      "index": 57.3
+      "model": "GPT-5.5 (high)",
+      "creator": "OpenAI",
+      "index": 53.1
     },
     {
       "rank": 6,
-      "model": "Gemini 3.1 Pro Preview",
-      "creator": "Google",
-      "index": 57.2
+      "model": "GPT-5.4 (xhigh)",
+      "creator": "OpenAI",
+      "index": 51.4
     },
     {
       "rank": 7,
-      "model": "GPT-5.4 (xhigh)",
-      "creator": "OpenAI",
-      "index": 56.8
+      "model": "Gemini 3.5 Flash (high)",
+      "creator": "Google",
+      "index": 50.2
     },
     {
       "rank": 8,
-      "model": "GPT-5.5 (medium)",
-      "creator": "OpenAI",
-      "index": 56.7
+      "model": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
+      "creator": "Anthropic",
+      "index": 47.2
     },
     {
       "rank": 9,
-      "model": "Qwen3.7 Max",
-      "creator": "Alibaba",
-      "index": 56.6
+      "model": "GPT-5.5 (medium)",
+      "creator": "OpenAI",
+      "index": 47.1
     },
     {
       "rank": 10,
-      "model": "Gemini 3.5 Flash (high)",
+      "model": "Gemini 3.1 Pro Preview",
       "creator": "Google",
-      "index": 55.3
+      "index": 46.5
     }
   ],
   "top3": [
@@ -67,19 +67,19 @@
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
-      "index": 64.9
+      "index": 59.9
     },
     {
       "rank": 2,
       "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 61.4
+      "index": 55.7
     },
     {
       "rank": 3,
       "model": "GPT-5.5 (xhigh)",
       "creator": "OpenAI",
-      "index": 60.2
+      "index": 54.8
     }
   ]
 }
