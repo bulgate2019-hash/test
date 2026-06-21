@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-06-20T08:43:24.808Z",
+  "generated_at_iso": "2026-06-21T09:39:06.749Z",
   "top10": [
     {
       "rank": 1,
@@ -45,21 +45,21 @@
     },
     {
       "rank": 8,
+      "model": "GPT-5.5 (medium)",
+      "creator": "OpenAI",
+      "index": 50.4
+    },
+    {
+      "rank": 9,
       "model": "Gemini 3.5 Flash (high)",
       "creator": "Google",
       "index": 50.2
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
       "index": 47.2
-    },
-    {
-      "rank": 10,
-      "model": "GPT-5.5 (medium)",
-      "creator": "OpenAI",
-      "index": 47.1
     }
   ],
   "top3": [

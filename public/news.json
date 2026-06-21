@@ -1,5 +1,23 @@
 [
   {
+    "source": "Clubic",
+    "title": "GPT-5, Claude et Gemini sans abonnement : 1minAI passe à moins de 23€ à vie",
+    "link": "https://www.clubic.com/bons-plans-617824-gpt-5-claude-et-gemini-sans-abonnement-1minai-passe-a-moins-de-23-a-vie.html",
+    "pubDate": "Sat, 20 Jun 2026 15:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une startup affirme avoir une IA plus rapide et moins chère : promesse crédible ou bluff ?",
+    "link": "https://www.clubic.com/actualite-617890-cette-startup-promet-une-ia-bien-plus-rapide-et-moins-chere-faut-il-y-croire.html",
+    "pubDate": "Sat, 20 Jun 2026 14:03:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Claude Guillemot, cofondateur d’Ubisoft, est mort dans un crash d’avion à La Baule",
+    "link": "https://www.clubic.com/actualite-617893-claude-guillemot-cofondateur-d-ubisoft-est-mort-dans-un-crash-d-avion-a-la-baule.html",
+    "pubDate": "Sat, 20 Jun 2026 13:29:00 GMT"
+  },
+  {
     "source": "Actu IA",
     "title": "Machine unlearning : Google Research valide un test d'audit, mais pas encore sur les LLMs",
     "link": "https://www.actuia.com/actualite/machine-unlearning-google-research-valide-un-test-daudit-mais-pas-encore-sur-les-llms/",
@@ -52,23 +70,5 @@
     "title": "OVHcloud-Gladia : la brique vocale qui manquait au cloud souverain",
     "link": "https://www.actuia.com/actualite/ovhcloud-gladia-la-brique-vocale-qui-manquait-au-cloud-souverain/",
     "pubDate": "Fri, 19 Jun 2026 22:45:52 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "JPMorgan et Goldman Sachs entrent dans une levée IA pre-revenue à 41 Md$",
-    "link": "https://www.actuia.com/actualite/jpmorgan-et-goldman-sachs-entrent-dans-une-levee-ia-pre-revenue-a-41-md/",
-    "pubDate": "Fri, 19 Jun 2026 22:45:42 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Anthropic contraint de suspendre Fable 5 et Mythos 5 après une directive du gouvernement américain",
-    "link": "https://www.actuia.com/actualite/anthropic-contraint-de-suspendre-fable-5-et-mythos-5-apres-une-directive-du-gouvernement-americain/",
-    "pubDate": "Fri, 19 Jun 2026 22:45:31 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Les États-Unis coupent l'accès aux modèles Fable 5 et Mythos 5 d'Anthropic : un précédent pour la souveraineté IA",
-    "link": "https://www.actuia.com/actualite/les-etats-unis-coupent-lacces-aux-modeles-fable-5-et-mythos-5-danthropic-un-precedent-pour-la-souverainete-ia/",
-    "pubDate": "Fri, 19 Jun 2026 22:45:23 +0000"
   }
 ]
