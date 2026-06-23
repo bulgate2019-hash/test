@@ -1,27 +1,45 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "ChatGPT s&#8217;allie avec Getty, l&#8217;une des plus grandes bibliothèques d&#8217;images au monde",
+    "link": "https://siecledigital.fr/2026/06/22/chatgpt-sallie-avec-getty-lune-des-plus-grandes-bibliotheques-dimages-au-monde/",
+    "pubDate": "Tue, 23 Jun 2026 09:13:10 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic va collecter les données biométriques de certains utilisateurs de Claude",
+    "link": "https://www.clubic.com/actualite-618169-anthropic-va-collecter-les-donnees-biometriques-de-certains-utilisateurs-de-claude.html",
+    "pubDate": "Tue, 23 Jun 2026 08:39:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google Photos prépare 8 ambiances IA pour transformer vos clichés",
+    "link": "https://www.clubic.com/actualite-618043-google-photos-prepare-8-ambiances-ia-pour-transformer-vos-cliches.html",
+    "pubDate": "Tue, 23 Jun 2026 06:40:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Pourquoi les résultats images de ChatGPT seront bientôt nettement meilleurs",
+    "link": "https://www.clubic.com/actualite-618046-pourquoi-les-resultats-images-de-chatgpt-seront-bientot-nettement-meilleurs.html",
+    "pubDate": "Mon, 22 Jun 2026 13:29:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Un pays européen prend une décision radicale sur ChatGPT à l&#8217;école",
+    "link": "https://siecledigital.fr/2026/06/22/un-pays-europeen-prend-une-decision-radicale-sur-chatgpt-a-lecole/",
+    "pubDate": "Mon, 22 Jun 2026 13:14:24 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Beaucoup l&#8217;ignorent, ChatGPT dispose d&#8217;une fonction discrète pour vous faire gagner un temps précieux",
+    "link": "https://siecledigital.fr/2026/06/22/beaucoup-lignorent-chatgpt-dispose-dune-fonction-discrete-pour-vous-faire-gagner-un-temps-precieux/",
+    "pubDate": "Mon, 22 Jun 2026 13:13:09 +0000"
+  },
+  {
     "source": "Actu IA",
     "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
     "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
     "pubDate": "Mon, 22 Jun 2026 10:07:48 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Votre collègue vous refile du travail IA bâclé, et ça a un nom : le workslop",
-    "link": "https://www.clubic.com/actualite-617998-votre-collegue-vous-refile-du-travail-ia-bacle-et-ca-a-un-nom-le-workslop.html",
-    "pubDate": "Mon, 22 Jun 2026 10:01:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "30% de réduction sur Limova : l’agent IA qui répond à vos appels et planifie votre agenda",
-    "link": "https://www.clubic.com/bons-plans-617857-limova-l-agent-ia-qui-decroche-vos-appels-et-gere-votre-agenda-a-votre-place.html",
-    "pubDate": "Mon, 22 Jun 2026 05:30:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Pourquoi Amazon ne veut plus d’humains pour surveiller certaines IA",
-    "link": "https://www.clubic.com/actualite-617920-pourquoi-amazon-ne-veut-plus-d-humains-pour-surveiller-certaines-ia.html",
-    "pubDate": "Sun, 21 Jun 2026 13:47:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -52,23 +70,5 @@
     "title": "S-1 confidentiels : OpenAI emboîte le pas à Anthropic, et la SEC obtiendra ce que les valorisations privées cachaient",
     "link": "https://www.actuia.com/actualite/s-1-confidentiels-openai-emboite-le-pas-a-anthropic-et-la-sec-obtiendra-ce-que-les-valorisations-privees-cachaient/",
     "pubDate": "Fri, 19 Jun 2026 22:46:20 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Aidés par GPT-5, puis livrés à eux-mêmes : un essai randomisé mesure le coût d'apprentissage de l'assistance IA",
-    "link": "https://www.actuia.com/actualite/aides-par-gpt-5-puis-livres-a-eux-memes-un-essai-randomise-mesure-le-cout-dapprentissage-de-lassistance-ia/",
-    "pubDate": "Fri, 19 Jun 2026 22:46:11 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Siri AI : Gemini comme professeur, pas comme moteur - ce que la WWDC n'a pas dit",
-    "link": "https://www.actuia.com/actualite/siri-ai-gemini-comme-professeur-pas-comme-moteur-ce-que-la-wwdc-na-pas-dit/",
-    "pubDate": "Fri, 19 Jun 2026 22:46:02 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "OVHcloud-Gladia : la brique vocale qui manquait au cloud souverain",
-    "link": "https://www.actuia.com/actualite/ovhcloud-gladia-la-brique-vocale-qui-manquait-au-cloud-souverain/",
-    "pubDate": "Fri, 19 Jun 2026 22:45:52 +0000"
   }
 ]
