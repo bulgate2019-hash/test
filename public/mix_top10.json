@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-06-23T09:24:57.798Z",
+  "generated_at_iso": "2026-06-24T08:55:20.542Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -7,86 +7,88 @@
       "score": 100,
       "coverage": 2,
       "lmarena": {
-        "elo": 1510
+        "elo": 1508
       }
     },
     {
       "rank": 2,
-      "model": "GLM-5.2 (max)",
-      "score": 53.9,
-      "coverage": 1,
-      "lmarena": null
+      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+      "score": 48.4,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1478
+      }
     },
     {
       "rank": 3,
-      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 48.8,
+      "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
+      "score": 45.5,
       "coverage": 2,
       "lmarena": {
-        "elo": 1477
+        "elo": 1499
       }
     },
     {
       "rank": 4,
-      "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
-      "score": 42.5,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1498
-      }
-    },
-    {
-      "rank": 5,
       "model": "gemini-3-pro",
-      "score": 40.4,
+      "score": 40.3,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "model": "GPT-5.4 (xhigh)",
-      "score": 39.5,
+      "score": 37.4,
       "coverage": 2,
       "lmarena": {
-        "elo": 1479
+        "elo": 1478
+      }
+    },
+    {
+      "rank": 6,
+      "model": "Gemini 3.1 Pro Preview",
+      "score": 36,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1486
       }
     },
     {
       "rank": 7,
-      "model": "Gemini 3.1 Pro Preview",
-      "score": 36.6,
+      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+      "score": 35.2,
       "coverage": 2,
       "lmarena": {
-        "elo": 1487
+        "elo": 1493
       }
     },
     {
       "rank": 8,
-      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
-      "score": 33.2,
+      "model": "Muse Spark",
+      "score": 27.8,
       "coverage": 2,
       "lmarena": {
-        "elo": 1492
+        "elo": 1487
       }
     },
     {
       "rank": 9,
-      "model": "Muse Spark",
-      "score": 27.7,
+      "model": "GLM-5.2 (max)",
+      "score": 27,
       "coverage": 2,
       "lmarena": {
-        "elo": 1487
+        "elo": 1471
       }
     },
     {
       "rank": 10,
       "model": "Gemini 3.5 Flash (medium)",
-      "score": 21.2,
+      "score": 19.2,
       "coverage": 2,
       "lmarena": {
-        "elo": 1477
+        "elo": 1476
       }
     }
   ]
