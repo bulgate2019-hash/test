@@ -1,27 +1,57 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "Alibaba aurait utilisé 25 000 faux comptes pour copier Claude, selon Anthropic",
+    "link": "https://siecledigital.fr/2026/06/25/alibaba-aurait-utilise-25-000-faux-comptes-pour-copier-claude-selon-anthropic/",
+    "pubDate": "Fri, 26 Jun 2026 12:58:17 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Adobe rachète Topaz Labs, l&#8217;un des outils IA les plus appréciés pour améliorer les photos et vidéos",
+    "link": "https://siecledigital.fr/2026/06/26/adobe-rachete-topaz-labs-lun-des-outils-ia-les-plus-apprecies-pour-ameliorer-les-photos-et-videos/",
+    "pubDate": "Fri, 26 Jun 2026 12:57:54 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Une étude révèle qu&#8217;être recommandé par ChatGPT peut multiplier par 2,5 les visites vers un site web",
+    "link": "https://siecledigital.fr/2026/06/26/une-etude-revele-quetre-recommande-par-chatgpt-peut-multiplier-par-25-les-visites-vers-un-site-web/",
+    "pubDate": "Fri, 26 Jun 2026 12:57:43 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI mobilise son IA pour détecter et corriger les failles des logiciels open source",
+    "link": "https://siecledigital.fr/2026/06/25/openai-mobilise-son-ia-pour-detecter-et-corriger-les-failles-des-logiciels-open-source/",
+    "pubDate": "Fri, 26 Jun 2026 12:57:11 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Les utilisateurs prêts à payer pour une IA choisissent de plus en plus Claude plutôt que ChatGPT",
+    "link": "https://siecledigital.fr/2026/06/25/les-utilisateurs-prets-a-payer-pour-une-ia-choisissent-de-plus-en-plus-claude-plutot-que-chatgpt/",
+    "pubDate": "Fri, 26 Jun 2026 12:56:24 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Epic Games annonce un Unreal Engine truffé d'IA... puis se plaint de la politique IA de Steam",
+    "link": "https://www.clubic.com/actualite-618778-epic-games-annonce-un-unreal-engine-truffe-d-ia-puis-se-plaint-de-la-politique-ia-de-steam.html",
+    "pubDate": "Fri, 26 Jun 2026 11:07:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "24 langues, 400 milliards de paramètres : l'UE lance son IA open-source maison et ce n'est pas Mistral qu'elle a choisi",
+    "link": "https://www.clubic.com/actualite-618775-langues-400-milliards-de-parametres-l-ue-lance-son-ia-open-source-maison-et-ce-n-est-pas-mistral-qu-elle-a-choisi.html",
+    "pubDate": "Fri, 26 Jun 2026 10:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "La volte-face de Trump sur la régulation de l'IA: OpenAI retarde GPT-5.6 à la demande de la Maison-Blanche",
+    "link": "https://www.clubic.com/actualite-618769-la-volte-face-de-trump-sur-la-regulation-de-l-ia-openai-retarde-gpt-5-6-a-la-demande-de-la-maison-blanche.html",
+    "pubDate": "Fri, 26 Jun 2026 10:09:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "IA chinoise : Bercy stoppe un test après des réponses jugées biaisées",
     "link": "https://www.clubic.com/actualite-618721-ia-chinoise-bercy-stoppe-un-test-apres-des-reponses-jugees-biaisees.html",
     "pubDate": "Fri, 26 Jun 2026 04:27:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des agents IA qui hackent des systèmes en une seule journée, le pari osé et réussi du Français YesWeHack",
-    "link": "https://www.clubic.com/actualite-618691-des-agents-ia-qui-hackent-des-systemes-en-une-seule-journee-le-pari-ose-et-reussi-du-francais-yeswehack.html",
-    "pubDate": "Thu, 25 Jun 2026 15:53:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Une enseigne de sport critiquée pour une pub IA sur Instagram : Meta accusé d’être à l’origine du fiasco",
-    "link": "https://www.clubic.com/actualite-618655-rei-critiquee-pour-une-pub-ia-sur-instagram-meta-accuse-d-etre-a-l-origine-du-fiasco.html",
-    "pubDate": "Thu, 25 Jun 2026 14:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Anthropic accuse Alibaba d’un pillage massif de Claude avec 28 millions d’échanges",
-    "link": "https://www.clubic.com/actualite-618658-anthropic-accuse-alibaba-d-un-pillage-massif-de-claude-avec-28-millions-d-echanges.html",
-    "pubDate": "Thu, 25 Jun 2026 13:48:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -30,45 +60,15 @@
     "pubDate": "Thu, 25 Jun 2026 12:04:40 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Anthropic change les règles pour Claude et évoque pour la première fois la collecte de données biométriques (Décryptage)",
-    "link": "https://www.clubic.com/actualite-618607-anthropic-change-les-regles-pour-claude-et-evoque-pour-la-premiere-fois-la-collecte-de-donnees-biometriques.html",
-    "pubDate": "Thu, 25 Jun 2026 11:26:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Même la Chine s&#8217;inquiète désormais d&#8217;une IA qui pourrait échapper à tout contrôle",
     "link": "https://siecledigital.fr/2026/06/25/meme-la-chine-sinquiete-desormais-dune-ia-qui-pourrait-echapper-a-tout-controle/",
     "pubDate": "Thu, 25 Jun 2026 11:16:05 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "OpenAI dévoile « Jalapeño », sa première puce IA : une avancée majeure pour accélérer les LLMs",
-    "link": "https://www.clubic.com/actualite-618559-openai-devoile-jalape-o-sa-premiere-puce-ia-une-avancee-majeure-pour-accelerer-les-llms.html",
-    "pubDate": "Thu, 25 Jun 2026 09:26:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Gemini peut désormais trouver ce qui cloche dans vos formules Google Sheets",
-    "link": "https://siecledigital.fr/2026/06/24/gemini-peut-desormais-trouver-ce-qui-cloche-dans-vos-formules-google-sheets/",
-    "pubDate": "Wed, 24 Jun 2026 10:34:46 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Une méthode redoutable permet de manipuler les chatbots IA pour influencer leurs réponses",
-    "link": "https://siecledigital.fr/2026/06/24/une-methode-redoutable-permet-de-manipuler-les-chatbots-ia-pour-influencer-leurs-reponses/",
-    "pubDate": "Wed, 24 Jun 2026 10:32:40 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
     "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
     "pubDate": "Wed, 24 Jun 2026 05:19:39 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
-    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
-    "pubDate": "Tue, 23 Jun 2026 12:36:01 +0000"
   }
 ]

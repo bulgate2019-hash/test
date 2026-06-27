@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-06-26T08:52:05.161Z",
+  "generated_at_iso": "2026-06-27T08:27:36.237Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -9,7 +9,7 @@
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1504
+      "overall": 1503
     },
     {
       "rank": 3,
@@ -24,7 +24,7 @@
     {
       "rank": 5,
       "model": "claude-opus-4-7",
-      "overall": 1493
+      "overall": 1494
     },
     {
       "rank": 6,
@@ -44,7 +44,7 @@
     {
       "rank": 9,
       "model": "claude-opus-4-8-thinking",
-      "overall": 1483
+      "overall": 1484
     },
     {
       "rank": 10,
@@ -61,7 +61,7 @@
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1504
+      "overall": 1503
     },
     {
       "rank": 3,

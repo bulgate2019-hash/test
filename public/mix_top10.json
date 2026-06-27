@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-06-26T08:52:05.161Z",
+  "generated_at_iso": "2026-06-27T08:27:36.237Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -13,16 +13,16 @@
     {
       "rank": 2,
       "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 48.3,
+      "score": 50.9,
       "coverage": 2,
       "lmarena": {
-        "elo": 1478
+        "elo": 1479
       }
     },
     {
       "rank": 3,
       "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
-      "score": 45.1,
+      "score": 45.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1499
@@ -31,7 +31,7 @@
     {
       "rank": 4,
       "model": "gemini-3-pro",
-      "score": 40.3,
+      "score": 41.6,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
@@ -40,7 +40,7 @@
     {
       "rank": 5,
       "model": "GPT-5.4 (xhigh)",
-      "score": 37.1,
+      "score": 37.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1478
@@ -48,26 +48,26 @@
     },
     {
       "rank": 6,
+      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
+      "score": 35.7,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1494
+      }
+    },
+    {
+      "rank": 7,
       "model": "Gemini 3.1 Pro Preview",
-      "score": 35.6,
+      "score": 35.7,
       "coverage": 2,
       "lmarena": {
         "elo": 1486
       }
     },
     {
-      "rank": 7,
-      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
-      "score": 34.8,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1493
-      }
-    },
-    {
       "rank": 8,
       "model": "Muse Spark",
-      "score": 27.4,
+      "score": 28.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1487
@@ -79,13 +79,13 @@
       "score": 26.7,
       "coverage": 2,
       "lmarena": {
-        "elo": 1471
+        "elo": 1470
       }
     },
     {
       "rank": 10,
       "model": "Gemini 3.5 Flash (medium)",
-      "score": 18.8,
+      "score": 20.2,
       "coverage": 2,
       "lmarena": {
         "elo": 1476

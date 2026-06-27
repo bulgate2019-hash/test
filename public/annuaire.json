@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 16
+        "failures": 17
       }
     ]
   },
@@ -436,7 +436,7 @@
         "tags": [
           "new"
         ],
-        "failures": 0
+        "failures": 1
       },
       {
         "name": "Civitai",
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 16
+        "failures": 17
       },
       {
         "name": "Resemble AI",
@@ -900,7 +900,7 @@
           "fr",
           "dead"
         ],
-        "failures": 16
+        "failures": 17
       },
       {
         "name": "1min.ai",
