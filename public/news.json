@@ -1,5 +1,17 @@
 [
   {
+    "source": "Clubic",
+    "title": "GitHub piégé : des agents de code IA exécutent un malware via un dépôt apparemment propre",
+    "link": "https://www.clubic.com/actualite-618892-github-piege-des-agents-de-code-ia-executent-un-malware-via-un-depot-apparemment-propre.html",
+    "pubDate": "Sat, 27 Jun 2026 15:58:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Startups IA asiatiques : des modèles façon Claude émergent pendant le blocage d’Anthropic",
+    "link": "https://www.clubic.com/actualite-618889-startups-ia-asiatiques-des-modeles-facon-claude-emergent-pendant-le-blocage-d-anthropic.html",
+    "pubDate": "Sat, 27 Jun 2026 15:15:00 GMT"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Alibaba aurait utilisé 25 000 faux comptes pour copier Claude, selon Anthropic",
     "link": "https://siecledigital.fr/2026/06/25/alibaba-aurait-utilise-25-000-faux-comptes-pour-copier-claude-selon-anthropic/",
@@ -48,12 +60,6 @@
     "pubDate": "Fri, 26 Jun 2026 10:09:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "IA chinoise : Bercy stoppe un test après des réponses jugées biaisées",
-    "link": "https://www.clubic.com/actualite-618721-ia-chinoise-bercy-stoppe-un-test-apres-des-reponses-jugees-biaisees.html",
-    "pubDate": "Fri, 26 Jun 2026 04:27:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
     "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
@@ -64,11 +70,5 @@
     "title": "Même la Chine s&#8217;inquiète désormais d&#8217;une IA qui pourrait échapper à tout contrôle",
     "link": "https://siecledigital.fr/2026/06/25/meme-la-chine-sinquiete-desormais-dune-ia-qui-pourrait-echapper-a-tout-controle/",
     "pubDate": "Thu, 25 Jun 2026 11:16:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-    "pubDate": "Wed, 24 Jun 2026 05:19:39 +0000"
   }
 ]
