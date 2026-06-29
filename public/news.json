@@ -1,5 +1,35 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "Le nouveau ChatGPT est prêt, mais la Maison Blanche demande à OpenAI d&#8217;attendre",
+    "link": "https://siecledigital.fr/2026/06/28/le-nouveau-chatgpt-est-pret-mais-la-maison-blanche-demande-a-openai-dattendre/",
+    "pubDate": "Mon, 29 Jun 2026 09:39:31 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "L&#8217;intelligence artificielle dévoile le contenu d&#8217;un papyrus resté illisible pendant 2 000 ans",
+    "link": "https://siecledigital.fr/2026/06/29/lintelligence-artificielle-devoile-le-contenu-dun-papyrus-reste-illisible-pendant-2-000-ans/",
+    "pubDate": "Mon, 29 Jun 2026 09:33:36 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Pourquoi l’un des plus gros parieurs de la tech mise contre la vision IA d’Elon Musk",
+    "link": "https://www.clubic.com/actualite-618934-pourquoi-l-un-des-plus-gros-parieurs-de-la-tech-mise-contre-la-vision-ia-d-elon-musk.html",
+    "pubDate": "Mon, 29 Jun 2026 07:37:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Elle pense que sa fille vient d’être kidnappée… c’était une IA qui imitait sa voix",
+    "link": "https://www.clubic.com/actualite-618259-elle-pense-que-sa-fille-vient-d-etre-kidnappee-c-etait-une-ia-qui-imitait-sa-voix.html",
+    "pubDate": "Sun, 28 Jun 2026 15:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Après ses premiers succès sur les papyrus d'Herculanum, cette IA poursuit l’exploration de la bibliothèque antique",
+    "link": "https://www.clubic.com/actualite-618913-apres-ses-premiers-succes-sur-les-papyrus-d-herculanum-cette-ia-poursuit-l-exploration-de-la-bibliotheque-antique.html",
+    "pubDate": "Sun, 28 Jun 2026 09:25:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "GitHub piégé : des agents de code IA exécutent un malware via un dépôt apparemment propre",
     "link": "https://www.clubic.com/actualite-618892-github-piege-des-agents-de-code-ia-executent-un-malware-via-un-depot-apparemment-propre.html",
@@ -40,35 +70,5 @@
     "title": "Les utilisateurs prêts à payer pour une IA choisissent de plus en plus Claude plutôt que ChatGPT",
     "link": "https://siecledigital.fr/2026/06/25/les-utilisateurs-prets-a-payer-pour-une-ia-choisissent-de-plus-en-plus-claude-plutot-que-chatgpt/",
     "pubDate": "Fri, 26 Jun 2026 12:56:24 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Epic Games annonce un Unreal Engine truffé d'IA... puis se plaint de la politique IA de Steam",
-    "link": "https://www.clubic.com/actualite-618778-epic-games-annonce-un-unreal-engine-truffe-d-ia-puis-se-plaint-de-la-politique-ia-de-steam.html",
-    "pubDate": "Fri, 26 Jun 2026 11:07:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "24 langues, 400 milliards de paramètres : l'UE lance son IA open-source maison et ce n'est pas Mistral qu'elle a choisi",
-    "link": "https://www.clubic.com/actualite-618775-langues-400-milliards-de-parametres-l-ue-lance-son-ia-open-source-maison-et-ce-n-est-pas-mistral-qu-elle-a-choisi.html",
-    "pubDate": "Fri, 26 Jun 2026 10:33:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "La volte-face de Trump sur la régulation de l'IA: OpenAI retarde GPT-5.6 à la demande de la Maison-Blanche",
-    "link": "https://www.clubic.com/actualite-618769-la-volte-face-de-trump-sur-la-regulation-de-l-ia-openai-retarde-gpt-5-6-a-la-demande-de-la-maison-blanche.html",
-    "pubDate": "Fri, 26 Jun 2026 10:09:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
-    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
-    "pubDate": "Thu, 25 Jun 2026 12:04:40 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Même la Chine s&#8217;inquiète désormais d&#8217;une IA qui pourrait échapper à tout contrôle",
-    "link": "https://siecledigital.fr/2026/06/25/meme-la-chine-sinquiete-desormais-dune-ia-qui-pourrait-echapper-a-tout-controle/",
-    "pubDate": "Thu, 25 Jun 2026 11:16:05 +0000"
   }
 ]
