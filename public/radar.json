@@ -1,42 +1,42 @@
 [
   {
-    "name": "Infuro ERP Platform",
-    "desc": "Deploy AI Agents That Run Your Entire Business on Autopilot",
-    "url": "https://www.producthunt.com/products/infuro-erp-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "BankBridge",
+    "desc": "Connect your bank data to Claude, ChatGPT, Cursor, Gemini",
+    "url": "https://www.producthunt.com/products/bankbridge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "EzyReels",
-    "desc": "An AI powered reel creator application to create reels.",
-    "url": "https://www.producthunt.com/products/ezyreels?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "WhatsFeel",
+    "desc": "AI-driven sleep audio guided by your real-time heart rate",
+    "url": "https://www.producthunt.com/products/whatsfeel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "SchemaFit",
-    "desc": "CI linter for LLM structured-output schemas",
-    "url": "https://www.producthunt.com/products/schemafit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "lidito",
+    "desc": "Turn long videos into viral clips with AI",
+    "url": "https://www.producthunt.com/products/lidito?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "SHOP MKI",
-    "desc": "Scan any room photo. Find matching items on Amazon instantly",
-    "url": "https://www.producthunt.com/products/shop-mki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Ycreato",
+    "desc": "AI YouTube producer that finds your next video topics",
+    "url": "https://www.producthunt.com/products/ycreato?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "AI Code Guard",
-    "desc": "Fix hidden logic bugs & edge cases in AI code instantly.",
-    "url": "https://www.producthunt.com/products/ai-code-guard?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Script Master Labs x402 Data API",
+    "desc": "Pay-per-call federal data API — FDA, SEC, Treasury via x402",
+    "url": "https://www.producthunt.com/products/script-master-labs-x402-data-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "dotdotduck",
-    "desc": "Turn your existing site into an AI-native site",
-    "url": "https://www.producthunt.com/products/dotdotduck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Privacy Check",
+    "desc": "AI-powered privacy score for your email & username",
+    "url": "https://www.producthunt.com/products/privacy-check?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Product Want",
-    "desc": "Tell me what product you want!",
-    "url": "https://www.producthunt.com/products/product-want?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Lumenta AI",
+    "desc": "All your ecommerce copy, written in seconds",
+    "url": "https://www.producthunt.com/products/lumenta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Brigade",
-    "desc": "The AI Crew that actually does things built for enterprise",
-    "url": "https://www.producthunt.com/products/brigade-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Skills UI",
+    "desc": "The easy way to create beautiful designs with AI",
+    "url": "https://www.producthunt.com/products/skills-ui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
