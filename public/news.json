@@ -1,33 +1,63 @@
 [
   {
     "source": "Clubic",
-    "title": "Du code secret et des marqueurs cachés, voilà comment Anthropic protège Claude des labs chinois",
-    "link": "https://www.clubic.com/actualite-619348-comment-anthropic.html",
-    "pubDate": "Wed, 01 Jul 2026 08:39:00 GMT"
+    "title": "Claude Science : Anthropic installe son IA directement dans les laboratoires",
+    "link": "https://www.clubic.com/actualite-619564-claude-science-anthropic-installe-son-ia-directement-dans-les-laboratoires.html",
+    "pubDate": "Thu, 02 Jul 2026 08:20:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Claude Fable 5 est de retour après 19 jours, avec de nouveaux classifieurs de sécurité",
-    "link": "https://www.clubic.com/actualite-619366-claude-fable-5-est-de-retour-apres-19-jours-avec-de-nouveaux-classifieurs-de-securite.html",
-    "pubDate": "Wed, 01 Jul 2026 08:07:00 GMT"
+    "title": "Microsoft Teams prépare une IA qui pourra écouter vos réunions en direct et intervenir toute seule",
+    "link": "https://www.clubic.com/actualite-619588-microsoft-teams-prepare-une-ia-qui-pourra-ecouter-vos-reunions-en-direct-et-intervenir-toute-seule.html",
+    "pubDate": "Thu, 02 Jul 2026 07:57:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Washington rétablit Fable 5, mais le risque de dépendance aux modèles américains demeure entier",
+    "link": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
+    "pubDate": "Wed, 01 Jul 2026 21:02:03 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Pourquoi Godot ferme la porte au code généré par IA",
+    "link": "https://www.actuia.com/actualite/pourquoi-godot-ferme-la-porte-au-code-genere-par-ia/",
+    "pubDate": "Wed, 01 Jul 2026 20:58:14 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Pharmacy Forward : à quoi servent les 100 M$ d'IA d'Evernorth",
+    "link": "https://www.actuia.com/actualite/pharmacy-forward-a-quoi-servent-les-100-m-dia-devernorth/",
+    "pubDate": "Wed, 01 Jul 2026 20:40:52 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
+    "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
+    "pubDate": "Wed, 01 Jul 2026 20:39:05 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
+    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
+    "pubDate": "Wed, 01 Jul 2026 20:36:46 +0000"
   },
   {
     "source": "Clubic",
-    "title": "\"ChatGPT bat 99% des médecins\" : voici pourquoi les propos de Marc Andreessen n'ont aucun fondement",
-    "link": "https://www.clubic.com/actualite-619288-non-chatgpt-n-est-pas-meilleur-que-99-des-medecins.html",
-    "pubDate": "Wed, 01 Jul 2026 06:33:00 GMT"
+    "title": "Quels paramètres modifier dans ChatGPT avant de lui confier vos données ?",
+    "link": "https://www.clubic.com/tutoriel-619312-quels-parametres-modifier-dans-chatgpt-avant-de-lui-confier-vos-donnees.html",
+    "pubDate": "Wed, 01 Jul 2026 13:02:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Anthropic lance Claude Sonnet 5, plus rapide, plus sûr et moins cher, prêt à défier son modèle le plus puissant",
-    "link": "https://www.clubic.com/actualite-619330-anthropic-lance-claude-sonnet-5-plus-rapide-plus-sur-et-moins-cher-pret-a-defier-son-modele-le-plus-puissant.html",
-    "pubDate": "Wed, 01 Jul 2026 05:42:00 GMT"
+    "title": "L'auteur du Task Manager de Windows vient de publier un Notepad de 2,5 Ko, sans IA",
+    "link": "https://www.clubic.com/actualite-619405-cet-ancien-ingenieur-de-microsoft-a-reecrit-le-notepad-et-il-ne-pese-que-2-5ko.html",
+    "pubDate": "Wed, 01 Jul 2026 12:02:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Deezer passe l'IA au détecteur : comment la plateforme protège la musique… des musiques générées par IA",
-    "link": "https://www.clubic.com/actualite-618736-deezer-passe-l-ia-au-detecteur-comment-la-plateforme-protege-la-musique-des-musiques-generees-par-ia.html",
-    "pubDate": "Wed, 01 Jul 2026 05:30:00 GMT"
+    "source": "Siècle Digital",
+    "title": "Google Meet lance une fonction IA qui écoute vos réunions et rédige le compte-rendu automatiquement",
+    "link": "https://siecledigital.fr/2026/07/01/google-meet-lance-une-fonction-ia-qui-ecoute-vos-reunions-et-redige-le-compte-rendu-automatiquement/",
+    "pubDate": "Wed, 01 Jul 2026 10:57:54 +0000"
   },
   {
     "source": "Siècle Digital",
@@ -40,35 +70,5 @@
     "title": "La Chine dévoile une IA capable de rivaliser avec les meilleurs modèles américains",
     "link": "https://siecledigital.fr/2026/06/30/la-chine-devoile-une-ia-capable-de-rivaliser-avec-les-meilleurs-modeles-americains/",
     "pubDate": "Tue, 30 Jun 2026 14:29:40 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Google va bouleverser la recherche en France avec ses résumés IA dès cet été",
-    "link": "https://siecledigital.fr/2026/06/30/google-va-bouleverser-la-recherche-en-france-avec-ses-resumes-ia-des-cet-ete/",
-    "pubDate": "Tue, 30 Jun 2026 14:29:19 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Meta prévoit de remplacer 90 % de son personnel de modération de contenu par une IA",
-    "link": "https://siecledigital.fr/2026/06/29/meta-prevoit-de-remplacer-90-de-son-personnel-de-moderation-de-contenu-par-une-ia/",
-    "pubDate": "Tue, 30 Jun 2026 14:06:26 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Cocorico, le Français Mistral AI est le vrai bon élève sur la collecte des données, catastrophe pour Meta AI",
-    "link": "https://www.clubic.com/actualite-619279-cocorico-le-francais-mistral-ai-est-le-vrai-bon-eleve-sur-la-collecte-des-donnees-catastrophe-pour-meta-ai.html",
-    "pubDate": "Tue, 30 Jun 2026 14:06:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Avec un score de +240%, Proton Lumo 2.0 réduit son écart avec ChatGPT",
-    "link": "https://www.clubic.com/actualite-619096-avec-un-score-en-hausse-de-240-proton-lumo-2-0-reduit-son-ecart-avec-chatgpt.html",
-    "pubDate": "Tue, 30 Jun 2026 09:59:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Le nouveau ChatGPT est prêt, mais la Maison Blanche demande à OpenAI d&#8217;attendre",
-    "link": "https://siecledigital.fr/2026/06/28/le-nouveau-chatgpt-est-pret-mais-la-maison-blanche-demande-a-openai-dattendre/",
-    "pubDate": "Mon, 29 Jun 2026 09:39:31 +0000"
   }
 ]
