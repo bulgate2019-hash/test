@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-02T08:43:37.874Z",
+  "generated_at_iso": "2026-07-03T08:51:35.549Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "score": 100,
       "coverage": 2,
       "lmarena": {
-        "elo": 1508
+        "elo": 1509
       }
     },
     {
@@ -19,53 +19,51 @@
     },
     {
       "rank": 3,
-      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 50.3,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1479
-      }
+      "model": "GLM-5.2 (max)",
+      "score": 51.1,
+      "coverage": 1,
+      "lmarena": null
     },
     {
       "rank": 4,
+      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+      "score": 47.6,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1477
+      }
+    },
+    {
+      "rank": 5,
       "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
-      "score": 43.1,
+      "score": 42.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1499
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "gemini-3-pro",
-      "score": 41.6,
+      "score": 42,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-5.4 (xhigh)",
-      "score": 36.7,
+      "score": 37.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1478
       }
     },
     {
-      "rank": 7,
-      "model": "Gemini 3.1 Pro Preview",
-      "score": 34,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1486
-      }
-    },
-    {
       "rank": 8,
       "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
-      "score": 33.5,
+      "score": 33.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1494
@@ -73,20 +71,20 @@
     },
     {
       "rank": 9,
-      "model": "Muse Spark",
-      "score": 26.1,
+      "model": "Gemini 3.1 Pro Preview",
+      "score": 33.8,
       "coverage": 2,
       "lmarena": {
-        "elo": 1487
+        "elo": 1486
       }
     },
     {
       "rank": 10,
-      "model": "GLM-5.2 (max)",
-      "score": 25.6,
+      "model": "Muse Spark",
+      "score": 26.4,
       "coverage": 2,
       "lmarena": {
-        "elo": 1470
+        "elo": 1487
       }
     }
   ]

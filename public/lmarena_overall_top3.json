@@ -1,15 +1,15 @@
 {
-  "generated_at_iso": "2026-07-02T08:43:37.874Z",
+  "generated_at_iso": "2026-07-03T08:51:35.549Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1508
+      "overall": 1509
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1503
+      "overall": 1504
     },
     {
       "rank": 3,
@@ -56,12 +56,12 @@
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1508
+      "overall": 1509
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-thinking",
-      "overall": 1503
+      "overall": 1504
     },
     {
       "rank": 3,
