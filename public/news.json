@@ -1,51 +1,57 @@
 [
   {
-    "source": "Actu IA",
-    "title": "Anthropic, un tiers du capital-risque mondial du trimestre : ce qu'il reste à l'Europe",
-    "link": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
-    "pubDate": "Fri, 03 Jul 2026 08:48:11 +0000"
+    "source": "Siècle Digital",
+    "title": "Meta lance Pocket, une IA qui transforme vos idées en jeux vidéo jouables",
+    "link": "https://siecledigital.fr/2026/07/03/meta-lance-pocket-une-ia-qui-transforme-vos-idees-en-jeux-video-jouables/",
+    "pubDate": "Fri, 03 Jul 2026 12:54:48 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "La puce IA maison d'Anthropic pourrait être signée Samsung",
+    "link": "https://www.clubic.com/actualite-619813-anthropic-negocie-avec-samsung-pour-developper-une-puce-ia-sur-mesure.html",
+    "pubDate": "Fri, 03 Jul 2026 09:56:00 GMT"
   },
   {
     "source": "Actu IA",
-    "title": "Ce que Poppy, l'IA générative de la Californie, apprend à l'administration européenne",
-    "link": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
-    "pubDate": "Fri, 03 Jul 2026 08:47:39 +0000"
+    "title": "Pourquoi la rumeur d'un cloud Meta fait plonger les neoclouds",
+    "link": "https://www.actuia.com/actualite/pourquoi-la-rumeur-dun-cloud-meta-fait-plonger-les-neoclouds/",
+    "pubDate": "Fri, 03 Jul 2026 09:45:51 +0000"
   },
   {
     "source": "Actu IA",
     "title": "Pendant que la France débat de souveraineté IA, le Portugal a livré la sienne pour 7 M€",
     "link": "https://www.actuia.com/actualite/pendant-que-la-france-debat-de-souverainete-ia-le-portugal-a-livre-la-sienne-pour-7-meur/",
-    "pubDate": "Fri, 03 Jul 2026 08:47:06 +0000"
+    "pubDate": "Fri, 03 Jul 2026 09:41:37 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Fonds souverain de l'IA : ce que la proposition d'Altman révèle du rapport État-industrie américain",
+    "link": "https://www.actuia.com/actualite/fonds-souverain-de-lia-ce-que-la-proposition-daltman-revele-du-rapport-etat-industrie-americain/",
+    "pubDate": "Fri, 03 Jul 2026 09:22:16 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Ce que Poppy, l'IA générative de la Californie, apprend à l'administration européenne",
+    "link": "https://www.actuia.com/actualite/ce-que-poppy-lia-generative-de-la-californie-apprend-a-ladministration-europeenne/",
+    "pubDate": "Fri, 03 Jul 2026 09:19:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Washington rétablit Fable 5, mais le risque de dépendance aux modèles américains demeure entier",
+    "link": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
+    "pubDate": "Fri, 03 Jul 2026 09:19:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Anthropic, un tiers du capital-risque mondial du trimestre : ce qu'il reste à l'Europe",
+    "link": "https://www.actuia.com/actualite/anthropic-un-tiers-du-capital-risque-mondial-du-trimestre-ce-quil-reste-a-leurope/",
+    "pubDate": "Fri, 03 Jul 2026 09:18:55 +0000"
   },
   {
     "source": "Clubic",
     "title": "Mais qu'est-ce que Pocket, cette app de création de jeux IA que Meta a lancée sans prévenir personne ?",
     "link": "https://www.clubic.com/actualite-619783-mais-qu-est-ce-que-pocket-cette-app-de-creation-de-jeux-ia-que-meta-a-sortie-sans-prevenir-personne.html",
     "pubDate": "Fri, 03 Jul 2026 07:58:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Gemini va bientôt regarder la route avec les yeux de votre voiture",
-    "link": "https://www.clubic.com/actualite-619753-gemini-va-bientot-regarder-la-route-avec-les-yeux-de-votre-voiture.html",
-    "pubDate": "Thu, 02 Jul 2026 17:04:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Que cherche OpenAI en proposant 5 % de son capital au gouvernement américain ?",
-    "link": "https://www.clubic.com/actualite-619645-openai-propose-5-au-gouvernement-americain-pour-calmer-la-tempete-politique.html",
-    "pubDate": "Thu, 02 Jul 2026 11:39:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google généralise la recherche conversationnelle avec Gemini sur Gmail et Drive",
-    "link": "https://www.clubic.com/actualite-619615-google-generalise-la-recherche-conversationnelle-avec-gemini-sur-gmail-et-drive.html",
-    "pubDate": "Thu, 02 Jul 2026 09:56:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Washington rétablit Fable 5, mais le risque de dépendance aux modèles américains demeure entier",
-    "link": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
-    "pubDate": "Wed, 01 Jul 2026 21:02:03 +0000"
   },
   {
     "source": "Actu IA",
@@ -64,11 +70,5 @@
     "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
     "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
     "pubDate": "Wed, 01 Jul 2026 20:39:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
-    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
-    "pubDate": "Wed, 01 Jul 2026 20:36:46 +0000"
   }
 ]
