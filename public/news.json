@@ -6,12 +6,6 @@
     "pubDate": "Fri, 03 Jul 2026 12:54:48 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "La puce IA maison d'Anthropic pourrait être signée Samsung",
-    "link": "https://www.clubic.com/actualite-619813-anthropic-negocie-avec-samsung-pour-developper-une-puce-ia-sur-mesure.html",
-    "pubDate": "Fri, 03 Jul 2026 09:56:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "Pourquoi la rumeur d'un cloud Meta fait plonger les neoclouds",
     "link": "https://www.actuia.com/actualite/pourquoi-la-rumeur-dun-cloud-meta-fait-plonger-les-neoclouds/",
@@ -48,12 +42,6 @@
     "pubDate": "Fri, 03 Jul 2026 09:18:55 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Mais qu'est-ce que Pocket, cette app de création de jeux IA que Meta a lancée sans prévenir personne ?",
-    "link": "https://www.clubic.com/actualite-619783-mais-qu-est-ce-que-pocket-cette-app-de-creation-de-jeux-ia-que-meta-a-sortie-sans-prevenir-personne.html",
-    "pubDate": "Fri, 03 Jul 2026 07:58:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "Pourquoi Godot ferme la porte au code généré par IA",
     "link": "https://www.actuia.com/actualite/pourquoi-godot-ferme-la-porte-au-code-genere-par-ia/",
@@ -70,5 +58,17 @@
     "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
     "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
     "pubDate": "Wed, 01 Jul 2026 20:39:05 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
+    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
+    "pubDate": "Wed, 01 Jul 2026 20:36:46 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
+    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
+    "pubDate": "Thu, 25 Jun 2026 12:04:40 +0000"
   }
 ]
