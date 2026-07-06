@@ -1,5 +1,23 @@
 [
   {
+    "source": "Clubic",
+    "title": "Oracle accusée d’avoir caché le vrai risque OpenAI : le contrat à 300 milliards vacille",
+    "link": "https://www.clubic.com/actualite-620086-oracle-devant-la-justice-ses-investisseurs-ne-digerent-pas-l-accord-avec-openai.html",
+    "pubDate": "Mon, 06 Jul 2026 09:49:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Alibaba bannit Claude Code en interne, la guerre de l&#8217;IA franchit un nouveau cap",
+    "link": "https://siecledigital.fr/2026/07/05/alibaba-bannit-claude-code-en-interne-la-guerre-de-lia-franchit-un-nouveau-cap/",
+    "pubDate": "Mon, 06 Jul 2026 06:19:02 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Pourquoi l'intelligence artificielle n'a pas (encore) détruit l'emploi en France",
+    "link": "https://www.clubic.com/actualite-620035-pourquoi-l-intelligence-artificielle-n-a-pas-encore-detruit-l-emploi-en-france.html",
+    "pubDate": "Mon, 06 Jul 2026 05:52:00 GMT"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Meta lance Pocket, une IA qui transforme vos idées en jeux vidéo jouables",
     "link": "https://siecledigital.fr/2026/07/03/meta-lance-pocket-une-ia-qui-transforme-vos-idees-en-jeux-video-jouables/",
@@ -52,23 +70,5 @@
     "title": "Pharmacy Forward : à quoi servent les 100 M$ d'IA d'Evernorth",
     "link": "https://www.actuia.com/actualite/pharmacy-forward-a-quoi-servent-les-100-m-dia-devernorth/",
     "pubDate": "Wed, 01 Jul 2026 20:40:52 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
-    "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
-    "pubDate": "Wed, 01 Jul 2026 20:39:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
-    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
-    "pubDate": "Wed, 01 Jul 2026 20:36:46 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
-    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
-    "pubDate": "Thu, 25 Jun 2026 12:04:40 +0000"
   }
 ]
