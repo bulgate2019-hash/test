@@ -1,15 +1,45 @@
 [
   {
     "source": "Clubic",
-    "title": "Anthropic identifie dans Claude une structure que les neuroscientifiques connaissent déjà",
-    "link": "https://www.clubic.com/actualite-620209-anthropic-identifie-dans-claude-une-structure-que-les-neuroscientifiques-connaissent-deja.html",
-    "pubDate": "Tue, 07 Jul 2026 06:57:00 GMT"
+    "title": "Changement de cap considérable : la Chine veut aussi limiter l’accès à ses IA de pointe aux étrangers",
+    "link": "https://www.clubic.com/actualite-620386-pekin-veut-freiner-l-essor-mondial-de-l-ia-chinoise-avec-de-nouvelles-restrictions-a-l-exportation.html",
+    "pubDate": "Wed, 08 Jul 2026 07:39:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Pourquoi Claude Tag pourrait tout changer pour les entreprises en matière d’IA",
+    "link": "https://siecledigital.fr/2026/07/08/pourquoi-claude-tag-pourrait-tout-changer-pour-les-entreprises-en-matiere-dia/",
+    "pubDate": "Wed, 08 Jul 2026 07:28:35 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Et pourquoi pas ? Reddit combat les bots IA avec... toujours plus d'IA !",
-    "link": "https://www.clubic.com/actualite-620206-et-pourquoi-pas-reddit-combat-les-bots-ia-avec-toujours-plus-d-ia.html",
-    "pubDate": "Tue, 07 Jul 2026 06:42:00 GMT"
+    "title": "Vous payez ChatGPT Plus et Claude Pro en même temps ? 1min.AI Pro à 21,83€ y met fin à vie",
+    "link": "https://www.clubic.com/bons-plans-620338-vous-payez-chatgpt-plus-et-claude-pro-en-meme-temps-1min-ai-pro-a-21-83-y-met-fin-a-vie.html",
+    "pubDate": "Wed, 08 Jul 2026 06:45:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "iPhone 18 : Apple pourrait priver le modèle standard de deux grandes nouveautés Siri IA",
+    "link": "https://www.clubic.com/actualite-620029-iphone-18-apple-pourrait-priver-le-modele-standard-de-deux-grandes-nouveautes-siri-ia.html",
+    "pubDate": "Wed, 08 Jul 2026 06:20:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Apple reconnaît avoir utilisé des millions de vidéos YouTube pour entraîner son IA",
+    "link": "https://siecledigital.fr/2026/07/06/apple-reconnait-avoir-utilise-des-millions-de-videos-youtube-pour-entrainer-son-ia/",
+    "pubDate": "Tue, 07 Jul 2026 14:54:07 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Reddit veut stopper la manipulation des conversations grâce à l&#8217;intelligence artificielle",
+    "link": "https://siecledigital.fr/2026/07/06/reddit-veut-stopper-la-manipulation-des-conversations-grace-a-lintelligence-artificielle/",
+    "pubDate": "Tue, 07 Jul 2026 14:53:41 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Anthropic veut que Claude invente les médicaments du futur",
+    "link": "https://siecledigital.fr/2026/07/06/anthropic-veut-que-claude-invente-les-medicaments-du-futur/",
+    "pubDate": "Tue, 07 Jul 2026 14:53:18 +0000"
   },
   {
     "source": "Actu IA",
@@ -40,35 +70,5 @@
     "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
     "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
     "pubDate": "Tue, 07 Jul 2026 04:55:04 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
-    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:03 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
-    "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:01 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Washington rétablit Fable 5, mais le risque de dépendance aux modèles américains demeure entier",
-    "link": "https://www.actuia.com/actualite/washington-retablit-fable-5-mais-le-risque-de-dependance-aux-modeles-americains-demeure-entier/",
-    "pubDate": "Tue, 07 Jul 2026 04:54:59 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Pharmacy Forward : à quoi servent les 100 M$ d'IA d'Evernorth",
-    "link": "https://www.actuia.com/actualite/pharmacy-forward-a-quoi-servent-les-100-m-dia-devernorth/",
-    "pubDate": "Tue, 07 Jul 2026 04:54:59 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Pourquoi Godot ferme la porte au code généré par IA",
-    "link": "https://www.actuia.com/actualite/pourquoi-godot-ferme-la-porte-au-code-genere-par-ia/",
-    "pubDate": "Tue, 07 Jul 2026 04:54:58 +0000"
   }
 ]
