@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-08T08:11:52.242Z",
+  "generated_at_iso": "2026-07-09T09:29:25.137Z",
   "top10": [
     {
       "rank": 1,
@@ -21,45 +21,45 @@
     },
     {
       "rank": 4,
+      "model": "Grok 4.5 (high)",
+      "creator": "SpaceXAI",
+      "index": 53.8
+    },
+    {
+      "rank": 5,
       "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
       "index": 53.5
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
       "index": 53.4
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-5.5 (high)",
       "creator": "OpenAI",
       "index": 53.1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-5.4 (xhigh)",
       "creator": "OpenAI",
       "index": 51.4
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GLM-5.2 (max)",
       "creator": "Z AI",
       "index": 51.1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "GPT-5.5 (medium)",
       "creator": "OpenAI",
       "index": 50.4
-    },
-    {
-      "rank": 10,
-      "model": "Gemini 3.5 Flash (high)",
-      "creator": "Google",
-      "index": 50.2
     }
   ],
   "top3": [
