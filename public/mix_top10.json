@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-09T09:29:25.137Z",
+  "generated_at_iso": "2026-07-10T09:21:13.804Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -12,45 +12,56 @@
     },
     {
       "rank": 2,
-      "model": "Grok 4.5 (high)",
-      "score": 65.5,
+      "model": "claude-opus-4-6",
+      "score": 75.6,
       "coverage": 1,
-      "lmarena": null
+      "lmarena": {
+        "elo": 1499
+      }
     },
     {
       "rank": 3,
-      "model": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
-      "score": 63.3,
-      "coverage": 1,
-      "lmarena": null
+      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
+      "score": 58.5,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1494
+      }
     },
     {
       "rank": 4,
-      "model": "GLM-5.2 (max)",
-      "score": 50.3,
+      "model": "Grok 4.5 (high)",
+      "score": 56.1,
       "coverage": 1,
       "lmarena": null
     },
     {
       "rank": 5,
+      "model": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
+      "score": 53.2,
+      "coverage": 1,
+      "lmarena": null
+    },
+    {
+      "rank": 6,
+      "model": "muse-spark",
+      "score": 46.2,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1487
+      }
+    },
+    {
+      "rank": 7,
       "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 47.4,
+      "score": 44.1,
       "coverage": 2,
       "lmarena": {
         "elo": 1477
       }
     },
     {
-      "rank": 6,
-      "model": "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)",
-      "score": 42,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1499
-      }
-    },
-    {
-      "rank": 7,
+      "rank": 8,
       "model": "gemini-3-pro",
       "score": 42,
       "coverage": 1,
@@ -59,30 +70,19 @@
       }
     },
     {
-      "rank": 8,
-      "model": "GPT-5.4 (xhigh)",
-      "score": 36.9,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1478
-      }
-    },
-    {
       "rank": 9,
-      "model": "Gemini 3.1 Pro Preview",
-      "score": 33.2,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1486
-      }
+      "model": "GLM-5.2 (max)",
+      "score": 36.7,
+      "coverage": 1,
+      "lmarena": null
     },
     {
       "rank": 10,
-      "model": "Claude Opus 4.7 (Non-reasoning, High Effort)",
-      "score": 33,
+      "model": "GPT-5.4 (xhigh)",
+      "score": 30.3,
       "coverage": 2,
       "lmarena": {
-        "elo": 1494
+        "elo": 1478
       }
     }
   ]
