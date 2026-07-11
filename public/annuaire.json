@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 30
+        "failures": 31
       }
     ]
   },
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 30
+        "failures": 31
       },
       {
         "name": "Resemble AI",
@@ -676,9 +676,10 @@
         "domain": "coqui.ai",
         "desc": "Synthèse vocale open source, idéale pour usage local et privé.",
         "tags": [
-          "free"
+          "free",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       }
     ]
   },
@@ -900,7 +901,7 @@
           "fr",
           "dead"
         ],
-        "failures": 30
+        "failures": 31
       },
       {
         "name": "1min.ai",

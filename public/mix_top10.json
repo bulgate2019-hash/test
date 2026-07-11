@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-10T09:21:13.804Z",
+  "generated_at_iso": "2026-07-11T07:42:35.394Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -13,16 +13,16 @@
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "score": 75.6,
+      "score": 71.4,
       "coverage": 1,
       "lmarena": {
-        "elo": 1499
+        "elo": 1498
       }
     },
     {
       "rank": 3,
       "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-      "score": 58.5,
+      "score": 57.1,
       "coverage": 2,
       "lmarena": {
         "elo": 1494
@@ -31,39 +31,39 @@
     {
       "rank": 4,
       "model": "Grok 4.5 (high)",
-      "score": 56.1,
+      "score": 55.8,
       "coverage": 1,
       "lmarena": null
     },
     {
       "rank": 5,
       "model": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
-      "score": 53.2,
+      "score": 52.9,
       "coverage": 1,
       "lmarena": null
     },
     {
       "rank": 6,
       "model": "muse-spark",
-      "score": 46.2,
+      "score": 42.4,
       "coverage": 1,
       "lmarena": {
-        "elo": 1487
+        "elo": 1488
       }
     },
     {
       "rank": 7,
-      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 44.1,
+      "model": "Muse Spark 1.1 (xhigh)",
+      "score": 40.2,
       "coverage": 2,
       "lmarena": {
-        "elo": 1477
+        "elo": 1490
       }
     },
     {
       "rank": 8,
-      "model": "gemini-3-pro",
-      "score": 42,
+      "model": "gpt-5.6-sol-xhigh",
+      "score": 38.9,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
@@ -71,18 +71,20 @@
     },
     {
       "rank": 9,
-      "model": "GLM-5.2 (max)",
-      "score": 36.7,
-      "coverage": 1,
-      "lmarena": null
+      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
+      "score": 38.6,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1475
+      }
     },
     {
       "rank": 10,
-      "model": "GPT-5.4 (xhigh)",
-      "score": 30.3,
-      "coverage": 2,
+      "model": "gemini-3-pro",
+      "score": 37.5,
+      "coverage": 1,
       "lmarena": {
-        "elo": 1478
+        "elo": 1486
       }
     }
   ]
