@@ -1,6 +1,36 @@
 [
   {
     "source": "Siècle Digital",
+    "title": "OpenAI préparerait une enceinte intelligente sans écran pour emmener ChatGPT partout",
+    "link": "https://siecledigital.fr/2026/07/16/openai-preparerait-une-enceinte-intelligente-sans-ecran-pour-emmener-chatgpt-partout/",
+    "pubDate": "Thu, 16 Jul 2026 07:52:31 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Google attaqué en justice pour avoir utilisé des millions de livres protégés afin d&#8217;entraîner Gemini",
+    "link": "https://siecledigital.fr/2026/07/16/google-attaque-en-justice-pour-avoir-utilise-des-millions-de-livres-proteges-afin-dentrainer-gemini/",
+    "pubDate": "Thu, 16 Jul 2026 07:34:59 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Vos agents IA partagent tous la même clé API : comment VaultysClaw veut changer la donne",
+    "link": "https://www.clubic.com/actualite-621370-vos-agents-ia-partagent-tous-la-meme-cle-api-comment-vaultysclaw-veut-changer-la-donne.html",
+    "pubDate": "Thu, 16 Jul 2026 06:35:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Claude pour Chrome : votre Gmail, vos agendas et documents Google restent menacés par une faille non corrigée",
+    "link": "https://www.clubic.com/actualite-621325-vulnerabilite-claude-for-chrome.html",
+    "pubDate": "Wed, 15 Jul 2026 09:17:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI veut créer une enceinte qui semble vivante pour concurrencer Apple dans votre salon",
+    "link": "https://www.clubic.com/actualite-621316-openai-veut-creer-une-enceinte-qui-semble-vivante-pour-concurrencer-apple-dans-votre-salon.html",
+    "pubDate": "Wed, 15 Jul 2026 08:39:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
     "title": "TikTok déclare la guerre aux comptes qui saturent la plateforme de vidéos générées par IA",
     "link": "https://siecledigital.fr/2026/07/15/tiktok-declare-la-guerre-aux-comptes-qui-saturent-la-plateforme-de-videos-generees-par-ia/",
     "pubDate": "Wed, 15 Jul 2026 07:52:12 +0000"
@@ -10,12 +40,6 @@
     "title": "Après Meta et OpenAI, Google affronte une nouvelle plainte des éditeurs",
     "link": "https://www.clubic.com/actualite-621292-google-de-nouveau-vise-par-un-proces-majeur-pour-l-entrainement-de-son-ia-par-de-grands-editeurs.html",
     "pubDate": "Wed, 15 Jul 2026 06:07:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "À peine déposée, la plainte d’Apple est déjà une catastrophe pour OpenAI… Pourra-t-elle s’en remettre ?",
-    "link": "https://www.clubic.com/actualite-621226-a-peine-deposee-la-plainte-d-apple-est-deja-une-catastrophe-pour-openai-pourra-t-elle-s-en-remettre.html",
-    "pubDate": "Tue, 14 Jul 2026 10:34:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -36,24 +60,6 @@
     "pubDate": "Mon, 13 Jul 2026 12:05:47 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "Pourquoi Meta fait déjà marche arrière sur cette fonction IA d&#8217;Instagram lancée il y a 4 jours ?",
-    "link": "https://siecledigital.fr/2026/07/12/pourquoi-meta-fait-deja-marche-arriere-sur-cette-fonction-ia-dinstagram-lancee-il-y-a-4-jours/",
-    "pubDate": "Mon, 13 Jul 2026 12:02:37 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Pourquoi OpenAI abandonne déjà son navigateur web Atlas",
-    "link": "https://siecledigital.fr/2026/07/13/pourquoi-openai-abandonne-deja-son-navigateur-web-atlas/",
-    "pubDate": "Mon, 13 Jul 2026 11:59:39 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Après les États-Unis, ChatGPT s&#8217;apprête à lancer la publicité en France",
-    "link": "https://siecledigital.fr/2026/07/09/apres-les-etats-unis-chatgpt-sapprete-a-lancer-la-publicite-en-france/",
-    "pubDate": "Fri, 10 Jul 2026 07:21:59 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
     "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
@@ -64,11 +70,5 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
-    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
   }
 ]
