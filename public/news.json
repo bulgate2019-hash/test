@@ -1,6 +1,54 @@
 [
   {
     "source": "Siècle Digital",
+    "title": "Pour George Lucas, l&#8217;intelligence artificielle représente l&#8217;avenir du cinéma",
+    "link": "https://siecledigital.fr/2026/07/17/pour-george-lucas-lintelligence-artificielle-represente-lavenir-du-cinema/",
+    "pubDate": "Fri, 17 Jul 2026 07:40:04 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Spotify lance son propre chatbot IA pour trouver la musique qui vous correspond",
+    "link": "https://siecledigital.fr/2026/07/17/spotify-lance-son-propre-chatbot-ia-pour-trouver-la-musique-qui-vous-correspond/",
+    "pubDate": "Fri, 17 Jul 2026 07:23:50 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google Vids permet désormais de devenir la star de ses propres vidéos IA",
+    "link": "https://www.clubic.com/actualite-621670-google-vids-permet-desormais-de-devenir-la-star-de-ses-propres-videos-ia.html",
+    "pubDate": "Fri, 17 Jul 2026 06:50:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Bruxelles : Google doit ouvrir Android aux IA tierces et partager ses données sous peine d'une amende colossale",
+    "link": "https://www.clubic.com/actualite-621613-bruxelles-google-doit-ouvrir-android-aux-ia-tierces-et-partager-ses-donnees-sous-peine-d-une-amende-colossale.html",
+    "pubDate": "Thu, 16 Jul 2026 14:20:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "1Password laisse Claude se connecter à vos comptes sans jamais voir vos mots de passe",
+    "link": "https://www.clubic.com/actualite-621628-password-laisse-claude-se-connecter-a-vos-comptes-sans-jamais-voir-vos-mots-de-passe.html",
+    "pubDate": "Thu, 16 Jul 2026 13:52:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT dispose d’un réglage de sécurité avancée pour votre compte, voici comment l’activer",
+    "link": "https://www.clubic.com/tutoriel-621409-chatgpt-dispose-d-un-reglage-de-securite-avancee-pour-votre-compte-voici-comment-l-activer.html",
+    "pubDate": "Thu, 16 Jul 2026 12:31:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Après l'échec de ses serveurs M2 Ultra, Apple lorgnerait des rachats dans les puces IA",
+    "link": "https://www.clubic.com/actualite-621505-apres-l-echec-de-ses-serveurs-m2-ultra-apple-lorgnerait-des-rachats-dans-les-puces-ia.html",
+    "pubDate": "Thu, 16 Jul 2026 09:49:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Meta aurait confié à une IA le choix des salariés à licencier",
+    "link": "https://siecledigital.fr/2026/07/16/meta-aurait-confie-a-une-ia-le-choix-des-salaries-a-licencier/",
+    "pubDate": "Thu, 16 Jul 2026 08:51:35 +0000"
+  },
+  {
+    "source": "Siècle Digital",
     "title": "OpenAI préparerait une enceinte intelligente sans écran pour emmener ChatGPT partout",
     "link": "https://siecledigital.fr/2026/07/16/openai-preparerait-une-enceinte-intelligente-sans-ecran-pour-emmener-chatgpt-partout/",
     "pubDate": "Thu, 16 Jul 2026 07:52:31 +0000"
@@ -12,63 +60,15 @@
     "pubDate": "Thu, 16 Jul 2026 07:34:59 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Vos agents IA partagent tous la même clé API : comment VaultysClaw veut changer la donne",
-    "link": "https://www.clubic.com/actualite-621370-vos-agents-ia-partagent-tous-la-meme-cle-api-comment-vaultysclaw-veut-changer-la-donne.html",
-    "pubDate": "Thu, 16 Jul 2026 06:35:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Claude pour Chrome : votre Gmail, vos agendas et documents Google restent menacés par une faille non corrigée",
-    "link": "https://www.clubic.com/actualite-621325-vulnerabilite-claude-for-chrome.html",
-    "pubDate": "Wed, 15 Jul 2026 09:17:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "OpenAI veut créer une enceinte qui semble vivante pour concurrencer Apple dans votre salon",
-    "link": "https://www.clubic.com/actualite-621316-openai-veut-creer-une-enceinte-qui-semble-vivante-pour-concurrencer-apple-dans-votre-salon.html",
-    "pubDate": "Wed, 15 Jul 2026 08:39:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "TikTok déclare la guerre aux comptes qui saturent la plateforme de vidéos générées par IA",
     "link": "https://siecledigital.fr/2026/07/15/tiktok-declare-la-guerre-aux-comptes-qui-saturent-la-plateforme-de-videos-generees-par-ia/",
     "pubDate": "Wed, 15 Jul 2026 07:52:12 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Après Meta et OpenAI, Google affronte une nouvelle plainte des éditeurs",
-    "link": "https://www.clubic.com/actualite-621292-google-de-nouveau-vise-par-un-proces-majeur-pour-l-entrainement-de-son-ia-par-de-grands-editeurs.html",
-    "pubDate": "Wed, 15 Jul 2026 06:07:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Plus besoin d&#8217;application, ChatGPT est accessible gratuitement directement sur WhatsApp",
     "link": "https://siecledigital.fr/2026/07/14/plus-besoin-dapplication-chatgpt-est-accessible-gratuitement-directement-sur-whatsapp/",
     "pubDate": "Tue, 14 Jul 2026 08:29:14 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Intel injecte 5 milliards d&#8217;euros en Europe pour produire davantage de puces IA",
-    "link": "https://siecledigital.fr/2026/07/14/intel-injecte-5-milliards-deuros-en-europe-pour-produire-davantage-de-puces-ia/",
-    "pubDate": "Tue, 14 Jul 2026 07:07:11 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Apple attaque OpenAI en justice et l&#8217;accuse d&#8217;avoir volé ses secrets industriels",
-    "link": "https://siecledigital.fr/2026/07/12/apple-attaque-openai-en-justice-et-laccuse-davoir-vole-ses-secrets-industriels/",
-    "pubDate": "Mon, 13 Jul 2026 12:05:47 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
-    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
-    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
   }
 ]

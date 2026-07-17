@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 36
+        "failures": 37
       }
     ]
   },
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 36
+        "failures": 37
       },
       {
         "name": "Resemble AI",
@@ -679,7 +679,7 @@
           "free",
           "dead"
         ],
-        "failures": 8
+        "failures": 9
       }
     ]
   },
@@ -779,7 +779,7 @@
           "star",
           "free"
         ],
-        "failures": 1
+        "failures": 0
       },
       {
         "name": "OpenRouter",
@@ -901,7 +901,7 @@
           "fr",
           "dead"
         ],
-        "failures": 36
+        "failures": 37
       },
       {
         "name": "1min.ai",
