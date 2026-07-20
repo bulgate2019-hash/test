@@ -1,33 +1,27 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "L&#8217;Autorité de la concurrence alerte sur les risques des agents IA pour nos achats en ligne",
+    "link": "https://siecledigital.fr/2026/07/20/lautorite-de-la-concurrence-alerte-sur-les-risques-des-agents-ia-pour-nos-achats-en-ligne/",
+    "pubDate": "Mon, 20 Jul 2026 08:28:02 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Apple teste une IA qui écoute vos échanges en boutique, et certains employés s'inquiètent déjà",
+    "link": "https://www.clubic.com/actualite-621943-apple-teste-une-ia-qui-ecoute-vos-echanges-en-boutique-et-certains-employes-s-inquietent-deja.html",
+    "pubDate": "Mon, 20 Jul 2026 08:20:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Agent IA outbound : autonome et disponible 24h/24, cette solution booste les conversions",
+    "link": "https://www.clubic.com/actualite-616339-cet-agent-ia-automatise-la-premiere-prise-de-contact-et-booste-les-conversions.html",
+    "pubDate": "Sun, 19 Jul 2026 15:30:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "Android : un bogue de l’écran verrouillé permettait à Gemini d’envoyer des SMS sans PIN, Google corrige rapidement",
     "link": "https://www.clubic.com/actualite-621871-android-un-bug-de-l-ecran-verrouille-permettait-a-gemini-d-envoyer-des-sms-sans-pin-google-corrige-rapidement.html",
     "pubDate": "Sat, 18 Jul 2026 13:15:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Apple envoie des courriers d'avocat à des anciens employés passés chez OpenAI",
-    "link": "https://www.clubic.com/actualite-621799-apple-envoie-des-courriers-davocat-a-des-anciens-employes-passes-chez-openai.html",
-    "pubDate": "Fri, 17 Jul 2026 14:07:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google contraint de retarder Gemini 3.5 Pro, ses performances en code sont décevantes",
-    "link": "https://www.clubic.com/actualite-621769-google-contraint-de-retarder-gemini-3-5-pro-ses-performances-en-code-sont-decevantes.html",
-    "pubDate": "Fri, 17 Jul 2026 12:28:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Microsoft Teams va créer par défaut une mémoire IA de vos réunions pour aider Copilot à répondre à vos questions",
-    "link": "https://www.clubic.com/actualite-621754-microsoft-teams-va-creer-par-defaut-une-memoire-ia-de-vos-reunions-pour-aider-copilot-a-repondre-a-vos-questions.html",
-    "pubDate": "Fri, 17 Jul 2026 12:26:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "L'Autorité de la concurrence pointe la mainmise d'OpenAI, Anthropic et Google sur les agents d'IA",
-    "link": "https://www.clubic.com/actualite-621760-l-autorite-de-la-concurrence-pointe-la-mainmise-d-openai-anthropic-et-google-sur-les-agents-d-ia.html",
-    "pubDate": "Fri, 17 Jul 2026 12:14:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -66,9 +60,15 @@
     "pubDate": "Thu, 16 Jul 2026 07:34:59 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "TikTok déclare la guerre aux comptes qui saturent la plateforme de vidéos générées par IA",
-    "link": "https://siecledigital.fr/2026/07/15/tiktok-declare-la-guerre-aux-comptes-qui-saturent-la-plateforme-de-videos-generees-par-ia/",
-    "pubDate": "Wed, 15 Jul 2026 07:52:12 +0000"
+    "source": "Actu IA",
+    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
+    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
+    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
   }
 ]
