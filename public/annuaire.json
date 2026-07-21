@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 40
+        "failures": 41
       }
     ]
   },
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 40
+        "failures": 41
       },
       {
         "name": "Resemble AI",
@@ -679,7 +679,7 @@
           "free",
           "dead"
         ],
-        "failures": 12
+        "failures": 13
       }
     ]
   },
@@ -901,7 +901,7 @@
           "fr",
           "dead"
         ],
-        "failures": 40
+        "failures": 41
       },
       {
         "name": "1min.ai",

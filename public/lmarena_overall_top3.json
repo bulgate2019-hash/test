@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-20T08:44:01.009Z",
+  "generated_at_iso": "2026-07-21T08:11:27.992Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -23,13 +23,13 @@
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-7",
-      "overall": 1494
+      "model": "muse-spark-1.1",
+      "overall": 1495
     },
     {
       "rank": 6,
-      "model": "muse-spark-1.1",
-      "overall": 1493
+      "model": "claude-opus-4-7",
+      "overall": 1494
     },
     {
       "rank": 7,
@@ -38,17 +38,17 @@
     },
     {
       "rank": 8,
+      "model": "kimi-k3",
+      "overall": 1487
+    },
+    {
+      "rank": 9,
       "model": "gpt-5.6-sol-xhigh",
       "overall": 1486
     },
     {
-      "rank": 9,
-      "model": "gemini-3-pro",
-      "overall": 1486
-    },
-    {
       "rank": 10,
-      "model": "kimi-k3",
+      "model": "gemini-3-pro",
       "overall": 1486
     }
   ],
