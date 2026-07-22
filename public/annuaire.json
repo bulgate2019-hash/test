@@ -319,7 +319,7 @@
         "tags": [
           "new"
         ],
-        "failures": 0
+        "failures": 1
       },
       {
         "name": "Replit Agent",
@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 41
+        "failures": 42
       }
     ]
   },
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 41
+        "failures": 42
       },
       {
         "name": "Resemble AI",
@@ -679,7 +679,7 @@
           "free",
           "dead"
         ],
-        "failures": 13
+        "failures": 14
       }
     ]
   },
@@ -901,7 +901,7 @@
           "fr",
           "dead"
         ],
-        "failures": 41
+        "failures": 42
       },
       {
         "name": "1min.ai",

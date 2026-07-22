@@ -1,6 +1,30 @@
 [
   {
     "source": "Siècle Digital",
+    "title": "Sur LinkedIn, les contenus générés par IA sont devenus presque impossibles à éviter",
+    "link": "https://siecledigital.fr/2026/07/22/sur-linkedin-les-contenus-generes-par-ia-sont-devenus-presque-impossibles-a-eviter/",
+    "pubDate": "Wed, 22 Jul 2026 07:57:02 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Deezer : plus de la moitié des titres soumis chaque jour sont générés par IA",
+    "link": "https://www.clubic.com/actualite-622258-deezer-plus-de-la-moitie-des-titres-soumis-chaque-jour-sont-generes-par-ia.html",
+    "pubDate": "Wed, 22 Jul 2026 07:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Deepfakes : NVIDIA dévoile un détecteur vidéo IA à 92 % de précision",
+    "link": "https://www.clubic.com/actualite-622213-deepfakes-nvidia-devoile-un-detecteur-video-ia-a-92-de-precision.html",
+    "pubDate": "Tue, 21 Jul 2026 14:53:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Chacun son tour ! La Chine réfléchit à des contrôles à l'export de ses modèles IA et de ses semi-conducteurs",
+    "link": "https://www.clubic.com/actualite-622216-chacun-son-tour-la-chine-reflechit-a-des-controles-a-l-export-de-ses-modeles-ia-et-de-ses-semi-conducteurs.html",
+    "pubDate": "Tue, 21 Jul 2026 14:28:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
     "title": "France Travail teste une IA pour repérer les chômeurs qui ne chercheraient pas vraiment un emploi",
     "link": "https://siecledigital.fr/2026/07/21/france-travail-teste-une-ia-pour-reperer-les-chomeurs-qui-ne-chercheraient-pas-vraiment-un-emploi/",
     "pubDate": "Tue, 21 Jul 2026 07:06:59 +0000"
@@ -18,46 +42,10 @@
     "pubDate": "Mon, 20 Jul 2026 08:28:02 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Apple teste une IA qui écoute vos échanges en boutique, et certains employés s'inquiètent déjà",
-    "link": "https://www.clubic.com/actualite-621943-apple-teste-une-ia-qui-ecoute-vos-echanges-en-boutique-et-certains-employes-s-inquietent-deja.html",
-    "pubDate": "Mon, 20 Jul 2026 08:20:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Agent IA outbound : autonome et disponible 24h/24, cette solution booste les conversions",
-    "link": "https://www.clubic.com/actualite-616339-cet-agent-ia-automatise-la-premiere-prise-de-contact-et-booste-les-conversions.html",
-    "pubDate": "Sun, 19 Jul 2026 15:30:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Les agents IA déferlent sur le web avec un trafic en hausse de 45 %",
     "link": "https://siecledigital.fr/2026/07/17/les-agents-ia-deferlent-sur-le-web-avec-un-trafic-en-hausse-de-45/",
     "pubDate": "Fri, 17 Jul 2026 08:34:38 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Pour George Lucas, l&#8217;intelligence artificielle représente l&#8217;avenir du cinéma",
-    "link": "https://siecledigital.fr/2026/07/17/pour-george-lucas-lintelligence-artificielle-represente-lavenir-du-cinema/",
-    "pubDate": "Fri, 17 Jul 2026 07:40:04 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Spotify lance son propre chatbot IA pour trouver la musique qui vous correspond",
-    "link": "https://siecledigital.fr/2026/07/17/spotify-lance-son-propre-chatbot-ia-pour-trouver-la-musique-qui-vous-correspond/",
-    "pubDate": "Fri, 17 Jul 2026 07:23:50 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Meta aurait confié à une IA le choix des salariés à licencier",
-    "link": "https://siecledigital.fr/2026/07/16/meta-aurait-confie-a-une-ia-le-choix-des-salaries-a-licencier/",
-    "pubDate": "Thu, 16 Jul 2026 08:51:35 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI préparerait une enceinte intelligente sans écran pour emmener ChatGPT partout",
-    "link": "https://siecledigital.fr/2026/07/16/openai-preparerait-une-enceinte-intelligente-sans-ecran-pour-emmener-chatgpt-partout/",
-    "pubDate": "Thu, 16 Jul 2026 07:52:31 +0000"
   },
   {
     "source": "Actu IA",
@@ -70,5 +58,17 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
+    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
   }
 ]
