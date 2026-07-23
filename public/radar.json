@@ -1,42 +1,42 @@
 [
   {
-    "name": "TaxFlow",
-    "desc": "AI invoices, W-8BEN tax forms & multi-currency tracking",
-    "url": "https://www.producthunt.com/products/taxflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ApexApi",
+    "desc": "One API for every AI model. Built for apps and agents.",
+    "url": "https://www.producthunt.com/products/apexapi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "NeuraMonks",
-    "desc": "AI Development Company",
-    "url": "https://www.producthunt.com/products/neuramonks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Select & Explain",
+    "desc": "Explain any term in context — 100% local, no account",
+    "url": "https://www.producthunt.com/products/select-explain-ai-reading-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ReadySECURE",
-    "desc": "Prevent. Detect. Respond",
-    "url": "https://www.producthunt.com/products/readysecure?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "TrustLens AI",
+    "desc": "Know Before You Click. Know Before You Agree.",
+    "url": "https://www.producthunt.com/products/trustlens-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "AGINE Academy",
-    "desc": "A story-driven game for learning Claude by doing ",
-    "url": "https://www.producthunt.com/products/agine-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Shingan AI",
+    "desc": "See what ChatGPT tells your customers",
+    "url": "https://www.producthunt.com/products/shingan-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Chancery",
-    "desc": "The identity provider for AI agents",
-    "url": "https://www.producthunt.com/products/chancery-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ava",
+    "desc": "private in-browser tts with kyutai pocket tts",
+    "url": "https://www.producthunt.com/products/ava-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Synmatch AI powered by WorkMotion",
-    "desc": "Faster, fairer, frictionless recruiting",
-    "url": "https://www.producthunt.com/products/synmatch-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "LaunchLint",
+    "desc": "Security preflight for AI-built apps",
+    "url": "https://www.producthunt.com/products/launchlint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "POE2Builds",
-    "desc": "Free build guides & gear planner for Path of Exile 2",
-    "url": "https://www.producthunt.com/products/poe2builds?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "BOSAI Control Plane",
+    "desc": "Govern AI agents with approval gates and audit trails",
+    "url": "https://www.producthunt.com/products/bosai-control-plane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "PackshotForge",
-    "desc": "Studio product photos, generated inside Photoshop",
-    "url": "https://www.producthunt.com/products/packshotforge?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "SongSprig",
+    "desc": "Turn prompts and lyrics into complete AI songs",
+    "url": "https://www.producthunt.com/products/songsprig?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

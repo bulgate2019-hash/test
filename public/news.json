@@ -1,5 +1,41 @@
 [
   {
+    "source": "Clubic",
+    "title": "Claude peut désormais apprendre votre façon de travailler ... en regardant votre écran",
+    "link": "https://www.clubic.com/actualite-622366-claude-peut-desormais-apprendre-votre-facon-de-travailler-en-regardant-votre-ecran.html",
+    "pubDate": "Wed, 22 Jul 2026 14:26:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Hack de Hugging Face : OpenAI avoue, ses modèles en test sont en cause",
+    "link": "https://www.clubic.com/actualite-622306-openai-affirme-que-des-modeles-avant-lancement-de-hugging-face-ont-compromis-sa-securite.html",
+    "pubDate": "Wed, 22 Jul 2026 10:41:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "YouTube s&#8217;attaque aux vidéos IA de faible qualité et menace leur monétisation",
+    "link": "https://siecledigital.fr/2026/07/22/youtube-sattaque-aux-videos-ia-de-faible-qualite-et-menace-leur-monetisation/",
+    "pubDate": "Wed, 22 Jul 2026 09:15:00 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Non, la \"souveraineté\" vendue par Microsoft et Mistral n'est pas reconnue par l'ANSSI",
+    "link": "https://www.clubic.com/actualite-622273-microsoft-mistral.html",
+    "pubDate": "Wed, 22 Jul 2026 09:02:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Microsoft et Mistral AI s&#8217;allient dans un méga-accord à plusieurs milliards de dollars",
+    "link": "https://siecledigital.fr/2026/07/22/microsoft-et-mistral-ai-sallient-dans-un-mega-accord-a-plusieurs-milliards-de-dollars/",
+    "pubDate": "Wed, 22 Jul 2026 08:46:00 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Instagram va limiter son IA gratuite et faire payer les utilisateurs les plus gourmands",
+    "link": "https://siecledigital.fr/2026/07/22/instagram-va-limiter-son-ia-gratuite-et-faire-payer-les-utilisateurs-les-plus-gourmands/",
+    "pubDate": "Wed, 22 Jul 2026 08:14:02 +0000"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Sur LinkedIn, les contenus générés par IA sont devenus presque impossibles à éviter",
     "link": "https://siecledigital.fr/2026/07/22/sur-linkedin-les-contenus-generes-par-ia-sont-devenus-presque-impossibles-a-eviter/",
@@ -12,40 +48,16 @@
     "pubDate": "Wed, 22 Jul 2026 07:15:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Deepfakes : NVIDIA dévoile un détecteur vidéo IA à 92 % de précision",
-    "link": "https://www.clubic.com/actualite-622213-deepfakes-nvidia-devoile-un-detecteur-video-ia-a-92-de-precision.html",
-    "pubDate": "Tue, 21 Jul 2026 14:53:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Chacun son tour ! La Chine réfléchit à des contrôles à l'export de ses modèles IA et de ses semi-conducteurs",
-    "link": "https://www.clubic.com/actualite-622216-chacun-son-tour-la-chine-reflechit-a-des-controles-a-l-export-de-ses-modeles-ia-et-de-ses-semi-conducteurs.html",
-    "pubDate": "Tue, 21 Jul 2026 14:28:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "France Travail teste une IA pour repérer les chômeurs qui ne chercheraient pas vraiment un emploi",
     "link": "https://siecledigital.fr/2026/07/21/france-travail-teste-une-ia-pour-reperer-les-chomeurs-qui-ne-chercheraient-pas-vraiment-un-emploi/",
     "pubDate": "Tue, 21 Jul 2026 07:06:59 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Pour ce dirigeant d'OpenAI, la sortie du modèle IA Kimi représente l'arrivée du \"communisme de l'IA\"",
-    "link": "https://www.clubic.com/actualite-622045-pour-ce-dirigeant-d-openai-la-sortie-du-modele-ia-kimi-represente-l-arrivee-du-communisme-de-l-ia.html",
-    "pubDate": "Mon, 20 Jul 2026 15:47:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "L&#8217;Autorité de la concurrence alerte sur les risques des agents IA pour nos achats en ligne",
     "link": "https://siecledigital.fr/2026/07/20/lautorite-de-la-concurrence-alerte-sur-les-risques-des-agents-ia-pour-nos-achats-en-ligne/",
     "pubDate": "Mon, 20 Jul 2026 08:28:02 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Les agents IA déferlent sur le web avec un trafic en hausse de 45 %",
-    "link": "https://siecledigital.fr/2026/07/17/les-agents-ia-deferlent-sur-le-web-avec-un-trafic-en-hausse-de-45/",
-    "pubDate": "Fri, 17 Jul 2026 08:34:38 +0000"
   },
   {
     "source": "Actu IA",
@@ -58,17 +70,5 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
-    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
   }
 ]
