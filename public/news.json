@@ -1,27 +1,27 @@
 [
   {
     "source": "Clubic",
-    "title": "Claude peut désormais apprendre votre façon de travailler ... en regardant votre écran",
-    "link": "https://www.clubic.com/actualite-622366-claude-peut-desormais-apprendre-votre-facon-de-travailler-en-regardant-votre-ecran.html",
-    "pubDate": "Wed, 22 Jul 2026 14:26:00 GMT"
+    "title": "Les États-Unis veulent pouvoir couper une IA jugée hors de contrôle",
+    "link": "https://www.clubic.com/actualite-622573-les-etats-unis-veulent-pouvoir-couper-une-ia-jugee-hors-de-controle.html",
+    "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Hack de Hugging Face : OpenAI avoue, ses modèles en test sont en cause",
-    "link": "https://www.clubic.com/actualite-622306-openai-affirme-que-des-modeles-avant-lancement-de-hugging-face-ont-compromis-sa-securite.html",
-    "pubDate": "Wed, 22 Jul 2026 10:41:00 GMT"
+    "title": "OpenAI flambe : ses dépenses en IA explosent et atteignent 750 milliards de dollars, la pression est maximale",
+    "link": "https://www.clubic.com/actualite-622498-openai-flambe-ses-depenses-en-ia-explosent-et-atteignent-750-milliards-de-dollars-la-pression-est-maximale.html",
+    "pubDate": "Thu, 23 Jul 2026 12:01:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Cette police de caractères veut tromper les IA avec des illusions d'optique",
+    "link": "https://www.clubic.com/actualite-622405-cette-police-de-caracteres-veut-tromper-les-ia-avec-des-illusions-d-optique.html",
+    "pubDate": "Thu, 23 Jul 2026 09:02:00 GMT"
   },
   {
     "source": "Siècle Digital",
     "title": "YouTube s&#8217;attaque aux vidéos IA de faible qualité et menace leur monétisation",
     "link": "https://siecledigital.fr/2026/07/22/youtube-sattaque-aux-videos-ia-de-faible-qualite-et-menace-leur-monetisation/",
     "pubDate": "Wed, 22 Jul 2026 09:15:00 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Non, la \"souveraineté\" vendue par Microsoft et Mistral n'est pas reconnue par l'ANSSI",
-    "link": "https://www.clubic.com/actualite-622273-microsoft-mistral.html",
-    "pubDate": "Wed, 22 Jul 2026 09:02:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -42,24 +42,6 @@
     "pubDate": "Wed, 22 Jul 2026 07:57:02 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Deezer : plus de la moitié des titres soumis chaque jour sont générés par IA",
-    "link": "https://www.clubic.com/actualite-622258-deezer-plus-de-la-moitie-des-titres-soumis-chaque-jour-sont-generes-par-ia.html",
-    "pubDate": "Wed, 22 Jul 2026 07:15:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "France Travail teste une IA pour repérer les chômeurs qui ne chercheraient pas vraiment un emploi",
-    "link": "https://siecledigital.fr/2026/07/21/france-travail-teste-une-ia-pour-reperer-les-chomeurs-qui-ne-chercheraient-pas-vraiment-un-emploi/",
-    "pubDate": "Tue, 21 Jul 2026 07:06:59 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "L&#8217;Autorité de la concurrence alerte sur les risques des agents IA pour nos achats en ligne",
-    "link": "https://siecledigital.fr/2026/07/20/lautorite-de-la-concurrence-alerte-sur-les-risques-des-agents-ia-pour-nos-achats-en-ligne/",
-    "pubDate": "Mon, 20 Jul 2026 08:28:02 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
     "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
@@ -70,5 +52,23 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
+    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
+    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:04 +0000"
   }
 ]

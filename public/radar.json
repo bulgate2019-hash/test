@@ -1,42 +1,42 @@
 [
   {
-    "name": "ApexApi",
-    "desc": "One API for every AI model. Built for apps and agents.",
-    "url": "https://www.producthunt.com/products/apexapi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "HNA-Code",
+    "desc": "Mission control for parallel Claude Code sessions.",
+    "url": "https://www.producthunt.com/products/hna-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Select & Explain",
-    "desc": "Explain any term in context — 100% local, no account",
-    "url": "https://www.producthunt.com/products/select-explain-ai-reading-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cobalt",
+    "desc": "The world's first Agentic Accelerator browser",
+    "url": "https://www.producthunt.com/products/cobalt-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "TrustLens AI",
-    "desc": "Know Before You Click. Know Before You Agree.",
-    "url": "https://www.producthunt.com/products/trustlens-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "watchLLMs",
+    "desc": "Get your product recommended by ChatGPT, Claude, and Gemini.",
+    "url": "https://www.producthunt.com/products/watchllms?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Shingan AI",
-    "desc": "See what ChatGPT tells your customers",
-    "url": "https://www.producthunt.com/products/shingan-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "DevDrafts",
+    "desc": "Your Daily Blueprint for Smart AI Tools.",
+    "url": "https://www.producthunt.com/products/devdrafts?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ava",
-    "desc": "private in-browser tts with kyutai pocket tts",
-    "url": "https://www.producthunt.com/products/ava-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "WrapperExits",
+    "desc": "What AI wrappers actually sell for",
+    "url": "https://www.producthunt.com/products/wrapperexits?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "LaunchLint",
-    "desc": "Security preflight for AI-built apps",
-    "url": "https://www.producthunt.com/products/launchlint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Muster",
+    "desc": "The native cockpit for AI coding agents",
+    "url": "https://www.producthunt.com/products/muster?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "BOSAI Control Plane",
-    "desc": "Govern AI agents with approval gates and audit trails",
-    "url": "https://www.producthunt.com/products/bosai-control-plane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cothons",
+    "desc": "Turns Google Business Profiles into optimized landing pages",
+    "url": "https://www.producthunt.com/products/cothons?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "SongSprig",
-    "desc": "Turn prompts and lyrics into complete AI songs",
-    "url": "https://www.producthunt.com/products/songsprig?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenWorker",
+    "desc": "Local-first desktop agent for everyday work",
+    "url": "https://www.producthunt.com/products/openworker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
