@@ -76,7 +76,7 @@
           "star",
           "new"
         ],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "Microsoft Copilot",
@@ -348,7 +348,7 @@
           "free",
           "dead"
         ],
-        "failures": 44
+        "failures": 45
       }
     ]
   },
@@ -398,7 +398,7 @@
         "tags": [
           "new"
         ],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "Leonardo.Ai",
@@ -652,7 +652,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 44
+        "failures": 45
       },
       {
         "name": "Resemble AI",
@@ -679,7 +679,7 @@
           "free",
           "dead"
         ],
-        "failures": 16
+        "failures": 17
       }
     ]
   },
@@ -901,7 +901,7 @@
           "fr",
           "dead"
         ],
-        "failures": 44
+        "failures": 45
       },
       {
         "name": "1min.ai",

@@ -1,21 +1,45 @@
 [
   {
     "source": "Clubic",
+    "title": "Les avocats ont désormais leur charte IA à Paris, le barreau leur explique comment l'utiliser",
+    "link": "https://www.clubic.com/actualite-622702-les-avocats-ont-desormais-leur-charte-ia-a-paris-le-barreau-leur-explique-comment-l-utiliser.html",
+    "pubDate": "Sat, 25 Jul 2026 06:08:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic lance Claude Opus 5, son IA la plus puissante et la moins chère à faire tourner",
+    "link": "https://www.clubic.com/actualite-622693-anthropic-lance-claude-opus-5-son-ia-la-plus-puissante-et-la-moins-chere-a-faire-tourner.html",
+    "pubDate": "Fri, 24 Jul 2026 18:01:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT Santé débarque aux États-Unis : bonne idée ou risque majeur pour la vie privée ?",
+    "link": "https://www.clubic.com/actualite-622645-chatgpt-sante-debarque-aux-etats-unis-bonne-idee-ou-risque-majeur-pour-la-vie-privee.html",
+    "pubDate": "Fri, 24 Jul 2026 12:52:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "L'anti-GitHub européen dit non au code écrit par Claude et Codex",
+    "link": "https://www.clubic.com/actualite-622627-l-anti-github-europeen-dit-non-au-code-ecrit-par-claude-et-codex.html",
+    "pubDate": "Fri, 24 Jul 2026 11:43:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "La presse française accuse Google de piller ses contenus pour nourrir ses résumés IA",
+    "link": "https://siecledigital.fr/2026/07/24/la-presse-francaise-accuse-google-de-piller-ses-contenus-pour-nourrir-ses-resumes-ia/",
+    "pubDate": "Fri, 24 Jul 2026 09:05:02 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI dévoile Presence, sa nouvelle plateforme dédiée aux agents IA en entreprise",
+    "link": "https://siecledigital.fr/2026/07/24/openai-devoile-presence-sa-nouvelle-plateforme-dediee-aux-agents-ia-en-entreprise/",
+    "pubDate": "Fri, 24 Jul 2026 08:35:05 +0000"
+  },
+  {
+    "source": "Clubic",
     "title": "Les États-Unis veulent pouvoir couper une IA jugée hors de contrôle",
     "link": "https://www.clubic.com/actualite-622573-les-etats-unis-veulent-pouvoir-couper-une-ia-jugee-hors-de-controle.html",
     "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "OpenAI flambe : ses dépenses en IA explosent et atteignent 750 milliards de dollars, la pression est maximale",
-    "link": "https://www.clubic.com/actualite-622498-openai-flambe-ses-depenses-en-ia-explosent-et-atteignent-750-milliards-de-dollars-la-pression-est-maximale.html",
-    "pubDate": "Thu, 23 Jul 2026 12:01:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Cette police de caractères veut tromper les IA avec des illusions d'optique",
-    "link": "https://www.clubic.com/actualite-622405-cette-police-de-caracteres-veut-tromper-les-ia-avec-des-illusions-d-optique.html",
-    "pubDate": "Thu, 23 Jul 2026 09:02:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -46,29 +70,5 @@
     "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
     "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
     "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
-    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
-    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
-    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:04 +0000"
   }
 ]
