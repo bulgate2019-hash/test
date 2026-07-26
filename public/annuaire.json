@@ -74,9 +74,10 @@
         "desc": "Gemini 3.1 Pro — top niveau en raisonnement et code.",
         "tags": [
           "star",
-          "new"
+          "new",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       },
       {
         "name": "Microsoft Copilot",
@@ -348,7 +349,7 @@
           "free",
           "dead"
         ],
-        "failures": 45
+        "failures": 46
       }
     ]
   },
@@ -396,9 +397,10 @@
         "domain": "gemini.google.com",
         "desc": "Gemini Image 3.1 Flash — génération et édition d'images Google.",
         "tags": [
-          "new"
+          "new",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       },
       {
         "name": "Leonardo.Ai",
@@ -652,7 +654,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 45
+        "failures": 46
       },
       {
         "name": "Resemble AI",
@@ -679,7 +681,7 @@
           "free",
           "dead"
         ],
-        "failures": 17
+        "failures": 18
       }
     ]
   },
@@ -901,7 +903,7 @@
           "fr",
           "dead"
         ],
-        "failures": 45
+        "failures": 46
       },
       {
         "name": "1min.ai",
