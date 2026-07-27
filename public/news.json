@@ -1,27 +1,45 @@
 [
   {
     "source": "Clubic",
-    "title": "On a testé Lumo 2.0 de Proton, l'IA confidentielle deux fois moins chère que ChatGPT et Claude",
-    "link": "https://www.clubic.com/avis-622471-proton-lumo.html",
-    "pubDate": "Sat, 25 Jul 2026 08:48:00 GMT"
+    "title": "Apple lance un serveur MCP dans Safari : vos agents IA voient désormais ce que voit l'utilisateur",
+    "link": "https://www.clubic.com/actualite-622837-apple-lance-un-serveur-mcp-dans-safari-vos-agents-ia-voient-desormais-ce-que-voit-l-utilisateur.html",
+    "pubDate": "Mon, 27 Jul 2026 08:25:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Les avocats ont désormais leur charte IA à Paris, le barreau leur explique comment l'utiliser",
-    "link": "https://www.clubic.com/actualite-622702-les-avocats-ont-desormais-leur-charte-ia-a-paris-le-barreau-leur-explique-comment-l-utiliser.html",
-    "pubDate": "Sat, 25 Jul 2026 06:08:00 GMT"
+    "title": "En interne chez Apple, le vrai débat sur les lunettes IA tourne autour d'une seule question",
+    "link": "https://www.clubic.com/actualite-622831-en-interne-chez-apple-le-vrai-debat-sur-les-lunettes-ia-tourne-autour-d-une-seule-question.html",
+    "pubDate": "Mon, 27 Jul 2026 07:45:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Claude franchit un cap avec un mode vocal bien plus intelligent… et enfin en français",
+    "link": "https://siecledigital.fr/2026/07/27/claude-franchit-un-cap-avec-un-mode-vocal-bien-plus-intelligent-et-enfin-en-francais/",
+    "pubDate": "Mon, 27 Jul 2026 07:34:26 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Anthropic lance Claude Opus 5, son IA la plus puissante et la moins chère à faire tourner",
-    "link": "https://www.clubic.com/actualite-622693-anthropic-lance-claude-opus-5-son-ia-la-plus-puissante-et-la-moins-chere-a-faire-tourner.html",
-    "pubDate": "Fri, 24 Jul 2026 18:01:00 GMT"
+    "title": "Deux randonneuses se perdent dans les Pyrénées après avoir suivi un itinéraire donné par ChatGPT",
+    "link": "https://www.clubic.com/actualite-622801-deux-randonneuses-se-perdent-apres-avoir-suivi-un-itineraire-donne-par-chatgpt.html",
+    "pubDate": "Mon, 27 Jul 2026 07:28:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "ChatGPT Santé débarque aux États-Unis : bonne idée ou risque majeur pour la vie privée ?",
-    "link": "https://www.clubic.com/actualite-622645-chatgpt-sante-debarque-aux-etats-unis-bonne-idee-ou-risque-majeur-pour-la-vie-privee.html",
-    "pubDate": "Fri, 24 Jul 2026 12:52:00 GMT"
+    "title": "Oups, vos discussions partagées sur Claude ont été indexées par Google",
+    "link": "https://www.clubic.com/actualite-622804-oups-vos-discussions-partagees-sur-claude-ont-ete-indexees-par-google.html",
+    "pubDate": "Mon, 27 Jul 2026 07:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Hack de Hugging Face : OpenAI a mis près d'une semaine pour s'en rendre compte",
+    "link": "https://www.clubic.com/actualite-622777-hack-de-hugging-face-openai-a-mis-pres-d-une-semaine-pour-s-en-rendre-compte.html",
+    "pubDate": "Sun, 26 Jul 2026 12:57:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Samsung décroche le contrat de l'année, 200 milliards de dollars, pour des puces IA",
+    "link": "https://www.clubic.com/actualite-622774-samsung-decroche-le-contrat-de-l-annee-200-milliards-de-dollars-pour-des-puces-ia.html",
+    "pubDate": "Sun, 26 Jul 2026 10:19:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -52,23 +70,5 @@
     "title": "Instagram va limiter son IA gratuite et faire payer les utilisateurs les plus gourmands",
     "link": "https://siecledigital.fr/2026/07/22/instagram-va-limiter-son-ia-gratuite-et-faire-payer-les-utilisateurs-les-plus-gourmands/",
     "pubDate": "Wed, 22 Jul 2026 08:14:02 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Sur LinkedIn, les contenus générés par IA sont devenus presque impossibles à éviter",
-    "link": "https://siecledigital.fr/2026/07/22/sur-linkedin-les-contenus-generes-par-ia-sont-devenus-presque-impossibles-a-eviter/",
-    "pubDate": "Wed, 22 Jul 2026 07:57:02 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
-    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
-    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
   }
 ]
