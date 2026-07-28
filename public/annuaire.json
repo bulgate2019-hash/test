@@ -77,7 +77,7 @@
           "new",
           "dead"
         ],
-        "failures": 4
+        "failures": 5
       },
       {
         "name": "Microsoft Copilot",
@@ -349,7 +349,7 @@
           "free",
           "dead"
         ],
-        "failures": 47
+        "failures": 48
       }
     ]
   },
@@ -400,7 +400,7 @@
           "new",
           "dead"
         ],
-        "failures": 4
+        "failures": 5
       },
       {
         "name": "Leonardo.Ai",
@@ -654,7 +654,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 47
+        "failures": 48
       },
       {
         "name": "Resemble AI",
@@ -681,7 +681,7 @@
           "free",
           "dead"
         ],
-        "failures": 19
+        "failures": 20
       }
     ]
   },
@@ -821,7 +821,7 @@
         "tags": [
           "new"
         ],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "Groq Console",
@@ -903,7 +903,7 @@
           "fr",
           "dead"
         ],
-        "failures": 47
+        "failures": 48
       },
       {
         "name": "1min.ai",

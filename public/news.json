@@ -1,45 +1,39 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "OpenAI prévoit de dépenser 750 milliards de dollars pour accélérer dans l&#8217;IA",
+    "link": "https://siecledigital.fr/2026/07/28/openai-prevoit-de-depenser-750-milliards-de-dollars-pour-accelerer-dans-lia/",
+    "pubDate": "Tue, 28 Jul 2026 07:33:21 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Feux de forêt en Gironde : quand les cartes générées par IA alimentent la panique",
+    "link": "https://www.clubic.com/actualite-622918-feux-de-foret-en-gironde-quand-les-cartes-generees-par-ia-alimentent-la-panique.html",
+    "pubDate": "Mon, 27 Jul 2026 14:37:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "\"OpenAI n'a rien inventé de nouveau\", l'éloge paradoxale du PDG de Moonshot (Kimi K3)",
+    "link": "https://www.clubic.com/actualite-622924-openai-n-a-rien-invente-de-nouveau-l-eloge-paradoxale-du-pdg-de-moonshot-kimi-k3.html",
+    "pubDate": "Mon, 27 Jul 2026 13:29:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "IA générative : Google va bientôt marquer et étiqueter tous les contenus en Europe",
+    "link": "https://www.clubic.com/actualite-622843-google-signe-l-ia-act-europeen-et-veut-jouer-la-transparence.html",
+    "pubDate": "Mon, 27 Jul 2026 09:47:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "Apple lance un serveur MCP dans Safari : vos agents IA voient désormais ce que voit l'utilisateur",
     "link": "https://www.clubic.com/actualite-622837-apple-lance-un-serveur-mcp-dans-safari-vos-agents-ia-voient-desormais-ce-que-voit-l-utilisateur.html",
     "pubDate": "Mon, 27 Jul 2026 08:25:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "En interne chez Apple, le vrai débat sur les lunettes IA tourne autour d'une seule question",
-    "link": "https://www.clubic.com/actualite-622831-en-interne-chez-apple-le-vrai-debat-sur-les-lunettes-ia-tourne-autour-d-une-seule-question.html",
-    "pubDate": "Mon, 27 Jul 2026 07:45:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Claude franchit un cap avec un mode vocal bien plus intelligent… et enfin en français",
     "link": "https://siecledigital.fr/2026/07/27/claude-franchit-un-cap-avec-un-mode-vocal-bien-plus-intelligent-et-enfin-en-francais/",
     "pubDate": "Mon, 27 Jul 2026 07:34:26 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Deux randonneuses se perdent dans les Pyrénées après avoir suivi un itinéraire donné par ChatGPT",
-    "link": "https://www.clubic.com/actualite-622801-deux-randonneuses-se-perdent-apres-avoir-suivi-un-itineraire-donne-par-chatgpt.html",
-    "pubDate": "Mon, 27 Jul 2026 07:28:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Oups, vos discussions partagées sur Claude ont été indexées par Google",
-    "link": "https://www.clubic.com/actualite-622804-oups-vos-discussions-partagees-sur-claude-ont-ete-indexees-par-google.html",
-    "pubDate": "Mon, 27 Jul 2026 07:15:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Hack de Hugging Face : OpenAI a mis près d'une semaine pour s'en rendre compte",
-    "link": "https://www.clubic.com/actualite-622777-hack-de-hugging-face-openai-a-mis-pres-d-une-semaine-pour-s-en-rendre-compte.html",
-    "pubDate": "Sun, 26 Jul 2026 12:57:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Samsung décroche le contrat de l'année, 200 milliards de dollars, pour des puces IA",
-    "link": "https://www.clubic.com/actualite-622774-samsung-decroche-le-contrat-de-l-annee-200-milliards-de-dollars-pour-des-puces-ia.html",
-    "pubDate": "Sun, 26 Jul 2026 10:19:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -54,21 +48,27 @@
     "pubDate": "Fri, 24 Jul 2026 08:35:05 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "YouTube s&#8217;attaque aux vidéos IA de faible qualité et menace leur monétisation",
-    "link": "https://siecledigital.fr/2026/07/22/youtube-sattaque-aux-videos-ia-de-faible-qualite-et-menace-leur-monetisation/",
-    "pubDate": "Wed, 22 Jul 2026 09:15:00 +0000"
+    "source": "Actu IA",
+    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
+    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "Microsoft et Mistral AI s&#8217;allient dans un méga-accord à plusieurs milliards de dollars",
-    "link": "https://siecledigital.fr/2026/07/22/microsoft-et-mistral-ai-sallient-dans-un-mega-accord-a-plusieurs-milliards-de-dollars/",
-    "pubDate": "Wed, 22 Jul 2026 08:46:00 +0000"
+    "source": "Actu IA",
+    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
+    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "Instagram va limiter son IA gratuite et faire payer les utilisateurs les plus gourmands",
-    "link": "https://siecledigital.fr/2026/07/22/instagram-va-limiter-son-ia-gratuite-et-faire-payer-les-utilisateurs-les-plus-gourmands/",
-    "pubDate": "Wed, 22 Jul 2026 08:14:02 +0000"
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
+    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
   }
 ]
