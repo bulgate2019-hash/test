@@ -1,33 +1,45 @@
 [
   {
     "source": "Siècle Digital",
+    "title": "Des centaines de conversations Claude sont apparues sur Google, avec des données sensibles",
+    "link": "https://siecledigital.fr/2026/07/29/des-centaines-de-conversations-claude-sont-apparues-sur-google-avec-des-donnees-sensibles/",
+    "pubDate": "Wed, 29 Jul 2026 08:10:05 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "À partir de dimanche, les contenus créés par une IA devront être signalés en Europe",
+    "link": "https://siecledigital.fr/2026/07/29/a-partir-de-dimanche-les-contenus-crees-par-une-ia-devront-etre-signales-en-europe/",
+    "pubDate": "Wed, 29 Jul 2026 06:45:10 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT va refuser certaines consignes, mais c'est pour la bonne cause",
+    "link": "https://www.clubic.com/actualite-623095-chatgpt-va-refuser-certaines-consignes-mais-c-est-pour-la-bonne-cause.html",
+    "pubDate": "Tue, 28 Jul 2026 12:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "NVIDIA vient de miser 5 milliards sur cette start-up IA qui n'a encore rien sorti. Pourquoi ?",
+    "link": "https://www.clubic.com/actualite-623044-nvidia-vient-de-miser-5-milliards-sur-cette-start-up-ia-qui-n-a-encore-rien-sorti-pourquoi.html",
+    "pubDate": "Tue, 28 Jul 2026 10:37:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Microsoft dévoile Perception, son armée d’agents IA conçus pour automatiser la réponse aux cybermenaces",
+    "link": "https://www.clubic.com/actualite-623047-microsoft-devoile-perception-son-armee-d-agents-ia-concus-pour-automatiser-la-reponse-aux-cybermenaces.html",
+    "pubDate": "Tue, 28 Jul 2026 09:02:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Anthropic dévoile une nouvelle IA plus sûre pour la cybersécurité et bien moins chère",
+    "link": "https://siecledigital.fr/2026/07/28/anthropic-devoile-une-nouvelle-ia-plus-sure-pour-la-cybersecurite-et-bien-moins-chere/",
+    "pubDate": "Tue, 28 Jul 2026 08:34:02 +0000"
+  },
+  {
+    "source": "Siècle Digital",
     "title": "OpenAI prévoit de dépenser 750 milliards de dollars pour accélérer dans l&#8217;IA",
     "link": "https://siecledigital.fr/2026/07/28/openai-prevoit-de-depenser-750-milliards-de-dollars-pour-accelerer-dans-lia/",
     "pubDate": "Tue, 28 Jul 2026 07:33:21 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Feux de forêt en Gironde : quand les cartes générées par IA alimentent la panique",
-    "link": "https://www.clubic.com/actualite-622918-feux-de-foret-en-gironde-quand-les-cartes-generees-par-ia-alimentent-la-panique.html",
-    "pubDate": "Mon, 27 Jul 2026 14:37:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "\"OpenAI n'a rien inventé de nouveau\", l'éloge paradoxale du PDG de Moonshot (Kimi K3)",
-    "link": "https://www.clubic.com/actualite-622924-openai-n-a-rien-invente-de-nouveau-l-eloge-paradoxale-du-pdg-de-moonshot-kimi-k3.html",
-    "pubDate": "Mon, 27 Jul 2026 13:29:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA générative : Google va bientôt marquer et étiqueter tous les contenus en Europe",
-    "link": "https://www.clubic.com/actualite-622843-google-signe-l-ia-act-europeen-et-veut-jouer-la-transparence.html",
-    "pubDate": "Mon, 27 Jul 2026 09:47:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Apple lance un serveur MCP dans Safari : vos agents IA voient désormais ce que voit l'utilisateur",
-    "link": "https://www.clubic.com/actualite-622837-apple-lance-un-serveur-mcp-dans-safari-vos-agents-ia-voient-desormais-ce-que-voit-l-utilisateur.html",
-    "pubDate": "Mon, 27 Jul 2026 08:25:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -58,17 +70,5 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
-    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
   }
 ]
