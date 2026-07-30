@@ -1,5 +1,53 @@
 [
   {
+    "source": "Clubic",
+    "title": "Gemini sur Mac évolue : l'IA comprend désormais ce que vous faites et ce que vous dites",
+    "link": "https://www.clubic.com/actualite-623365-gemini-sur-mac-evolue-l-ia-comprend-desormais-ce-que-vous-faites-et-ce-que-vous-dites.html",
+    "pubDate": "Thu, 30 Jul 2026 06:41:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Hugging Face confronté au problème des modèles IA capables de créer des images dénudées",
+    "link": "https://www.clubic.com/actualite-623353-hugging-face-confronte-au-probleme-des-modeles-ia-capables-de-creer-des-images-denudees.html",
+    "pubDate": "Thu, 30 Jul 2026 06:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Dans Google Docs, Gemini peut faire une partie du travail à votre place",
+    "link": "https://www.clubic.com/actualite-623281-dans-google-docs-gemini-peut-faire-une-partie-du-travail-a-votre-place.html",
+    "pubDate": "Wed, 29 Jul 2026 14:58:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "IA : malgré Trump, Moonshot veut s'offrir les meilleurs GPU NVIDIA pour entraîner son prochain modèle Kimi K4",
+    "link": "https://www.clubic.com/actualite-623314-ia-malgre-trump-moonshot-veut-s-offrir-les-meilleurs-gpu-nvidia-pour-entrainer-son-prochain-modele-kimi-k4.html",
+    "pubDate": "Wed, 29 Jul 2026 14:41:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Plus de 1 200 salariés d'OpenAI, Google et Anthropic veulent ralentir l'IA",
+    "link": "https://www.clubic.com/actualite-623263-plus-de-1-200-salaries-d-openai-google-et-anthropic-veulent-ralentir-l-ia.html",
+    "pubDate": "Wed, 29 Jul 2026 14:02:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic assume l'indexation de vos conversations Claude par Google",
+    "link": "https://www.clubic.com/actualite-623224-vos-conversations-claude-partagees-indexees-par-google-anthropic-se-dedouane.html",
+    "pubDate": "Wed, 29 Jul 2026 12:04:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Sur Substack, la nouvelle détection de contenu généré par IA a du mal à passer pour les contributeurs",
+    "link": "https://www.clubic.com/actualite-623182-sur-substack-la-nouvelle-detection-de-contenu-genere-par-ia-a-du-mal-a-passer-pour-les-contributeurs.html",
+    "pubDate": "Wed, 29 Jul 2026 11:26:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Incroyable, Hugging Face n'était pas la seule victime de l'agent IA d'OpenAI, il y en a eu une autre !",
+    "link": "https://www.clubic.com/actualite-623218-incroyable-hugging-face-n-etait-pas-la-seule-victime-de-l-agent-ia-d-openai-il-y-en-a-eu-une-autre.html",
+    "pubDate": "Wed, 29 Jul 2026 09:16:00 GMT"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Des centaines de conversations Claude sont apparues sur Google, avec des données sensibles",
     "link": "https://siecledigital.fr/2026/07/29/des-centaines-de-conversations-claude-sont-apparues-sur-google-avec-des-donnees-sensibles/",
@@ -12,24 +60,6 @@
     "pubDate": "Wed, 29 Jul 2026 06:45:10 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "ChatGPT va refuser certaines consignes, mais c'est pour la bonne cause",
-    "link": "https://www.clubic.com/actualite-623095-chatgpt-va-refuser-certaines-consignes-mais-c-est-pour-la-bonne-cause.html",
-    "pubDate": "Tue, 28 Jul 2026 12:59:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "NVIDIA vient de miser 5 milliards sur cette start-up IA qui n'a encore rien sorti. Pourquoi ?",
-    "link": "https://www.clubic.com/actualite-623044-nvidia-vient-de-miser-5-milliards-sur-cette-start-up-ia-qui-n-a-encore-rien-sorti-pourquoi.html",
-    "pubDate": "Tue, 28 Jul 2026 10:37:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Microsoft dévoile Perception, son armée d’agents IA conçus pour automatiser la réponse aux cybermenaces",
-    "link": "https://www.clubic.com/actualite-623047-microsoft-devoile-perception-son-armee-d-agents-ia-concus-pour-automatiser-la-reponse-aux-cybermenaces.html",
-    "pubDate": "Tue, 28 Jul 2026 09:02:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Anthropic dévoile une nouvelle IA plus sûre pour la cybersécurité et bien moins chère",
     "link": "https://siecledigital.fr/2026/07/28/anthropic-devoile-une-nouvelle-ia-plus-sure-pour-la-cybersecurite-et-bien-moins-chere/",
@@ -40,35 +70,5 @@
     "title": "OpenAI prévoit de dépenser 750 milliards de dollars pour accélérer dans l&#8217;IA",
     "link": "https://siecledigital.fr/2026/07/28/openai-prevoit-de-depenser-750-milliards-de-dollars-pour-accelerer-dans-lia/",
     "pubDate": "Tue, 28 Jul 2026 07:33:21 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Claude franchit un cap avec un mode vocal bien plus intelligent… et enfin en français",
-    "link": "https://siecledigital.fr/2026/07/27/claude-franchit-un-cap-avec-un-mode-vocal-bien-plus-intelligent-et-enfin-en-francais/",
-    "pubDate": "Mon, 27 Jul 2026 07:34:26 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "La presse française accuse Google de piller ses contenus pour nourrir ses résumés IA",
-    "link": "https://siecledigital.fr/2026/07/24/la-presse-francaise-accuse-google-de-piller-ses-contenus-pour-nourrir-ses-resumes-ia/",
-    "pubDate": "Fri, 24 Jul 2026 09:05:02 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI dévoile Presence, sa nouvelle plateforme dédiée aux agents IA en entreprise",
-    "link": "https://siecledigital.fr/2026/07/24/openai-devoile-presence-sa-nouvelle-plateforme-dediee-aux-agents-ia-en-entreprise/",
-    "pubDate": "Fri, 24 Jul 2026 08:35:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
-    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
-    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
   }
 ]
