@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-07-30T08:10:01.972Z",
+  "generated_at_iso": "2026-07-31T08:37:25.595Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -21,7 +21,7 @@
     },
     {
       "rank": 3,
-      "model": "Kimi K3",
+      "model": "Kimi K3 (max)",
       "score": 51.4,
       "coverage": 2,
       "lmarena": {
