@@ -1,5 +1,11 @@
 [
   {
+    "source": "Clubic",
+    "title": "Snapchat ne récompense plus les vidéos 100 % IA sur Spotlight : ce que ça change pour les créateurs",
+    "link": "https://www.clubic.com/actualite-623776-snapchat-ne-recompense-plus-les-videos-100-ia-sur-spotlight-ce-que-ca-change-pour-les-createurs.html",
+    "pubDate": "Sat, 01 Aug 2026 15:38:00 GMT"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Tout faire avec une seule IA ? Microsoft prépare une énorme révolution pour Copilot",
     "link": "https://siecledigital.fr/2026/07/31/tout-faire-avec-une-seule-ia-microsoft-prepare-une-enorme-revolution-pour-copilot/",
@@ -30,36 +36,6 @@
     "pubDate": "Fri, 31 Jul 2026 14:20:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Scam : les chabots IA sont maintenant plus convaincants que les humains",
-    "link": "https://www.clubic.com/actualite-623584-pour-les-campagnes-de-scam-l-ia-est-plus-performante-que-l-humain.html",
-    "pubDate": "Fri, 31 Jul 2026 09:13:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google dévoile Gemini Robotics ER‑2, son IA qui fait collaborer plusieurs robots en temps réel",
-    "link": "https://www.clubic.com/actualite-623575-google-devoile-gemini-robotics-er-2-son-ia-qui-fait-collaborer-plusieurs-robots-en-temps-reel.html",
-    "pubDate": "Fri, 31 Jul 2026 08:53:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "LinkedIn veut se débarrasser des contenus générés par IA",
-    "link": "https://www.clubic.com/actualite-623536-linkedin-veut-se-debarrasser-des-contenus-generes-par-ia.html",
-    "pubDate": "Fri, 31 Jul 2026 08:23:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA : Bruxelles débloque 5 milliards d’euros pour rattraper Washington et Pékin",
-    "link": "https://www.clubic.com/actualite-623569-ia-bruxelles-debloque-5-milliards-d-euros-pour-rattraper-washington-et-pekin.html",
-    "pubDate": "Fri, 31 Jul 2026 07:49:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Sans le vouloir, l'IA Claude d'Anthropic a piraté trois entreprises bien réelles",
-    "link": "https://www.clubic.com/actualite-623578-sans-le-vouloir-l-ia-claude-d-anthropic-a-pirate-trois-entreprises-bien-reelles.html",
-    "pubDate": "Fri, 31 Jul 2026 07:32:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Selon Mark Zuckerberg, chacun aura bientôt son propre agent IA personnel",
     "link": "https://siecledigital.fr/2026/07/30/selon-mark-zuckerberg-chacun-aura-bientot-son-propre-agent-ia-personnel/",
@@ -70,5 +46,29 @@
     "title": "Des centaines de conversations Claude sont apparues sur Google, avec des données sensibles",
     "link": "https://siecledigital.fr/2026/07/29/des-centaines-de-conversations-claude-sont-apparues-sur-google-avec-des-donnees-sensibles/",
     "pubDate": "Wed, 29 Jul 2026 08:10:05 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "À partir de dimanche, les contenus créés par une IA devront être signalés en Europe",
+    "link": "https://siecledigital.fr/2026/07/29/a-partir-de-dimanche-les-contenus-crees-par-une-ia-devront-etre-signales-en-europe/",
+    "pubDate": "Wed, 29 Jul 2026 06:45:10 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
+    "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
+    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
   }
 ]
