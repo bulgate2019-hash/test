@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-08-05T08:22:38.258Z",
+  "generated_at_iso": "2026-08-06T08:19:42.405Z",
   "top10": [
     {
       "rank": 1,
@@ -51,15 +51,15 @@
     },
     {
       "rank": 9,
-      "model": "GPT-5.6 Sol (high)",
-      "creator": "OpenAI",
-      "index": 55.9
+      "model": "Qwen3.8 Max",
+      "creator": "Alibaba",
+      "index": 56.2
     },
     {
       "rank": 10,
-      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "creator": "Anthropic",
-      "index": 55.7
+      "model": "GPT-5.6 Sol (high)",
+      "creator": "OpenAI",
+      "index": 55.9
     }
   ],
   "top3": [
