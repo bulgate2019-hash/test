@@ -157,45 +157,110 @@ function construireMix(poolHumain, poolBench) {
   return { generated_at_iso: MAINTENANT_ISO, top10_mix };
 }
 
+/* --- Ping robuste : un refus de bot n'est PAS un site mort --- */
+// En-têtes d'un vrai navigateur : Google & co rejettent les UA exotiques.
+const ENTETES_NAVIGATEUR = {
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+  accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "fr-FR,fr;q=0.9,en;q=0.8",
+};
+// Codes qui signifient « je refuse de te répondre », pas « je n'existe plus ».
+const CODES_TOLERES = new Set([401, 402, 403, 405, 406, 409, 418, 429, 451, 503, 999]);
+
+async function pingerUrl(url) {
+  for (const methode of ["HEAD", "GET"]) {
+    try {
+      const res = await fetch(url, {
+        method: methode,
+        redirect: "follow",
+        headers: ENTETES_NAVIGATEUR,
+        signal: AbortSignal.timeout(12000),
+      });
+      if (res.ok || CODES_TOLERES.has(res.status)) return { vivant: true, detail: `${methode} ${res.status}` };
+      if (methode === "HEAD") continue; // on retente en GET avant de condamner
+      return { vivant: false, detail: `${methode} ${res.status}` };
+    } catch (e) {
+      if (methode === "HEAD") continue;
+      return { vivant: false, detail: `${methode} ${e.name === "TimeoutError" ? "timeout" : e.message}` };
+    }
+  }
+  return { vivant: false, detail: "injoignable" };
+}
+
+/* --- Détection de la version la plus RÉCENTE (et non la mieux notée) --- */
+function numeroVersion(nom) {
+  const m = String(nom).replace(/\([^)]*\)/g, " ").match(/(\d+(?:\.\d+)*)/);
+  return m ? m[1].split(".").map(Number) : null;
+}
+function versionPlusGrande(a, b) {
+  const n = Math.max(a.length, b.length);
+  for (let i = 0; i < n; i++) {
+    const x = a[i] ?? 0, y = b[i] ?? 0;
+    if (x !== y) return x > y;
+  }
+  return false;
+}
+// Cherche dans le pool AA le modèle d'un créateur donné dont le numéro est le plus élevé.
+function versionLaPlusRecente(pool, createur, motif) {
+  let meilleure = null;
+  for (const m of pool) {
+    if (!new RegExp(createur, "i").test(m.creator ?? "")) continue;
+    if (!motif.test(m.name)) continue;
+    const v = numeroVersion(m.name);
+    if (!v) continue;
+    if (!meilleure || versionPlusGrande(v, meilleure.version)) meilleure = { version: v, nom: m.name };
+  }
+  return meilleure;
+}
+
 async function verifierAnnuaire(poolBench) {
   const path = `${DOSSIER_SORTIE}/annuaire.json`;
-  try {
-    const data = JSON.parse(await readFile(path, 'utf-8'));
+  const data = JSON.parse(await readFile(path, "utf-8")); // si ça casse ici, la tâche doit échouer bruyamment
 
-    // 1. Extraire dynamiquement les dernières versions depuis le scraping (AA)
-    // On retire ce qu'il y a entre parenthèses (ex: "Claude Opus 5 (Max Effort)" -> "Claude Opus 5")
-    const claudeLatest = poolBench.find(m => m.name.includes('Claude Opus'))?.name.split(' (')[0].trim();
-    const gptLatest = poolBench.find(m => m.name.includes('GPT'))?.name.split(' (')[0].trim();
+  // Visibilité : on montre ce que la source propose réellement.
+  const vusAnthropic = poolBench.filter((m) => /anthropic/i.test(m.creator ?? "")).map((m) => m.name);
+  const vusOpenAI = poolBench.filter((m) => /openai/i.test(m.creator ?? "")).map((m) => m.name);
+  console.log(`   ↳ pool AA — Anthropic : ${vusAnthropic.join(", ") || "(aucun)"}`);
+  console.log(`   ↳ pool AA — OpenAI    : ${vusOpenAI.join(", ") || "(aucun)"}`);
 
-    for (const cat of data) {
-      for (const tool of cat.tools) {
-        
-        // 2. MISE À JOUR AUTONOME DU TEXTE
-        // Si c'est Claude et qu'on a trouvé un nouveau modèle, on met à jour le numéro
-        if (tool.name === "Claude" && claudeLatest) {
-          tool.desc = tool.desc.replace(/Claude Opus [\d.]+/, claudeLatest);
-        }
-        // Pareil pour ChatGPT si besoin
-        if (tool.name === "ChatGPT" && gptLatest) {
-          tool.desc = tool.desc.replace(/GPT-[\d.]+/, gptLatest);
-        }
+  const claude = versionLaPlusRecente(poolBench, "anthropic", /opus/i);
+  const gpt = versionLaPlusRecente(poolBench, "openai", /^gpt/i);
+  // On reconstruit un libellé stable, quel que soit l'ordre des mots chez AA.
+  const claudeLibelle = claude ? `Claude Opus ${claude.version.join(".")}` : null;
+  const gptLibelle = gpt ? `GPT-${gpt.version.join(".")}` : null;
 
-        // 3. Ping des liens (ta logique d'origine pour le tag "dead")
-        try {
-          const res = await fetch(tool.url, { method: 'HEAD', signal: AbortSignal.timeout(5000) });
-          tool.failures = (!res.ok && res.status !== 403) ? (tool.failures || 0) + 1 : 0;
-        } catch(e) { tool.failures = (tool.failures || 0) + 1; }
-        if (tool.failures >= 3 && !tool.tags.includes('dead')) tool.tags.push('dead');
-        if (tool.failures === 0) tool.tags = tool.tags.filter(t => t !== 'dead');
+  let remplacements = 0;
+  const morts = [];
+
+  for (const cat of data) {
+    for (const tool of cat.tools) {
+      // 1) Mise à jour des versions dans les descriptions
+      if (tool.name === "Claude" && claudeLibelle) {
+        const avant = tool.desc;
+        tool.desc = tool.desc.replace(/Claude\s+Opus\s+[\d.]+/i, claudeLibelle);
+        if (avant !== tool.desc) { remplacements++; console.log(`   ↳ Claude : "${claudeLibelle}" (source : ${claude.nom})`); }
       }
+      if (tool.name === "ChatGPT" && gptLibelle) {
+        const avant = tool.desc;
+        tool.desc = tool.desc.replace(/GPT-[\d.]+/i, gptLibelle);
+        if (avant !== tool.desc) { remplacements++; console.log(`   ↳ ChatGPT : "${gptLibelle}" (source : ${gpt.nom})`); }
+      }
+
+      // 2) Ping : HEAD puis GET, en-têtes navigateur, refus de bot tolérés
+      const { vivant, detail } = await pingerUrl(tool.url);
+      tool.failures = vivant ? 0 : (tool.failures || 0) + 1;
+      tool.tags = tool.tags || [];
+      if (tool.failures >= 3 && !tool.tags.includes("dead")) tool.tags.push("dead");
+      if (tool.failures === 0) tool.tags = tool.tags.filter((t) => t !== "dead");
+      if (!vivant) morts.push(`${tool.name} (${detail}, ${tool.failures} échec(s))`);
     }
-    
-    await writeFile(path, JSON.stringify(data, null, 2), 'utf-8');
-    return true;
-  } catch (e) {
-    console.warn("⚠ annuaire.json introuvable ou erreur de ping.");
-    return false;
   }
+
+  await writeFile(path, JSON.stringify(data, null, 2) + "\n", "utf-8");
+  console.log(`   ↳ ${remplacements} description(s) mise(s) à jour.`);
+  console.log(morts.length ? `   ↳ ne répondent pas : ${morts.join(" | ")}` : "   ↳ tous les liens répondent.");
+  if (claudeLibelle === null) console.warn("   ⚠ aucun modèle Anthropic Opus trouvé dans le pool AA — description Claude inchangée.");
+  return true;
 }
 
 async function recupererRadarPH() {
