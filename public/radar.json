@@ -5,29 +5,9 @@
     "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Progress AI Observability",
-    "desc": "Trace, evaluate, and improve AI agents in production",
-    "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "Troopr AI Scrum Master",
-    "desc": "Writes your standup from real work. Remembers your team.",
-    "url": "https://www.producthunt.com/products/troopr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "BrowserOS neo",
-    "desc": "The Missing Browser for Claude, Cowork & Codex",
-    "url": "https://www.producthunt.com/products/browseros_ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
     "name": "Soloop",
     "desc": "Approval-first Agent OS for solo founders",
     "url": "https://www.producthunt.com/products/soloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "Rindler",
-    "desc": "Automate the web work your team does by hand",
-    "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
     "name": "Nitro 4.0",
@@ -35,8 +15,28 @@
     "url": "https://www.producthunt.com/products/alconost-localization?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
+    "name": "Rindler",
+    "desc": "Automate the web work your team does by hand",
+    "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Progress AI Observability",
+    "desc": "Trace, evaluate, and improve AI agents in production",
+    "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "BrowserOS neo",
+    "desc": "The Missing Browser for Claude, Cowork & Codex",
+    "url": "https://www.producthunt.com/products/browseros_ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
     "name": "HAR",
     "desc": "Open Source harness for multi-agent coding workflows",
     "url": "https://www.producthunt.com/products/har?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Troopr AI Scrum Master",
+    "desc": "Writes your standup from real work. Remembers your team.",
+    "url": "https://www.producthunt.com/products/troopr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
