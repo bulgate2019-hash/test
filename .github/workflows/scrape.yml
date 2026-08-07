@@ -41,5 +41,6 @@ jobs:
             echo "Aucun changement à commiter."
           else
             git commit -m "data: mise à jour quotidienne (actus + classements)"
+            git pull origin main --rebase
             git push
           fi
