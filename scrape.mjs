@@ -157,12 +157,30 @@ function construireMix(poolHumain, poolBench) {
   return { generated_at_iso: MAINTENANT_ISO, top10_mix };
 }
 
-async function verifierAnnuaire() {
+async function verifierAnnuaire(poolBench) {
   const path = `${DOSSIER_SORTIE}/annuaire.json`;
   try {
     const data = JSON.parse(await readFile(path, 'utf-8'));
+
+    // 1. Extraire dynamiquement les dernières versions depuis le scraping (AA)
+    // On retire ce qu'il y a entre parenthèses (ex: "Claude Opus 5 (Max Effort)" -> "Claude Opus 5")
+    const claudeLatest = poolBench.find(m => m.name.includes('Claude Opus'))?.name.split(' (')[0].trim();
+    const gptLatest = poolBench.find(m => m.name.includes('GPT'))?.name.split(' (')[0].trim();
+
     for (const cat of data) {
       for (const tool of cat.tools) {
+        
+        // 2. MISE À JOUR AUTONOME DU TEXTE
+        // Si c'est Claude et qu'on a trouvé un nouveau modèle, on met à jour le numéro
+        if (tool.name === "Claude" && claudeLatest) {
+          tool.desc = tool.desc.replace(/Claude Opus [\d.]+/, claudeLatest);
+        }
+        // Pareil pour ChatGPT si besoin
+        if (tool.name === "ChatGPT" && gptLatest) {
+          tool.desc = tool.desc.replace(/GPT-[\d.]+/, gptLatest);
+        }
+
+        // 3. Ping des liens (ta logique d'origine pour le tag "dead")
         try {
           const res = await fetch(tool.url, { method: 'HEAD', signal: AbortSignal.timeout(5000) });
           tool.failures = (!res.ok && res.status !== 403) ? (tool.failures || 0) + 1 : 0;
@@ -171,6 +189,7 @@ async function verifierAnnuaire() {
         if (tool.failures === 0) tool.tags = tool.tags.filter(t => t !== 'dead');
       }
     }
+    
     await writeFile(path, JSON.stringify(data, null, 2), 'utf-8');
     return true;
   } catch (e) {
@@ -236,8 +255,8 @@ async function main() {
     console.warn("ℹ Mix ignoré : il manque une des deux sources (humain ou benchmark).");
   }
 
-  // Annuaire (ping des liens) & Radar Product Hunt
-  await tache("Annuaire", () => verifierAnnuaire());
+  // On passe b.pool (les données d'Artificial Analysis) à l'annuaire
+  await tache("Annuaire", () => verifierAnnuaire(b ? b.pool : []));
   await tache("Radar", () => recupererRadarPH());
 
   console.log(toutOk
