@@ -201,11 +201,14 @@ function versionPlusGrande(a, b) {
   return false;
 }
 // Cherche dans le pool AA le modèle d'un créateur donné dont le numéro est le plus élevé.
+// Le motif est testé sur le nom SANS les parenthèses : sinon
+// "Claude Fable 5 (..., Opus 4.8 Fallback)" passerait pour un Opus.
 function versionLaPlusRecente(pool, createur, motif) {
   let meilleure = null;
   for (const m of pool) {
     if (!new RegExp(createur, "i").test(m.creator ?? "")) continue;
-    if (!motif.test(m.name)) continue;
+    const nomBase = String(m.name).replace(/\([^)]*\)/g, " ");
+    if (!motif.test(nomBase)) continue;
     const v = numeroVersion(m.name);
     if (!v) continue;
     if (!meilleure || versionPlusGrande(v, meilleure.version)) meilleure = { version: v, nom: m.name };
@@ -231,6 +234,7 @@ async function verifierAnnuaire(poolBench) {
 
   let remplacements = 0;
   const morts = [];
+  const ignores = [];
 
   for (const cat of data) {
     for (const tool of cat.tools) {
@@ -246,10 +250,20 @@ async function verifierAnnuaire(poolBench) {
         if (avant !== tool.desc) { remplacements++; console.log(`   ↳ ChatGPT : "${gptLibelle}" (source : ${gpt.nom})`); }
       }
 
-      // 2) Ping : HEAD puis GET, en-têtes navigateur, refus de bot tolérés
+      tool.tags = tool.tags || [];
+
+      // 2) Sites qui refusent toute sonde automatisée : on ne les teste pas.
+      //    (flag "nocheck": true dans annuaire.json — à poser à la main, en connaissance de cause)
+      if (tool.nocheck) {
+        tool.failures = 0;
+        tool.tags = tool.tags.filter((t) => t !== "dead");
+        ignores.push(tool.name);
+        continue;
+      }
+
+      // 3) Ping : HEAD puis GET, en-têtes navigateur, refus de bot tolérés
       const { vivant, detail } = await pingerUrl(tool.url);
       tool.failures = vivant ? 0 : (tool.failures || 0) + 1;
-      tool.tags = tool.tags || [];
       if (tool.failures >= 3 && !tool.tags.includes("dead")) tool.tags.push("dead");
       if (tool.failures === 0) tool.tags = tool.tags.filter((t) => t !== "dead");
       if (!vivant) morts.push(`${tool.name} (${detail}, ${tool.failures} échec(s))`);
@@ -258,7 +272,8 @@ async function verifierAnnuaire(poolBench) {
 
   await writeFile(path, JSON.stringify(data, null, 2) + "\n", "utf-8");
   console.log(`   ↳ ${remplacements} description(s) mise(s) à jour.`);
-  console.log(morts.length ? `   ↳ ne répondent pas : ${morts.join(" | ")}` : "   ↳ tous les liens répondent.");
+  if (ignores.length) console.log(`   ↳ ping ignoré (nocheck) : ${ignores.join(", ")}`);
+  console.log(morts.length ? `   ↳ ne répondent pas : ${morts.join(" | ")}` : "   ↳ tous les liens testés répondent.");
   if (claudeLibelle === null) console.warn("   ⚠ aucun modèle Anthropic Opus trouvé dans le pool AA — description Claude inchangée.");
   return true;
 }
