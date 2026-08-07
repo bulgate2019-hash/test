@@ -1,65 +1,65 @@
 {
-  "generated_at_iso": "2026-08-06T08:19:42.405Z",
+  "generated_at_iso": "2026-08-07T07:02:01.285Z",
   "top10": [
     {
       "rank": 1,
       "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 60.7
+      "index": 63.1
     },
     {
       "rank": 2,
       "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
       "creator": "Anthropic",
-      "index": 60.1
+      "index": 62.5
     },
     {
       "rank": 3,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
-      "index": 59.9
+      "index": 62.1
     },
     {
       "rank": 4,
-      "model": "GPT-5.6 Sol (max)",
-      "creator": "OpenAI",
-      "index": 58.9
+      "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
+      "creator": "Anthropic",
+      "index": 61.5
     },
     {
       "rank": 5,
-      "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
-      "creator": "Anthropic",
-      "index": 58.9
+      "model": "GPT-5.6 Sol (max)",
+      "creator": "OpenAI",
+      "index": 60.9
     },
     {
       "rank": 6,
-      "model": "GPT-5.6 Sol (xhigh)",
-      "creator": "OpenAI",
-      "index": 57.7
+      "model": "Kimi K3 (max)",
+      "creator": "Kimi",
+      "index": 59.7
     },
     {
       "rank": 7,
-      "model": "Kimi K3 (max)",
-      "creator": "Kimi",
-      "index": 57.1
+      "model": "GPT-5.6 Sol (xhigh)",
+      "creator": "OpenAI",
+      "index": 59
     },
     {
       "rank": 8,
       "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
       "creator": "Anthropic",
-      "index": 56.3
+      "index": 58.6
     },
     {
       "rank": 9,
       "model": "Qwen3.8 Max",
       "creator": "Alibaba",
-      "index": 56.2
+      "index": 58.1
     },
     {
       "rank": 10,
       "model": "GPT-5.6 Sol (high)",
       "creator": "OpenAI",
-      "index": 55.9
+      "index": 57.3
     }
   ],
   "top3": [
@@ -67,19 +67,19 @@
       "rank": 1,
       "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 60.7
+      "index": 63.1
     },
     {
       "rank": 2,
       "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
       "creator": "Anthropic",
-      "index": 60.1
+      "index": 62.5
     },
     {
       "rank": 3,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
-      "index": 59.9
+      "index": 62.1
     }
   ]
 }

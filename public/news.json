@@ -1,6 +1,48 @@
 [
   {
     "source": "Clubic",
+    "title": "IA : chez ByteDance, on dit non à la distillation",
+    "link": "https://www.clubic.com/actualite-624331-ia-chez-bytedance-on-dit-non-a-la-distillation.html",
+    "pubDate": "Thu, 06 Aug 2026 14:02:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "La Pixel Watch 5 se dévoile avant l'heure et mise sur Gemini",
+    "link": "https://www.clubic.com/actualite-624301-la-pixel-watch-5-se-devoile-avant-l-heure-et-mise-sur-gemini.html",
+    "pubDate": "Thu, 06 Aug 2026 09:55:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Perplexity remporte un procès majeur contre Amazon sur les agents IA",
+    "link": "https://siecledigital.fr/2026/08/05/perplexity-remporte-un-proces-majeur-contre-amazon-sur-les-agents-ia/",
+    "pubDate": "Thu, 06 Aug 2026 09:48:45 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Shopify affirme que les moteurs de recherche IA dopent les ventes de ses marchands",
+    "link": "https://siecledigital.fr/2026/08/05/shopify-affirme-que-les-moteurs-de-recherche-ia-dopent-les-ventes-de-ses-marchands/",
+    "pubDate": "Thu, 06 Aug 2026 09:45:07 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI va payer 3,2 millions de dollars après des accusations de discrimination à l&#8217;embauche",
+    "link": "https://siecledigital.fr/2026/08/05/openai-va-payer-32-millions-de-dollars-apres-des-accusations-de-discrimination-a-lembauche/",
+    "pubDate": "Thu, 06 Aug 2026 09:35:38 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Google met fin à Assistant sur Android, Gemini prend définitivement le relais",
+    "link": "https://siecledigital.fr/2026/08/06/google-met-fin-a-assistant-sur-android-gemini-prend-definitivement-le-relais/",
+    "pubDate": "Thu, 06 Aug 2026 09:29:22 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Reddit lance un hub IA pour aider les modérateurs à mieux faire respecter les règles",
+    "link": "https://www.clubic.com/actualite-624259-reddit-lance-un-hub-ia-pour-aider-les-moderateurs-a-mieux-faire-respecter-les-regles.html",
+    "pubDate": "Thu, 06 Aug 2026 08:25:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "ChatGPT-5, Claude et Gemini réunis : cette offre à vie à 23€ évite de multiplier les abonnements",
     "link": "https://www.clubic.com/bons-plans-624001-chatgpt-5-claude-et-gemini-les-meilleures-ia-reunies-en-un-seul-paiement-grace-a-cette-offre-a-vie-a-23.html",
     "pubDate": "Thu, 06 Aug 2026 07:00:00 GMT"
@@ -28,47 +70,5 @@
     "title": "OpenAI accuse Apple de mentir dans son procès pour vol de secrets industriels",
     "link": "https://siecledigital.fr/2026/08/04/openai-accuse-apple-de-mentir-dans-son-proces-pour-vol-de-secrets-industriels/",
     "pubDate": "Wed, 05 Aug 2026 12:10:52 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Les États-Unis épargnent l&#8217;IA open source et concentrent leur régulation sur OpenAI, Google et Anthropic",
-    "link": "https://siecledigital.fr/2026/08/05/les-etats-unis-epargnent-lia-open-source-et-concentrent-leur-regulation-sur-openai-google-et-anthropic/",
-    "pubDate": "Wed, 05 Aug 2026 12:01:16 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "SpaceX, Google, Pentagone : la montée en puissance discrète du cloud IA de Musk",
-    "link": "https://www.clubic.com/actualite-624172-spacex-google-pentagone-la-montee-en-puissance-discrete-du-cloud-ia-de-musk.html",
-    "pubDate": "Wed, 05 Aug 2026 11:22:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Chez Amazon, certains projets IA ont dépassé leur budget de… 860 %",
-    "link": "https://www.clubic.com/actualite-624121-chez-amazon-certains-projets-ia-ont-depasse-leur-budget-de-860.html",
-    "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA : Qwen3.8-Max, la réplique d'Alibaba à Claude Fable 5 d'Anthropic",
-    "link": "https://www.clubic.com/actualite-624073-ia-qwen3-8-max-la-replique-d-alibaba-a-claude-fable-5-d-anthropic.html",
-    "pubDate": "Tue, 04 Aug 2026 14:29:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "TikTok améliore son IA vidéo avec des clips plus longs et beaucoup plus réalistes",
-    "link": "https://siecledigital.fr/2026/08/04/tiktok-ameliore-son-ia-video-avec-des-clips-plus-longs-et-beaucoup-plus-realistes/",
-    "pubDate": "Tue, 04 Aug 2026 11:17:40 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Le prochain modèle d&#8217;OpenAI a résolu dix problèmes mathématiques restés sans solution pendant des années",
-    "link": "https://siecledigital.fr/2026/08/04/le-prochain-modele-dopenai-a-resolu-dix-problemes-mathematiques-restes-sans-solution-pendant-des-annees/",
-    "pubDate": "Tue, 04 Aug 2026 11:16:31 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "9 Français sur 10 veulent savoir s&#8217;ils parlent à une IA ou à un humain selon cette étude",
-    "link": "https://siecledigital.fr/2026/08/04/9-francais-sur-10-veulent-savoir-sils-parlent-a-une-ia-ou-a-un-humain-selon-cette-etude/",
-    "pubDate": "Tue, 04 Aug 2026 11:16:02 +0000"
   }
 ]
