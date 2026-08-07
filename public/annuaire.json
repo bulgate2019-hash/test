@@ -74,10 +74,10 @@
         "desc": "Gemini 3.1 Pro — top niveau en raisonnement et code.",
         "tags": [
           "star",
-          "new",
-          "dead"
+          "new"
         ],
-        "failures": 17
+        "failures": 0,
+        "nocheck": true
       },
       {
         "name": "Microsoft Copilot",
@@ -396,10 +396,10 @@
         "domain": "gemini.google.com",
         "desc": "Gemini Image 3.1 Flash — génération et édition d'images Google.",
         "tags": [
-          "new",
-          "dead"
+          "new"
         ],
-        "failures": 17
+        "failures": 0,
+        "nocheck": true
       },
       {
         "name": "Leonardo.Ai",
@@ -646,16 +646,6 @@
         "failures": 0
       },
       {
-        "name": "Play.ht",
-        "url": "https://play.ht",
-        "domain": "play.ht",
-        "desc": "Voix IA réalistes en plus de 130 langues pour podcasts et vidéos.",
-        "tags": [
-          "dead"
-        ],
-        "failures": 60
-      },
-      {
         "name": "Resemble AI",
         "url": "https://www.resemble.ai",
         "domain": "resemble.ai",
@@ -672,15 +662,14 @@
         "failures": 0
       },
       {
-        "name": "Coqui TTS",
-        "url": "https://coqui.ai",
-        "domain": "coqui.ai",
-        "desc": "Synthèse vocale open source, idéale pour usage local et privé.",
+        "name": "Coqui TTS (archivé)",
+        "url": "https://github.com/coqui-ai/TTS",
+        "domain": "github.com",
+        "desc": "Synthèse vocale open source (XTTS). Société fermée, dépôt toujours utilisable en local.",
         "tags": [
-          "free",
-          "dead"
+          "free"
         ],
-        "failures": 32
+        "failures": 0
       }
     ]
   },
@@ -894,15 +883,14 @@
         "failures": 0
       },
       {
-        "name": "ChatGPT.fr (iA Finder)",
-        "url": "https://www.chatgpt.fr/ia-finder",
+        "name": "ChatGPT.fr",
+        "url": "https://www.chatgpt.fr",
         "domain": "chatgpt.fr",
         "desc": "Passerelle française vers les plateformes et modèles IA.",
         "tags": [
-          "fr",
-          "dead"
+          "fr"
         ],
-        "failures": 60
+        "failures": 0
       },
       {
         "name": "1min.ai",
