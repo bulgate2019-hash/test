@@ -20,14 +20,14 @@
     "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Progress AI Observability",
-    "desc": "Trace, evaluate, and improve AI agents in production",
-    "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
     "name": "BrowserOS neo",
     "desc": "The Missing Browser for Claude, Cowork & Codex",
     "url": "https://www.producthunt.com/products/browseros_ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Progress AI Observability",
+    "desc": "Trace, evaluate, and improve AI agents in production",
+    "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
     "name": "HAR",
