@@ -1,6 +1,24 @@
 [
   {
     "source": "Clubic",
+    "title": "Les IA deviennent autonomes, un ancien responsable américain ressort les lois d'Asimov",
+    "link": "https://www.clubic.com/actualite-624547-les-ia-deviennent-autonomes-un-ancien-responsable-americain-ressort-les-lois-d-asimov.html",
+    "pubDate": "Sat, 08 Aug 2026 12:39:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT-5, Claude et Gemini... les meilleures IA réunies en un seul paiement grâce à cette offre à vie à 23 €",
+    "link": "https://www.clubic.com/bons-plans-624001-chatgpt-5-claude-et-gemini-les-meilleures-ia-reunies-en-un-seul-paiement-grace-a-cette-offre-a-vie-a-23.html",
+    "pubDate": "Sat, 08 Aug 2026 10:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Près de 800 paquets npm malveillants exploitent les hallucinations des IA",
+    "link": "https://www.clubic.com/actualite-624523-pres-de-800-paquets-npm-malveillants-exploitent-les-hallucinations-des-ia.html",
+    "pubDate": "Sat, 08 Aug 2026 07:05:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "ChatGPT : les conversations avec GPT-5.6 Luna deviennent illimitées pour les utilisateurs gratuits",
     "link": "https://www.clubic.com/actualite-624487-chatgpt-les-conversations-avec-gpt-5-6-luna-deviennent-illimitees-pour-les-utilisateurs-gratuits.html",
     "pubDate": "Fri, 07 Aug 2026 14:32:00 GMT"
@@ -42,18 +60,6 @@
     "pubDate": "Fri, 07 Aug 2026 09:55:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "IA : chez ByteDance, on dit non à la distillation",
-    "link": "https://www.clubic.com/actualite-624331-ia-chez-bytedance-on-dit-non-a-la-distillation.html",
-    "pubDate": "Thu, 06 Aug 2026 14:02:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "La Pixel Watch 5 se dévoile avant l'heure et mise sur Gemini",
-    "link": "https://www.clubic.com/actualite-624301-la-pixel-watch-5-se-devoile-avant-l-heure-et-mise-sur-gemini.html",
-    "pubDate": "Thu, 06 Aug 2026 09:55:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Perplexity remporte un procès majeur contre Amazon sur les agents IA",
     "link": "https://siecledigital.fr/2026/08/05/perplexity-remporte-un-proces-majeur-contre-amazon-sur-les-agents-ia/",
@@ -64,11 +70,5 @@
     "title": "Shopify affirme que les moteurs de recherche IA dopent les ventes de ses marchands",
     "link": "https://siecledigital.fr/2026/08/05/shopify-affirme-que-les-moteurs-de-recherche-ia-dopent-les-ventes-de-ses-marchands/",
     "pubDate": "Thu, 06 Aug 2026 09:45:07 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI va payer 3,2 millions de dollars après des accusations de discrimination à l&#8217;embauche",
-    "link": "https://siecledigital.fr/2026/08/05/openai-va-payer-32-millions-de-dollars-apres-des-accusations-de-discrimination-a-lembauche/",
-    "pubDate": "Thu, 06 Aug 2026 09:35:38 +0000"
   }
 ]

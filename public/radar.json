@@ -1,42 +1,42 @@
 [
   {
-    "name": "Coldtea.ai",
-    "desc": "Make your software delivery self-driving",
-    "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hexis",
+    "desc": "Git-backed skills, tools & context for AI agents",
+    "url": "https://www.producthunt.com/products/bevel-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Soloop",
-    "desc": "Approval-first Agent OS for solo founders",
-    "url": "https://www.producthunt.com/products/soloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Basedash Subscriptions",
+    "desc": "Subscribe to any dashboard. Delivered on schedule.",
+    "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Nitro 4.0",
-    "desc": "The first human translation platform built for AI agents",
-    "url": "https://www.producthunt.com/products/alconost-localization?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Toolport",
+    "desc": "Every tool, one port. One MCP setup for all your AI agents",
+    "url": "https://www.producthunt.com/products/conduit-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Rindler",
-    "desc": "Automate the web work your team does by hand",
-    "url": "https://www.producthunt.com/products/rindler?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Pocket Fit",
+    "desc": "AI Workout & Food",
+    "url": "https://www.producthunt.com/products/pocket-fit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "BrowserOS neo",
-    "desc": "The Missing Browser for Claude, Cowork & Codex",
-    "url": "https://www.producthunt.com/products/browseros_ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Otiumz",
+    "desc": "AI-powered social app for every side of you",
+    "url": "https://www.producthunt.com/products/otiumz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Progress AI Observability",
-    "desc": "Trace, evaluate, and improve AI agents in production",
-    "url": "https://www.producthunt.com/products/progress-ai-observability?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Arbyn",
+    "desc": "AI support agent for Shopify that acts on your orders",
+    "url": "https://www.producthunt.com/products/arbyn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "HAR",
-    "desc": "Open Source harness for multi-agent coding workflows",
-    "url": "https://www.producthunt.com/products/har?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "TrainZilla",
+    "desc": "Your fitness coaching business, run by an AI agent.",
+    "url": "https://www.producthunt.com/products/trainzilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Troopr AI Scrum Master",
-    "desc": "Writes your standup from real work. Remembers your team.",
-    "url": "https://www.producthunt.com/products/troopr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Notewarp",
+    "desc": "Turn messy thoughts into clear, reusable notes with AI",
+    "url": "https://www.producthunt.com/products/notewarp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
