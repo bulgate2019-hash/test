@@ -1,6 +1,12 @@
 [
   {
     "source": "Clubic",
+    "title": "OpenAI ralentit le développement d'Astra après des tests de cybersécurité inquiétants",
+    "link": "https://www.clubic.com/actualite-624556-openai-ralentit-le-developpement-d-astra-apres-des-tests-de-cybersecurite-inquietants.html",
+    "pubDate": "Sun, 09 Aug 2026 09:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Les IA deviennent autonomes, un ancien responsable américain ressort les lois d'Asimov",
     "link": "https://www.clubic.com/actualite-624547-les-ia-deviennent-autonomes-un-ancien-responsable-americain-ressort-les-lois-d-asimov.html",
     "pubDate": "Sat, 08 Aug 2026 12:39:00 GMT"
@@ -48,18 +54,6 @@
     "pubDate": "Fri, 07 Aug 2026 12:50:06 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Le mystérieux appareil d’OpenAI et Jony Ive se précise : un étrange \"donut\" à plus de 300 dollars",
-    "link": "https://www.clubic.com/actualite-624451-le-mysterieux-appareil-d-openai-et-jony-ive-se-precise-un-etrange-donut-a-plus-de-300-dollars.html",
-    "pubDate": "Fri, 07 Aug 2026 10:59:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des IA créent déjà de nouveaux virus biologiques, et c’est très inquiétant",
-    "link": "https://www.clubic.com/actualite-624412-des-ia-creent-deja-de-nouveaux-virus-biologiques-et-c-est-tres-inquietant.html",
-    "pubDate": "Fri, 07 Aug 2026 09:55:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Perplexity remporte un procès majeur contre Amazon sur les agents IA",
     "link": "https://siecledigital.fr/2026/08/05/perplexity-remporte-un-proces-majeur-contre-amazon-sur-les-agents-ia/",
@@ -70,5 +64,11 @@
     "title": "Shopify affirme que les moteurs de recherche IA dopent les ventes de ses marchands",
     "link": "https://siecledigital.fr/2026/08/05/shopify-affirme-que-les-moteurs-de-recherche-ia-dopent-les-ventes-de-ses-marchands/",
     "pubDate": "Thu, 06 Aug 2026 09:45:07 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI va payer 3,2 millions de dollars après des accusations de discrimination à l&#8217;embauche",
+    "link": "https://siecledigital.fr/2026/08/05/openai-va-payer-32-millions-de-dollars-apres-des-accusations-de-discrimination-a-lembauche/",
+    "pubDate": "Thu, 06 Aug 2026 09:35:38 +0000"
   }
 ]
