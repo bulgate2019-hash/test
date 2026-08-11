@@ -1,13 +1,13 @@
 [
   {
-    "name": "Epismo Playbooks",
-    "desc": "Hand off AI work without losing how it gets done",
-    "url": "https://www.producthunt.com/products/epismo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "oqoqo",
+    "desc": "Build evals and custom benchmarks for real-world tasks",
+    "url": "https://www.producthunt.com/products/oqoqo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Nuserion",
-    "desc": "One workspace to turn your ideas into finished work",
-    "url": "https://www.producthunt.com/products/nuserion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Portfolio Lab",
+    "desc": "AI investing, done responsibly",
+    "url": "https://www.producthunt.com/products/portfolio-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
     "name": "Paritok",
@@ -15,28 +15,28 @@
     "url": "https://www.producthunt.com/products/paritok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "CartChat.ai",
-    "desc": "A trained AI salesperson for Shopify",
-    "url": "https://www.producthunt.com/products/cartchat-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "VennDesk",
-    "desc": "All-in-one AI support, ticketing & time tracking platform",
-    "url": "https://www.producthunt.com/products/venndesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "ThetaMind",
-    "desc": "Your AI Co-pilot for Options Strategy & Deep Research",
-    "url": "https://www.producthunt.com/products/thetamind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "My Juno Health",
-    "desc": "Ask AI health questions, track habits, personalized care",
-    "url": "https://www.producthunt.com/products/my-juno-health-ai-doctor-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
     "name": "SecondBrain Note by GenSpark",
     "desc": "A MagSafe AI Recorder That Acts for You",
     "url": "https://www.producthunt.com/products/genspark?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "AI Group Call",
+    "desc": "Type a goal, join a live voice call with six AI minds",
+    "url": "https://www.producthunt.com/products/ai-group-call?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Prime Agent",
+    "desc": "A coding agent that can refine its own harness",
+    "url": "https://www.producthunt.com/products/prime-intellect?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Remix",
+    "desc": "Figma, but on your production app. Test variants and ship.",
+    "url": "https://www.producthunt.com/products/remix-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Vidaya",
+    "desc": "Healthspan score from your wearables, labs, and DNA. ",
+    "url": "https://www.producthunt.com/products/vidaya?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

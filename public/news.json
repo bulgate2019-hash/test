@@ -1,33 +1,45 @@
 [
   {
     "source": "Clubic",
-    "title": "OpenAI ralentit le développement d'Astra après des tests de cybersécurité inquiétants",
-    "link": "https://www.clubic.com/actualite-624556-openai-ralentit-le-developpement-d-astra-apres-des-tests-de-cybersecurite-inquietants.html",
-    "pubDate": "Sun, 09 Aug 2026 09:15:00 GMT"
+    "title": "Pourquoi Gemini commence soudainement à s'immiscer dans vos conversations privées ?",
+    "link": "https://www.clubic.com/actualite-624751-pourquoi-gemini-commence-soudainement-a-s-immiscer-dans-vos-conversations-privees.html",
+    "pubDate": "Tue, 11 Aug 2026 06:47:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Les IA deviennent autonomes, un ancien responsable américain ressort les lois d'Asimov",
-    "link": "https://www.clubic.com/actualite-624547-les-ia-deviennent-autonomes-un-ancien-responsable-americain-ressort-les-lois-d-asimov.html",
-    "pubDate": "Sat, 08 Aug 2026 12:39:00 GMT"
+    "title": "IA : Amazon investit dans la centrale thermique la plus polluante des États-Unis pour alimenter un data center",
+    "link": "https://www.clubic.com/actualite-624787-ia-amazon-investit-dans-la-centrale-electrique-la-plus-polluante-des-etats-unis-pour-alimenter-un-data-center.html",
+    "pubDate": "Mon, 10 Aug 2026 16:11:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "ChatGPT-5, Claude et Gemini... les meilleures IA réunies en un seul paiement grâce à cette offre à vie à 23 €",
-    "link": "https://www.clubic.com/bons-plans-624001-chatgpt-5-claude-et-gemini-les-meilleures-ia-reunies-en-un-seul-paiement-grace-a-cette-offre-a-vie-a-23.html",
-    "pubDate": "Sat, 08 Aug 2026 10:59:00 GMT"
+    "title": "SwitchBot lance kata, un assistant IA capable de configurer et automatiser toute votre maison connectée",
+    "link": "https://www.clubic.com/actualite-624781-switchbot-lance-kata-un-assistant-ia-capable-de-configurer-et-automatiser-toute-votre-maison-connectee.html",
+    "pubDate": "Mon, 10 Aug 2026 15:52:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI veut transformer ChatGPT en concurrent de PowerPoint et rachète NextSlide",
+    "link": "https://siecledigital.fr/2026/08/10/openai-veut-transformer-chatgpt-en-concurrent-de-powerpoint-et-rachete-nextslide/",
+    "pubDate": "Mon, 10 Aug 2026 13:13:08 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Suno va intégrer des filigranes à ses chansons pour permettre d&#8217;identifier la musique générée par IA",
+    "link": "https://siecledigital.fr/2026/08/10/suno-va-integrer-des-filigranes-a-ses-chansons-pour-permettre-didentifier-la-musique-generee-par-ia/",
+    "pubDate": "Mon, 10 Aug 2026 13:09:26 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI freine le développement d&#8217;Astra après des résultats inquiétants en cybersécurité",
+    "link": "https://siecledigital.fr/2026/08/10/openai-freine-le-developpement-dastra-apres-des-resultats-inquietants-en-cybersecurite/",
+    "pubDate": "Mon, 10 Aug 2026 12:53:41 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Près de 800 paquets npm malveillants exploitent les hallucinations des IA",
-    "link": "https://www.clubic.com/actualite-624523-pres-de-800-paquets-npm-malveillants-exploitent-les-hallucinations-des-ia.html",
-    "pubDate": "Sat, 08 Aug 2026 07:05:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT : les conversations avec GPT-5.6 Luna deviennent illimitées pour les utilisateurs gratuits",
-    "link": "https://www.clubic.com/actualite-624487-chatgpt-les-conversations-avec-gpt-5-6-luna-deviennent-illimitees-pour-les-utilisateurs-gratuits.html",
-    "pubDate": "Fri, 07 Aug 2026 14:32:00 GMT"
+    "title": "Google pourrait retirer cette fonction gratuite de Gemini ... pour la remplacer par une fonction payante ?",
+    "link": "https://www.clubic.com/actualite-624685-google-retire-discretement-cette-fonction-gratuite-de-gemini-pour-la-remplacer-par-une-fonction-payante.html",
+    "pubDate": "Mon, 10 Aug 2026 12:33:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -58,17 +70,5 @@
     "title": "Perplexity remporte un procès majeur contre Amazon sur les agents IA",
     "link": "https://siecledigital.fr/2026/08/05/perplexity-remporte-un-proces-majeur-contre-amazon-sur-les-agents-ia/",
     "pubDate": "Thu, 06 Aug 2026 09:48:45 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Shopify affirme que les moteurs de recherche IA dopent les ventes de ses marchands",
-    "link": "https://siecledigital.fr/2026/08/05/shopify-affirme-que-les-moteurs-de-recherche-ia-dopent-les-ventes-de-ses-marchands/",
-    "pubDate": "Thu, 06 Aug 2026 09:45:07 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI va payer 3,2 millions de dollars après des accusations de discrimination à l&#8217;embauche",
-    "link": "https://siecledigital.fr/2026/08/05/openai-va-payer-32-millions-de-dollars-apres-des-accusations-de-discrimination-a-lembauche/",
-    "pubDate": "Thu, 06 Aug 2026 09:35:38 +0000"
   }
 ]
