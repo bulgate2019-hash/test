@@ -1,21 +1,63 @@
 [
   {
     "source": "Clubic",
+    "title": "Une IA a découvert trois failles Zoom qui permettaient de prendre le contrôle d'un ordinateur",
+    "link": "https://www.clubic.com/actualite-624958-une-ia-a-decouvert-trois-failles-zoom-qui-permettaient-de-prendre-le-controle-d-un-ordinateur.html",
+    "pubDate": "Wed, 12 Aug 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI rachète pour 7 milliards de dollars d'actions auprès de ses employés",
+    "link": "https://www.clubic.com/actualite-624931-openai-rachete-pour-7-milliards-de-dollars-d-actions-aupres-de-ses-employes.html",
+    "pubDate": "Tue, 11 Aug 2026 14:58:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Résumés IA de Google : craignant de perdre \"33 à 38%\" de leur trafic, les organes de presse saisissent l'Autorité de la concurrence",
+    "link": "https://www.clubic.com/actualite-624904-resumes-ia-de-google-craignant-de-perdre-33-a-38-de-leur-trafic-les-organes-de-presse-saisissent-l-autorite-de-la-concurrence.html",
+    "pubDate": "Tue, 11 Aug 2026 14:14:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic mise 9,1 milliards sur un mineur de bitcoin reconverti dans le cloud IA",
+    "link": "https://www.clubic.com/actualite-624880-anthropic-mise-9-1-milliards-sur-un-mineur-de-bitcoin-reconverti-dans-le-cloud-ia.html",
+    "pubDate": "Tue, 11 Aug 2026 13:04:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "AMD lance discrètement ses Ryzen 5 439 et Ryzen 7 449 : Gorgon Point... mais sans IA ni NPU",
+    "link": "https://www.clubic.com/actualite-624859-amd-lance-discretement-ses-ryzen-5-430-et-ryzen-7-450-gorgon-point-mais-sans-ia-ni-npu.html",
+    "pubDate": "Tue, 11 Aug 2026 12:54:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Claude va désormais laisser une trace invisible dans les textes qu&#8217;il génère",
+    "link": "https://siecledigital.fr/2026/08/11/claude-va-desormais-laisser-une-trace-invisible-dans-les-textes-quil-genere/",
+    "pubDate": "Tue, 11 Aug 2026 12:05:36 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Meta lance une IA capable de fonctionner directement sur votre ordinateur",
+    "link": "https://siecledigital.fr/2026/08/11/meta-lance-une-ia-capable-de-fonctionner-directement-sur-votre-ordinateur/",
+    "pubDate": "Tue, 11 Aug 2026 11:59:35 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic va intégrer des filigranes IA pour aider l’UE à repérer les contenus générés par l’IA",
+    "link": "https://www.clubic.com/actualite-624829-anthropic-va-integrer-des-filigranes-ia-pour-aider-l-ue-a-reperer-les-contenus-generes-par-l-ia.html",
+    "pubDate": "Tue, 11 Aug 2026 10:47:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le traumatisme Manus : la Chine encadre les déplacements de ses ingénieurs IA et met en service un campus géant",
+    "link": "https://www.clubic.com/actualite-624820-le-traumatisme-manus-la-chine-encadre-les-deplacements-de-ses-ingenieurs-ia-et-met-en-service-un-campus-geant.html",
+    "pubDate": "Tue, 11 Aug 2026 09:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Pourquoi Gemini commence soudainement à s'immiscer dans vos conversations privées ?",
     "link": "https://www.clubic.com/actualite-624751-pourquoi-gemini-commence-soudainement-a-s-immiscer-dans-vos-conversations-privees.html",
     "pubDate": "Tue, 11 Aug 2026 06:47:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA : Amazon investit dans la centrale thermique la plus polluante des États-Unis pour alimenter un data center",
-    "link": "https://www.clubic.com/actualite-624787-ia-amazon-investit-dans-la-centrale-electrique-la-plus-polluante-des-etats-unis-pour-alimenter-un-data-center.html",
-    "pubDate": "Mon, 10 Aug 2026 16:11:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "SwitchBot lance kata, un assistant IA capable de configurer et automatiser toute votre maison connectée",
-    "link": "https://www.clubic.com/actualite-624781-switchbot-lance-kata-un-assistant-ia-capable-de-configurer-et-automatiser-toute-votre-maison-connectee.html",
-    "pubDate": "Mon, 10 Aug 2026 15:52:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -28,47 +70,5 @@
     "title": "Suno va intégrer des filigranes à ses chansons pour permettre d&#8217;identifier la musique générée par IA",
     "link": "https://siecledigital.fr/2026/08/10/suno-va-integrer-des-filigranes-a-ses-chansons-pour-permettre-didentifier-la-musique-generee-par-ia/",
     "pubDate": "Mon, 10 Aug 2026 13:09:26 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI freine le développement d&#8217;Astra après des résultats inquiétants en cybersécurité",
-    "link": "https://siecledigital.fr/2026/08/10/openai-freine-le-developpement-dastra-apres-des-resultats-inquietants-en-cybersecurite/",
-    "pubDate": "Mon, 10 Aug 2026 12:53:41 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google pourrait retirer cette fonction gratuite de Gemini ... pour la remplacer par une fonction payante ?",
-    "link": "https://www.clubic.com/actualite-624685-google-retire-discretement-cette-fonction-gratuite-de-gemini-pour-la-remplacer-par-une-fonction-payante.html",
-    "pubDate": "Mon, 10 Aug 2026 12:33:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Après OpenAI et Anthropic, l&#8217;IA de Meta pirate à son tour une entreprise",
-    "link": "https://siecledigital.fr/2026/08/07/apres-openai-et-anthropic-lia-de-meta-pirate-a-son-tour-une-entreprise/",
-    "pubDate": "Fri, 07 Aug 2026 13:05:07 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT devient plus généreux avec ses utilisateurs gratuits",
-    "link": "https://siecledigital.fr/2026/08/07/chatgpt-devient-plus-genereux-avec-ses-utilisateurs-gratuits/",
-    "pubDate": "Fri, 07 Aug 2026 12:59:38 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Le premier appareil d&#8217;OpenAI coûterait entre 300 et 400 dollars et on sait quelle forme il aura",
-    "link": "https://siecledigital.fr/2026/08/07/le-premier-appareil-dopenai-couterait-entre-300-et-400-dollars-et-on-sait-quelle-forme-il-aura/",
-    "pubDate": "Fri, 07 Aug 2026 12:53:25 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Meta veut séduire les développeurs avec une alternative moins chère à Claude Code",
-    "link": "https://siecledigital.fr/2026/08/07/meta-veut-seduire-les-developpeurs-avec-une-alternative-moins-chere-a-claude-code/",
-    "pubDate": "Fri, 07 Aug 2026 12:50:06 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Perplexity remporte un procès majeur contre Amazon sur les agents IA",
-    "link": "https://siecledigital.fr/2026/08/05/perplexity-remporte-un-proces-majeur-contre-amazon-sur-les-agents-ia/",
-    "pubDate": "Thu, 06 Aug 2026 09:48:45 +0000"
   }
 ]
