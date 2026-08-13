@@ -1,94 +1,92 @@
 {
-  "generated_at_iso": "2026-08-12T07:12:09.363Z",
+  "generated_at_iso": "2026-08-13T07:15:06.943Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 95.4,
+      "score": 95.2,
       "coverage": 2,
       "lmarena": {
-        "elo": 1506
+        "elo": 1507
       }
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6",
-      "score": 72.8,
+      "model": "Grok 4.6 (high)",
+      "score": 79,
       "coverage": 1,
-      "lmarena": {
-        "elo": 1498
-      }
+      "lmarena": null
     },
     {
       "rank": 3,
-      "model": "Muse Spark 1.2 (xhigh)",
-      "score": 58.7,
-      "coverage": 2,
+      "model": "claude-opus-4-6",
+      "score": 71.4,
+      "coverage": 1,
       "lmarena": {
-        "elo": 1498
+        "elo": 1497
       }
     },
     {
       "rank": 4,
-      "model": "Kimi K3 (max)",
-      "score": 54.2,
+      "model": "Muse Spark 1.2 (xhigh)",
+      "score": 58,
       "coverage": 2,
       "lmarena": {
-        "elo": 1487
+        "elo": 1499
       }
     },
     {
       "rank": 5,
-      "model": "Qwen3.8 Max",
-      "score": 51.4,
+      "model": "Kimi K3 (max)",
+      "score": 56.3,
       "coverage": 2,
       "lmarena": {
-        "elo": 1490
+        "elo": 1489
       }
     },
     {
       "rank": 6,
+      "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+      "score": 54.9,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1491
+      }
+    },
+    {
+      "rank": 7,
+      "model": "Qwen3.8 Max",
+      "score": 51.8,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1491
+      }
+    },
+    {
+      "rank": 8,
       "model": "muse-spark",
-      "score": 43.4,
+      "score": 43,
       "coverage": 1,
       "lmarena": {
         "elo": 1488
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-      "score": 43.3,
+      "score": 42.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1494
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "gemini-3.1-pro-preview",
-      "score": 38.8,
+      "score": 37.8,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
-      }
-    },
-    {
-      "rank": 9,
-      "model": "gemini-3-pro",
-      "score": 35.8,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1485
-      }
-    },
-    {
-      "rank": 10,
-      "model": "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)",
-      "score": 34.4,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1481
       }
     }
   ]

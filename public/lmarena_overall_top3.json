@@ -1,50 +1,50 @@
 {
-  "generated_at_iso": "2026-08-12T07:12:09.363Z",
+  "generated_at_iso": "2026-08-13T07:15:06.943Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1506
+      "overall": 1507
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
+      "model": "claude-opus-4-6-high",
       "overall": 1505
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7-thinking",
+      "model": "claude-opus-4-7-high",
       "overall": 1502
     },
     {
       "rank": 4,
       "model": "muse-spark-1.2 (xHigh)",
-      "overall": 1498
+      "overall": 1499
     },
     {
       "rank": 5,
       "model": "claude-opus-4-6",
-      "overall": 1498
+      "overall": 1497
     },
     {
       "rank": 6,
-      "model": "claude-opus-5-high",
+      "model": "claude-opus-4-7",
       "overall": 1494
     },
     {
       "rank": 7,
-      "model": "claude-opus-4-7",
+      "model": "claude-opus-5-high",
       "overall": 1494
     },
     {
       "rank": 8,
       "model": "claude-opus-5-max",
-      "overall": 1490
+      "overall": 1491
     },
     {
       "rank": 9,
       "model": "qwen3.8-max",
-      "overall": 1490
+      "overall": 1491
     },
     {
       "rank": 10,
@@ -56,16 +56,16 @@
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1506
+      "overall": 1507
     },
     {
       "rank": 2,
-      "model": "claude-opus-4-6-thinking",
+      "model": "claude-opus-4-6-high",
       "overall": 1505
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7-thinking",
+      "model": "claude-opus-4-7-high",
       "overall": 1502
     }
   ]
