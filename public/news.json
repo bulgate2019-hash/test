@@ -1,27 +1,51 @@
 [
   {
     "source": "Clubic",
-    "title": "Surprise (ou pas) de Pékin ! Meta ne pourra pas racheter la start-up IA Manus",
-    "link": "https://www.clubic.com/actualite-625084-surprise-ou-pas-de-pekin-meta-ne-pourra-pas-racheter-la-start-up-ia-manus.html",
-    "pubDate": "Wed, 12 Aug 2026 15:59:00 GMT"
+    "title": "Confidentialité des IA : ExpressVPN lance ExpressAI, un chatbot qui ne conserve aucune donnée",
+    "link": "https://www.clubic.com/actualite-623971-confidentialite-des-ia-expressvpn-lance-expressai-un-chatbot-qui-ne-conserve-aucune-donnee.html",
+    "pubDate": "Fri, 14 Aug 2026 05:30:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "ChatGPT : vous pouvez désormais télécharger l'app native sur Linux",
-    "link": "https://www.clubic.com/actualite-625042-l-app-native-chatgpt-s-invite-sur-linux.html",
-    "pubDate": "Wed, 12 Aug 2026 14:19:00 GMT"
+    "title": "Microsoft investit davantage dans une IA polluante et réduit de 80 % l’élimination du carbone",
+    "link": "https://www.clubic.com/actualite-625255-microsoft-investit-davantage-dans-une-ia-polluante-et-reduit-de-80-l-elimination-du-carbone.html",
+    "pubDate": "Fri, 14 Aug 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Les résumés IA de Google inquiètent la presse qui saisit l&#8217;Autorité de la concurrence",
+    "link": "https://siecledigital.fr/2026/08/13/les-resumes-ia-de-google-inquietent-la-presse-qui-saisit-lautorite-de-la-concurrence/",
+    "pubDate": "Thu, 13 Aug 2026 12:55:00 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Gemini dépasse le milliard d’utilisateurs, Google réussit son pari",
+    "link": "https://siecledigital.fr/2026/08/13/gemini-depasse-le-milliard-dutilisateurs-google-reussit-son-pari/",
+    "pubDate": "Thu, 13 Aug 2026 12:50:19 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Grok 4.6 s'invite à la table d'OpenAI et d'Anthropic : esbroufe ou retour en grâce de Musk dans l'IA ?",
+    "link": "https://www.clubic.com/actualite-625138-grok-4-6-s-invite-a-la-table-d-openai-et-d-anthropic-la-remontada-pour-musk-et-spacexai.html",
+    "pubDate": "Thu, 13 Aug 2026 12:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Sur Chrome, Claude Cowork peut désormais lire et interagir avec vos onglets",
+    "link": "https://www.clubic.com/actualite-625144-sur-chrome-claude-cowork-peut-desormais-lire-et-interagir-avec-vos-onglets.html",
+    "pubDate": "Thu, 13 Aug 2026 12:04:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Twitch choque avec son IA qui s'entraîne sur les streamers : « Si c’était optionnel, personne ne l’activerait »",
+    "link": "https://www.clubic.com/actualite-625120-twitch-choque-avec-son-ia-qui-s-entraine-sur-les-streamers-si-c-etait-optionnel-personne-ne-l-activerait.html",
+    "pubDate": "Thu, 13 Aug 2026 09:26:00 GMT"
   },
   {
     "source": "Siècle Digital",
     "title": "OpenAI dépense 7 milliards de dollars pour racheter les actions de ses salariés",
     "link": "https://siecledigital.fr/2026/08/12/openai-depense-7-milliards-de-dollars-pour-racheter-les-actions-de-ses-salaries/",
     "pubDate": "Wed, 12 Aug 2026 13:09:14 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Ça y est, Gemini vient de passer le cap du milliard d'utilisateurs",
-    "link": "https://www.clubic.com/actualite-625015-gemini-passe-le-cap-du-milliard-d-utilisateurs.html",
-    "pubDate": "Wed, 12 Aug 2026 13:04:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -46,29 +70,5 @@
     "title": "Meta lance une IA capable de fonctionner directement sur votre ordinateur",
     "link": "https://siecledigital.fr/2026/08/11/meta-lance-une-ia-capable-de-fonctionner-directement-sur-votre-ordinateur/",
     "pubDate": "Tue, 11 Aug 2026 11:59:35 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI veut transformer ChatGPT en concurrent de PowerPoint et rachète NextSlide",
-    "link": "https://siecledigital.fr/2026/08/10/openai-veut-transformer-chatgpt-en-concurrent-de-powerpoint-et-rachete-nextslide/",
-    "pubDate": "Mon, 10 Aug 2026 13:13:08 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Suno va intégrer des filigranes à ses chansons pour permettre d&#8217;identifier la musique générée par IA",
-    "link": "https://siecledigital.fr/2026/08/10/suno-va-integrer-des-filigranes-a-ses-chansons-pour-permettre-didentifier-la-musique-generee-par-ia/",
-    "pubDate": "Mon, 10 Aug 2026 13:09:26 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI freine le développement d&#8217;Astra après des résultats inquiétants en cybersécurité",
-    "link": "https://siecledigital.fr/2026/08/10/openai-freine-le-developpement-dastra-apres-des-resultats-inquietants-en-cybersecurite/",
-    "pubDate": "Mon, 10 Aug 2026 12:53:41 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Après OpenAI et Anthropic, l&#8217;IA de Meta pirate à son tour une entreprise",
-    "link": "https://siecledigital.fr/2026/08/07/apres-openai-et-anthropic-lia-de-meta-pirate-a-son-tour-une-entreprise/",
-    "pubDate": "Fri, 07 Aug 2026 13:05:07 +0000"
   }
 ]
