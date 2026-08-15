@@ -1,13 +1,28 @@
 [
   {
-    "name": "AI Pulse",
-    "desc": "Ambient macOS light strip for AI coding agents",
-    "url": "https://www.producthunt.com/products/ai-pulse-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Outcome ",
+    "desc": "Turn your content into a personal outcome for every lead",
+    "url": "https://www.producthunt.com/products/contentblocks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Mood Garden ",
-    "desc": "A little garden for your inner world.",
-    "url": "https://www.producthunt.com/products/mood-garden?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini 3.7 Flash",
+    "desc": "Google's smartest workhorse yet for coding & agents",
+    "url": "https://www.producthunt.com/products/gemini-3-7-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "Munder Difflin",
+    "desc": "Make clones with Claude Code and Codex to do your work",
+    "url": "https://www.producthunt.com/products/munder-difflin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "DeepSeek Harness",
+    "desc": "Composable agent harness where everything is a plugin",
+    "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+  },
+  {
+    "name": "min.",
+    "desc": "AI that loves to follow up after meetings",
+    "url": "https://www.producthunt.com/products/min-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
     "name": "Basedash Tasks",
@@ -15,28 +30,13 @@
     "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Temporoi.net",
-    "desc": "TempoROI transforme une réunion en objet de gestion mesurabl",
-    "url": "https://www.producthunt.com/products/temporoi-net?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Famori",
+    "desc": "The AI companion that remembers everything for your family",
+    "url": "https://www.producthunt.com/products/famori?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Lancera",
-    "desc": "AI business assistant for freelancers",
-    "url": "https://www.producthunt.com/products/lancera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "FreeTokens by Lovie",
-    "desc": "Get 300+ AI models through one free local API key",
-    "url": "https://www.producthunt.com/products/freetokens-by-lovie?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "Findabl",
-    "desc": "Know when AI recommends your brand, using real citation data",
-    "url": "https://www.producthunt.com/products/findabl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
-  },
-  {
-    "name": "Kortyx",
-    "desc": "Finds tasks to automate and connects every tool to do them",
-    "url": "https://www.producthunt.com/products/kortyx?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "HAR HQ",
+    "desc": "Build, scale and govern your AI software factory",
+    "url": "https://www.producthunt.com/products/har-for-teams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
