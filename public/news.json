@@ -1,6 +1,36 @@
 [
   {
     "source": "Clubic",
+    "title": "Anthropic découvre un trou de 11 mois dans la sécurité de ses IA",
+    "link": "https://www.clubic.com/actualite-625468-anthropic-decouvre-un-trou-de-11-mois-dans-la-securite-de-ses-ia.html",
+    "pubDate": "Sun, 16 Aug 2026 05:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google vous laisse enfin retirer le filigrane de vos créations IA",
+    "link": "https://www.clubic.com/actualite-625447-google-vous-laisse-enfin-retirer-le-filigrane-de-vos-creations-ia.html",
+    "pubDate": "Sat, 15 Aug 2026 11:58:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Claude se met à marquer les textes de ses utilisateurs, certains préfèrent partir",
+    "link": "https://www.clubic.com/actualite-625435-claude-se-met-a-marquer-les-textes-de-ses-utilisateurs-certains-preferent-partir.html",
+    "pubDate": "Sat, 15 Aug 2026 11:29:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "IA : le pari sur le gaz naturel pour alimenter les méga data centers pourrait se retourner contre les GAFAM",
+    "link": "https://www.clubic.com/actualite-625420-ia-le-pari-sur-le-gaz-naturel-pour-alimenter-les-mega-data-centers-pourrait-se-retourner-contre-les-gafam.html",
+    "pubDate": "Sat, 15 Aug 2026 10:04:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Test Boya Notra : ce nouvel enregistreur IA peut-il vraiment détrôner Plaud ?",
+    "link": "https://www.clubic.com/test-produit-619324-test-boya-notra-un-enregistreur-ia-malin-mais-encore-loin-de-faire-oublier-plaud.html",
+    "pubDate": "Sat, 15 Aug 2026 09:01:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Plutôt qu'un abonnement ChatGPT ou Claude, cette licence IA à vie à moins de 22€ regroupe plusieurs modèles",
     "link": "https://www.clubic.com/bons-plans-625348-plutot-qu-un-abonnement-chatgpt-ou-claude-cette-licence-ia-a-vie-a-moins-de-22-regroupe-plusieurs-modeles.html",
     "pubDate": "Fri, 14 Aug 2026 16:02:00 GMT"
@@ -24,24 +54,6 @@
     "pubDate": "Fri, 14 Aug 2026 09:42:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Proton dévoile un outil gratuit qui révèle tout ce que ChatGPT et Claude savent de vous",
-    "link": "https://www.clubic.com/actualite-625234-proton-devoile-un-outil-gratuit-qui-revele-tout-ce-que-chatgpt-et-claude-savent-de-vous.html",
-    "pubDate": "Fri, 14 Aug 2026 09:16:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Confidentialité des IA : ExpressVPN lance ExpressAI, un chatbot qui ne conserve aucune donnée",
-    "link": "https://www.clubic.com/actualite-623971-confidentialite-des-ia-expressvpn-lance-expressai-un-chatbot-qui-ne-conserve-aucune-donnee.html",
-    "pubDate": "Fri, 14 Aug 2026 05:30:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Microsoft investit davantage dans une IA polluante et réduit de 80 % l’élimination du carbone",
-    "link": "https://www.clubic.com/actualite-625255-microsoft-investit-davantage-dans-une-ia-polluante-et-reduit-de-80-l-elimination-du-carbone.html",
-    "pubDate": "Fri, 14 Aug 2026 05:00:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Les résumés IA de Google inquiètent la presse qui saisit l&#8217;Autorité de la concurrence",
     "link": "https://siecledigital.fr/2026/08/13/les-resumes-ia-de-google-inquietent-la-presse-qui-saisit-lautorite-de-la-concurrence/",
@@ -58,17 +70,5 @@
     "title": "OpenAI dépense 7 milliards de dollars pour racheter les actions de ses salariés",
     "link": "https://siecledigital.fr/2026/08/12/openai-depense-7-milliards-de-dollars-pour-racheter-les-actions-de-ses-salaries/",
     "pubDate": "Wed, 12 Aug 2026 13:09:14 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Apple prépare une fonction pour distinguer les vraies photos des images générées par IA",
-    "link": "https://siecledigital.fr/2026/08/12/apple-prepare-une-fonction-pour-distinguer-les-vraies-photos-des-images-generees-par-ia/",
-    "pubDate": "Wed, 12 Aug 2026 13:03:49 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Spotify va identifier les artistes IA et ne plus recommander leurs musiques",
-    "link": "https://siecledigital.fr/2026/08/12/spotify-va-identifier-les-artistes-ia-et-ne-plus-recommander-leurs-musiques/",
-    "pubDate": "Wed, 12 Aug 2026 12:56:03 +0000"
   }
 ]
