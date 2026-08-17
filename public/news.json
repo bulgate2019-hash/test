@@ -1,6 +1,18 @@
 [
   {
     "source": "Clubic",
+    "title": "ExpressVPN lance ExpressAI, un assistant IA qui supprime vos conversations après chaque réponse",
+    "link": "https://www.clubic.com/actualite-623971-expressvpn-lance-expressai-un-assistant-ia-qui-supprime-vos-conversations-apres-chaque-reponse.html",
+    "pubDate": "Mon, 17 Aug 2026 05:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Cette IA s'attaque à 250 000 lignes de code pour faire entrer la météo dans l'ère des GPU",
+    "link": "https://www.clubic.com/actualite-625498-cette-ia-s-attaque-a-250-000-lignes-de-code-pour-faire-entrer-la-meteo-dans-l-ere-des-gpu.html",
+    "pubDate": "Sun, 16 Aug 2026 14:47:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Anthropic découvre un trou de 11 mois dans la sécurité de ses IA",
     "link": "https://www.clubic.com/actualite-625468-anthropic-decouvre-un-trou-de-11-mois-dans-la-securite-de-ses-ia.html",
     "pubDate": "Sun, 16 Aug 2026 05:33:00 GMT"
@@ -30,30 +42,6 @@
     "pubDate": "Sat, 15 Aug 2026 09:01:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Plutôt qu'un abonnement ChatGPT ou Claude, cette licence IA à vie à moins de 22€ regroupe plusieurs modèles",
-    "link": "https://www.clubic.com/bons-plans-625348-plutot-qu-un-abonnement-chatgpt-ou-claude-cette-licence-ia-a-vie-a-moins-de-22-regroupe-plusieurs-modeles.html",
-    "pubDate": "Fri, 14 Aug 2026 16:02:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Un adolescent américain est accusé d’avoir planifié le meurtre de sa famille avec ChatGPT",
-    "link": "https://www.clubic.com/actualite-625372-un-adolescent-americain-est-accuse-d-avoir-planifie-le-meurtre-de-sa-famille-avec-chatgpt.html",
-    "pubDate": "Fri, 14 Aug 2026 13:37:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Apple Intelligence en Chine : Apple prépare un modèle IA sur mesure avec Alibaba",
-    "link": "https://www.clubic.com/actualite-625369-apple-intelligence-en-chine-apple-prepare-un-modele-ia-sur-mesure-avec-alibaba.html",
-    "pubDate": "Fri, 14 Aug 2026 13:06:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Soif insatiable en puissance de calcul : pourquoi Anthropic veut dépenser 6 milliards dans cette start-up IA",
-    "link": "https://www.clubic.com/actualite-625270-soif-insatiable-en-puissance-de-calcul-pourquoi-anthropic-veut-depenser-6-milliards-dans-cette-startup-ia.html",
-    "pubDate": "Fri, 14 Aug 2026 09:42:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Les résumés IA de Google inquiètent la presse qui saisit l&#8217;Autorité de la concurrence",
     "link": "https://siecledigital.fr/2026/08/13/les-resumes-ia-de-google-inquietent-la-presse-qui-saisit-lautorite-de-la-concurrence/",
@@ -70,5 +58,17 @@
     "title": "OpenAI dépense 7 milliards de dollars pour racheter les actions de ses salariés",
     "link": "https://siecledigital.fr/2026/08/12/openai-depense-7-milliards-de-dollars-pour-racheter-les-actions-de-ses-salaries/",
     "pubDate": "Wed, 12 Aug 2026 13:09:14 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Apple prépare une fonction pour distinguer les vraies photos des images générées par IA",
+    "link": "https://siecledigital.fr/2026/08/12/apple-prepare-une-fonction-pour-distinguer-les-vraies-photos-des-images-generees-par-ia/",
+    "pubDate": "Wed, 12 Aug 2026 13:03:49 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Spotify va identifier les artistes IA et ne plus recommander leurs musiques",
+    "link": "https://siecledigital.fr/2026/08/12/spotify-va-identifier-les-artistes-ia-et-ne-plus-recommander-leurs-musiques/",
+    "pubDate": "Wed, 12 Aug 2026 12:56:03 +0000"
   }
 ]
