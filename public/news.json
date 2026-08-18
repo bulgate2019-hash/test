@@ -1,6 +1,48 @@
 [
   {
     "source": "Clubic",
+    "title": "GeForce RTX 2080 Ti moddée à 22 Go : le hack japonais qui défie les GPU IA à 1000$",
+    "link": "https://www.clubic.com/actualite-625639-rtx-2080-ti-portee-a-22-go-par-un-atelier-japonais-pour-282-dollars.html",
+    "pubDate": "Tue, 18 Aug 2026 06:18:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT, Claude, Gemini… cette licence IA à vie regroupe tout pour moins de 22 €",
+    "link": "https://www.clubic.com/bons-plans-625348-plutot-qu-un-abonnement-chatgpt-ou-claude-cette-licence-ia-a-vie-a-moins-de-22-regroupe-plusieurs-modeles.html",
+    "pubDate": "Mon, 17 Aug 2026 15:11:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Gemini permet désormais de supprimer le filigrane de ses images générées par IA",
+    "link": "https://siecledigital.fr/2026/08/17/gemini-permet-desormais-de-supprimer-le-filigrane-de-ses-images-generees-par-ia/",
+    "pubDate": "Mon, 17 Aug 2026 13:14:59 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Apple développe une IA spécialement pour la Chine avec l&#8217;aide d&#8217;Alibaba",
+    "link": "https://siecledigital.fr/2026/08/17/apple-developpe-une-ia-specialement-pour-la-chine-avec-laide-dalibaba/",
+    "pubDate": "Mon, 17 Aug 2026 13:10:02 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Ces deux artistes mondialement connus assument de proposer de la musique générée par IA",
+    "link": "https://www.clubic.com/actualite-625612-ces-deux-artistes-mondialement-connus-assument-de-proposer-de-la-musique-generee-par-ia.html",
+    "pubDate": "Mon, 17 Aug 2026 12:07:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Stripe s'offrirait OpenRouter pour plus de 7 milliards : un pari sur l'infrastructure IA",
+    "link": "https://www.clubic.com/actualite-625603-stripe-s-offrirait-openrouter-pour-plus-de-7-milliards-un-pari-sur-l-infrastructure-ia.html",
+    "pubDate": "Mon, 17 Aug 2026 10:52:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Avec ChatGPT Computer History, OpenAI présente sa version de Windows Recall sur Mac",
+    "link": "https://www.clubic.com/actualite-625510-avec-chatgpt-computer-history-openai-presente-sa-version-de-windows-recall-sur-mac.htmlt",
+    "pubDate": "Mon, 17 Aug 2026 06:43:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "ExpressVPN lance ExpressAI, un assistant IA qui supprime vos conversations après chaque réponse",
     "link": "https://www.clubic.com/actualite-623971-expressvpn-lance-expressai-un-assistant-ia-qui-supprime-vos-conversations-apres-chaque-reponse.html",
     "pubDate": "Mon, 17 Aug 2026 05:30:00 GMT"
@@ -10,36 +52,6 @@
     "title": "Cette IA s'attaque à 250 000 lignes de code pour faire entrer la météo dans l'ère des GPU",
     "link": "https://www.clubic.com/actualite-625498-cette-ia-s-attaque-a-250-000-lignes-de-code-pour-faire-entrer-la-meteo-dans-l-ere-des-gpu.html",
     "pubDate": "Sun, 16 Aug 2026 14:47:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Anthropic découvre un trou de 11 mois dans la sécurité de ses IA",
-    "link": "https://www.clubic.com/actualite-625468-anthropic-decouvre-un-trou-de-11-mois-dans-la-securite-de-ses-ia.html",
-    "pubDate": "Sun, 16 Aug 2026 05:33:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google vous laisse enfin retirer le filigrane de vos créations IA",
-    "link": "https://www.clubic.com/actualite-625447-google-vous-laisse-enfin-retirer-le-filigrane-de-vos-creations-ia.html",
-    "pubDate": "Sat, 15 Aug 2026 11:58:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Claude se met à marquer les textes de ses utilisateurs, certains préfèrent partir",
-    "link": "https://www.clubic.com/actualite-625435-claude-se-met-a-marquer-les-textes-de-ses-utilisateurs-certains-preferent-partir.html",
-    "pubDate": "Sat, 15 Aug 2026 11:29:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA : le pari sur le gaz naturel pour alimenter les méga data centers pourrait se retourner contre les GAFAM",
-    "link": "https://www.clubic.com/actualite-625420-ia-le-pari-sur-le-gaz-naturel-pour-alimenter-les-mega-data-centers-pourrait-se-retourner-contre-les-gafam.html",
-    "pubDate": "Sat, 15 Aug 2026 10:04:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Test Boya Notra : ce nouvel enregistreur IA peut-il vraiment détrôner Plaud ?",
-    "link": "https://www.clubic.com/test-produit-619324-test-boya-notra-un-enregistreur-ia-malin-mais-encore-loin-de-faire-oublier-plaud.html",
-    "pubDate": "Sat, 15 Aug 2026 09:01:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -58,17 +70,5 @@
     "title": "OpenAI dépense 7 milliards de dollars pour racheter les actions de ses salariés",
     "link": "https://siecledigital.fr/2026/08/12/openai-depense-7-milliards-de-dollars-pour-racheter-les-actions-de-ses-salaries/",
     "pubDate": "Wed, 12 Aug 2026 13:09:14 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Apple prépare une fonction pour distinguer les vraies photos des images générées par IA",
-    "link": "https://siecledigital.fr/2026/08/12/apple-prepare-une-fonction-pour-distinguer-les-vraies-photos-des-images-generees-par-ia/",
-    "pubDate": "Wed, 12 Aug 2026 13:03:49 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Spotify va identifier les artistes IA et ne plus recommander leurs musiques",
-    "link": "https://siecledigital.fr/2026/08/12/spotify-va-identifier-les-artistes-ia-et-ne-plus-recommander-leurs-musiques/",
-    "pubDate": "Wed, 12 Aug 2026 12:56:03 +0000"
   }
 ]
