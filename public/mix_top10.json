@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-08-18T06:28:33.483Z",
+  "generated_at_iso": "2026-08-19T06:29:18.768Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -28,6 +28,13 @@
     },
     {
       "rank": 4,
+      "model": "GLM-5.3 (max)",
+      "score": 63.6,
+      "coverage": 1,
+      "lmarena": null
+    },
+    {
+      "rank": 5,
       "model": "Muse Spark 1.2 (xhigh)",
       "score": 56.2,
       "coverage": 2,
@@ -36,7 +43,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Kimi K3 (max)",
       "score": 55.3,
       "coverage": 2,
@@ -45,7 +52,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
       "score": 53.6,
       "coverage": 2,
@@ -54,7 +61,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Qwen3.8 Max",
       "score": 50.4,
       "coverage": 2,
@@ -63,29 +70,20 @@
       }
     },
     {
-      "rank": 8,
-      "model": "Qwen3.8 2.4T A95B",
-      "score": 45.5,
-      "coverage": 1,
-      "lmarena": null
-    },
-    {
       "rank": 9,
-      "model": "muse-spark",
-      "score": 43,
+      "model": "muse-spark-1.1",
+      "score": 46.2,
       "coverage": 1,
       "lmarena": {
-        "elo": 1488
+        "elo": 1489
       }
     },
     {
       "rank": 10,
-      "model": "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)",
-      "score": 39.9,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1494
-      }
+      "model": "Qwen3.8 2.4T A95B",
+      "score": 45.5,
+      "coverage": 1,
+      "lmarena": null
     }
   ]
 }
