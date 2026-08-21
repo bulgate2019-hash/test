@@ -1,45 +1,21 @@
 [
   {
     "source": "Clubic",
-    "title": "Fini les abonnements en pagaille : Artlist réunit tous les outils de création IA en un seul endroit",
-    "link": "https://www.clubic.com/actualite-624706-fini-les-abonnements-en-pagaille-artlist-reunit-tous-les-outils-de-creation-ia-en-un-seul-endroit.html",
-    "pubDate": "Wed, 19 Aug 2026 15:30:00 GMT"
+    "title": "Gemini AI Plus va être gratuit pour les étudiants (pendant 12 mois) !",
+    "link": "https://www.clubic.com/actualite-626083-gemini-app-devoile-une-nouveaute-surprise-qui-intrigue-deja-les-utilisateurs.html",
+    "pubDate": "Thu, 20 Aug 2026 17:32:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Sur Gmail, Claude peut désormais prendre le contrôle quasi-total de vos e-mails",
-    "link": "https://www.clubic.com/actualite-625921-sur-gmail-claude-peut-desormais-prendre-le-controle-quasi-total-de-vos-e-mails.html",
-    "pubDate": "Wed, 19 Aug 2026 13:44:00 GMT"
+    "source": "Siècle Digital",
+    "title": "La publicité arrive dans ChatGPT en France dès le 24 août, voici ce qui va changer",
+    "link": "https://siecledigital.fr/2026/08/20/la-publicite-arrive-dans-chatgpt-en-france-des-le-24-aout-voici-ce-qui-va-changer/",
+    "pubDate": "Thu, 20 Aug 2026 14:36:09 +0000"
   },
   {
     "source": "Siècle Digital",
     "title": "OpenAI lance une version de ChatGPT spécialement conçue pour les adolescents",
     "link": "https://siecledigital.fr/2026/08/19/openai-lance-une-version-de-chatgpt-specialement-concue-pour-les-adolescents/",
     "pubDate": "Wed, 19 Aug 2026 13:06:27 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Il y a maintenant une version de ChatGPT pour les ados",
-    "link": "https://www.clubic.com/actualite-625840-il-y-a-maintenant-une-version-de-chatgpt-pour-les-ados.html",
-    "pubDate": "Wed, 19 Aug 2026 12:05:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "La publicité débarque très bientôt dans ChatGPT en France, et OpenAI promet qu'elle ne changera rien à vos réponses",
-    "link": "https://www.clubic.com/actualite-625837-chatgpt-ads-se-deploie-a-travers-l-europe.html",
-    "pubDate": "Wed, 19 Aug 2026 07:52:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Firefox : zoom sur les nouveautés de l'assistant IA de Smart Window",
-    "link": "https://www.clubic.com/actualite-625789-firefox-zoom-sur-les-nouveautes-de-l-assistant-ia-de-smart-window.html",
-    "pubDate": "Wed, 19 Aug 2026 06:39:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "F-22 et F-35 : une IA dans un missile chinois pour traquer les chasseurs furtifs US ?",
-    "link": "https://www.clubic.com/actualite-625768-f-22-et-f-35-une-ia-dans-un-missile-chinois-pour-traquer-les-chasseurs-furtifs-us.html",
-    "pubDate": "Wed, 19 Aug 2026 06:03:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -54,21 +30,45 @@
     "pubDate": "Tue, 18 Aug 2026 14:41:51 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "Gemini permet désormais de supprimer le filigrane de ses images générées par IA",
-    "link": "https://siecledigital.fr/2026/08/17/gemini-permet-desormais-de-supprimer-le-filigrane-de-ses-images-generees-par-ia/",
-    "pubDate": "Mon, 17 Aug 2026 13:14:59 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Apple développe une IA spécialement pour la Chine avec l&#8217;aide d&#8217;Alibaba",
-    "link": "https://siecledigital.fr/2026/08/17/apple-developpe-une-ia-specialement-pour-la-chine-avec-laide-dalibaba/",
-    "pubDate": "Mon, 17 Aug 2026 13:10:02 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
     "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
     "pubDate": "Tue, 07 Jul 2026 04:55:13 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
+    "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
+    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
+    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:04 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
+    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:03 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
+    "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:01 +0000"
   }
 ]
