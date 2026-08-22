@@ -1,15 +1,15 @@
 {
-  "generated_at_iso": "2026-08-21T06:32:19.450Z",
+  "generated_at_iso": "2026-08-22T06:25:16.681Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1507
+      "overall": 1508
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-high",
-      "overall": 1505
+      "overall": 1504
     },
     {
       "rank": 3,
@@ -49,19 +49,19 @@
     {
       "rank": 10,
       "model": "kimi-k3-max",
-      "overall": 1490
+      "overall": 1489
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1507
+      "overall": 1508
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6-high",
-      "overall": 1505
+      "overall": 1504
     },
     {
       "rank": 3,

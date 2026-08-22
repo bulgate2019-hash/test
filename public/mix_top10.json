@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-08-21T06:32:19.450Z",
+  "generated_at_iso": "2026-08-22T06:25:16.681Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -7,7 +7,7 @@
       "score": 94.9,
       "coverage": 2,
       "lmarena": {
-        "elo": 1507
+        "elo": 1508
       }
     },
     {
@@ -20,7 +20,7 @@
     {
       "rank": 3,
       "model": "claude-opus-4-6",
-      "score": 69.1,
+      "score": 68.3,
       "coverage": 1,
       "lmarena": {
         "elo": 1497
@@ -29,16 +29,16 @@
     {
       "rank": 4,
       "model": "Kimi K3 (max)",
-      "score": 55.4,
+      "score": 54.7,
       "coverage": 2,
       "lmarena": {
-        "elo": 1490
+        "elo": 1489
       }
     },
     {
       "rank": 5,
       "model": "Muse Spark 1.2 (xhigh)",
-      "score": 53.4,
+      "score": 53,
       "coverage": 2,
       "lmarena": {
         "elo": 1498
@@ -46,24 +46,26 @@
     },
     {
       "rank": 6,
+      "model": "GLM-5.3 (max)",
+      "score": 50.4,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1487
+      }
+    },
+    {
+      "rank": 7,
       "model": "muse-spark-1.1",
-      "score": 49.6,
+      "score": 48.6,
       "coverage": 1,
       "lmarena": {
         "elo": 1491
       }
     },
     {
-      "rank": 7,
-      "model": "Qwen3.8 2.4T A95B",
-      "score": 45.5,
-      "coverage": 1,
-      "lmarena": null
-    },
-    {
       "rank": 8,
       "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-      "score": 45.4,
+      "score": 46.6,
       "coverage": 2,
       "lmarena": {
         "elo": 1487
@@ -71,17 +73,15 @@
     },
     {
       "rank": 9,
-      "model": "GLM-5.3 (max)",
-      "score": 45.3,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1484
-      }
+      "model": "Qwen3.8 2.4T A95B",
+      "score": 45.5,
+      "coverage": 1,
+      "lmarena": null
     },
     {
       "rank": 10,
       "model": "muse-spark",
-      "score": 40.7,
+      "score": 41.3,
       "coverage": 1,
       "lmarena": {
         "elo": 1488

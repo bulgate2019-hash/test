@@ -1,6 +1,42 @@
 [
   {
     "source": "Clubic",
+    "title": "Fini les abonnements IA multiples : voici 1minAI Pro à vie pour moins de 35€",
+    "link": "https://www.clubic.com/bons-plans-626272-fini-les-abonnements-ia-multiples-cvoici-1minai-pro-a-vie-pour-moins-de-35.html",
+    "pubDate": "Sat, 22 Aug 2026 05:31:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le Task Manager de Windows vous montrera les IA qui tournent en tâche de fond",
+    "link": "https://www.clubic.com/actualite-626287-le-task-manager-de-windows-vous-montrera-les-ia-qui-tournent-en-tache-de-fond.html",
+    "pubDate": "Fri, 21 Aug 2026 14:45:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "À son tour, Apple Music durcit le ton sur les morceaux générés par IA",
+    "link": "https://www.clubic.com/actualite-626179-a-son-tour-apple-music-previent-que-le-service-va-identifier-les-morceaux-generes-par-ia.html",
+    "pubDate": "Fri, 21 Aug 2026 12:04:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI rattrape Anthropic auprès des entreprises, l&#8217;écart se resserre",
+    "link": "https://siecledigital.fr/2026/08/21/openai-rattrape-anthropic-aupres-des-entreprises-lecart-se-resserre/",
+    "pubDate": "Fri, 21 Aug 2026 11:20:06 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "ChatGPT peut désormais écrire et envoyer vos messages à votre place",
+    "link": "https://siecledigital.fr/2026/08/21/chatgpt-peut-desormais-ecrire-et-envoyer-vos-messages-a-votre-place/",
+    "pubDate": "Fri, 21 Aug 2026 11:07:18 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT peut prendre le contrôle sur iMessage, faut-il lui ouvrir la porte ?",
+    "link": "https://www.clubic.com/actualite-626152-chatgpt-peut-prendre-le-controle-sur-imessage-faut-il-s-inquieter.html",
+    "pubDate": "Fri, 21 Aug 2026 06:37:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Gemini AI Plus va être gratuit pour les étudiants (pendant 12 mois) !",
     "link": "https://www.clubic.com/actualite-626083-gemini-app-devoile-une-nouveaute-surprise-qui-intrigue-deja-les-utilisateurs.html",
     "pubDate": "Thu, 20 Aug 2026 17:32:00 GMT"
@@ -24,12 +60,6 @@
     "pubDate": "Tue, 18 Aug 2026 14:48:54 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "Amazon détruirait des livres rares après les avoir numérisés pour entraîner son IA",
-    "link": "https://siecledigital.fr/2026/08/18/amazon-detruirait-des-livres-rares-apres-les-avoir-numerises-pour-entrainer-son-ia/",
-    "pubDate": "Tue, 18 Aug 2026 14:41:51 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "AI Act : le compte à rebours est lancé pour les entreprises avant le 2 août 2026",
     "link": "https://www.actuia.com/actualite/ai-act-le-compte-a-rebours-est-lance-pour-les-entreprises-avant-le-2-aout-2026/",
@@ -40,35 +70,5 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
-    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Le vrai défi de l’IA en entreprise n’est plus le modèle, mais son exploitation",
-    "link": "https://www.actuia.com/actualite/le-vrai-defi-de-lia-en-entreprise-nest-plus-le-modele-mais-son-exploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:05 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Jumeaux numériques : quand les infrastructures critiques se dotent d’un système d’exploitation",
-    "link": "https://www.actuia.com/actualite/jumeaux-numeriques-quand-les-infrastructures-critiques-se-dotent-dun-systeme-dexploitation/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:04 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA à l'école dès la 6e : ce que propose vraiment le rapport Calvez",
-    "link": "https://www.actuia.com/actualite/ia-a-lecole-des-la-6e-ce-que-propose-vraiment-le-rapport-calvez/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:03 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "IA et emploi : la note du Trésor et les métiers qualifiés exposés",
-    "link": "https://www.actuia.com/actualite/ia-et-emploi-la-note-du-tresor-et-les-metiers-qualifies-exposes/",
-    "pubDate": "Tue, 07 Jul 2026 04:55:01 +0000"
   }
 ]
