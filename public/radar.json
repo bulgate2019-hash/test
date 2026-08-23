@@ -1,42 +1,42 @@
 [
   {
-    "name": "Wizstar",
-    "desc": "Digital avatars that move and act like professional actors",
-    "url": "https://www.producthunt.com/products/wizstar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "SubtitleGenerator",
+    "desc": "From video to publish-ready AI subtitles—all in one browser",
+    "url": "https://www.producthunt.com/products/subtitlegenerator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Supernova",
-    "desc": "All your data in Claude and Codex",
-    "url": "https://www.producthunt.com/products/supernova-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "AutoClaw",
+    "desc": "An AI work agent across desktop, browser, and chat",
+    "url": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "fx (by Vercel)",
-    "desc": "Vercel's tiny, open-source coding agent",
-    "url": "https://www.producthunt.com/products/fx-by-vercel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Zero",
+    "desc": "Vercel's programming language built for AI agents",
+    "url": "https://www.producthunt.com/products/zero-15?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Antigravity IDE Extensions",
-    "desc": "Antigravity agents now live inside your existing editor",
-    "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "KerasFormers",
+    "desc": "Keras 3 collection of pretrained models",
+    "url": "https://www.producthunt.com/products/kerasformers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Epho",
-    "desc": "Run Claude Code, Codex or Opencode in cloud with your repo",
-    "url": "https://www.producthunt.com/products/epho-claude-code-in-the-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agents Never Sleep",
+    "desc": "Agents keep running with the lid closed",
+    "url": "https://www.producthunt.com/products/agents-never-sleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "OneCLI",
-    "desc": "Give every employee a secured, sandboxed pro assistant agent",
-    "url": "https://www.producthunt.com/products/onecli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Port Radar for macOS",
+    "desc": "An AI port manager for your Mac. ",
+    "url": "https://www.producthunt.com/products/port-radar-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Plow Latch",
-    "desc": "Run AI agents on your Mac with scoped access",
-    "url": "https://www.producthunt.com/products/plow-latch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Pocket by Meta",
+    "desc": "Vibe-code games, then share them like TikToks",
+    "url": "https://www.producthunt.com/products/pocket-by-meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Router by Ramp",
-    "desc": "Tokens are money. Save both.",
-    "url": "https://www.producthunt.com/products/ramp-router?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "roastme.gg",
+    "desc": "Get roasted. Publicly.",
+    "url": "https://www.producthunt.com/products/roastme-gg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

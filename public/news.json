@@ -1,6 +1,12 @@
 [
   {
     "source": "Clubic",
+    "title": "Une IA apprend pourquoi nos yeux sautent des mots quand nous lisons",
+    "link": "https://www.clubic.com/actualite-626332-une-ia-apprend-pourquoi-nos-yeux-sautent-des-mots-quand-nous-lisons.html",
+    "pubDate": "Sat, 22 Aug 2026 13:45:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Fini les abonnements IA multiples : voici 1minAI Pro à vie pour moins de 35€",
     "link": "https://www.clubic.com/bons-plans-626272-fini-les-abonnements-ia-multiples-cvoici-1minai-pro-a-vie-pour-moins-de-35.html",
     "pubDate": "Sat, 22 Aug 2026 05:31:00 GMT"
@@ -28,18 +34,6 @@
     "title": "ChatGPT peut désormais écrire et envoyer vos messages à votre place",
     "link": "https://siecledigital.fr/2026/08/21/chatgpt-peut-desormais-ecrire-et-envoyer-vos-messages-a-votre-place/",
     "pubDate": "Fri, 21 Aug 2026 11:07:18 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT peut prendre le contrôle sur iMessage, faut-il lui ouvrir la porte ?",
-    "link": "https://www.clubic.com/actualite-626152-chatgpt-peut-prendre-le-controle-sur-imessage-faut-il-s-inquieter.html",
-    "pubDate": "Fri, 21 Aug 2026 06:37:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Gemini AI Plus va être gratuit pour les étudiants (pendant 12 mois) !",
-    "link": "https://www.clubic.com/actualite-626083-gemini-app-devoile-une-nouveaute-surprise-qui-intrigue-deja-les-utilisateurs.html",
-    "pubDate": "Thu, 20 Aug 2026 17:32:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -70,5 +64,11 @@
     "title": "La justice française suspend l’usage de ChatGPT dans une entreprise : un signal fort pour tous les projets IA",
     "link": "https://www.actuia.com/actualite/la-justice-francaise-suspend-lusage-de-chatgpt-dans-une-entreprise-un-signal-fort-pour-tous-les-projets-ia/",
     "pubDate": "Tue, 07 Jul 2026 04:55:09 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "106 millions de requêtes ClaudeBot : ce que les crawlers IA coûtent réellement à un média spécialisé",
+    "link": "https://www.actuia.com/actualite/106-millions-de-requetes-claudebot-ce-que-les-crawlers-ia-coutent-reellement-a-un-media-specialise/",
+    "pubDate": "Tue, 07 Jul 2026 04:55:08 +0000"
   }
 ]
