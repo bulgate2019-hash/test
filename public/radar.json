@@ -1,42 +1,42 @@
 [
   {
-    "name": "SubtitleGenerator",
-    "desc": "From video to publish-ready AI subtitles—all in one browser",
-    "url": "https://www.producthunt.com/products/subtitlegenerator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Construct Computer",
+    "desc": "Your AI coworker gets a computer. You get your day back.",
+    "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "AutoClaw",
-    "desc": "An AI work agent across desktop, browser, and chat",
-    "url": "https://www.producthunt.com/products/z-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "FetchSandbox MCP",
+    "desc": "The MCP that proves your AI's integration fixes work",
+    "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Zero",
-    "desc": "Vercel's programming language built for AI agents",
-    "url": "https://www.producthunt.com/products/zero-15?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Claude Academy",
+    "desc": "The Official Learning Hub by Anthropic",
+    "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "KerasFormers",
-    "desc": "Keras 3 collection of pretrained models",
-    "url": "https://www.producthunt.com/products/kerasformers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Oppora AI",
+    "desc": "Find Leads, Run Outreach, and Book Meetings on Autopilot",
+    "url": "https://www.producthunt.com/products/oppora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agents Never Sleep",
-    "desc": "Agents keep running with the lid closed",
-    "url": "https://www.producthunt.com/products/agents-never-sleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OPENBOT",
+    "desc": "Opensource alternative for Grokbot",
+    "url": "https://www.producthunt.com/products/openbot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Port Radar for macOS",
-    "desc": "An AI port manager for your Mac. ",
-    "url": "https://www.producthunt.com/products/port-radar-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "asktube.xyz",
+    "desc": "AI for YouTube power users",
+    "url": "https://www.producthunt.com/products/asktube-xyz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Pocket by Meta",
-    "desc": "Vibe-code games, then share them like TikToks",
-    "url": "https://www.producthunt.com/products/pocket-by-meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OverMCP",
+    "desc": "The market for builders.",
+    "url": "https://www.producthunt.com/products/overmcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "roastme.gg",
-    "desc": "Get roasted. Publicly.",
-    "url": "https://www.producthunt.com/products/roastme-gg?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Scrollytelling",
+    "desc": "Immersive storytelling with AI. No design skills required.",
+    "url": "https://www.producthunt.com/products/scrollytelling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
