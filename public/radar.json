@@ -1,42 +1,42 @@
 [
   {
-    "name": "Construct Computer",
-    "desc": "Your AI coworker gets a computer. You get your day back.",
-    "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Decawork",
+    "desc": "Control your company's internal AI agents and tools",
+    "url": "https://www.producthunt.com/products/decawork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "FetchSandbox MCP",
-    "desc": "The MCP that proves your AI's integration fixes work",
-    "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Offloop",
+    "desc": "A shared workspace where people and AI agents get work done",
+    "url": "https://www.producthunt.com/products/offloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Claude Academy",
-    "desc": "The Official Learning Hub by Anthropic",
-    "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Navigara",
+    "desc": "Connect Your AI Spend Directly to Your Roadmap",
+    "url": "https://www.producthunt.com/products/navigara?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Oppora AI",
-    "desc": "Find Leads, Run Outreach, and Book Meetings on Autopilot",
-    "url": "https://www.producthunt.com/products/oppora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Antigravity Remote Control",
+    "desc": "Drive Antigravity agents from any browser",
+    "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "OPENBOT",
-    "desc": "Opensource alternative for Grokbot",
-    "url": "https://www.producthunt.com/products/openbot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Dropstone",
+    "desc": "The AI runtime that remembers, learns, and acts everywhere",
+    "url": "https://www.producthunt.com/products/dropstone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "asktube.xyz",
-    "desc": "AI for YouTube power users",
-    "url": "https://www.producthunt.com/products/asktube-xyz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Trama",
+    "desc": "Create macOS native automations using plain language",
+    "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "OverMCP",
-    "desc": "The market for builders.",
-    "url": "https://www.producthunt.com/products/overmcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Phoenix",
+    "desc": "AI coding agent built for iOS, macOS app development",
+    "url": "https://www.producthunt.com/products/phoenix-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Scrollytelling",
-    "desc": "Immersive storytelling with AI. No design skills required.",
-    "url": "https://www.producthunt.com/products/scrollytelling?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Contrive",
+    "desc": "Search and act across all your work apps",
+    "url": "https://www.producthunt.com/products/contrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
