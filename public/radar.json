@@ -1,42 +1,42 @@
 [
   {
-    "name": "Decawork",
-    "desc": "Control your company's internal AI agents and tools",
-    "url": "https://www.producthunt.com/products/decawork?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "akta.pro",
+    "desc": "Private company data and signals API for the agent economy",
+    "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Offloop",
-    "desc": "A shared workspace where people and AI agents get work done",
-    "url": "https://www.producthunt.com/products/offloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Diet Claude",
+    "desc": "Never get blindsided by Claude's usage limits again",
+    "url": "https://www.producthunt.com/products/diet-claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Navigara",
-    "desc": "Connect Your AI Spend Directly to Your Roadmap",
-    "url": "https://www.producthunt.com/products/navigara?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agnost AI",
+    "desc": "Catch agent failures your evals miss",
+    "url": "https://www.producthunt.com/products/agnost-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Antigravity Remote Control",
-    "desc": "Drive Antigravity agents from any browser",
-    "url": "https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Jotform AI Data Assistant",
+    "desc": "Turn form data into insights and action with AI",
+    "url": "https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Dropstone",
-    "desc": "The AI runtime that remembers, learns, and acts everywhere",
-    "url": "https://www.producthunt.com/products/dropstone-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Nimbia",
+    "desc": "AI screen-sharing calls for user onboarding",
+    "url": "https://www.producthunt.com/products/nimbia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Trama",
-    "desc": "Create macOS native automations using plain language",
-    "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Memoria",
+    "desc": "Search photos by text, speech, object & faces. 100% offline.",
+    "url": "https://www.producthunt.com/products/memoria-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Phoenix",
-    "desc": "AI coding agent built for iOS, macOS app development",
-    "url": "https://www.producthunt.com/products/phoenix-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "coolplugz",
+    "desc": "A Claude orchestrator that saves developers loads of time",
+    "url": "https://www.producthunt.com/products/coolplugz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Contrive",
-    "desc": "Search and act across all your work apps",
-    "url": "https://www.producthunt.com/products/contrive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Purchase API by Agentcard",
+    "desc": "one API call and your agent buys anything online",
+    "url": "https://www.producthunt.com/products/agent-card?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
