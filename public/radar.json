@@ -1,42 +1,42 @@
 [
   {
-    "name": "akta.pro",
-    "desc": "Private company data and signals API for the agent economy",
-    "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Enter Pro",
+    "desc": "The AI-native platform to build and scale your apps",
+    "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Diet Claude",
-    "desc": "Never get blindsided by Claude's usage limits again",
-    "url": "https://www.producthunt.com/products/diet-claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Skydive",
+    "desc": "Build cloud agents that work across your tools",
+    "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agnost AI",
-    "desc": "Catch agent failures your evals miss",
-    "url": "https://www.producthunt.com/products/agnost-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Lenz",
+    "desc": "Independent, multi-model fact-checking API for AI workflows",
+    "url": "https://www.producthunt.com/products/lenz-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Jotform AI Data Assistant",
-    "desc": "Turn form data into insights and action with AI",
-    "url": "https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Traccia",
+    "desc": "Finally, a vendor-neutral AI Agent Control Plane.",
+    "url": "https://www.producthunt.com/products/traccia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Nimbia",
-    "desc": "AI screen-sharing calls for user onboarding",
-    "url": "https://www.producthunt.com/products/nimbia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini 3.5 Transcribe",
+    "desc": "Our most precise speech-to-text model yet",
+    "url": "https://www.producthunt.com/products/gemini-3-5-transcribe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Memoria",
-    "desc": "Search photos by text, speech, object & faces. 100% offline.",
-    "url": "https://www.producthunt.com/products/memoria-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Speko",
+    "desc": "OpenRouter for Voice",
+    "url": "https://www.producthunt.com/products/speko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "coolplugz",
-    "desc": "A Claude orchestrator that saves developers loads of time",
-    "url": "https://www.producthunt.com/products/coolplugz?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GitNexus (Akon Labs)",
+    "desc": "The open-source kernel for coding agents",
+    "url": "https://www.producthunt.com/products/gitnexus-akon-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Purchase API by Agentcard",
-    "desc": "one API call and your agent buys anything online",
-    "url": "https://www.producthunt.com/products/agent-card?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Kira Community",
+    "desc": "Curate moments with #hashtag",
+    "url": "https://www.producthunt.com/products/kira-art?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

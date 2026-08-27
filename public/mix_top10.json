@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-08-26T06:33:53.124Z",
+  "generated_at_iso": "2026-08-27T17:10:20.869Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 94,
+      "score": 93.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1508
@@ -22,7 +22,7 @@
     {
       "rank": 3,
       "model": "Kimi K3 (max)",
-      "score": 51.6,
+      "score": 50.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1489
@@ -39,26 +39,26 @@
     },
     {
       "rank": 5,
-      "model": "Muse Spark 1.2 (xhigh)",
-      "score": 47.3,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1498
-      }
-    },
-    {
-      "rank": 6,
       "model": "GLM-5.3 (max)",
-      "score": 47.1,
+      "score": 46.4,
       "coverage": 2,
       "lmarena": {
         "elo": 1487
       }
     },
     {
+      "rank": 6,
+      "model": "Muse Spark 1.2 (xhigh)",
+      "score": 45.9,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1498
+      }
+    },
+    {
       "rank": 7,
       "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-      "score": 42.6,
+      "score": 41.6,
       "coverage": 2,
       "lmarena": {
         "elo": 1487
@@ -75,19 +75,19 @@
     },
     {
       "rank": 9,
-      "model": "Qwen3.8 2.4T A95B",
-      "score": 35.7,
-      "coverage": 1,
-      "lmarena": null
-    },
-    {
-      "rank": 10,
       "model": "gemini-3.1-pro-preview",
       "score": 35.1,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
       }
+    },
+    {
+      "rank": 10,
+      "model": "Qwen3.8 2.4T A95B",
+      "score": 33.3,
+      "coverage": 1,
+      "lmarena": null
     }
   ]
 }
