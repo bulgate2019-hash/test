@@ -415,9 +415,10 @@
         "domain": "krea.ai",
         "desc": "Génération en temps réel pendant que tu tapes ton prompt.",
         "tags": [
-          "new"
+          "new",
+          "dead"
         ],
-        "failures": 2
+        "failures": 3
       },
       {
         "name": "Adobe Firefly",

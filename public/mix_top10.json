@@ -1,19 +1,19 @@
 {
-  "generated_at_iso": "2026-08-27T17:10:20.869Z",
+  "generated_at_iso": "2026-08-28T17:57:20.479Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 93.8,
+      "score": 93.6,
       "coverage": 2,
       "lmarena": {
-        "elo": 1508
+        "elo": 1507
       }
     },
     {
       "rank": 2,
       "model": "claude-opus-4-6",
-      "score": 68.3,
+      "score": 69.2,
       "coverage": 1,
       "lmarena": {
         "elo": 1497
@@ -21,35 +21,35 @@
     },
     {
       "rank": 3,
+      "model": "claude-opus-4-7",
+      "score": 59.9,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1494
+      }
+    },
+    {
+      "rank": 4,
       "model": "Kimi K3 (max)",
-      "score": 50.8,
+      "score": 49.7,
       "coverage": 2,
       "lmarena": {
         "elo": 1489
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "muse-spark-1.1",
-      "score": 48.6,
+      "score": 48,
       "coverage": 1,
       "lmarena": {
-        "elo": 1491
-      }
-    },
-    {
-      "rank": 5,
-      "model": "GLM-5.3 (max)",
-      "score": 46.4,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1487
+        "elo": 1490
       }
     },
     {
       "rank": 6,
       "model": "Muse Spark 1.2 (xhigh)",
-      "score": 45.9,
+      "score": 45.7,
       "coverage": 2,
       "lmarena": {
         "elo": 1498
@@ -57,37 +57,39 @@
     },
     {
       "rank": 7,
-      "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
-      "score": 41.6,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1487
-      }
-    },
-    {
-      "rank": 8,
       "model": "muse-spark",
-      "score": 41.3,
+      "score": 41.7,
       "coverage": 1,
       "lmarena": {
         "elo": 1488
       }
     },
     {
-      "rank": 9,
-      "model": "gemini-3.1-pro-preview",
-      "score": 35.1,
-      "coverage": 1,
+      "rank": 8,
+      "model": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
+      "score": 41.3,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1486
+        "elo": 1488
+      }
+    },
+    {
+      "rank": 9,
+      "model": "GLM-5.3 (max)",
+      "score": 41,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1484
       }
     },
     {
       "rank": 10,
-      "model": "Qwen3.8 2.4T A95B",
-      "score": 33.3,
+      "model": "gemini-3.1-pro-preview",
+      "score": 36.6,
       "coverage": 1,
-      "lmarena": null
+      "lmarena": {
+        "elo": 1487
+      }
     }
   ]
 }

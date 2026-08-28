@@ -1,42 +1,42 @@
 [
   {
-    "name": "Enter Pro",
-    "desc": "The AI-native platform to build and scale your apps",
-    "url": "https://www.producthunt.com/products/enter-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "PageIndex",
+    "desc": "Accurate, trustworthy answers across professional documents",
+    "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Skydive",
-    "desc": "Build cloud agents that work across your tools",
-    "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Caddi",
+    "desc": "Agent that builds agents by only showing your work only once",
+    "url": "https://www.producthunt.com/products/caddi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Lenz",
-    "desc": "Independent, multi-model fact-checking API for AI workflows",
-    "url": "https://www.producthunt.com/products/lenz-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Microduck",
+    "desc": "A tiny open-source biped you can train yourself",
+    "url": "https://www.producthunt.com/products/hugging-face?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Traccia",
-    "desc": "Finally, a vendor-neutral AI Agent Control Plane.",
-    "url": "https://www.producthunt.com/products/traccia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini Omni 1.1 Flash",
+    "desc": "Our newest multimodal model for video generation and editing",
+    "url": "https://www.producthunt.com/products/gemini-omni-1-1-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gemini 3.5 Transcribe",
-    "desc": "Our most precise speech-to-text model yet",
-    "url": "https://www.producthunt.com/products/gemini-3-5-transcribe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Firecrawl Developer Index",
+    "desc": "A curated index of 70M+ artifacts for coding agents.",
+    "url": "https://www.producthunt.com/products/extract-by-firecrawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Speko",
-    "desc": "OpenRouter for Voice",
-    "url": "https://www.producthunt.com/products/speko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Almanac",
+    "desc": "The agent with a second brain",
+    "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GitNexus (Akon Labs)",
-    "desc": "The open-source kernel for coding agents",
-    "url": "https://www.producthunt.com/products/gitnexus-akon-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Aramb",
+    "desc": "Build, launch and monetize your AI agents in 20 minutes",
+    "url": "https://www.producthunt.com/products/aramb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Kira Community",
-    "desc": "Curate moments with #hashtag",
-    "url": "https://www.producthunt.com/products/kira-art?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "screenpipe",
+    "desc": "AI that records your computer work to power agents.",
+    "url": "https://www.producthunt.com/products/screenpipe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
