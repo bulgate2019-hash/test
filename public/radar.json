@@ -1,42 +1,42 @@
 [
   {
-    "name": "PageIndex",
-    "desc": "Accurate, trustworthy answers across professional documents",
-    "url": "https://www.producthunt.com/products/pageindexai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "1752vc Pitch Deck Analyzer",
+    "desc": "Know what investors will say before you ever hit send.",
+    "url": "https://www.producthunt.com/products/1752vc-pitch-deck-analysis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Caddi",
-    "desc": "Agent that builds agents by only showing your work only once",
-    "url": "https://www.producthunt.com/products/caddi-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hy4 preview",
+    "desc": "Tencent’s 770B open model for long-horizon work",
+    "url": "https://www.producthunt.com/products/hunyuan-a13b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Microduck",
-    "desc": "A tiny open-source biped you can train yourself",
-    "url": "https://www.producthunt.com/products/hugging-face?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cohere Parse 5",
+    "desc": "Turn complex docs, tables & images into AI-ready data",
+    "url": "https://www.producthunt.com/products/cohere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gemini Omni 1.1 Flash",
-    "desc": "Our newest multimodal model for video generation and editing",
-    "url": "https://www.producthunt.com/products/gemini-omni-1-1-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Staats",
+    "desc": "Ask your coding agent how your site is doing",
+    "url": "https://www.producthunt.com/products/staats-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Firecrawl Developer Index",
-    "desc": "A curated index of 70M+ artifacts for coding agents.",
-    "url": "https://www.producthunt.com/products/extract-by-firecrawl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Democruit",
+    "desc": "Your candidate-first career companion, from resume to offer",
+    "url": "https://www.producthunt.com/products/democruit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Almanac",
-    "desc": "The agent with a second brain",
-    "url": "https://www.producthunt.com/products/almanac-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "NirnaY",
+    "desc": "Turn uncertain disaster data into clear decisions.",
+    "url": "https://www.producthunt.com/products/nirnay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Aramb",
-    "desc": "Build, launch and monetize your AI agents in 20 minutes",
-    "url": "https://www.producthunt.com/products/aramb?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Saylo",
+    "desc": "AI that helps you find the right words for tough talks.",
+    "url": "https://www.producthunt.com/products/saylo-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "screenpipe",
-    "desc": "AI that records your computer work to power agents.",
-    "url": "https://www.producthunt.com/products/screenpipe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "BizWise - Your Business Partner",
+    "desc": "Find Where Your Money Goes.",
+    "url": "https://www.producthunt.com/products/bizwise-your-business-partner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
