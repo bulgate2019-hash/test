@@ -1,85 +1,85 @@
 {
-  "generated_at_iso": "2026-09-01T10:52:45.434Z",
+  "generated_at_iso": "2026-09-02T10:18:06.018Z",
   "top10": [
     {
       "rank": 1,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 65.7
+    },
+    {
+      "rank": 2,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 64.8
+    },
+    {
+      "rank": 3,
       "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
       "index": 63.1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
       "creator": "Anthropic",
       "index": 62.5
     },
     {
-      "rank": 3,
+      "rank": 5,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 62.5
+    },
+    {
+      "rank": 6,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
       "index": 62.1
     },
     {
-      "rank": 4,
+      "rank": 7,
       "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
       "creator": "Anthropic",
       "index": 61.5
     },
     {
-      "rank": 5,
+      "rank": 8,
       "model": "GPT-5.6 Sol (max)",
       "creator": "OpenAI",
       "index": 60.9
     },
     {
-      "rank": 6,
+      "rank": 9,
       "model": "Grok 4.6 (high)",
       "creator": "SpaceXAI",
       "index": 60.9
     },
     {
-      "rank": 7,
-      "model": "Grok 4.6 (xhigh)",
-      "creator": "SpaceXAI",
-      "index": 60
-    },
-    {
-      "rank": 8,
-      "model": "Kimi K3 (max)",
-      "creator": "Kimi",
-      "index": 59.7
-    },
-    {
-      "rank": 9,
-      "model": "GLM-5.3 (max)",
-      "creator": "Z AI",
-      "index": 59.5
-    },
-    {
       "rank": 10,
-      "model": "GPT-5.6 Sol (xhigh)",
-      "creator": "OpenAI",
-      "index": 59
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 60.5
     }
   ],
   "top3": [
     {
       "rank": 1,
-      "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
       "creator": "Anthropic",
-      "index": 63.1
+      "index": 65.7
     },
     {
       "rank": 2,
-      "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
       "creator": "Anthropic",
-      "index": 62.5
+      "index": 64.8
     },
     {
       "rank": 3,
-      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 62.1
+      "index": 63.1
     }
   ]
 }
