@@ -1,9 +1,39 @@
 [
   {
     "source": "Clubic",
-    "title": "Anthropic dévoile Claude Fable 5.1 et Claude Mythos 5.1, peut-être ses IA les plus abouties",
-    "link": "https://www.clubic.com/actualite-627820-anthropic-devoile-claude-fable-5-1-et-claude-mythos-5-1-peut-etre-ses-ia-les-plus-abouties.html",
-    "pubDate": "Wed, 02 Sep 2026 09:04:00 GMT"
+    "title": "IA au travail : le fossé des compétences se creuse plus vite que prévu",
+    "link": "https://www.clubic.com/actualite-627997-ia-au-travail-le-fosse-des-competences-se-creuse-plus-vite-que-prevu.html",
+    "pubDate": "Thu, 03 Sep 2026 09:12:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une mine de charbon géante va alimenter des data centers d'intelligence artificielle au Kazakhstan",
+    "link": "https://www.clubic.com/actualite-627940-une-mine-de-charbon-geante-va-alimenter-des-data-centers-d-intelligence-artificielle-au-kazakhstan.html",
+    "pubDate": "Wed, 02 Sep 2026 16:51:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Malgré les sanctions européennes, les grandes IA reprennent toujours les médias russes",
+    "link": "https://www.clubic.com/actualite-627910-malgre-les-sanctions-europeennes-les-grandes-ia-reprennent-toujours-les-medias-russes.html",
+    "pubDate": "Wed, 02 Sep 2026 15:51:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Google s&#8217;attaque à Canva avec Pics, son nouvel outil de création par IA",
+    "link": "https://siecledigital.fr/2026/09/02/google-sattaque-a-canva-avec-pics-son-nouvel-outil-de-creation-par-ia/",
+    "pubDate": "Wed, 02 Sep 2026 15:33:47 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Même les dirigeants de Microsoft en ont assez des contenus générés par IA",
+    "link": "https://siecledigital.fr/2026/09/02/meme-les-dirigeants-de-microsoft-en-ont-assez-des-contenus-generes-par-ia/",
+    "pubDate": "Wed, 02 Sep 2026 15:20:12 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI l'affirme, son prochain modèle IA est si puissant qu'il doit le brider",
+    "link": "https://www.clubic.com/actualite-627907-openai-l-affirme-son-prochain-modele-ia-est-si-puissant-qu-il-doit-le-brider.html",
+    "pubDate": "Wed, 02 Sep 2026 15:16:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -24,18 +54,6 @@
     "pubDate": "Wed, 02 Sep 2026 07:08:08 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "GoPro dit presque adieu aux caméras d'action et se fait racheter pour foncer vers l'intelligence artificielle",
-    "link": "https://www.clubic.com/actualite-627772-gopro-dit-presque-adieu-aux-cameras-d-action-et-se-fait-racheter-pour-foncer-vers-l-intelligence-artificielle.html",
-    "pubDate": "Tue, 01 Sep 2026 17:13:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "GPT-5, Claude et Gemini réunis dans un seul abonnement à vie, repéré à moins de 26€",
-    "link": "https://www.clubic.com/bons-plans-627043-gpt-5-claude-et-gemini-reunis-dans-un-seul-abonnement-a-vie-repere-a-moins-de-26.html",
-    "pubDate": "Tue, 01 Sep 2026 16:45:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "L&#8217;Europe impose de nouvelles règles à ChatGPT et OpenAI a quatre mois pour s&#8217;adapter",
     "link": "https://siecledigital.fr/2026/09/01/leurope-impose-de-nouvelles-regles-a-chatgpt-et-openai-a-quatre-mois-pour-sadapter/",
@@ -52,23 +70,5 @@
     "title": "Le Pentagone a désormais ses propres versions de ChatGPT et Grok",
     "link": "https://siecledigital.fr/2026/09/01/le-pentagone-a-desormais-ses-propres-versions-de-chatgpt-et-grok/",
     "pubDate": "Tue, 01 Sep 2026 14:09:24 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Face aux États-Unis, la Russie veut se rapprocher de la Chine dans l&#8217;intelligence artificielle",
-    "link": "https://siecledigital.fr/2026/09/01/face-aux-etats-unis-la-russie-veut-se-rapprocher-de-la-chine-dans-lintelligence-artificielle/",
-    "pubDate": "Tue, 01 Sep 2026 13:58:10 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Google répond déjà par IA à plus d&#8217;une recherche sur deux en France",
-    "link": "https://siecledigital.fr/2026/08/27/google-repond-deja-par-ia-a-plus-dune-recherche-sur-deux-en-france/",
-    "pubDate": "Fri, 28 Aug 2026 06:36:07 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Face aux mêmes symptômes, les IA envoient les hommes aux urgences mais pas les femmes",
-    "link": "https://siecledigital.fr/2026/08/27/face-aux-memes-symptomes-les-ia-envoient-les-hommes-aux-urgences-mais-pas-les-femmes/",
-    "pubDate": "Fri, 28 Aug 2026 05:28:00 +0000"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-09-02T10:18:06.018Z",
+  "generated_at_iso": "2026-09-03T10:28:11.653Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 80.9,
+      "score": 80.2,
       "coverage": 2,
       "lmarena": {
         "elo": 1507
@@ -58,7 +58,7 @@
     {
       "rank": 7,
       "model": "Kimi K3 (max)",
-      "score": 40,
+      "score": 38.9,
       "coverage": 2,
       "lmarena": {
         "elo": 1489
@@ -67,7 +67,7 @@
     {
       "rank": 8,
       "model": "Muse Spark 1.2 (xhigh)",
-      "score": 39.4,
+      "score": 37.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1499
