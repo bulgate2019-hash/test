@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-03T10:28:11.653Z",
+  "generated_at_iso": "2026-09-04T10:16:31.898Z",
   "top10": [
     {
       "rank": 1,
@@ -33,33 +33,33 @@
     },
     {
       "rank": 6,
+      "model": "Muse Spark 1.3 (max)",
+      "creator": "Meta",
+      "index": 62.1
+    },
+    {
+      "rank": 7,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
       "creator": "Anthropic",
       "index": 62.1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Opus 5 (Adaptive Reasoning, High Effort)",
       "creator": "Anthropic",
       "index": 61.5
     },
     {
-      "rank": 8,
-      "model": "GPT-5.6 Sol (max)",
-      "creator": "OpenAI",
-      "index": 60.9
-    },
-    {
       "rank": 9,
-      "model": "Grok 4.6 (high)",
-      "creator": "SpaceXAI",
-      "index": 60.9
+      "model": "GPT-6 Astra (max)",
+      "creator": "OpenAI",
+      "index": 61.2
     },
     {
       "rank": 10,
-      "model": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 60.5
+      "model": "GPT-6 Astra (xhigh)",
+      "creator": "OpenAI",
+      "index": 61
     }
   ],
   "top3": [

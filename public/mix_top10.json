@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-09-03T10:28:11.653Z",
+  "generated_at_iso": "2026-09-04T10:16:31.898Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 80.2,
+      "score": 76.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1507
@@ -12,6 +12,15 @@
     },
     {
       "rank": 2,
+      "model": "muse-spark-1.2 (xHigh)",
+      "score": 73.4,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1499
+      }
+    },
+    {
+      "rank": 3,
       "model": "claude-opus-4-6",
       "score": 70,
       "coverage": 1,
@@ -20,7 +29,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "claude-opus-4-7",
       "score": 60.1,
       "coverage": 1,
@@ -29,7 +38,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "muse-spark-1.1",
       "score": 51.6,
       "coverage": 1,
@@ -38,7 +47,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "gemini-3.7-flash-high",
       "score": 48.6,
       "coverage": 1,
@@ -47,7 +56,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "muse-spark",
       "score": 41.7,
       "coverage": 1,
@@ -56,25 +65,7 @@
       }
     },
     {
-      "rank": 7,
-      "model": "Kimi K3 (max)",
-      "score": 38.9,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1489
-      }
-    },
-    {
       "rank": 8,
-      "model": "Muse Spark 1.2 (xhigh)",
-      "score": 37.8,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1499
-      }
-    },
-    {
-      "rank": 9,
       "model": "gemini-3.1-pro-preview",
       "score": 36.9,
       "coverage": 1,
@@ -83,12 +74,21 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "model": "gemini-3-pro",
       "score": 33.4,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
+      }
+    },
+    {
+      "rank": 10,
+      "model": "Kimi K3 (max)",
+      "score": 32.4,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1489
       }
     }
   ]
