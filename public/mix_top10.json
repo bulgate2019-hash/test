@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-09-04T10:16:31.898Z",
+  "generated_at_iso": "2026-09-05T09:44:33.452Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 76.3,
+      "score": 80,
       "coverage": 2,
       "lmarena": {
         "elo": 1507
@@ -75,20 +75,20 @@
     },
     {
       "rank": 9,
+      "model": "Kimi K3 (max)",
+      "score": 35.2,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1489
+      }
+    },
+    {
+      "rank": 10,
       "model": "gemini-3-pro",
       "score": 33.4,
       "coverage": 1,
       "lmarena": {
         "elo": 1486
-      }
-    },
-    {
-      "rank": 10,
-      "model": "Kimi K3 (max)",
-      "score": 32.4,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1489
       }
     }
   ]

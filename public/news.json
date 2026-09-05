@@ -1,33 +1,39 @@
 [
   {
     "source": "Clubic",
-    "title": "Google dévoile une IA météo ultra-précise avec données satellite en temps réel",
-    "link": "https://www.clubic.com/actualite-628189-google-devoile-une-ia-meteo-ultra-precise-avec-donnees-satellite-en-temps-reel.html",
-    "pubDate": "Fri, 04 Sep 2026 07:28:00 GMT"
+    "title": "Les hackers utilisent une technique inventée pour piéger les IA afin de contourner les filtres anti-phishing",
+    "link": "https://www.clubic.com/actualite-628333-ascii-smuggling-la-nouvelle-technique-de-phishing-qui-contourne-aussi-les-ia.html",
+    "pubDate": "Sat, 05 Sep 2026 05:02:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI dévoile GPT-6 Astra, son modèle d&#8217;IA le plus puissant à ce jour",
+    "link": "https://siecledigital.fr/2026/09/04/openai-devoile-gpt-6-astra-son-modele-dia-le-plus-puissant-a-ce-jour/",
+    "pubDate": "Fri, 04 Sep 2026 14:25:44 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Après le piratage des impôts, l&#8217;Etat fait appel aux ingénieurs de Mistral pour renforcer ses ministères",
+    "link": "https://siecledigital.fr/2026/09/04/apres-le-piratage-des-impots-letat-fait-appel-aux-ingenieurs-de-mistral-pour-renforcer-ses-ministeres/",
+    "pubDate": "Fri, 04 Sep 2026 14:22:05 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Meta affirme avoir rattrapé OpenAI et Anthropic avec son nouveau modèle d&#8217;IA",
+    "link": "https://siecledigital.fr/2026/09/04/meta-affirme-avoir-rattrape-openai-et-anthropic-avec-son-nouveau-modele-dia/",
+    "pubDate": "Fri, 04 Sep 2026 13:55:24 +0000"
   },
   {
     "source": "Clubic",
-    "title": "OpenAI lance GPT-6 Astra avec de nouveaux garde-fous contre les usages malveillants",
-    "link": "https://www.clubic.com/actualite-628186-openai-lance-gpt-6-astra-avec-de-nouveaux-garde-fous-contre-les-usages-malveillants.html",
-    "pubDate": "Fri, 04 Sep 2026 05:09:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Ugreen veut faire de HomeAgent le cerveau IA de la maison connectée",
-    "link": "https://www.clubic.com/actualite-628102-ugreen-veut-faire-de-homeagent-le-cerveau-ia-de-la-maison-connectee.html",
-    "pubDate": "Fri, 04 Sep 2026 04:20:00 GMT"
+    "title": "L'IA Codex d'OpenAI a exploité seule une faille critique de WordPress",
+    "link": "https://www.clubic.com/actualite-628231-ia-codex-d-open-ai-a-exploite-seule-une-faille-critique-de-wordpress.html",
+    "pubDate": "Fri, 04 Sep 2026 10:35:00 GMT"
   },
   {
     "source": "Siècle Digital",
     "title": "Le gouvernement américain défend OpenAI dans son litige avec le New York Times",
     "link": "https://siecledigital.fr/2026/09/03/le-gouvernement-americain-defend-openai-dans-son-litige-avec-le-new-york-times/",
     "pubDate": "Thu, 03 Sep 2026 15:54:19 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT connaît une panne sévère ce jeudi après-midi, voici ce qui se passe",
-    "link": "https://www.clubic.com/actualite-628144-chatgpt-connait-une-panne-severe-ce-jeudi-apres-midi-voici-ce-qui-se-passe.html",
-    "pubDate": "Thu, 03 Sep 2026 15:18:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -64,11 +70,5 @@
     "title": "Vous avez décroché cet été ? Huit faits pour reprendre le fil de l'IA",
     "link": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
     "pubDate": "Wed, 02 Sep 2026 07:08:08 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "L&#8217;Europe impose de nouvelles règles à ChatGPT et OpenAI a quatre mois pour s&#8217;adapter",
-    "link": "https://siecledigital.fr/2026/09/01/leurope-impose-de-nouvelles-regles-a-chatgpt-et-openai-a-quatre-mois-pour-sadapter/",
-    "pubDate": "Tue, 01 Sep 2026 14:20:30 +0000"
   }
 ]
