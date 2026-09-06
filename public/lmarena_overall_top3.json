@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-05T09:44:33.452Z",
+  "generated_at_iso": "2026-09-06T10:00:18.032Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -13,43 +13,43 @@
     },
     {
       "rank": 3,
+      "model": "claude-fable-5.1-max",
+      "overall": 1504
+    },
+    {
+      "rank": 4,
       "model": "claude-opus-4-7-high",
       "overall": 1502
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "muse-spark-1.2 (xHigh)",
       "overall": 1499
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "claude-opus-4-6",
       "overall": 1498
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "claude-opus-4-7",
       "overall": 1494
     },
     {
-      "rank": 7,
-      "model": "claude-opus-5-high",
-      "overall": 1492
-    },
-    {
       "rank": 8,
-      "model": "muse-spark-1.1",
-      "overall": 1492
+      "model": "gemini-3.8-flash-high",
+      "overall": 1494
     },
     {
       "rank": 9,
-      "model": "gemini-3.7-flash-high",
-      "overall": 1491
+      "model": "claude-opus-5-high",
+      "overall": 1493
     },
     {
       "rank": 10,
-      "model": "kimi-k3-max",
-      "overall": 1489
+      "model": "muse-spark-1.1",
+      "overall": 1492
     }
   ],
   "top3_overall": [
@@ -65,8 +65,8 @@
     },
     {
       "rank": 3,
-      "model": "claude-opus-4-7-high",
-      "overall": 1502
+      "model": "claude-fable-5.1-max",
+      "overall": 1504
     }
   ]
 }

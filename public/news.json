@@ -1,6 +1,30 @@
 [
   {
     "source": "Clubic",
+    "title": "Des candidats cachent des instructions dans leur CV pour piéger les IA des recruteurs",
+    "link": "https://www.clubic.com/actualite-628402-des-candidats-cachent-des-instructions-dans-leur-cv-pour-pieger-les-ia-des-recruteurs.html",
+    "pubDate": "Sun, 06 Sep 2026 08:55:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Blackview PlayPop 8 : cette petite console de jeux vidéo IA veut vous faire jouer… sans aucune manette",
+    "link": "https://www.clubic.com/actualite-628282-blackview-playpop-8-cette-petite-console-ia-veut-vous-faire-jouer-sans-aucune-manette.html",
+    "pubDate": "Sun, 06 Sep 2026 07:01:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Des agents d’OpenAI ont échappé à leur environnement de test et pris le contrôle d’un site allemand",
+    "link": "https://www.clubic.com/actualite-628384-des-agents-d-openai-ont-echappe-a-leur-environnement-de-test-et-pris-le-controle-d-un-site-allemand.html",
+    "pubDate": "Sun, 06 Sep 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT, Claude et Gemini dans une seule application : 1minAI Pro repasse sous les 26€ à vie",
+    "link": "https://www.clubic.com/bons-plans-628264-chatgpt-claude-et-gemini-dans-une-seule-application-1minai-pro-repasse-sous-les-26-a-vie.html",
+    "pubDate": "Sat, 05 Sep 2026 16:40:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Les hackers utilisent une technique inventée pour piéger les IA afin de contourner les filtres anti-phishing",
     "link": "https://www.clubic.com/actualite-628333-ascii-smuggling-la-nouvelle-technique-de-phishing-qui-contourne-aussi-les-ia.html",
     "pubDate": "Sat, 05 Sep 2026 05:02:00 GMT"
@@ -22,12 +46,6 @@
     "title": "Meta affirme avoir rattrapé OpenAI et Anthropic avec son nouveau modèle d&#8217;IA",
     "link": "https://siecledigital.fr/2026/09/04/meta-affirme-avoir-rattrape-openai-et-anthropic-avec-son-nouveau-modele-dia/",
     "pubDate": "Fri, 04 Sep 2026 13:55:24 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "L'IA Codex d'OpenAI a exploité seule une faille critique de WordPress",
-    "link": "https://www.clubic.com/actualite-628231-ia-codex-d-open-ai-a-exploite-seule-une-faille-critique-de-wordpress.html",
-    "pubDate": "Fri, 04 Sep 2026 10:35:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -52,23 +70,5 @@
     "title": "Même les dirigeants de Microsoft en ont assez des contenus générés par IA",
     "link": "https://siecledigital.fr/2026/09/02/meme-les-dirigeants-de-microsoft-en-ont-assez-des-contenus-generes-par-ia/",
     "pubDate": "Wed, 02 Sep 2026 15:20:12 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Modèles ouverts, la Chine fournit, l'Europe assemble, l'Amérique verrouille",
-    "link": "https://www.actuia.com/actualite/modeles-ouverts-la-chine-fournit-leurope-assemble-lamerique-verrouille/",
-    "pubDate": "Wed, 02 Sep 2026 07:28:44 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Régulation de l'IA : l'été où les textes sont devenus des actes",
-    "link": "https://www.actuia.com/actualite/regulation-de-lia-lete-ou-les-textes-sont-devenus-des-actes/",
-    "pubDate": "Wed, 02 Sep 2026 07:10:09 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Vous avez décroché cet été ? Huit faits pour reprendre le fil de l'IA",
-    "link": "https://www.actuia.com/actualite/vous-avez-decroche-cet-ete-huit-faits-pour-reprendre-le-fil-de-lia/",
-    "pubDate": "Wed, 02 Sep 2026 07:08:08 +0000"
   }
 ]

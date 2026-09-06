@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-05T09:44:33.452Z",
+  "generated_at_iso": "2026-09-06T10:00:18.032Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -13,7 +13,7 @@
     {
       "rank": 2,
       "model": "muse-spark-1.2 (xHigh)",
-      "score": 73.4,
+      "score": 73.3,
       "coverage": 1,
       "lmarena": {
         "elo": 1499
@@ -22,7 +22,7 @@
     {
       "rank": 3,
       "model": "claude-opus-4-6",
-      "score": 70,
+      "score": 68.7,
       "coverage": 1,
       "lmarena": {
         "elo": 1498
@@ -31,7 +31,7 @@
     {
       "rank": 4,
       "model": "claude-opus-4-7",
-      "score": 60.1,
+      "score": 58.6,
       "coverage": 1,
       "lmarena": {
         "elo": 1494
@@ -39,56 +39,56 @@
     },
     {
       "rank": 5,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+      "score": 56.8,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1504
+      }
+    },
+    {
+      "rank": 6,
+      "model": "gemini-3.8-flash-high",
+      "score": 56.5,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1494
+      }
+    },
+    {
+      "rank": 7,
       "model": "muse-spark-1.1",
-      "score": 51.6,
+      "score": 50.7,
       "coverage": 1,
       "lmarena": {
         "elo": 1492
       }
     },
     {
-      "rank": 6,
+      "rank": 8,
       "model": "gemini-3.7-flash-high",
-      "score": 48.6,
+      "score": 47,
       "coverage": 1,
       "lmarena": {
         "elo": 1491
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "muse-spark",
-      "score": 41.7,
+      "score": 37.9,
       "coverage": 1,
       "lmarena": {
         "elo": 1488
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "gemini-3.1-pro-preview",
-      "score": 36.9,
+      "score": 33.2,
       "coverage": 1,
       "lmarena": {
         "elo": 1487
-      }
-    },
-    {
-      "rank": 9,
-      "model": "Kimi K3 (max)",
-      "score": 35.2,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1489
-      }
-    },
-    {
-      "rank": 10,
-      "model": "gemini-3-pro",
-      "score": 33.4,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1486
       }
     }
   ]
