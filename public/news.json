@@ -1,5 +1,35 @@
 [
   {
+    "source": "Actu IA",
+    "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
+    "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
+    "pubDate": "Mon, 07 Sep 2026 08:09:12 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Mistral AI dans les ministères : ce que l'État achète pour 6 M€",
+    "link": "https://www.actuia.com/actualite/mistral-ai-dans-les-ministeres-ce-que-letat-achete-pour-6-meur/",
+    "pubDate": "Mon, 07 Sep 2026 08:03:55 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Ce que l'on sait des 32 conseillers d'IA du gouvernement émirati",
+    "link": "https://www.actuia.com/actualite/ce-que-lon-sait-des-32-conseillers-dia-du-gouvernement-emirati/",
+    "pubDate": "Mon, 07 Sep 2026 07:59:53 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Revolut et Visa font payer une IA à votre place en France, une grande première",
+    "link": "https://www.clubic.com/actualite-628471-revolut-et-visa-font-payer-une-ia-a-votre-place-en-france-une-grande-premiere.html",
+    "pubDate": "Mon, 07 Sep 2026 07:50:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une IA peut-elle créer des images pédocriminelles sans tomber sous le coup de la loi ?",
+    "link": "https://www.clubic.com/actualite-628411-une-ia-peut-elle-creer-des-images-pedocriminelles-sans-tomber-sous-le-coup-de-la-loi.html",
+    "pubDate": "Sun, 06 Sep 2026 10:25:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "Des candidats cachent des instructions dans leur CV pour piéger les IA des recruteurs",
     "link": "https://www.clubic.com/actualite-628402-des-candidats-cachent-des-instructions-dans-leur-cv-pour-pieger-les-ia-des-recruteurs.html",
@@ -16,18 +46,6 @@
     "title": "Des agents d’OpenAI ont échappé à leur environnement de test et pris le contrôle d’un site allemand",
     "link": "https://www.clubic.com/actualite-628384-des-agents-d-openai-ont-echappe-a-leur-environnement-de-test-et-pris-le-controle-d-un-site-allemand.html",
     "pubDate": "Sun, 06 Sep 2026 05:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT, Claude et Gemini dans une seule application : 1minAI Pro repasse sous les 26€ à vie",
-    "link": "https://www.clubic.com/bons-plans-628264-chatgpt-claude-et-gemini-dans-une-seule-application-1minai-pro-repasse-sous-les-26-a-vie.html",
-    "pubDate": "Sat, 05 Sep 2026 16:40:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Les hackers utilisent une technique inventée pour piéger les IA afin de contourner les filtres anti-phishing",
-    "link": "https://www.clubic.com/actualite-628333-ascii-smuggling-la-nouvelle-technique-de-phishing-qui-contourne-aussi-les-ia.html",
-    "pubDate": "Sat, 05 Sep 2026 05:02:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -52,23 +70,5 @@
     "title": "Le gouvernement américain défend OpenAI dans son litige avec le New York Times",
     "link": "https://siecledigital.fr/2026/09/03/le-gouvernement-americain-defend-openai-dans-son-litige-avec-le-new-york-times/",
     "pubDate": "Thu, 03 Sep 2026 15:54:19 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "À New York, l&#8217;intelligence artificielle bannie des écoles jusqu&#8217;à la troisième",
-    "link": "https://siecledigital.fr/2026/09/03/a-new-york-lintelligence-artificielle-bannie-des-ecoles-jusqua-la-troisieme/",
-    "pubDate": "Thu, 03 Sep 2026 14:44:36 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Google s&#8217;attaque à Canva avec Pics, son nouvel outil de création par IA",
-    "link": "https://siecledigital.fr/2026/09/02/google-sattaque-a-canva-avec-pics-son-nouvel-outil-de-creation-par-ia/",
-    "pubDate": "Wed, 02 Sep 2026 15:33:47 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Même les dirigeants de Microsoft en ont assez des contenus générés par IA",
-    "link": "https://siecledigital.fr/2026/09/02/meme-les-dirigeants-de-microsoft-en-ont-assez-des-contenus-generes-par-ia/",
-    "pubDate": "Wed, 02 Sep 2026 15:20:12 +0000"
   }
 ]
