@@ -1,5 +1,47 @@
 [
   {
+    "source": "Clubic",
+    "title": "Tado affine son thermostat connecté, avec une IA toujours sur abonnement",
+    "link": "https://www.clubic.com/actualite-628765-tado-affine-son-thermostat-connecte-avec-une-ia-toujours-sur-abonnement.html",
+    "pubDate": "Tue, 08 Sep 2026 10:12:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Pourquoi Mistral lève 3 milliards d'euros auprès de Samsung, Nvidia et ASML",
+    "link": "https://www.actuia.com/actualite/pourquoi-mistral-leve-3-milliards-deuros-aupres-de-samsung-nvidia-et-asml/",
+    "pubDate": "Tue, 08 Sep 2026 09:45:07 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "WhatsApp va connecter jusqu'à cinq agents IA dans vos discussions, voilà comment ca marche",
+    "link": "https://www.clubic.com/actualite-628732-vous-pourrez-bientot-connecter-jusqu-a-5-agents-ia-dans-whatsapp.html",
+    "pubDate": "Tue, 08 Sep 2026 09:24:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le modèle qu'OpenAI jugeait trop dangereux cet été arrive dans votre ChatGPT Plus",
+    "link": "https://www.clubic.com/actualite-628729-wip-gpt-6-astra-debarque-sur-chatgpt-plus-le-modele-qu-openai-avait-juge-trop-risque.html",
+    "pubDate": "Tue, 08 Sep 2026 08:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "La pépite tricolore Mistral AI boucle la plus grosse levée de fonds jamais réalisée par une tech européenne",
+    "link": "https://www.clubic.com/actualite-628704-mistral-ai-boucle-la-plus-grosse-levee-de-fonds-jamais-realisee-par-une-tech-europeenne.html",
+    "pubDate": "Tue, 08 Sep 2026 07:21:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Une IA vient de réaliser un paiement toute seule en France",
+    "link": "https://siecledigital.fr/2026/09/07/une-ia-vient-de-realiser-un-paiement-toute-seule-en-france/",
+    "pubDate": "Mon, 07 Sep 2026 14:38:04 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Google mise sur MrBeast pour montrer ce que Gemini peut faire en conditions extrêmes",
+    "link": "https://siecledigital.fr/2026/09/07/google-mise-sur-mrbeast-pour-montrer-ce-que-gemini-peut-faire-en-conditions-extremes/",
+    "pubDate": "Mon, 07 Sep 2026 13:23:07 +0000"
+  },
+  {
     "source": "Actu IA",
     "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
     "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
@@ -18,36 +60,6 @@
     "pubDate": "Mon, 07 Sep 2026 07:59:53 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Revolut et Visa font payer une IA à votre place en France, une grande première",
-    "link": "https://www.clubic.com/actualite-628471-revolut-et-visa-font-payer-une-ia-a-votre-place-en-france-une-grande-premiere.html",
-    "pubDate": "Mon, 07 Sep 2026 07:50:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Une IA peut-elle créer des images pédocriminelles sans tomber sous le coup de la loi ?",
-    "link": "https://www.clubic.com/actualite-628411-une-ia-peut-elle-creer-des-images-pedocriminelles-sans-tomber-sous-le-coup-de-la-loi.html",
-    "pubDate": "Sun, 06 Sep 2026 10:25:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des candidats cachent des instructions dans leur CV pour piéger les IA des recruteurs",
-    "link": "https://www.clubic.com/actualite-628402-des-candidats-cachent-des-instructions-dans-leur-cv-pour-pieger-les-ia-des-recruteurs.html",
-    "pubDate": "Sun, 06 Sep 2026 08:55:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Blackview PlayPop 8 : cette petite console de jeux vidéo IA veut vous faire jouer… sans aucune manette",
-    "link": "https://www.clubic.com/actualite-628282-blackview-playpop-8-cette-petite-console-ia-veut-vous-faire-jouer-sans-aucune-manette.html",
-    "pubDate": "Sun, 06 Sep 2026 07:01:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des agents d’OpenAI ont échappé à leur environnement de test et pris le contrôle d’un site allemand",
-    "link": "https://www.clubic.com/actualite-628384-des-agents-d-openai-ont-echappe-a-leur-environnement-de-test-et-pris-le-controle-d-un-site-allemand.html",
-    "pubDate": "Sun, 06 Sep 2026 05:00:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "OpenAI dévoile GPT-6 Astra, son modèle d&#8217;IA le plus puissant à ce jour",
     "link": "https://siecledigital.fr/2026/09/04/openai-devoile-gpt-6-astra-son-modele-dia-le-plus-puissant-a-ce-jour/",
@@ -58,17 +70,5 @@
     "title": "Après le piratage des impôts, l&#8217;Etat fait appel aux ingénieurs de Mistral pour renforcer ses ministères",
     "link": "https://siecledigital.fr/2026/09/04/apres-le-piratage-des-impots-letat-fait-appel-aux-ingenieurs-de-mistral-pour-renforcer-ses-ministeres/",
     "pubDate": "Fri, 04 Sep 2026 14:22:05 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Meta affirme avoir rattrapé OpenAI et Anthropic avec son nouveau modèle d&#8217;IA",
-    "link": "https://siecledigital.fr/2026/09/04/meta-affirme-avoir-rattrape-openai-et-anthropic-avec-son-nouveau-modele-dia/",
-    "pubDate": "Fri, 04 Sep 2026 13:55:24 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Le gouvernement américain défend OpenAI dans son litige avec le New York Times",
-    "link": "https://siecledigital.fr/2026/09/03/le-gouvernement-americain-defend-openai-dans-son-litige-avec-le-new-york-times/",
-    "pubDate": "Thu, 03 Sep 2026 15:54:19 +0000"
   }
 ]
