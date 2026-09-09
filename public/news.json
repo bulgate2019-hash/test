@@ -1,6 +1,54 @@
 [
   {
     "source": "Clubic",
+    "title": "Anthropic : un chercheur démissionne, alarmé par les risques d’une IA hors de contrôle",
+    "link": "https://www.clubic.com/actualite-628903-anthropic-un-chercheur-demissionne-alarme-par-les-risques-d-une-ia-hors-de-controle.html",
+    "pubDate": "Wed, 09 Sep 2026 09:46:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI accusé d’avoir doublé des chercheurs sur un problème mathématique hors norme",
+    "link": "https://www.clubic.com/actualite-628879-openai-accuse-d-avoir-double-des-chercheurs-sur-un-probleme-mathematique-hors-norme.html",
+    "pubDate": "Wed, 09 Sep 2026 04:37:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Qualcomm et Amazon veulent déjà réinventer les data centers de l'intelligence artificielle",
+    "link": "https://www.clubic.com/actualite-628858-qualcomm-et-amazon-veulent-deja-reinventer-les-data-centers-de-l-intelligence-artificielle.html",
+    "pubDate": "Tue, 08 Sep 2026 17:07:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Marre de payer plusieurs abonnements IA ? 1min.AI passe à environ 21,50€ une fois, à vie !",
+    "link": "https://www.clubic.com/bons-plans-628843-marre-de-payer-plusieurs-abonnements-ia-1min-ai-passe-a-environ-21-50-une-fois-a-vie.html",
+    "pubDate": "Tue, 08 Sep 2026 16:45:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Agents IA en local et jeux AAA : les PC RTX Spark montrent leurs muscles à l’IFA",
+    "link": "https://www.clubic.com/actualite-628825-agents-ia-en-local-et-jeux-aaa-les-pc-rtx-spark-montrent-leurs-muscles-a-l-ifa.html",
+    "pubDate": "Tue, 08 Sep 2026 15:59:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Agents OpenAI sur un wiki : la Commission européenne confirme avoir reçu un rapport",
+    "link": "https://www.actuia.com/actualite/agents-openai-sur-un-wiki-la-commission-europeenne-confirme-avoir-recu-un-rapport/",
+    "pubDate": "Tue, 08 Sep 2026 11:55:38 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Mistral AI est-elle encore une entreprise française ? Enquête sur qui sont ses investisseurs d'ici et d'ailleurs",
+    "link": "https://www.clubic.com/actualite-628750-mistral-ai-est-elle-encore-une-entreprise-francaise-enquete-sur-qui-sont-ses-investisseurs-d-ici-et-d-ailleurs.html",
+    "pubDate": "Tue, 08 Sep 2026 11:27:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT peut désormais imiter votre style d’écriture en se connectant à vos applications personnelles",
+    "link": "https://www.clubic.com/actualite-628759-chatgpt-peut-desormais-imiter-votre-style-d-ecriture-en-se-connectant-a-vos-applications-personnelles.html",
+    "pubDate": "Tue, 08 Sep 2026 10:26:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Tado affine son thermostat connecté, avec une IA toujours sur abonnement",
     "link": "https://www.clubic.com/actualite-628765-tado-affine-son-thermostat-connecte-avec-une-ia-toujours-sur-abonnement.html",
     "pubDate": "Tue, 08 Sep 2026 10:12:00 GMT"
@@ -18,57 +66,9 @@
     "pubDate": "Tue, 08 Sep 2026 09:24:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Le modèle qu'OpenAI jugeait trop dangereux cet été arrive dans votre ChatGPT Plus",
-    "link": "https://www.clubic.com/actualite-628729-wip-gpt-6-astra-debarque-sur-chatgpt-plus-le-modele-qu-openai-avait-juge-trop-risque.html",
-    "pubDate": "Tue, 08 Sep 2026 08:33:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "La pépite tricolore Mistral AI boucle la plus grosse levée de fonds jamais réalisée par une tech européenne",
-    "link": "https://www.clubic.com/actualite-628704-mistral-ai-boucle-la-plus-grosse-levee-de-fonds-jamais-realisee-par-une-tech-europeenne.html",
-    "pubDate": "Tue, 08 Sep 2026 07:21:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Une IA vient de réaliser un paiement toute seule en France",
-    "link": "https://siecledigital.fr/2026/09/07/une-ia-vient-de-realiser-un-paiement-toute-seule-en-france/",
-    "pubDate": "Mon, 07 Sep 2026 14:38:04 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Google mise sur MrBeast pour montrer ce que Gemini peut faire en conditions extrêmes",
-    "link": "https://siecledigital.fr/2026/09/07/google-mise-sur-mrbeast-pour-montrer-ce-que-gemini-peut-faire-en-conditions-extremes/",
-    "pubDate": "Mon, 07 Sep 2026 13:23:07 +0000"
-  },
-  {
     "source": "Actu IA",
     "title": "Pourquoi la troisième faille LiteLLM au KEV concerne tout proxy LLM",
     "link": "https://www.actuia.com/actualite/pourquoi-la-troisieme-faille-litellm-au-kev-concerne-tout-proxy-llm/",
     "pubDate": "Mon, 07 Sep 2026 08:09:12 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Mistral AI dans les ministères : ce que l'État achète pour 6 M€",
-    "link": "https://www.actuia.com/actualite/mistral-ai-dans-les-ministeres-ce-que-letat-achete-pour-6-meur/",
-    "pubDate": "Mon, 07 Sep 2026 08:03:55 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Ce que l'on sait des 32 conseillers d'IA du gouvernement émirati",
-    "link": "https://www.actuia.com/actualite/ce-que-lon-sait-des-32-conseillers-dia-du-gouvernement-emirati/",
-    "pubDate": "Mon, 07 Sep 2026 07:59:53 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI dévoile GPT-6 Astra, son modèle d&#8217;IA le plus puissant à ce jour",
-    "link": "https://siecledigital.fr/2026/09/04/openai-devoile-gpt-6-astra-son-modele-dia-le-plus-puissant-a-ce-jour/",
-    "pubDate": "Fri, 04 Sep 2026 14:25:44 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Après le piratage des impôts, l&#8217;Etat fait appel aux ingénieurs de Mistral pour renforcer ses ministères",
-    "link": "https://siecledigital.fr/2026/09/04/apres-le-piratage-des-impots-letat-fait-appel-aux-ingenieurs-de-mistral-pour-renforcer-ses-ministeres/",
-    "pubDate": "Fri, 04 Sep 2026 14:22:05 +0000"
   }
 ]
