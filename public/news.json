@@ -1,74 +1,74 @@
 [
   {
-    "source": "Actu IA",
-    "title": "GPT-6 Astra : ce qui a changé chez OpenAI en quinze jours",
-    "link": "https://www.actuia.com/actualite/gpt-6-astra-ce-qui-a-change-chez-openai-en-quinze-jours/",
-    "pubDate": "Thu, 10 Sep 2026 10:19:04 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Les auteurs des lois américaines sur l'IA de frontière demandent aux laboratoires un « accord de rythme » vérifié par des tiers",
-    "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
-    "pubDate": "Thu, 10 Sep 2026 10:08:49 +0000"
+    "source": "Clubic",
+    "title": "Vibe coding : Microsoft avoue que ses propres équipes n'arrivent plus à suivre le déluge de code IA",
+    "link": "https://www.clubic.com/actualite-629287-vibe-coding-microsoft-avoue-que-ses-propres-equipes-n-arrivent-plus-a-suivre-le-deluge-de-code-ia.html",
+    "pubDate": "Fri, 11 Sep 2026 10:05:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Ces utilisateurs de Claude se sentent trompés, ils poursuivent Anthropic en justice",
-    "link": "https://www.clubic.com/actualite-629053-ces-utilisateurs-de-claude-se-sentent-trompes-ils-poursuivent-anthropic-en-justice.html",
-    "pubDate": "Thu, 10 Sep 2026 07:41:00 GMT"
+    "title": "OpenAI envisage de ralentir la course à l'IA, et veut convaincre ses rivaux d'en faire autant",
+    "link": "https://www.clubic.com/actualite-629241-le-dilemme-d-openai-rester-competitif-ou-ralentir-et-encadrer-les-llm-dangereux.html",
+    "pubDate": "Fri, 11 Sep 2026 09:37:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Meta dévoile Muse, un agent IA personnel à votre service",
-    "link": "https://www.clubic.com/actualite-629005-meta-devoile-muse-un-agent-ia-personnel-a-votre-service.html",
-    "pubDate": "Thu, 10 Sep 2026 07:18:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Distillation : la NSA, la CISA et le FBI nomment six sociétés chinoises et prescrivent une riposte aux fournisseurs américains",
-    "link": "https://www.actuia.com/actualite/distillation-la-nsa-la-cisa-et-le-fbi-nomment-six-societes-chinoises-et-prescrivent-une-riposte-aux-fournisseurs-americains/",
-    "pubDate": "Wed, 09 Sep 2026 20:46:45 +0000"
+    "title": "L'IA Claude a été détournée pour fabriquer des missiles et espionner des millions de gens, les confidences d'Anthropic",
+    "link": "https://www.clubic.com/actualite-629257-l-ia-claude-a-ete-detournee-pour-fabriquer-des-missiles-et-espionner-des-millions-de-gens-les-confidences-d-anthropic.html",
+    "pubDate": "Fri, 11 Sep 2026 08:48:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "OpenAI et Samsung partenaires pour des puces IA de nouvelle génération",
-    "link": "https://www.clubic.com/actualite-628999-openai-et-samsung-partenaires-pour-des-puces-ia-de-nouvelle-generation.html",
-    "pubDate": "Wed, 09 Sep 2026 16:47:00 GMT"
+    "title": "Victime du succès de GPT-6 Astra, OpenAI ferme les vannes de son forfait le plus cher",
+    "link": "https://www.clubic.com/actualite-629269-victime-du-succes-de-gpt-6-astra-openai-ferme-les-vannes-de-son-forfait-le-plus-cher.html",
+    "pubDate": "Fri, 11 Sep 2026 08:44:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Gemini arrive sur Windows : l’application officielle de Google est enfin disponible",
+    "link": "https://www.clubic.com/actualite-629245-gemini-arrive-sur-windows-l-application-officielle-de-google-enfin-disponible.html",
+    "pubDate": "Fri, 11 Sep 2026 07:26:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Anthropic l'admet : des gens utilisent Claude pour créer des armes biologiques",
+    "link": "https://www.clubic.com/actualite-629244-anthropic-alerte-sur-le-risque-que-l-ia-facilite-la-creation-d-armes-biologiques.html",
+    "pubDate": "Fri, 11 Sep 2026 06:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Il ressuscite l’interface de Windows 3.1 avec Claude, et vous pouvez l’essayer",
+    "link": "https://www.clubic.com/actualite-629173-il-ressuscite-l-interface-de-windows-3-1-avec-claude-et-vous-pouvez-l-essayer.html",
+    "pubDate": "Fri, 11 Sep 2026 05:47:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Scan, exploits, vol d’identifiants… les hackers commencent à confier des pans entiers de leurs attaques à des agents IA",
+    "link": "https://www.clubic.com/actualite-629164-scan-exploits-vol-d-identifiants-les-hackers-commencent-a-confier-des-pans-entiers-de-leurs-attaques-a-des-agents-ia.html",
+    "pubDate": "Thu, 10 Sep 2026 15:11:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI : un chercheur catastrophiste sur l'avenir de l'IA rejoint le conseil d'administration",
+    "link": "https://www.clubic.com/actualite-629167-openai-un-chercheur-catastrophiste-sur-l-avenir-de-l-ia-rejoint-le-conseil-d-administration.html",
+    "pubDate": "Thu, 10 Sep 2026 14:56:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "21,50€ à vie pour accéder à ChatGPT, Claude et Gemini : cette offre IA mérite de s'y attarder",
+    "link": "https://www.clubic.com/bons-plans-628843-marre-de-payer-plusieurs-abonnements-ia-1min-ai-passe-a-environ-21-50-une-fois-a-vie.html",
+    "pubDate": "Thu, 10 Sep 2026 14:36:00 GMT"
   },
   {
     "source": "Siècle Digital",
-    "title": "Comment utiliser un assistant IA dans la gestion de vos formations ?",
-    "link": "https://siecledigital.fr/2026/09/09/comment-utiliser-un-assistant-ia-dans-la-gestion-de-vos-formations/",
-    "pubDate": "Wed, 09 Sep 2026 16:30:00 +0000"
+    "title": "Meta aurait entraîné ses IA avec près de 3 000 films pour adultes, mais pourquoi faire ?",
+    "link": "https://siecledigital.fr/2026/09/10/meta-aurait-entraine-ses-ia-avec-pres-de-3-000-films-pour-adultes-mais-pourquoi-faire/",
+    "pubDate": "Thu, 10 Sep 2026 14:20:19 +0000"
   },
   {
-    "source": "Siècle Digital",
-    "title": "ChatGPT Images 2.5 arrive avec une nouveauté qui simplifie fortement la création d&#8217;images",
-    "link": "https://siecledigital.fr/2026/09/09/chatgpt-images-25-arrive-avec-une-nouveaute-qui-simplifie-fortement-la-creation-dimages/",
-    "pubDate": "Wed, 09 Sep 2026 15:53:30 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Meta veut confier votre quotidien à Muse, son nouvel agent IA qui agit à votre place",
-    "link": "https://siecledigital.fr/2026/09/09/meta-veut-confier-votre-quotidien-a-muse-son-nouvel-agent-ia-qui-agit-a-votre-place/",
-    "pubDate": "Wed, 09 Sep 2026 15:30:31 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT peut fouiller dans vos mails et vos documents pour apprendre à écrire comme vous",
-    "link": "https://siecledigital.fr/2026/09/09/chatgpt-peut-fouiller-dans-vos-mails-et-vos-documents-pour-apprendre-a-ecrire-comme-vous/",
-    "pubDate": "Wed, 09 Sep 2026 14:56:41 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AlphaGenome Atlas aide à choisir les mutations à tester",
-    "link": "https://www.actuia.com/actualite/alphagenome-atlas-aide-a-choisir-les-mutations-a-tester/",
-    "pubDate": "Wed, 09 Sep 2026 10:33:50 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Google mise sur le nucléaire pour son expansion en Finlande",
-    "link": "https://www.actuia.com/actualite/google-mise-sur-le-nucleaire-pour-son-expansion-en-finlande/",
-    "pubDate": "Wed, 09 Sep 2026 10:32:57 +0000"
+    "source": "Clubic",
+    "title": "L'agence de cybersécurité européenne teste les \"dangereux\" Claude Mythos 5 et GPT‑6 Astra",
+    "link": "https://www.clubic.com/actualite-629179-l-agence-de-cybersecurite-europeenne-teste-les-dangereux-claude-mythos-5-et-gpt-6-astra.html",
+    "pubDate": "Thu, 10 Sep 2026 14:13:00 GMT"
   }
 ]
