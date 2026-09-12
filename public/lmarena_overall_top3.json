@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-09-11T10:20:23.045Z",
+  "generated_at_iso": "2026-09-12T09:52:11.228Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1507
+      "overall": 1506
     },
     {
       "rank": 2,
@@ -13,13 +13,13 @@
     },
     {
       "rank": 3,
-      "model": "claude-fable-5.1-max",
-      "overall": 1504
+      "model": "claude-opus-4-7-high",
+      "overall": 1502
     },
     {
       "rank": 4,
-      "model": "claude-opus-4-7-high",
-      "overall": 1502
+      "model": "claude-fable-5.1-max",
+      "overall": 1501
     },
     {
       "rank": 5,
@@ -29,7 +29,7 @@
     {
       "rank": 6,
       "model": "claude-opus-4-6",
-      "overall": 1498
+      "overall": 1497
     },
     {
       "rank": 7,
@@ -38,7 +38,7 @@
     },
     {
       "rank": 8,
-      "model": "gemini-3.8-flash-high",
+      "model": "muse-spark-1.1",
       "overall": 1494
     },
     {
@@ -48,15 +48,15 @@
     },
     {
       "rank": 10,
-      "model": "muse-spark-1.1",
-      "overall": 1492
+      "model": "gemini-3.8-flash-high",
+      "overall": 1493
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "claude-fable-5",
-      "overall": 1507
+      "overall": 1506
     },
     {
       "rank": 2,
@@ -65,8 +65,8 @@
     },
     {
       "rank": 3,
-      "model": "claude-fable-5.1-max",
-      "overall": 1504
+      "model": "claude-opus-4-7-high",
+      "overall": 1502
     }
   ]
 }
