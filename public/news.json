@@ -1,6 +1,18 @@
 [
   {
     "source": "Clubic",
+    "title": "Une IA de la NASA et d’IBM part à la chasse à la glace sur la Lune",
+    "link": "https://www.clubic.com/actualite-629290-une-ia-de-la-nasa-et-d-ibm-part-a-la-chasse-a-la-glace-sur-la-lune.html",
+    "pubDate": "Sun, 13 Sep 2026 07:53:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une start-up chinoise accuse OpenAI d’avoir copié son modèle pour robots humanoïdes",
+    "link": "https://www.clubic.com/actualite-629419-une-start-up-chinoise-accuse-openai-d-avoir-copie-son-modele-pour-robots-humanoides.html",
+    "pubDate": "Sat, 12 Sep 2026 16:29:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "OpenAI lance des services ChatGPT dédiés aux géants de la finance",
     "link": "https://www.clubic.com/actualite-629356-openai-lance-des-services-chatgpt-dedies-aux-geants-de-la-finance.html",
     "pubDate": "Fri, 11 Sep 2026 16:42:00 GMT"
@@ -36,39 +48,27 @@
     "pubDate": "Fri, 11 Sep 2026 12:25:50 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Une campagne mondiale contre PaperCut mobilise des centaines d’agents IA et compromet 395 organisations",
-    "link": "https://www.clubic.com/actualite-629296-une-campagne-mondiale-contre-papercut-mobilise-des-centaines-d-agents-ia-et-compromet-395-organisations.html",
-    "pubDate": "Fri, 11 Sep 2026 12:01:00 GMT"
+    "source": "Siècle Digital",
+    "title": "Meta aurait entraîné ses IA avec près de 3 000 films pour adultes, mais pourquoi faire ?",
+    "link": "https://siecledigital.fr/2026/09/10/meta-aurait-entraine-ses-ia-avec-pres-de-3-000-films-pour-adultes-mais-pourquoi-faire/",
+    "pubDate": "Thu, 10 Sep 2026 14:20:19 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Vibe coding : Microsoft avoue que ses propres équipes n'arrivent plus à suivre le déluge de code IA",
-    "link": "https://www.clubic.com/actualite-629287-vibe-coding-microsoft-avoue-que-ses-propres-equipes-n-arrivent-plus-a-suivre-le-deluge-de-code-ia.html",
-    "pubDate": "Fri, 11 Sep 2026 10:05:00 GMT"
+    "source": "Actu IA",
+    "title": "IA de frontière : les auteurs des lois de Californie, New York et Illinois réclament un accord de rythme vérifié par des tiers",
+    "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
+    "pubDate": "Thu, 10 Sep 2026 11:28:23 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "OpenAI envisage de ralentir la course à l'IA, et veut convaincre ses rivaux d'en faire autant",
-    "link": "https://www.clubic.com/actualite-629241-le-dilemme-d-openai-rester-competitif-ou-ralentir-et-encadrer-les-llm-dangereux.html",
-    "pubDate": "Fri, 11 Sep 2026 09:37:00 GMT"
+    "source": "Actu IA",
+    "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
+    "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
+    "pubDate": "Thu, 10 Sep 2026 10:26:01 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "L'IA Claude a été détournée pour fabriquer des missiles et espionner des millions de gens, les confidences d'Anthropic",
-    "link": "https://www.clubic.com/actualite-629257-l-ia-claude-a-ete-detournee-pour-fabriquer-des-missiles-et-espionner-des-millions-de-gens-les-confidences-d-anthropic.html",
-    "pubDate": "Fri, 11 Sep 2026 08:48:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Victime du succès de GPT-6 Astra, OpenAI ferme les vannes de son forfait le plus cher",
-    "link": "https://www.clubic.com/actualite-629269-victime-du-succes-de-gpt-6-astra-openai-ferme-les-vannes-de-son-forfait-le-plus-cher.html",
-    "pubDate": "Fri, 11 Sep 2026 08:44:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Gemini arrive sur Windows : l’application officielle de Google est enfin disponible",
-    "link": "https://www.clubic.com/actualite-629245-gemini-arrive-sur-windows-l-application-officielle-de-google-enfin-disponible.html",
-    "pubDate": "Fri, 11 Sep 2026 07:26:00 GMT"
+    "source": "Actu IA",
+    "title": "L'ACPR juge le cadre européen insuffisant face aux modèles de pointe et réclame un déploiement par paliers",
+    "link": "https://www.actuia.com/actualite/lacpr-juge-le-cadre-europeen-insuffisant-face-aux-modeles-de-pointe-et-reclame-un-deploiement-par-paliers/",
+    "pubDate": "Thu, 10 Sep 2026 10:21:40 +0000"
   }
 ]
