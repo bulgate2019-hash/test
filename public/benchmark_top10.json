@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-13T10:51:48.572Z",
+  "generated_at_iso": "2026-09-14T11:22:02.532Z",
   "top10": [
     {
       "rank": 1,
@@ -45,14 +45,14 @@
     },
     {
       "rank": 8,
-      "model": "GPT-6 Astra (medium)",
-      "creator": "OpenAI",
+      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "creator": "Anthropic",
       "index": 49.7
     },
     {
       "rank": 9,
-      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "creator": "Anthropic",
+      "model": "GPT-6 Astra (medium)",
+      "creator": "OpenAI",
       "index": 49.7
     },
     {

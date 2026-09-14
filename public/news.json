@@ -1,6 +1,30 @@
 [
   {
     "source": "Clubic",
+    "title": "IA dans les PME, quels risques pour votre sécurité ?",
+    "link": "https://www.clubic.com/actualite-628432-ia-dans-les-pme-quels-risques-pour-votre-securite.html",
+    "pubDate": "Mon, 14 Sep 2026 05:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un hacker français a utilisé Claude pour pirater des dizaines d’organisations d’extrême droite",
+    "link": "https://www.clubic.com/actualite-629464-un-hacker-francais-a-utilise-claude-pour-pirater-des-dizaines-d-organisations-d-extreme-droite.html",
+    "pubDate": "Mon, 14 Sep 2026 04:55:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI ne fera finalement pas son entrée en Bourse en 2026, Sam Altman explique pourquoi",
+    "link": "https://www.clubic.com/actualite-629440-openai-ne-fera-finalement-pas-son-entree-en-bourse-en-2026-sam-altman-explique-pourquoi.html",
+    "pubDate": "Sun, 13 Sep 2026 13:14:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Marre de payer plusieurs abonnements IA ? 1min.AI passe à environ 21,50€ une fois, à vie !",
+    "link": "https://www.clubic.com/bons-plans-628843-marre-de-payer-plusieurs-abonnements-ia-1min-ai-passe-a-environ-21-50-une-fois-a-vie.html",
+    "pubDate": "Sun, 13 Sep 2026 12:26:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Une IA de la NASA et d’IBM part à la chasse à la glace sur la Lune",
     "link": "https://www.clubic.com/actualite-629290-une-ia-de-la-nasa-et-d-ibm-part-a-la-chasse-a-la-glace-sur-la-lune.html",
     "pubDate": "Sun, 13 Sep 2026 07:53:00 GMT"
@@ -10,12 +34,6 @@
     "title": "Une start-up chinoise accuse OpenAI d’avoir copié son modèle pour robots humanoïdes",
     "link": "https://www.clubic.com/actualite-629419-une-start-up-chinoise-accuse-openai-d-avoir-copie-son-modele-pour-robots-humanoides.html",
     "pubDate": "Sat, 12 Sep 2026 16:29:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "OpenAI lance des services ChatGPT dédiés aux géants de la finance",
-    "link": "https://www.clubic.com/actualite-629356-openai-lance-des-services-chatgpt-dedies-aux-geants-de-la-finance.html",
-    "pubDate": "Fri, 11 Sep 2026 16:42:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -36,12 +54,6 @@
     "pubDate": "Fri, 11 Sep 2026 13:57:32 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "DeepSeek dévoile un nouveau modèle IA puissant et économe qui pourrait changer les futurs LLM",
-    "link": "https://www.clubic.com/actualite-629332-deepseek-devoile-un-nouveau-modele-ia-puissant-et-econome-qui-pourrait-changer-les-futurs-llm.html",
-    "pubDate": "Fri, 11 Sep 2026 13:43:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "L&#8217;IA devait faciliter le travail, mais 65 % des salariés regrettent déjà « l&#8217;avant IA »",
     "link": "https://siecledigital.fr/2026/09/11/lia-devait-faciliter-le-travail-mais-65-des-salaries-regrettent-deja-lavant-ia/",
@@ -58,17 +70,5 @@
     "title": "IA de frontière : les auteurs des lois de Californie, New York et Illinois réclament un accord de rythme vérifié par des tiers",
     "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
     "pubDate": "Thu, 10 Sep 2026 11:28:23 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
-    "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
-    "pubDate": "Thu, 10 Sep 2026 10:26:01 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "L'ACPR juge le cadre européen insuffisant face aux modèles de pointe et réclame un déploiement par paliers",
-    "link": "https://www.actuia.com/actualite/lacpr-juge-le-cadre-europeen-insuffisant-face-aux-modeles-de-pointe-et-reclame-un-deploiement-par-paliers/",
-    "pubDate": "Thu, 10 Sep 2026 10:21:40 +0000"
   }
 ]

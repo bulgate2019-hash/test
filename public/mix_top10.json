@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-13T10:51:48.572Z",
+  "generated_at_iso": "2026-09-14T11:22:02.532Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -13,16 +13,16 @@
     {
       "rank": 2,
       "model": "muse-spark-1.2 (xHigh)",
-      "score": 78.8,
+      "score": 78.2,
       "coverage": 1,
       "lmarena": {
-        "elo": 1499
+        "elo": 1500
       }
     },
     {
       "rank": 3,
       "model": "claude-opus-4-6",
-      "score": 72,
+      "score": 70.2,
       "coverage": 1,
       "lmarena": {
         "elo": 1497
@@ -30,35 +30,35 @@
     },
     {
       "rank": 4,
-      "model": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
-      "score": 63.1,
-      "coverage": 2,
+      "model": "claude-opus-4-7",
+      "score": 59.9,
+      "coverage": 1,
       "lmarena": {
-        "elo": 1501
+        "elo": 1494
       }
     },
     {
       "rank": 5,
-      "model": "claude-opus-4-7",
-      "score": 61.6,
-      "coverage": 1,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
+      "score": 57.8,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1494
+        "elo": 1498
       }
     },
     {
       "rank": 6,
-      "model": "muse-spark-1.1",
-      "score": 59.5,
+      "model": "gemini-3.8-flash-high",
+      "score": 54.7,
       "coverage": 1,
       "lmarena": {
-        "elo": 1494
+        "elo": 1493
       }
     },
     {
       "rank": 7,
-      "model": "gemini-3.8-flash-high",
-      "score": 56.2,
+      "model": "muse-spark-1.1",
+      "score": 53.1,
       "coverage": 1,
       "lmarena": {
         "elo": 1493
@@ -67,7 +67,7 @@
     {
       "rank": 8,
       "model": "gemini-3.7-flash-high",
-      "score": 48,
+      "score": 43.4,
       "coverage": 1,
       "lmarena": {
         "elo": 1490
@@ -75,20 +75,20 @@
     },
     {
       "rank": 9,
-      "model": "muse-spark",
-      "score": 40.7,
-      "coverage": 1,
+      "model": "Muse Spark 1.3 (xhigh)",
+      "score": 39.9,
+      "coverage": 2,
       "lmarena": {
-        "elo": 1488
+        "elo": 1493
       }
     },
     {
       "rank": 10,
-      "model": "gemini-3.1-pro-preview",
-      "score": 36.5,
+      "model": "muse-spark",
+      "score": 37,
       "coverage": 1,
       "lmarena": {
-        "elo": 1487
+        "elo": 1488
       }
     }
   ]
