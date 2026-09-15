@@ -1,39 +1,33 @@
 [
   {
     "source": "Clubic",
-    "title": "IA dans les PME, quels risques pour votre sécurité ?",
-    "link": "https://www.clubic.com/actualite-628432-ia-dans-les-pme-quels-risques-pour-votre-securite.html",
-    "pubDate": "Mon, 14 Sep 2026 05:30:00 GMT"
+    "title": "Mistral et Numspot s'allient pour une intelligence artificielle 100 % made in France",
+    "link": "https://www.clubic.com/actualite-629707-mistral-et-numspot-s-allient-pour-une-intelligence-artificielle-100-made-in-france.html",
+    "pubDate": "Tue, 15 Sep 2026 08:04:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Un hacker français a utilisé Claude pour pirater des dizaines d’organisations d’extrême droite",
-    "link": "https://www.clubic.com/actualite-629464-un-hacker-francais-a-utilise-claude-pour-pirater-des-dizaines-d-organisations-d-extreme-droite.html",
-    "pubDate": "Mon, 14 Sep 2026 04:55:00 GMT"
+    "title": "IA vs Humains : Microsoft vient de publier son code de conduite",
+    "link": "https://www.clubic.com/actualite-629605-ia-vs-humains-microsoft-vient-de-publier-son-code-de-conduite.html",
+    "pubDate": "Tue, 15 Sep 2026 07:42:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "OpenAI ne fera finalement pas son entrée en Bourse en 2026, Sam Altman explique pourquoi",
-    "link": "https://www.clubic.com/actualite-629440-openai-ne-fera-finalement-pas-son-entree-en-bourse-en-2026-sam-altman-explique-pourquoi.html",
-    "pubDate": "Sun, 13 Sep 2026 13:14:00 GMT"
+    "title": "Oui, il y a vraiment des humains chez OpenAI qui lisent vos conversations sur ChatGPT",
+    "link": "https://www.clubic.com/actualite-629638-oui-il-y-a-vraiment-des-humains-chez-openai-qui-lisent-vos-conversation-sur-chatgpt.html",
+    "pubDate": "Tue, 15 Sep 2026 06:42:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Marre de payer plusieurs abonnements IA ? 1min.AI passe à environ 21,50€ une fois, à vie !",
-    "link": "https://www.clubic.com/bons-plans-628843-marre-de-payer-plusieurs-abonnements-ia-1min-ai-passe-a-environ-21-50-une-fois-a-vie.html",
-    "pubDate": "Sun, 13 Sep 2026 12:26:00 GMT"
+    "title": "IA : même si la Chine rejette l'appel d'Anthropic, elle se prépare elle aussi à une perte de contrôle",
+    "link": "https://www.clubic.com/actualite-629653-ia-meme-si-la-chine-rejette-l-appel-d-anthropic-elle-se-prepare-elle-aussi-a-une-perte-de-controle.html",
+    "pubDate": "Tue, 15 Sep 2026 04:58:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Une IA de la NASA et d’IBM part à la chasse à la glace sur la Lune",
-    "link": "https://www.clubic.com/actualite-629290-une-ia-de-la-nasa-et-d-ibm-part-a-la-chasse-a-la-glace-sur-la-lune.html",
-    "pubDate": "Sun, 13 Sep 2026 07:53:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Une start-up chinoise accuse OpenAI d’avoir copié son modèle pour robots humanoïdes",
-    "link": "https://www.clubic.com/actualite-629419-une-start-up-chinoise-accuse-openai-d-avoir-copie-son-modele-pour-robots-humanoides.html",
-    "pubDate": "Sat, 12 Sep 2026 16:29:00 GMT"
+    "source": "Siècle Digital",
+    "title": "OpenAI n&#8217;entrera finalement pas en Bourse en 2026, et Sam Altman explique pourquoi",
+    "link": "https://siecledigital.fr/2026/09/14/openai-nentrera-finalement-pas-en-bourse-en-2026-et-sam-altman-explique-pourquoi/",
+    "pubDate": "Mon, 14 Sep 2026 15:48:31 +0000"
   },
   {
     "source": "Siècle Digital",
@@ -70,5 +64,11 @@
     "title": "IA de frontière : les auteurs des lois de Californie, New York et Illinois réclament un accord de rythme vérifié par des tiers",
     "link": "https://www.actuia.com/actualite/les-auteurs-des-lois-americaines-sur-lia-de-frontiere-demandent-aux-laboratoires-un-accord-de-rythme-verifie-par-des-tiers/",
     "pubDate": "Thu, 10 Sep 2026 11:28:23 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Anthropic requalifie ses incidents cyber en défaut d'alignement, en ajoute un quatrième et ouvre ses transcriptions à METR",
+    "link": "https://www.actuia.com/actualite/anthropic-requalifie-ses-incidents-cyber-en-defaut-dalignement-en-ajoute-un-quatrieme-et-ouvre-ses-transcriptions-a-metr/",
+    "pubDate": "Thu, 10 Sep 2026 10:26:01 +0000"
   }
 ]
