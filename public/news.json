@@ -1,45 +1,57 @@
 [
   {
     "source": "Clubic",
-    "title": "Une IA a piraté une entreprise toute seule, cette fois en Espagne, et c'est carrément la CNIL locale qui le révèle !",
-    "link": "https://www.clubic.com/actualite-630112-une-ia-a-pirate-une-entreprise-toute-seule-cette-fois-en-espagne-et-c-est-carrement-la-cnil-locale-qui-le-revele.html",
-    "pubDate": "Thu, 17 Sep 2026 08:55:00 GMT"
+    "title": "SeLoger lance une recherche immobilière par intelligence artificielle, on l'a testée pour vous",
+    "link": "https://www.clubic.com/actualite-630289-seloger-lance-une-recherche-immobiliere-par-intelligence-artificielle-on-l-a-testee-pour-vous.html",
+    "pubDate": "Fri, 18 Sep 2026 09:32:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Ça n'en finit plus : OpenAI admet six nouveaux incidents liés à des comportements \"préoccupants\" de l'IA",
-    "link": "https://www.clubic.com/actualite-630078-ca-n-en-finit-plus-openai-admet-six-nouveaux-incidents-lies-a-des-comportements-preoccupants-de-l-ia.html",
-    "pubDate": "Thu, 17 Sep 2026 06:39:00 GMT"
+    "title": "L’ONU s’allie à Google pour préparer ses données mondiales à l’ère des agents IA",
+    "link": "https://www.clubic.com/actualite-630259-l-onu-s-allie-a-google-pour-preparer-ses-donnees-mondiales-a-l-ere-des-agents-ia.html",
+    "pubDate": "Fri, 18 Sep 2026 05:42:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Firefox lance son assistant IA en français, une première en Europe, et c'est grâce à Mistral",
-    "link": "https://www.clubic.com/actualite-629974-l-ia-de-mistral-s-invite-dans-firefox.html",
-    "pubDate": "Thu, 17 Sep 2026 06:28:00 GMT"
+    "title": "Android 17 arrive sur les Galaxy S26 avec une nouvelle salve de fonctions IA",
+    "link": "https://www.clubic.com/actualite-630238-android-17-arrive-sur-les-galaxy-s26-avec-une-nouvelle-salve-de-fonctions-ia.html",
+    "pubDate": "Fri, 18 Sep 2026 05:18:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Festival d'annonces par Anthropic pour Claude, avec fusion de fonctionnalités et arrivées de Claude Docs et Slides",
-    "link": "https://www.clubic.com/actualite-630037-festival-d-annonces-par-anthropic-pour-claude-avec-fusion-de-fonctionnalites-et-arrivees-de-claude-docs-et-slides.html",
-    "pubDate": "Wed, 16 Sep 2026 17:43:00 GMT"
+    "title": "Une simple extension peut détourner votre IA et voler vos données selon des chercheurs",
+    "link": "https://www.clubic.com/actualite-630253-une-simple-extension-peut-detourner-votre-ia-et-voler-vos-donnees-selon-des-chercheurs.html",
+    "pubDate": "Fri, 18 Sep 2026 05:01:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Gemini 3.8 Live veut en finir avec les silences gênants des assistants vocaux",
-    "link": "https://www.clubic.com/actualite-629995-gemini-3-8-live-veut-en-finir-avec-les-silences-genants-des-assistants-vocaux.html",
-    "pubDate": "Wed, 16 Sep 2026 14:38:00 GMT"
+    "title": "Huawei dévoile ses nouvelles puces IA et accélère son offensive contre NVIDIA",
+    "link": "https://www.clubic.com/actualite-630202-huawei-devoile-ses-nouvelles-puces-ia-et-accelere-son-offensive-contre-nvidia.html",
+    "pubDate": "Thu, 17 Sep 2026 15:37:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "OpenAI révèle six nouveaux dérapages inquiétants de ses IA, entre mensonges et actions non autorisées",
+    "link": "https://siecledigital.fr/2026/09/17/openai-revele-six-nouveaux-derapages-inquietants-de-ses-ia-entre-mensonges-et-actions-non-autorisees/",
+    "pubDate": "Thu, 17 Sep 2026 12:59:50 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Mozilla s&#8217;allie à Mistral pour intégrer un nouvel assistant IA directement dans Firefox",
+    "link": "https://siecledigital.fr/2026/09/17/mozilla-sallie-a-mistral-pour-integrer-un-nouvel-assistant-ia-directement-dans-firefox/",
+    "pubDate": "Thu, 17 Sep 2026 12:44:59 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google Home s'ouvre à ChatGPT et Claude, mais il y a un vrai risque",
+    "link": "https://www.clubic.com/actualite-630154-google-home-s-ouvre-a-chatgpt-et-claude-mais-il-y-a-un-vrai-risque.html",
+    "pubDate": "Thu, 17 Sep 2026 11:19:00 GMT"
   },
   {
     "source": "Siècle Digital",
     "title": "Cloudflare permet aux sites de dire non à l&#8217;entraînement des IA sans sacrifier leur référencement",
     "link": "https://siecledigital.fr/2026/09/16/cloudflare-permet-aux-sites-de-dire-non-a-lentrainement-des-ia-sans-sacrifier-leur-referencement/",
     "pubDate": "Wed, 16 Sep 2026 13:00:14 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Puces IA : Samsung investit dans une entreprise qui veut être le prochain NVIDIA",
-    "link": "https://www.clubic.com/actualite-629956-puces-ia-samsung-investit-dans-une-entreprise-qui-veut-etre-le-prochain-nvidia.html",
-    "pubDate": "Wed, 16 Sep 2026 12:28:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -58,17 +70,5 @@
     "title": "Google veut rémunérer les éditeurs dont les contenus « contribuent » à ses réponses IA",
     "link": "https://siecledigital.fr/2026/09/15/google-veut-remunerer-les-editeurs-dont-les-contenus-contribuent-a-ses-reponses-ia/",
     "pubDate": "Tue, 15 Sep 2026 15:00:01 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI n&#8217;entrera finalement pas en Bourse en 2026, et Sam Altman explique pourquoi",
-    "link": "https://siecledigital.fr/2026/09/14/openai-nentrera-finalement-pas-en-bourse-en-2026-et-sam-altman-explique-pourquoi/",
-    "pubDate": "Mon, 14 Sep 2026 15:48:31 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "OpenAI victime du succès d&#8217;Astra, l&#8217;abonnement ChatGPT à 200 dollars suspendu",
-    "link": "https://siecledigital.fr/2026/09/11/openai-victime-du-succes-dastra-labonnement-chatgpt-a-200-dollars-suspendu/",
-    "pubDate": "Fri, 11 Sep 2026 14:07:27 +0000"
   }
 ]
