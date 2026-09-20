@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-19T10:02:48.238Z",
+  "generated_at_iso": "2026-09-20T10:21:55.958Z",
   "top10": [
     {
       "rank": 1,
@@ -17,13 +17,13 @@
       "rank": 3,
       "model": "GPT-6 Astra (max)",
       "creator": "OpenAI",
-      "index": 52.8
+      "index": 52.7
     },
     {
       "rank": 4,
       "model": "GPT-6 Astra (xhigh)",
       "creator": "OpenAI",
-      "index": 52.5
+      "index": 52.4
     },
     {
       "rank": 5,
@@ -35,31 +35,31 @@
       "rank": 6,
       "model": "GPT-6 Astra (high)",
       "creator": "OpenAI",
-      "index": 51
+      "index": 50.9
     },
     {
       "rank": 7,
       "model": "Claude Opus 5 (Adaptive Reasoning, Max Effort)",
       "creator": "Anthropic",
-      "index": 50.7
+      "index": 50.8
     },
     {
       "rank": 8,
-      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
       "creator": "Anthropic",
       "index": 49.7
     },
     {
       "rank": 9,
-      "model": "GPT-6 Astra (medium)",
-      "creator": "OpenAI",
-      "index": 49.7
+      "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
+      "creator": "Anthropic",
+      "index": 49.6
     },
     {
       "rank": 10,
-      "model": "Claude Opus 5 (Adaptive Reasoning, Xhigh Effort)",
-      "creator": "Anthropic",
-      "index": 49.7
+      "model": "GPT-6 Astra (medium)",
+      "creator": "OpenAI",
+      "index": 49.6
     }
   ],
   "top3": [
@@ -79,7 +79,7 @@
       "rank": 3,
       "model": "GPT-6 Astra (max)",
       "creator": "OpenAI",
-      "index": 52.8
+      "index": 52.7
     }
   ]
 }

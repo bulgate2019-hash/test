@@ -1,5 +1,29 @@
 [
   {
+    "source": "Clubic",
+    "title": "École, plannings, repas... Google prépare une IA pour gérer le casse-tête du quotidien familial",
+    "link": "https://www.clubic.com/actualite-630394-ecole-plannings-repas-google-prepare-une-ia-pour-gerer-le-casse-tete-du-quotidien-familial.html",
+    "pubDate": "Sun, 20 Sep 2026 07:43:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Pour la première fois, Gemini a piraté de vraies entreprises",
+    "link": "https://www.clubic.com/actualite-630445-pour-la-premiere-fois-gemini-a-pirate-de-vraies-entreprises.html",
+    "pubDate": "Sun, 20 Sep 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Vous voulez parler à cette actrice IA ? Il va falloir scanner votre visage avant",
+    "link": "https://www.clubic.com/actualite-630430-vous-voulez-parler-a-cette-actrice-ia-il-va-falloir-scanner-votre-visage-avant.html",
+    "pubDate": "Sat, 19 Sep 2026 17:43:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Vous payez ChatGPT et Claude tous les mois ? 1min.AI propose un accès multi-IA à vie pour environ 35€",
+    "link": "https://www.clubic.com/bons-plans-629920-vous-payez-chatgpt-et-claude-tous-les-mois-1min-ai-propose-un-acces-multi-ia-a-vie-pour-environ-35.html",
+    "pubDate": "Sat, 19 Sep 2026 10:15:00 GMT"
+  },
+  {
     "source": "Siècle Digital",
     "title": "Besoin de slides pour une réunion ? Claude peut désormais créer votre présentation de A à Z",
     "link": "https://siecledigital.fr/2026/09/18/besoin-de-slides-pour-une-reunion-claude-peut-desormais-creer-votre-presentation-de-a-a-z/",
@@ -46,29 +70,5 @@
     "title": "Harvey lève 550 millions de dollars et rachète Guardrails AI, l'éditeur du cadre open source de contrôle des agents",
     "link": "https://www.actuia.com/actualite/harvey-leve-550-millions-de-dollars-et-rachete-guardrails-ai-le-modele-le-banc-dessai-et-les-garde-fous-chez-un-seul-fournisseur/",
     "pubDate": "Fri, 18 Sep 2026 12:47:43 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Sept modèles ont dirigé de vraies entreprises pendant 72 heures : 12 431 dollars de factures indues, zéro revenu",
-    "link": "https://www.actuia.com/actualite/sept-modeles-de-pointe-ont-dirige-de-vraies-entreprises-pendant-72-heures-12-431-dollars-de-factures-indues-zero-revenu/",
-    "pubDate": "Fri, 18 Sep 2026 12:47:43 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Qualcomm paie en actions son entrée chez Amazon : 25 millions de titres adossés à 60 milliards de dollars d'achats",
-    "link": "https://www.actuia.com/actualite/qualcomm-paie-en-actions-lentree-chez-amazon-un-bon-de-souscription-adosse-a-60-milliards-de-dollars-dachats-de-puces-dinference/",
-    "pubDate": "Fri, 18 Sep 2026 12:47:43 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Qui choisit les valeurs de votre assistant IA ?",
-    "link": "https://www.actuia.com/actualite/qui-choisit-les-valeurs-de-votre-assistant-ia/",
-    "pubDate": "Fri, 18 Sep 2026 12:41:34 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "RAG : transformer les documents en vecteurs ne suffit pas à les anonymiser",
-    "link": "https://www.actuia.com/actualite/rag-transformer-les-documents-en-vecteurs-ne-suffit-pas-a-les-anonymiser/",
-    "pubDate": "Fri, 18 Sep 2026 10:58:02 +0000"
   }
 ]
