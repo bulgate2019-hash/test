@@ -1,42 +1,42 @@
 [
   {
-    "name": "SchemaRank",
-    "desc": "Make your Shopify store visible to AI shopping agents",
-    "url": "https://www.producthunt.com/products/schemarank?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Superset Mobile",
+    "desc": "Your coding agents, now in your pocket",
+    "url": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Reup: AI Product Accessories - Shopify",
-    "desc": "AI pairs products into accessories and complete-the-look",
-    "url": "https://www.producthunt.com/products/reup-ai-product-accessories-shopify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Sai",
+    "desc": "The autonomous computer fleet at your command",
+    "url": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Autotune Doctor",
-    "desc": "AI-guided LLVM phase-ordering doctor outperforming -O3",
-    "url": "https://www.producthunt.com/products/autotune-doctor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Jev",
+    "desc": "Fast, structured AI decisions for software automation",
+    "url": "https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Epismo OS",
-    "desc": "Keep your work when you switch AI tools",
-    "url": "https://www.producthunt.com/products/epismo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hyrax AI",
+    "desc": "The AI architect for your entire codebase",
+    "url": "https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Shortshort",
-    "desc": "One long video in. Up to 20 shorts, cut on full sentences.",
-    "url": "https://www.producthunt.com/products/shortshort?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "AI Creative Insights by Decode",
+    "desc": "Predict which ad wins before you spend on media",
+    "url": "https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Saar",
-    "desc": "Find clarity in life’s toughest moments. ⭐",
-    "url": "https://www.producthunt.com/products/saar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "CC",
+    "desc": "Shared agent that helps keep your family in sync",
+    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "TrenTorch",
-    "desc": "Learn Frontier ML by building it yourself. ",
-    "url": "https://www.producthunt.com/products/trentorch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "slop-grader",
+    "desc": "Jev-AI CLI tool that evaluates text against custom rulesets",
+    "url": "https://www.producthunt.com/products/slop-grader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ReX",
-    "desc": "Xtending Reporting Capabilities…",
-    "url": "https://www.producthunt.com/products/rex-8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gradio Workflow",
+    "desc": "connect nodes to build AI pipelines, powered by Hugging Face",
+    "url": "https://www.producthunt.com/products/gradio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
