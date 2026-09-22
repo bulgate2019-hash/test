@@ -1,42 +1,42 @@
 [
   {
-    "name": "Superset Mobile",
-    "desc": "Your coding agents, now in your pocket",
-    "url": "https://www.producthunt.com/products/superset-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "KORU",
+    "desc": "Rank on Google. Get named by AI. ",
+    "url": "https://www.producthunt.com/products/koru-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Sai",
-    "desc": "The autonomous computer fleet at your command",
-    "url": "https://www.producthunt.com/products/simular?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "CROA ",
+    "desc": "Constrain what AI agents can reach",
+    "url": "https://www.producthunt.com/products/croa?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Jev",
-    "desc": "Fast, structured AI decisions for software automation",
-    "url": "https://www.producthunt.com/products/jev-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Solopreneur OS by LKC",
+    "desc": "Run your solo business from one ready-structured system",
+    "url": "https://www.producthunt.com/products/solopreneur-os-by-lkc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hyrax AI",
-    "desc": "The AI architect for your entire codebase",
-    "url": "https://www.producthunt.com/products/tristan-benozer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MainLayer",
+    "desc": "See and govern how AI writes code inside your company",
+    "url": "https://www.producthunt.com/products/mainlayer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "AI Creative Insights by Decode",
-    "desc": "Predict which ad wins before you spend on media",
-    "url": "https://www.producthunt.com/products/decode-by-entropik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "K Chat",
+    "desc": "An AI companion that remembers you and grows with you",
+    "url": "https://www.producthunt.com/products/k-chat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "CC",
-    "desc": "Shared agent that helps keep your family in sync",
-    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Oriv",
+    "desc": "AI business OS for agencies & independents",
+    "url": "https://www.producthunt.com/products/oriv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "slop-grader",
-    "desc": "Jev-AI CLI tool that evaluates text against custom rulesets",
-    "url": "https://www.producthunt.com/products/slop-grader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "AxonQA",
+    "desc": "AI powered QA workspace for confident software releases",
+    "url": "https://www.producthunt.com/products/axonqa?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gradio Workflow",
-    "desc": "connect nodes to build AI pipelines, powered by Hugging Face",
-    "url": "https://www.producthunt.com/products/gradio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Shree AI OS",
+    "desc": "Deterministic AI Runtime for Java 21 Developers",
+    "url": "https://www.producthunt.com/products/shree-ai-os?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
