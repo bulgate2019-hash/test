@@ -60,7 +60,7 @@
         "name": "Claude",
         "url": "https://claude.ai",
         "domain": "claude.ai",
-        "desc": "Anthropic Claude Opus 5 — excellent pour le code et l'analyse longue.",
+        "desc": "Anthropic Claude Opus 5.5 — excellent pour le code et l'analyse longue.",
         "tags": [
           "star",
           "new"
@@ -418,7 +418,7 @@
           "new",
           "dead"
         ],
-        "failures": 28
+        "failures": 29
       },
       {
         "name": "Adobe Firefly",
