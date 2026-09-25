@@ -338,7 +338,7 @@
         "domain": "tabnine.com",
         "desc": "Assistant IA pour code, alternative à Copilot orientée entreprise.",
         "tags": [],
-        "failures": 1
+        "failures": 2
       },
       {
         "name": "Google Colab",
@@ -418,7 +418,7 @@
           "new",
           "dead"
         ],
-        "failures": 30
+        "failures": 31
       },
       {
         "name": "Adobe Firefly",
