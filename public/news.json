@@ -1,6 +1,18 @@
 [
   {
     "source": "Clubic",
+    "title": "Test Marque Produit : ChatGPT dans Gmail, une IA utile mais à surveiller",
+    "link": "https://www.clubic.com/dossier-631363-j-ai-confie-ma-boite-gmail-a-chatgpt-jusqu-ou-peut-on-vraiment-le-laisser-agir.html",
+    "pubDate": "Sun, 27 Sep 2026 09:05:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI : des images privées d’utilisateurs envoyées par erreur sur des sites tiers par ses agents IA",
+    "link": "https://www.clubic.com/actualite-631426-openai-des-images-privees-d-utilisateurs-envoyees-par-erreur-sur-des-sites-tiers-par-ses-agents-ia.html",
+    "pubDate": "Sat, 26 Sep 2026 14:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Cette messagerie veut faire des agents IA de vrais collègues de travail",
     "link": "https://www.clubic.com/actualite-631306-cette-messagerie-veut-faire-des-agents-ia-de-vrais-collegues-de-travail.html",
     "pubDate": "Sat, 26 Sep 2026 10:15:00 GMT"
@@ -54,21 +66,9 @@
     "pubDate": "Fri, 25 Sep 2026 15:17:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "IA : Elon Musk l'annonce, le supercalculateur Colossus 2 devrait doubler son nombre de GPU NVIDIA",
-    "link": "https://www.clubic.com/actualite-631369-ia-elon-musk-l-annonce-le-supercalculateur-colossus-2-devrait-doubler-son-nombre-de-gpu-nvidia.html",
-    "pubDate": "Fri, 25 Sep 2026 15:13:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Pixel : cette nouvelle fonction IA bluffante pas près d'arriver en France",
-    "link": "https://www.clubic.com/actualite-631336-pixel-cette-nouvelle-fonction-ia-bluffante-pas-pres-d-arriver-en-france.html",
-    "pubDate": "Fri, 25 Sep 2026 13:25:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA dangereuses : le patron de NVIDIA a une idée aussi simple que radicale",
-    "link": "https://www.clubic.com/actualite-631309-pour-jensen-huang-un-laboratoire-incapable-de-maitriser-ses-ia-doit-fermer.html",
-    "pubDate": "Fri, 25 Sep 2026 11:01:00 GMT"
+    "source": "Actu IA",
+    "title": "Claude repère chez des phages un système génétique passé inaperçu",
+    "link": "https://www.actuia.com/actualite/claude-repere-chez-des-phages-un-systeme-genetique-passe-inapercu/",
+    "pubDate": "Fri, 25 Sep 2026 09:15:29 +0000"
   }
 ]
