@@ -1,39 +1,45 @@
 [
   {
     "source": "Clubic",
-    "title": "Test Marque Produit : ChatGPT dans Gmail, une IA utile mais à surveiller",
+    "title": "Cette IA écoute votre journée en continu pour donner une mémoire à Claude et Codex",
+    "link": "https://www.clubic.com/actualite-631510-cette-ia-ecoute-votre-journee-en-continu-pour-donner-une-memoire-a-claude-et-codex.html",
+    "pubDate": "Mon, 28 Sep 2026 09:45:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Entre Amazon et Meta, la guerre des agents IA est déclarée",
+    "link": "https://siecledigital.fr/2026/09/25/entre-amazon-et-meta-la-guerre-des-agents-ia-est-declaree/",
+    "pubDate": "Mon, 28 Sep 2026 08:04:02 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Apple avait intégré ChatGPT à l&#8217;iPhone, mais les utilisateurs n&#8217;en ont presque pas profité",
+    "link": "https://siecledigital.fr/2026/09/25/apple-avait-integre-chatgpt-a-liphone-mais-les-utilisateurs-nen-ont-presque-pas-profite/",
+    "pubDate": "Mon, 28 Sep 2026 05:34:03 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Des agents d’OpenAI ont tenté de contourner les protections d’un site de l’ONU",
+    "link": "https://www.clubic.com/actualite-631468-des-agents-d-openai-ont-tente-de-contourner-les-protections-d-un-site-de-l-onu.html",
+    "pubDate": "Mon, 28 Sep 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un token, qu’est-ce que c’est et pourquoi les IA en ont-elles besoin ?",
+    "link": "https://www.clubic.com/dossier-630997-un-token-qu-est-ce-que-c-est-et-pourquoi-les-ia-en-ont-elles-besoin.html",
+    "pubDate": "Sun, 27 Sep 2026 14:19:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Après un nouvel incident, OpenAI suspend l'entraînement de ses modèles les plus puissants",
+    "link": "https://www.clubic.com/actualite-631447-apres-un-nouvel-incident-openai-suspend-l-entrainement-de-ses-modeles-les-plus-puissants.html",
+    "pubDate": "Sun, 27 Sep 2026 12:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT dans Gmail, une IA utile mais à surveiller",
     "link": "https://www.clubic.com/dossier-631363-j-ai-confie-ma-boite-gmail-a-chatgpt-jusqu-ou-peut-on-vraiment-le-laisser-agir.html",
     "pubDate": "Sun, 27 Sep 2026 09:05:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "OpenAI : des images privées d’utilisateurs envoyées par erreur sur des sites tiers par ses agents IA",
-    "link": "https://www.clubic.com/actualite-631426-openai-des-images-privees-d-utilisateurs-envoyees-par-erreur-sur-des-sites-tiers-par-ses-agents-ia.html",
-    "pubDate": "Sat, 26 Sep 2026 14:15:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Cette messagerie veut faire des agents IA de vrais collègues de travail",
-    "link": "https://www.clubic.com/actualite-631306-cette-messagerie-veut-faire-des-agents-ia-de-vrais-collegues-de-travail.html",
-    "pubDate": "Sat, 26 Sep 2026 10:15:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA & littérature : après l'affaire Orélien, les auteurs classiques sont soumis au détecteur, et c'est surprenant",
-    "link": "https://www.clubic.com/actualite-631387-ia-litterature-apres-l-affaire-orelien-les-auteurs-classiques-sont-soumis-au-detecteur-et-c-est-surprenant.html",
-    "pubDate": "Sat, 26 Sep 2026 09:28:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "On a testé Duck.ai Pro, l'IA confidentielle qui donne accès aux meilleurs modèles de Claude et ChatGPT",
-    "link": "https://www.clubic.com/avis-629521-on-a-teste-duck-ai-plus-et-pro.html",
-    "pubDate": "Sat, 26 Sep 2026 09:07:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Muse n'est pas encore disponible en France : voici comment tester la nouvelle IA de Meta",
-    "link": "https://www.clubic.com/tutoriel-630748-muse-n-est-pas-encore-disponible-en-france-voici-comment-tester-la-nouvelle-ia-de-meta.html",
-    "pubDate": "Sat, 26 Sep 2026 08:10:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -58,12 +64,6 @@
     "title": "Donald Trump s&#8217;attaque au terme « intelligence artificielle » et veut imposer un nouveau nom",
     "link": "https://siecledigital.fr/2026/09/25/donald-trump-sattaque-au-terme-intelligence-artificielle-et-veut-imposer-un-nouveau-nom/",
     "pubDate": "Fri, 25 Sep 2026 15:55:58 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Le pape Léon XIV est en France et veut désarmer l’intelligence artificielle",
-    "link": "https://www.clubic.com/actualite-631366-le-pape-leon-xiv-est-en-france-et-veut-desarmer-l-intelligence-artificielle.html",
-    "pubDate": "Fri, 25 Sep 2026 15:17:00 GMT"
   },
   {
     "source": "Actu IA",
