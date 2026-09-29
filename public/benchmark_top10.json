@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-28T12:31:00.839Z",
+  "generated_at_iso": "2026-09-29T11:53:20.503Z",
   "top10": [
     {
       "rank": 1,
@@ -15,51 +15,51 @@
     },
     {
       "rank": 3,
+      "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 56
+    },
+    {
+      "rank": 4,
       "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.6
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.4
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Fable 5.1 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.2
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-6 Astra (max)",
       "creator": "OpenAI",
       "index": 52.7
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-6 Astra (xhigh)",
       "creator": "OpenAI",
       "index": 52.4
     },
     {
-      "rank": 8,
-      "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 51.2
-    },
-    {
       "rank": 9,
-      "model": "Claude Fable 5.1 (Adaptive Reasoning, High Effort, Default Fallback)",
+      "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
       "creator": "Anthropic",
-      "index": 51.2
+      "index": 51.9
     },
     {
       "rank": 10,
-      "model": "GPT-6 Astra (high)",
-      "creator": "OpenAI",
-      "index": 50.9
+      "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 51.2
     }
   ],
   "top3": [
@@ -77,9 +77,9 @@
     },
     {
       "rank": 3,
-      "model": "Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)",
+      "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)",
       "creator": "Anthropic",
-      "index": 53.6
+      "index": 56
     }
   ]
 }

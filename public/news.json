@@ -1,9 +1,63 @@
 [
   {
     "source": "Clubic",
-    "title": "Cette IA écoute votre journée en continu pour donner une mémoire à Claude et Codex",
-    "link": "https://www.clubic.com/actualite-631510-cette-ia-ecoute-votre-journee-en-continu-pour-donner-une-memoire-a-claude-et-codex.html",
-    "pubDate": "Mon, 28 Sep 2026 09:45:00 GMT"
+    "title": "OpenAI rouvre son abonnement à 200 dollars, mais il y a une mauvaise surprise",
+    "link": "https://www.clubic.com/actualite-631762-openai-rouvre-son-abonnement-a-200-dollars-mais-il-y-a-une-mauvaise-surprise.html",
+    "pubDate": "Tue, 29 Sep 2026 11:52:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Cette attaque pilotée par IA a ravagé un environnement Azure en quelques minutes",
+    "link": "https://www.clubic.com/actualite-631726-cette-attaque-pilotee-par-ia-a-ravage-un-environnement-azure-en-quelques-minutes.html",
+    "pubDate": "Tue, 29 Sep 2026 09:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Gemini rend ses Skills gratuits pour ne plus répéter les mêmes consignes",
+    "link": "https://www.clubic.com/actualite-631690-gemini-ouvre-ses-skills-aux-comptes-gratuits-fini-de-repeter-toujours-les-memes-consignes.html",
+    "pubDate": "Tue, 29 Sep 2026 09:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Shopify ouvre son checkout aux agents IA dans le navigateur : une révolution pour l’e-commerce ?",
+    "link": "https://www.clubic.com/actualite-631657-shopify-ouvre-son-checkout-aux-agents-ia-dans-le-navigateur-une-revolution-pour-l-e-commerce.html",
+    "pubDate": "Tue, 29 Sep 2026 07:07:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "ChatGPT envoie 22 fois plus de trafic aux sites web que ses principaux concurrents",
+    "link": "https://siecledigital.fr/2026/09/27/chatgpt-envoie-22-fois-plus-de-trafic-aux-sites-web-que-ses-principaux-concurrents/",
+    "pubDate": "Tue, 29 Sep 2026 07:02:02 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Des images personnelles confiées à ChatGPT se retrouvent sur Internet",
+    "link": "https://siecledigital.fr/2026/09/27/des-images-personnelles-confiees-a-chatgpt-se-retrouvent-sur-internet/",
+    "pubDate": "Tue, 29 Sep 2026 06:47:06 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Ces IA ont inventé un code secret pour tricher au blackjack",
+    "link": "https://www.clubic.com/actualite-631636-ces-ia-ont-invente-un-code-secret-pour-tricher-au-blackjack.html",
+    "pubDate": "Tue, 29 Sep 2026 05:49:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le nouveau Claude Sonnet 5.5 d'Anthropic bat Opus 5.5 sur un test de code, pour deux fois moins cher",
+    "link": "https://www.clubic.com/actualite-631645-le-nouveau-claude-sonnet-5-5-d-anthropic-bat-opus-5-5-sur-un-test-de-code-pour-deux-fois-moins-cher.html",
+    "pubDate": "Mon, 28 Sep 2026 19:16:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT : \"o\", l'assistant toujours actif préparé par OpenAI",
+    "link": "https://www.clubic.com/actualite-631627-chatgpt-o-l-assistant-toujours-actif-prepare-par-openai.html",
+    "pubDate": "Mon, 28 Sep 2026 16:27:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "IA : OpenAI et Anthropic travaillent sur des dizaines de milliers d’incidents de sécurité",
+    "link": "https://www.clubic.com/actualite-631618-ia-openai-et-anthropic-travaillent-sur-des-dizaines-de-milliers-d-incidents-de-securite.html",
+    "pubDate": "Mon, 28 Sep 2026 16:09:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -16,59 +70,5 @@
     "title": "Apple avait intégré ChatGPT à l&#8217;iPhone, mais les utilisateurs n&#8217;en ont presque pas profité",
     "link": "https://siecledigital.fr/2026/09/25/apple-avait-integre-chatgpt-a-liphone-mais-les-utilisateurs-nen-ont-presque-pas-profite/",
     "pubDate": "Mon, 28 Sep 2026 05:34:03 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des agents d’OpenAI ont tenté de contourner les protections d’un site de l’ONU",
-    "link": "https://www.clubic.com/actualite-631468-des-agents-d-openai-ont-tente-de-contourner-les-protections-d-un-site-de-l-onu.html",
-    "pubDate": "Mon, 28 Sep 2026 05:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Un token, qu’est-ce que c’est et pourquoi les IA en ont-elles besoin ?",
-    "link": "https://www.clubic.com/dossier-630997-un-token-qu-est-ce-que-c-est-et-pourquoi-les-ia-en-ont-elles-besoin.html",
-    "pubDate": "Sun, 27 Sep 2026 14:19:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Après un nouvel incident, OpenAI suspend l'entraînement de ses modèles les plus puissants",
-    "link": "https://www.clubic.com/actualite-631447-apres-un-nouvel-incident-openai-suspend-l-entrainement-de-ses-modeles-les-plus-puissants.html",
-    "pubDate": "Sun, 27 Sep 2026 12:15:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT dans Gmail, une IA utile mais à surveiller",
-    "link": "https://www.clubic.com/dossier-631363-j-ai-confie-ma-boite-gmail-a-chatgpt-jusqu-ou-peut-on-vraiment-le-laisser-agir.html",
-    "pubDate": "Sun, 27 Sep 2026 09:05:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Résumés AI Act : 21 documents sur 24 ne nomment aucun site moissonné dans la rubrique prévue",
-    "link": "https://www.actuia.com/actualite/vingt-et-un-resumes-ai-act-sans-liste-des-sites-moissonnes/",
-    "pubDate": "Fri, 25 Sep 2026 16:03:27 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Proposition de loi n° 3149 : 70 députés LFI veulent une autorisation préalable des modèles d'IA et des amendes à 7 %",
-    "link": "https://www.actuia.com/actualite/autorisation-prealable-et-amendes-a-7-la-proposition-de-loi-n-3149-sur-lia/",
-    "pubDate": "Fri, 25 Sep 2026 16:02:11 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "GPT-6 Sol à moitié prix, Claude Opus 5.5 à 20 % de moins : ce que les grilles du 22 septembre changent au coût d'un agent",
-    "link": "https://www.actuia.com/actualite/gpt-6-sol-claude-opus-55-ce-que-coute-une-session-dagent/",
-    "pubDate": "Fri, 25 Sep 2026 16:00:20 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Donald Trump s&#8217;attaque au terme « intelligence artificielle » et veut imposer un nouveau nom",
-    "link": "https://siecledigital.fr/2026/09/25/donald-trump-sattaque-au-terme-intelligence-artificielle-et-veut-imposer-un-nouveau-nom/",
-    "pubDate": "Fri, 25 Sep 2026 15:55:58 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Claude repère chez des phages un système génétique passé inaperçu",
-    "link": "https://www.actuia.com/actualite/claude-repere-chez-des-phages-un-systeme-genetique-passe-inapercu/",
-    "pubDate": "Fri, 25 Sep 2026 09:15:29 +0000"
   }
 ]
