@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-29T11:53:20.503Z",
+  "generated_at_iso": "2026-09-30T11:40:32.743Z",
   "top10": [
     {
       "rank": 1,
@@ -57,9 +57,9 @@
     },
     {
       "rank": 10,
-      "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 51.2
+      "model": "GPT-6.1 Sol (max)",
+      "creator": "OpenAI",
+      "index": 51.8
     }
   ],
   "top3": [

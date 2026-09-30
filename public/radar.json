@@ -1,42 +1,42 @@
 [
   {
-    "name": "LUCI Desktop",
-    "desc": "Let your AI agents remember what you've seen",
-    "url": "https://www.producthunt.com/products/luci-desktop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Ferndesk",
+    "desc": "The help center that never goes out of date",
+    "url": "https://www.producthunt.com/products/ferndesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ZenABM - Create LinkedIn Ads with AI",
-    "desc": "Create, optimize & report on LinkedIn Ads from any AI tool",
-    "url": "https://www.producthunt.com/products/zena-by-zenabm-linkedin-ads-ai-chatbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Pexo",
+    "desc": "Produce pitch perfect launch videos with precise control",
+    "url": "https://www.producthunt.com/products/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "iFixAi",
-    "desc": "Independent auditing of AI agents to uncover misalignment",
-    "url": "https://www.producthunt.com/products/ifixai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Autonomyware",
+    "desc": "Idea to physical product, engineer anything you can imagine",
+    "url": "https://www.producthunt.com/products/autonomyware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Semos.ai Manager Agents",
-    "desc": "AI agents purpose-built for managers ",
-    "url": "https://www.producthunt.com/products/semos-ai-manager-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GitBot",
+    "desc": "Build bots on the coding agent you already use",
+    "url": "https://www.producthunt.com/products/gitbot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Claude Sonnet 5.5",
-    "desc": "Anthropic's second model in the Claude 5.5 family ",
-    "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "jambuild",
+    "desc": "Near instant multiplayer vibecoding, just point and talk",
+    "url": "https://www.producthunt.com/products/jambuild?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Paste 7",
-    "desc": "Intelligent clipboard that knows what you're about to paste",
-    "url": "https://www.producthunt.com/products/paste?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agent Identity",
+    "desc": "Give every AI agent real identities, inboxes, and a phone",
+    "url": "https://www.producthunt.com/products/agent-identity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hopscotch AI",
-    "desc": "500+ AI models available via a single API",
-    "url": "https://www.producthunt.com/products/hopscotch-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Macaly Cloud",
+    "desc": "Build and publish sites with your Claude or ChatGPT",
+    "url": "https://www.producthunt.com/products/macaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Jotform Sign for ChatGPT and Claude",
-    "desc": "Create, send, and sign documents in ChatGPT and Claude",
-    "url": "https://www.producthunt.com/products/jotform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Datastory",
+    "desc": "Turn the world's data into stories worth sharing",
+    "url": "https://www.producthunt.com/products/datastory-data-visualization-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

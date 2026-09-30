@@ -340,7 +340,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 6
+        "failures": 7
       },
       {
         "name": "Google Colab",
@@ -420,7 +420,7 @@
           "new",
           "dead"
         ],
-        "failures": 35
+        "failures": 36
       },
       {
         "name": "Adobe Firefly",

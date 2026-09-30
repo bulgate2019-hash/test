@@ -1,10 +1,10 @@
 {
-  "generated_at_iso": "2026-09-29T11:53:20.503Z",
+  "generated_at_iso": "2026-09-30T11:40:32.743Z",
   "top10_mix": [
     {
       "rank": 1,
       "model": "Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
-      "score": 71.7,
+      "score": 69.8,
       "coverage": 2,
       "lmarena": {
         "elo": 1509
@@ -31,7 +31,7 @@
     {
       "rank": 4,
       "model": "Claude Fable 5 (Adaptive Reasoning, Max Effort, Opus 4.8 Fallback)",
-      "score": 56.5,
+      "score": 54.1,
       "coverage": 2,
       "lmarena": {
         "elo": 1504
@@ -48,20 +48,20 @@
     },
     {
       "rank": 6,
+      "model": "Claude Fable 5.1 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+      "score": 46.5,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1501
+      }
+    },
+    {
+      "rank": 7,
       "model": "gemini-3.8-flash-high",
       "score": 44.6,
       "coverage": 1,
       "lmarena": {
         "elo": 1492
-      }
-    },
-    {
-      "rank": 7,
-      "model": "Claude Fable 5.1 (Adaptive Reasoning, Low Effort, Default Fallback)",
-      "score": 39.8,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1501
       }
     },
     {
@@ -85,7 +85,7 @@
     {
       "rank": 10,
       "model": "Muse Spark 1.3 (max)",
-      "score": 33.2,
+      "score": 30.4,
       "coverage": 2,
       "lmarena": {
         "elo": 1494
