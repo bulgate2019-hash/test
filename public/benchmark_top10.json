@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-09-30T11:40:32.743Z",
+  "generated_at_iso": "2026-10-01T12:09:28.218Z",
   "top10": [
     {
       "rank": 1,
@@ -39,27 +39,27 @@
     },
     {
       "rank": 7,
-      "model": "GPT-6 Astra (max)",
+      "model": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
       "index": 52.7
     },
     {
       "rank": 8,
-      "model": "GPT-6 Astra (xhigh)",
+      "model": "Gemini 4 Argon (High)",
+      "creator": "Google",
+      "index": 52.6
+    },
+    {
+      "rank": 9,
+      "model": "GPT-6 Astra (Xhigh)",
       "creator": "OpenAI",
       "index": 52.4
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)",
       "creator": "Anthropic",
       "index": 51.9
-    },
-    {
-      "rank": 10,
-      "model": "GPT-6.1 Sol (max)",
-      "creator": "OpenAI",
-      "index": 51.8
     }
   ],
   "top3": [

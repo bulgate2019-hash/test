@@ -1,42 +1,42 @@
 [
   {
-    "name": "Ferndesk",
-    "desc": "The help center that never goes out of date",
-    "url": "https://www.producthunt.com/products/ferndesk?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cura",
+    "desc": "Your AI travel agent that plans, books, and adapts",
+    "url": "https://www.producthunt.com/products/cura-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Pexo",
-    "desc": "Produce pitch perfect launch videos with precise control",
-    "url": "https://www.producthunt.com/products/pexo-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Yedric.ai",
+    "desc": "Let users control your SaaS with natural language",
+    "url": "https://www.producthunt.com/products/yedric-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Autonomyware",
-    "desc": "Idea to physical product, engineer anything you can imagine",
-    "url": "https://www.producthunt.com/products/autonomyware?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Omnia Agent",
+    "desc": "The AI Agent that does 95% of your GEO work",
+    "url": "https://www.producthunt.com/products/omnia-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GitBot",
-    "desc": "Build bots on the coding agent you already use",
-    "url": "https://www.producthunt.com/products/gitbot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Dots by OpenAI",
+    "desc": "Always on agents built to handle everything",
+    "url": "https://www.producthunt.com/products/dots-by-openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "jambuild",
-    "desc": "Near instant multiplayer vibecoding, just point and talk",
-    "url": "https://www.producthunt.com/products/jambuild?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "DSH Desktop",
+    "desc": "Official app for DeepSeek’s open-source agent harness",
+    "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agent Identity",
-    "desc": "Give every AI agent real identities, inboxes, and a phone",
-    "url": "https://www.producthunt.com/products/agent-identity?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Bracket",
+    "desc": "The memory layer for your business",
+    "url": "https://www.producthunt.com/products/bracket-2027?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Macaly Cloud",
-    "desc": "Build and publish sites with your Claude or ChatGPT",
-    "url": "https://www.producthunt.com/products/macaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Chat.sh",
+    "desc": "The help center I built after Intercom's search broke",
+    "url": "https://www.producthunt.com/products/chat-sh?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Datastory",
-    "desc": "Turn the world's data into stories worth sharing",
-    "url": "https://www.producthunt.com/products/datastory-data-visualization-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "JevGPT",
+    "desc": "A chatbot built on a model that can't write",
+    "url": "https://www.producthunt.com/products/jevgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
