@@ -340,7 +340,7 @@
         "tags": [
           "dead"
         ],
-        "failures": 9
+        "failures": 10
       },
       {
         "name": "Google Colab",
