@@ -1,6 +1,36 @@
 [
   {
     "source": "Clubic",
+    "title": "Affaire Thélyson Orélien : que prouve vraiment un score à 97 % IA ? Nous avons fait le test",
+    "link": "https://www.clubic.com/dossier-632419-affaire-thelyson-orelien-que-prouve-vraiment-un-score-a-97-ia-nous-avons-fait-le-test.html",
+    "pubDate": "Sun, 04 Oct 2026 09:59:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une faille de ChatGPT sur Mac exposait vos conversations et vos sessions de navigateur",
+    "link": "https://www.clubic.com/actualite-632494-une-faille-de-chatgpt-sur-mac-exposait-vos-conversations-et-vos-sessions-de-navigateur.html",
+    "pubDate": "Sun, 04 Oct 2026 09:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Les textes de Claude Opus 5.5 sont plus humains, mais l’IA laisse encore des traces",
+    "link": "https://www.clubic.com/actualite-632470-les-textes-de-claude-opus-5-5-sont-plus-humains-mais-l-ia-laisse-encore-des-traces.html",
+    "pubDate": "Sat, 03 Oct 2026 14:46:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "La Corée du Nord assure avoir tiré un dangereux missile doté d'intelligence artificielle samedi",
+    "link": "https://www.clubic.com/actualite-632479-la-coree-du-nord-assure-avoir-tire-un-dangereux-missile-dote-d-intelligence-artificielle-samedi.html",
+    "pubDate": "Sat, 03 Oct 2026 13:22:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le pape Léon XIV fustige l’art généré par IA : “Un appauvrissement de l’âme”",
+    "link": "https://www.clubic.com/actualite-632461-le-pape-leon-xiv-fustige-l-art-genere-par-ia-un-appauvrissement-de-l-ame.html",
+    "pubDate": "Sat, 03 Oct 2026 11:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Une super IA quantique en 2026 ? Non, et voilà ce qui se passe vraiment dans les labos",
     "link": "https://www.clubic.com/dossier-631339-une-super-intelligence-quantique-en-2026-non-et-voila-ce-qui-se-passe-vraiment-dans-les-labos.html",
     "pubDate": "Sat, 03 Oct 2026 09:02:00 GMT"
@@ -24,12 +54,6 @@
     "pubDate": "Sat, 03 Oct 2026 06:44:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Le générateur de musique par IA Suno ne s'arrête plus au son, il peut maintenant chanter",
-    "link": "https://www.clubic.com/actualite-632314-le-generateur-de-musique-par-ia-suno-ne-s-arrete-plus-au-son-il-peut-maintenant-chanter.html",
-    "pubDate": "Fri, 02 Oct 2026 12:04:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "Le Texas enquête sur des centaines de centres de données pour un formulaire d'eau",
     "link": "https://www.actuia.com/actualite/le-texas-enquete-sur-des-centaines-de-centres-de-donnees-pour-un-formulaire-deau/",
@@ -46,29 +70,5 @@
     "title": "Décider de l'IA à l'école sans attendre l'essai randomisé, l'avis anglais",
     "link": "https://www.actuia.com/actualite/decider-de-lia-a-lecole-sans-attendre-lessai-randomise-lavis-anglais/",
     "pubDate": "Fri, 02 Oct 2026 11:43:16 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Dots : un bon coup produit, pas une rupture technique",
-    "link": "https://www.actuia.com/actualite/dots-un-bon-coup-produit-pas-une-rupture-technique/",
-    "pubDate": "Fri, 02 Oct 2026 11:43:16 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Ce jeu IA gratuit vous laisse détruire n'importe quel site web avec un bonhomme bâton, le pied !",
-    "link": "https://www.clubic.com/actualite-632254-ce-jeu-ia-gratuit-vous-laisse-detruire-n-importe-quel-site-web-avec-un-bonhomme-baton-le-pied.html",
-    "pubDate": "Fri, 02 Oct 2026 08:37:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Microsoft lance une IA capable de transcrire la parole en temps réel dans 60 langues",
-    "link": "https://www.clubic.com/actualite-632266-microsoft-lance-une-ia-capable-de-transcrire-la-parole-en-temps-reel-dans-60-langues.html",
-    "pubDate": "Fri, 02 Oct 2026 08:12:00 GMT"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Séparée de Meta, Manus revient avec des agents IA capables de téléphoner et de payer",
-    "link": "https://siecledigital.fr/2026/09/30/separee-de-meta-manus-revient-avec-des-agents-ia-capables-de-telephoner-et-de-payer/",
-    "pubDate": "Fri, 02 Oct 2026 08:09:02 +0000"
   }
 ]
