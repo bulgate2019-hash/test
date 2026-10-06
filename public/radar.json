@@ -1,42 +1,42 @@
 [
   {
-    "name": "FastRouter.ai",
-    "desc": "Route requests to the right LLM for cost, latency & quality",
-    "url": "https://www.producthunt.com/products/fastrouter-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Rill Browser",
+    "desc": "The browser where Claude Code and Codex work beside you",
+    "url": "https://www.producthunt.com/products/rill-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Spira Maxima",
-    "desc": "Video model that turns script into viral social media videos",
-    "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Fuse AI",
+    "desc": "Build a Custom GTM Stack. One SDK. One MCP.",
+    "url": "https://www.producthunt.com/products/fuseai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Invofox Self Serve",
-    "desc": "99% accurate document extraction, SLA guaranteed",
-    "url": "https://www.producthunt.com/products/invofox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenBot",
+    "desc": "Grok Bot alternative: free, local, open-source, multiplayer",
+    "url": "https://www.producthunt.com/products/openbot-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Opengeni",
-    "desc": "Ship AI agents within minutes. Infrastructure for Agents",
-    "url": "https://www.producthunt.com/products/opengeni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Incredible",
+    "desc": "Vibe computing. Control your computer with your voice.",
+    "url": "https://www.producthunt.com/products/incredible?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "DailyHelm",
-    "desc": "Turn analytics into daily revenue-boosting fixes ",
-    "url": "https://www.producthunt.com/products/dailyhelm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Coddy",
+    "desc": "Learn to code 20+ languages in a fun way with short lessons",
+    "url": "https://www.producthunt.com/products/coddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "HyperFrames Studio (Desktop)",
-    "desc": "The First Video Editor built for Agents",
-    "url": "https://www.producthunt.com/products/heygen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Pheebs",
+    "desc": "Measure how engineers and teams actually work with AI",
+    "url": "https://www.producthunt.com/products/pheebs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "devpit",
-    "desc": "A native control room for your Claude Code agents",
-    "url": "https://www.producthunt.com/products/devpit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Willow Knowledge",
+    "desc": "Your AI already knows you. Now Willow can too.",
+    "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Siteprint",
-    "desc": "Measure any website's design, then hand it to your AI",
-    "url": "https://www.producthunt.com/products/siteprint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cosmic AI Support Agent",
+    "desc": "An AI support agent that stays in sync with your site",
+    "url": "https://www.producthunt.com/products/cosmic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
