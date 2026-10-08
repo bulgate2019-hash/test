@@ -1,42 +1,42 @@
 [
   {
-    "name": "Velozity",
-    "desc": "The workspace where your team and AI agents work together",
-    "url": "https://www.producthunt.com/products/velozity-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenSwarm",
+    "desc": "A swarm of agents, in the same place you work",
+    "url": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "IrisGo for Solopreneurs",
-    "desc": "AI workflow automation: show it once, let it run",
-    "url": "https://www.producthunt.com/products/irisgo-public-beta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Claude Haiku 5.5",
+    "desc": "Anthropic's fastest and most capable Haiku yet",
+    "url": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Pegasus 1.6 by TwelveLabs",
-    "desc": "Transforms egocentric video into robot training data",
-    "url": "https://www.producthunt.com/products/twelvelabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Griffin by Tavus",
+    "desc": "World's First Human Interaction Model",
+    "url": "https://www.producthunt.com/products/griffin-by-tavus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Databench by Alkera",
-    "desc": "Open-source collaborative agentic workspace for data teams",
-    "url": "https://www.producthunt.com/products/alkera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cekura Bench",
+    "desc": "Speech-to-speech model benchmarks on live phone calls",
+    "url": "https://www.producthunt.com/products/vocera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Figma Agent",
-    "desc": "Prompt, edit and prototype without leaving the canvas",
-    "url": "https://www.producthunt.com/products/figma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Claude for Google Workspace",
+    "desc": "Bring Claude directly into Google Docs, Sheets & Slides",
+    "url": "https://www.producthunt.com/products/claude-for-google-workspace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Mistral Large 4",
-    "desc": "Mistral's 1T parameter open weight frontier model",
-    "url": "https://www.producthunt.com/products/mistral-7b?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "NOVA CLI v1.0",
+    "desc": "AI developer in your terminal",
+    "url": "https://www.producthunt.com/products/nova-18?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Rool",
-    "desc": "Your private AI machine. Files, ideas, AI in one workspace.",
-    "url": "https://www.producthunt.com/products/rool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hark",
+    "desc": "The personal AI that handles life before you have to",
+    "url": "https://www.producthunt.com/products/hark-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Supademo AI Demo Agent",
-    "desc": "Agentic demos like your best salesperson, without the salary",
-    "url": "https://www.producthunt.com/products/supademo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Liquid Inference",
+    "desc": "LLM router where providers compete for every prompt",
+    "url": "https://www.producthunt.com/products/liquid-inference?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
