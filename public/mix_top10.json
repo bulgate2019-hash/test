@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-10-08T12:33:41.057Z",
+  "generated_at_iso": "2026-10-09T12:21:31.532Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -13,25 +13,25 @@
     {
       "rank": 2,
       "model": "Claude Opus 5.5 (Medium, Default Fallback)",
-      "score": 43.4,
+      "score": 47.2,
       "coverage": 2,
       "lmarena": {
-        "elo": 1504
+        "elo": 1507
       }
     },
     {
       "rank": 3,
       "model": "claude-opus-4-6",
-      "score": 36.2,
+      "score": 37.1,
       "coverage": 1,
       "lmarena": {
-        "elo": 1497
+        "elo": 1498
       }
     },
     {
       "rank": 4,
       "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
-      "score": 36.1,
+      "score": 35.3,
       "coverage": 2,
       "lmarena": {
         "elo": 1504
@@ -40,54 +40,54 @@
     {
       "rank": 5,
       "model": "gemini-3.8-flash-high",
-      "score": 30.5,
+      "score": 34.3,
       "coverage": 1,
       "lmarena": {
-        "elo": 1495
+        "elo": 1497
       }
     },
     {
       "rank": 6,
+      "model": "claude-opus-4-7",
+      "score": 28.5,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1494
+      }
+    },
+    {
+      "rank": 7,
       "model": "Claude Fable 5.1 (Medium, Default Fallback)",
-      "score": 29,
+      "score": 28.4,
       "coverage": 2,
       "lmarena": {
         "elo": 1501
       }
     },
     {
-      "rank": 7,
-      "model": "claude-opus-4-7",
-      "score": 28.9,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1494
-      }
-    },
-    {
       "rank": 8,
       "model": "muse-spark-1.2 (xHigh)",
-      "score": 27.6,
+      "score": 24.1,
       "coverage": 1,
       "lmarena": {
-        "elo": 1494
+        "elo": 1492
       }
     },
     {
       "rank": 9,
-      "model": "muse-spark-1.1",
-      "score": 22.6,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1491
-      }
-    },
-    {
-      "rank": 10,
       "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
       "score": 21.5,
       "coverage": 2,
       "lmarena": null
+    },
+    {
+      "rank": 10,
+      "model": "muse-spark-1.1",
+      "score": 21.1,
+      "coverage": 1,
+      "lmarena": {
+        "elo": 1491
+      }
     }
   ]
 }

@@ -1,42 +1,42 @@
 [
   {
-    "name": "OpenSwarm",
-    "desc": "A swarm of agents, in the same place you work",
-    "url": "https://www.producthunt.com/products/openswarm-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Together Link",
+    "desc": "Use open models in your harness",
+    "url": "https://www.producthunt.com/products/together-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Claude Haiku 5.5",
-    "desc": "Anthropic's fastest and most capable Haiku yet",
-    "url": "https://www.producthunt.com/products/claude-haiku-5-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Playground by Google Labs",
+    "desc": "Create, play, and share your own games with Google AI",
+    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Griffin by Tavus",
-    "desc": "World's First Human Interaction Model",
-    "url": "https://www.producthunt.com/products/griffin-by-tavus?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Odyssey 3",
+    "desc": "A world model that simulates physics in real time",
+    "url": "https://www.producthunt.com/products/odyssey-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Cekura Bench",
-    "desc": "Speech-to-speech model benchmarks on live phone calls",
-    "url": "https://www.producthunt.com/products/vocera?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini Agent for Google Cloud",
+    "desc": "The work agent that runs on both Gemini and Claude",
+    "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Claude for Google Workspace",
-    "desc": "Bring Claude directly into Google Docs, Sheets & Slides",
-    "url": "https://www.producthunt.com/products/claude-for-google-workspace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Refs",
+    "desc": "Give Claude better references for your videos",
+    "url": "https://www.producthunt.com/products/refs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "NOVA CLI v1.0",
-    "desc": "AI developer in your terminal",
-    "url": "https://www.producthunt.com/products/nova-18?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenPilot",
+    "desc": "Open-source desktop AI agent for any model you choose",
+    "url": "https://www.producthunt.com/products/openpilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hark",
-    "desc": "The personal AI that handles life before you have to",
-    "url": "https://www.producthunt.com/products/hark-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Pine Computer",
+    "desc": "A cloud computer built for AI to get jobs done",
+    "url": "https://www.producthunt.com/products/pine-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Liquid Inference",
-    "desc": "LLM router where providers compete for every prompt",
-    "url": "https://www.producthunt.com/products/liquid-inference?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenCharm",
+    "desc": "Open-source body for the AI agent you already run",
+    "url": "https://www.producthunt.com/products/opencharm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
