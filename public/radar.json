@@ -1,42 +1,42 @@
 [
   {
-    "name": "Together Link",
-    "desc": "Use open models in your harness",
-    "url": "https://www.producthunt.com/products/together-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ReSO AI",
+    "desc": "Get discovered & recommended when customers ask AI",
+    "url": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Playground by Google Labs",
-    "desc": "Create, play, and share your own games with Google AI",
-    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Onepin",
+    "desc": "AI voiceover with every name, price and date said right",
+    "url": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Odyssey 3",
-    "desc": "A world model that simulates physics in real time",
-    "url": "https://www.producthunt.com/products/odyssey-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Claude Dashboards & Motion",
+    "desc": "Ask Claude for live dashboards and animated explainers",
+    "url": "https://www.producthunt.com/products/claude-dashboards-motion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gemini Agent for Google Cloud",
-    "desc": "The work agent that runs on both Gemini and Claude",
-    "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Microsoft-Decision-1",
+    "desc": "Microsoft’s decision model for agents and workflows",
+    "url": "https://www.producthunt.com/products/microsoft-decision-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Refs",
-    "desc": "Give Claude better references for your videos",
-    "url": "https://www.producthunt.com/products/refs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Skreno",
+    "desc": "Record, edit and share videos, all in your browser",
+    "url": "https://www.producthunt.com/products/skreno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "OpenPilot",
-    "desc": "Open-source desktop AI agent for any model you choose",
-    "url": "https://www.producthunt.com/products/openpilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GitGlow",
+    "desc": "Review your code and your agents' changes before you ship",
+    "url": "https://www.producthunt.com/products/gitglow-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Pine Computer",
-    "desc": "A cloud computer built for AI to get jobs done",
-    "url": "https://www.producthunt.com/products/pine-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Maildun for Mac",
+    "desc": "Design on-brand emails by hand, with AI, or over MCP",
+    "url": "https://www.producthunt.com/products/maildun-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "OpenCharm",
-    "desc": "Open-source body for the AI agent you already run",
-    "url": "https://www.producthunt.com/products/opencharm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Lune",
+    "desc": "The search engine built for scientific AI agents",
+    "url": "https://www.producthunt.com/products/lune-research?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
