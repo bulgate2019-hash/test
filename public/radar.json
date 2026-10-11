@@ -1,42 +1,42 @@
 [
   {
-    "name": "ReSO AI",
-    "desc": "Get discovered & recommended when customers ask AI",
-    "url": "https://www.producthunt.com/products/reso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "HireKey",
+    "desc": "Your recruiter-informed AI copilot for tech job search",
+    "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Onepin",
-    "desc": "AI voiceover with every name, price and date said right",
-    "url": "https://www.producthunt.com/products/onepin?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "kōdlo",
+    "desc": "End-to-end sales workspace with unified context",
+    "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Claude Dashboards & Motion",
-    "desc": "Ask Claude for live dashboards and animated explainers",
-    "url": "https://www.producthunt.com/products/claude-dashboards-motion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Automations in Perplexity Computer",
+    "desc": "Automations that remember, act, and keep work moving",
+    "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Microsoft-Decision-1",
-    "desc": "Microsoft’s decision model for agents and workflows",
-    "url": "https://www.producthunt.com/products/microsoft-decision-1?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Ghost Core",
+    "desc": "A personal AI computer that runs entirely on-device",
+    "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Skreno",
-    "desc": "Record, edit and share videos, all in your browser",
-    "url": "https://www.producthunt.com/products/skreno?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Foley",
+    "desc": "A voice to-do list that files, plans and asks first",
+    "url": "https://www.producthunt.com/products/foley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GitGlow",
-    "desc": "Review your code and your agents' changes before you ship",
-    "url": "https://www.producthunt.com/products/gitglow-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Ayven",
+    "desc": "Carries and drives your team's agenda",
+    "url": "https://www.producthunt.com/products/ayven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Maildun for Mac",
-    "desc": "Design on-brand emails by hand, with AI, or over MCP",
-    "url": "https://www.producthunt.com/products/maildun-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Edgee Mod for Claude Code",
+    "desc": "Use any model inside Claude Code, keep your Claude plan",
+    "url": "https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Lune",
-    "desc": "The search engine built for scientific AI agents",
-    "url": "https://www.producthunt.com/products/lune-research?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agibot",
+    "desc": "Personal AI agent for your Mac using your own keys",
+    "url": "https://www.producthunt.com/products/agibot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
