@@ -1,42 +1,42 @@
 [
   {
-    "name": "HireKey",
-    "desc": "Your recruiter-informed AI copilot for tech job search",
-    "url": "https://www.producthunt.com/products/hirekey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ngram 2.0",
+    "desc": "Create explainers, screencasts, and AI avatar videos",
+    "url": "https://www.producthunt.com/products/ngram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "kōdlo",
-    "desc": "End-to-end sales workspace with unified context",
-    "url": "https://www.producthunt.com/products/kodlo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Google EmbeddingGemma 2",
+    "desc": "An open, lightweight multimodal embedding model",
+    "url": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Automations in Perplexity Computer",
-    "desc": "Automations that remember, act, and keep work moving",
-    "url": "https://www.producthunt.com/products/perplexity-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Manifold MCP",
+    "desc": "SEO, AI answers, social, ads and leads data for your agent",
+    "url": "https://www.producthunt.com/products/manifold-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Ghost Core",
-    "desc": "A personal AI computer that runs entirely on-device",
-    "url": "https://www.producthunt.com/products/ghost-core?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hexis Cloud",
+    "desc": "One company brain for all your AI agents",
+    "url": "https://www.producthunt.com/products/bevel-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Foley",
-    "desc": "A voice to-do list that files, plans and asks first",
-    "url": "https://www.producthunt.com/products/foley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Kudos 3.0",
+    "desc": "The AI that finds money you're missing and gets it back",
+    "url": "https://www.producthunt.com/products/kudos-smart-wallet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Ayven",
-    "desc": "Carries and drives your team's agenda",
-    "url": "https://www.producthunt.com/products/ayven?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Dropstone CLI",
+    "desc": "The self-learning coding agent for your terminal",
+    "url": "https://www.producthunt.com/products/dropstone-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Edgee Mod for Claude Code",
-    "desc": "Use any model inside Claude Code, keep your Claude plan",
-    "url": "https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Scrape Anything by Context.dev",
+    "desc": "Turn any website into clean data with one API call.",
+    "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agibot",
-    "desc": "Personal AI agent for your Mac using your own keys",
-    "url": "https://www.producthunt.com/products/agibot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ExcaliClaw",
+    "desc": "Hand-drawn diagrams your AI agent can draw with you",
+    "url": "https://www.producthunt.com/products/excaliclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
