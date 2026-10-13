@@ -1,42 +1,42 @@
 [
   {
-    "name": "ngram 2.0",
-    "desc": "Create explainers, screencasts, and AI avatar videos",
-    "url": "https://www.producthunt.com/products/ngram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Articos MCP",
+    "desc": "See how simulated buyers react, right in your agent",
+    "url": "https://www.producthunt.com/products/articos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Google EmbeddingGemma 2",
-    "desc": "An open, lightweight multimodal embedding model",
-    "url": "https://www.producthunt.com/products/embeddinggemma-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Kai",
+    "desc": "Autonomous assistant designed to handle meetings and email",
+    "url": "https://www.producthunt.com/products/hirekai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Manifold MCP",
-    "desc": "SEO, AI answers, social, ads and leads data for your agent",
-    "url": "https://www.producthunt.com/products/manifold-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Muse Wonder",
+    "desc": "Meta’s most capable models for personal agents",
+    "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hexis Cloud",
-    "desc": "One company brain for all your AI agents",
-    "url": "https://www.producthunt.com/products/bevel-software?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MentionBird",
+    "desc": "Ahrefs for AI Search",
+    "url": "https://www.producthunt.com/products/mentionbird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Kudos 3.0",
-    "desc": "The AI that finds money you're missing and gets it back",
-    "url": "https://www.producthunt.com/products/kudos-smart-wallet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "PostNitro for Agents",
+    "desc": "Let your AI agent design and publish social posts",
+    "url": "https://www.producthunt.com/products/postnitro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Dropstone CLI",
-    "desc": "The self-learning coding agent for your terminal",
-    "url": "https://www.producthunt.com/products/dropstone-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MausBot",
+    "desc": "Open source Grok Bot: Free, Local",
+    "url": "https://www.producthunt.com/products/mausbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Scrape Anything by Context.dev",
-    "desc": "Turn any website into clean data with one API call.",
-    "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Takes for Mac",
+    "desc": "Record talking-head videos. Claude Code does the edit.",
+    "url": "https://www.producthunt.com/products/takes-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ExcaliClaw",
-    "desc": "Hand-drawn diagrams your AI agent can draw with you",
-    "url": "https://www.producthunt.com/products/excaliclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Toby",
+    "desc": "Realistic mock interviews with an AI hiring manager",
+    "url": "https://www.producthunt.com/products/toby-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

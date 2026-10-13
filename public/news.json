@@ -1,27 +1,45 @@
 [
   {
     "source": "Clubic",
-    "title": "L’étrange paradoxe : comment une IA chinoise d’Alibaba permet à Microsoft de casser ses prix",
-    "link": "https://www.clubic.com/actualite-633751-l-etrange-paradoxe-comment-une-ia-chinoise-d-alibaba-permet-a-microsoft-de-casser-ses-prix.html",
-    "pubDate": "Mon, 12 Oct 2026 11:31:00 GMT"
+    "title": "Marre de la musique générée par IA ? Deezer va proposer un bouton pour la faire disparaître",
+    "link": "https://www.clubic.com/actualite-633925-marre-de-la-musique-generee-par-ia-deezer-va-proposer-un-bouton-pour-la-faire-disparaitre.html",
+    "pubDate": "Tue, 13 Oct 2026 13:08:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Microsoft Edge prépare un assistant IA pour résoudre vos problèmes de navigation",
-    "link": "https://www.clubic.com/actualite-633727-microsoft-edge-prepare-un-assistant-ia-pour-resoudre-vos-problemes-de-navigation.html",
-    "pubDate": "Mon, 12 Oct 2026 09:54:00 GMT"
+    "title": "Anthropic pense avoir trouvé comment protéger Claude de ses copieurs, mais il y a un prix à payer",
+    "link": "https://www.clubic.com/actualite-633919-anthropic-pense-avoir-trouve-comment-proteger-claude-de-ses-copieurs-mais-il-y-a-un-prix-a-payer.html",
+    "pubDate": "Tue, 13 Oct 2026 10:43:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Activision fait retirer des versions IA de Call of Duty : que s’est-il passé ?",
-    "link": "https://www.clubic.com/actualite-633670-activision-fait-supprimer-des-recreations-de-call-of-duty-concues-avec-des-agents-ia.html",
-    "pubDate": "Mon, 12 Oct 2026 06:00:00 GMT"
+    "title": "Google transforme Gemini : discuter ne suffit plus, l’IA veut désormais agir à votre place",
+    "link": "https://www.clubic.com/actualite-633940-google-transforme-gemini-discuter-ne-suffit-plus-l-ia-veut-desormais-agir-a-votre-place.html",
+    "pubDate": "Tue, 13 Oct 2026 09:51:00 GMT"
   },
   {
     "source": "Clubic",
-    "title": "Les agents IA qui négocient vos factures pourraient coûter des milliards aux entreprises",
-    "link": "https://www.clubic.com/actualite-633643-les-agents-ia-qui-negocient-vos-factures-pourraient-couter-des-milliards-aux-entreprises.html",
-    "pubDate": "Sun, 11 Oct 2026 14:15:00 GMT"
+    "title": "Google Meet : une nouvelle fonction IA va vous permettre de mieux organiser votre journée",
+    "link": "https://www.clubic.com/actualite-633907-google-meet-affiche-vos-prochaines-etapes-apres-chaque-reunion-pour-mieux-organiser-votre-journee.html",
+    "pubDate": "Tue, 13 Oct 2026 09:14:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Le créateur de Linux a utilisé Claude Code pour modifier son propre noyau… et c'est une petite révolution",
+    "link": "https://www.clubic.com/actualite-633871-le-createur-de-linux-a-utilise-claude-code-pour-modifier-son-propre-noyau-et-c-est-une-petite-revolution.html",
+    "pubDate": "Tue, 13 Oct 2026 08:16:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Votre téléviseur pourrait bientôt héberger une IA malveillante, et ce n'est pas de la science-fiction",
+    "link": "https://www.clubic.com/actualite-633898-votre-televiseur-pourrait-bientot-heberger-une-ia-malveillante-et-ce-n-est-pas-de-la-science-fiction.html",
+    "pubDate": "Tue, 13 Oct 2026 08:09:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Maia 300 : Microsoft annonce le déploiement de sa nouvelle génération de puces IA",
+    "link": "https://www.clubic.com/actualite-633844-maia-300-microsoft-annonce-le-deploiement-de-sa-nouvelle-generation-de-puces-ia.html",
+    "pubDate": "Mon, 12 Oct 2026 17:35:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -52,23 +70,5 @@
     "title": "Le chiffre d&#8217;affaires d&#8217;OpenAI sème le doute à Wall Street sur la rentabilité de l&#8217;IA",
     "link": "https://siecledigital.fr/2026/10/09/le-chiffre-daffaires-dopenai-seme-le-doute-a-wall-street-sur-la-rentabilite-de-lia/",
     "pubDate": "Fri, 09 Oct 2026 13:42:34 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Gemini ne se contente plus de répondre à vos questions, il peut désormais travailler pour vous",
-    "link": "https://siecledigital.fr/2026/10/09/gemini-ne-se-contente-plus-de-repondre-a-vos-questions-il-peut-desormais-travailler-pour-vous/",
-    "pubDate": "Fri, 09 Oct 2026 13:35:24 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT transforme ses réponses avec des visuels et des outils interactifs",
-    "link": "https://siecledigital.fr/2026/10/08/chatgpt-transforme-ses-reponses-avec-des-visuels-et-des-outils-interactifs/",
-    "pubDate": "Thu, 08 Oct 2026 10:52:34 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT et Google privilégient-ils les marques actives sur les réseaux sociaux ?",
-    "link": "https://siecledigital.fr/2026/10/08/chatgpt-et-google-privilegient-ils-les-marques-actives-sur-les-reseaux-sociaux/",
-    "pubDate": "Thu, 08 Oct 2026 09:17:49 +0000"
   }
 ]

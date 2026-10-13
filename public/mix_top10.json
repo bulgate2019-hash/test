@@ -1,26 +1,40 @@
 {
-  "generated_at_iso": "2026-10-12T14:02:16.105Z",
+  "generated_at_iso": "2026-10-13T13:16:18.934Z",
   "top10_mix": [
     {
       "rank": 1,
+      "model": "Muse Wonder Full (Max)",
+      "score": 81.1,
+      "coverage": 1,
+      "lmarena": null
+    },
+    {
+      "rank": 2,
       "model": "Gemini 4 Argon (High)",
-      "score": 75,
+      "score": 73.7,
       "coverage": 2,
       "lmarena": {
         "elo": 1525
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Opus 5.5 (Medium, Default Fallback)",
-      "score": 47.2,
+      "score": 45.5,
       "coverage": 2,
       "lmarena": {
         "elo": 1507
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "model": "Muse Wonder (Max)",
+      "score": 45.3,
+      "coverage": 1,
+      "lmarena": null
+    },
+    {
+      "rank": 5,
       "model": "claude-opus-4-6",
       "score": 37.1,
       "coverage": 1,
@@ -29,16 +43,7 @@
       }
     },
     {
-      "rank": 4,
-      "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
-      "score": 35.3,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1504
-      }
-    },
-    {
-      "rank": 5,
+      "rank": 6,
       "model": "gemini-3.8-flash-high",
       "score": 34.3,
       "coverage": 1,
@@ -47,7 +52,16 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
+      "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
+      "score": 33.2,
+      "coverage": 2,
+      "lmarena": {
+        "elo": 1504
+      }
+    },
+    {
+      "rank": 8,
       "model": "claude-opus-4-7",
       "score": 28.5,
       "coverage": 1,
@@ -56,37 +70,21 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 9,
       "model": "Claude Fable 5.1 (Medium, Default Fallback)",
-      "score": 28.4,
+      "score": 26.1,
       "coverage": 2,
       "lmarena": {
         "elo": 1501
       }
     },
     {
-      "rank": 8,
+      "rank": 10,
       "model": "muse-spark-1.2 (xHigh)",
       "score": 24.1,
       "coverage": 1,
       "lmarena": {
         "elo": 1492
-      }
-    },
-    {
-      "rank": 9,
-      "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-      "score": 21.5,
-      "coverage": 2,
-      "lmarena": null
-    },
-    {
-      "rank": 10,
-      "model": "muse-spark-1.1",
-      "score": 21.1,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1491
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-10-12T14:02:16.105Z",
+  "generated_at_iso": "2026-10-13T13:16:18.934Z",
   "top10": [
     {
       "rank": 1,
@@ -21,45 +21,45 @@
     },
     {
       "rank": 4,
+      "model": "Muse Wonder Full (Max)",
+      "creator": "Meta",
+      "index": 55.8
+    },
+    {
+      "rank": 5,
       "model": "Claude Opus 5.5 (High, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.6
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "Claude Fable 5.1 (Max, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.4
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.2
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
       "index": 52.7
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "Gemini 4 Argon (High)",
       "creator": "Google",
       "index": 52.6
     },
     {
-      "rank": 9,
-      "model": "GPT-6 Astra (Xhigh)",
-      "creator": "OpenAI",
-      "index": 52.4
-    },
-    {
       "rank": 10,
-      "model": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 51.9
+      "model": "Muse Wonder (Max)",
+      "creator": "Meta",
+      "index": 52.4
     }
   ],
   "top3": [
