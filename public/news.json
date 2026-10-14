@@ -1,45 +1,57 @@
 [
   {
+    "source": "Siècle Digital",
+    "title": "Positive ouvre son écosytème marketing aux agents IA",
+    "link": "https://siecledigital.fr/2026/10/14/positive-ouvre-son-ecosyteme-marketing-aux-agents-ia/",
+    "pubDate": "Wed, 14 Oct 2026 10:04:07 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Faire tourner une IA locale sur son PC devient un jeu d'enfant avec Llama Windows",
+    "link": "https://www.clubic.com/actualite-634093-faire-tourner-une-ia-locale-sur-son-pc-devient-un-jeu-d-enfant-avec-llama-windows.html",
+    "pubDate": "Wed, 14 Oct 2026 08:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Google ouvre Gemini 4 Argon à ses abonnés AI Pro : ce qui change pour vos requêtes",
+    "link": "https://www.clubic.com/actualite-634099-google-ouvre-gemini-4-argon-a-ses-abonnes-ai-pro-ce-qui-change-pour-vos-requetes.html",
+    "pubDate": "Wed, 14 Oct 2026 08:24:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un ingénieur d'OpenAI arrêté pour avoir caché un mouchard dans une salle de réunion de la direction",
+    "link": "https://www.clubic.com/actualite-634087-un-ingenieur-d-openai-arrete-pour-avoir-cache-un-mouchard-dans-une-salle-de-reunion-de-la-direction.html",
+    "pubDate": "Wed, 14 Oct 2026 07:44:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Nvidia investit dans Doctolib pour accélérer le développement de son IA médicale",
+    "link": "https://www.clubic.com/actualite-634069-nvidia-investit-dans-doctolib-pour-accelerer-le-developpement-de-son-ia-medicale.html",
+    "pubDate": "Wed, 14 Oct 2026 05:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Puces IA : Nvidia perd rapidement du terrain en Chine face à un Huawei conquérant",
+    "link": "https://www.clubic.com/actualite-634009-puces-ia-nvidia-perd-rapidement-du-terrain-en-chine-face-a-un-huawei-conquerant.html",
+    "pubDate": "Tue, 13 Oct 2026 15:01:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Meta dévoile Muse Wonder, sa nouvelle IA qui veut faire de l&#8217;ombre à ChatGPT",
+    "link": "https://siecledigital.fr/2026/10/13/meta-devoile-muse-wonder-sa-nouvelle-ia-qui-veut-faire-de-lombre-a-chatgpt/",
+    "pubDate": "Tue, 13 Oct 2026 14:59:49 +0000"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "ChatGPT cite davantage les médias d&#8217;information que les autres IA dans ses sources",
+    "link": "https://siecledigital.fr/2026/10/13/chatgpt-cite-davantage-les-medias-dinformation-que-les-autres-ia-dans-ses-sources/",
+    "pubDate": "Tue, 13 Oct 2026 14:41:14 +0000"
+  },
+  {
     "source": "Clubic",
     "title": "Marre de la musique générée par IA ? Deezer va proposer un bouton pour la faire disparaître",
     "link": "https://www.clubic.com/actualite-633925-marre-de-la-musique-generee-par-ia-deezer-va-proposer-un-bouton-pour-la-faire-disparaitre.html",
     "pubDate": "Tue, 13 Oct 2026 13:08:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Anthropic pense avoir trouvé comment protéger Claude de ses copieurs, mais il y a un prix à payer",
-    "link": "https://www.clubic.com/actualite-633919-anthropic-pense-avoir-trouve-comment-proteger-claude-de-ses-copieurs-mais-il-y-a-un-prix-a-payer.html",
-    "pubDate": "Tue, 13 Oct 2026 10:43:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google transforme Gemini : discuter ne suffit plus, l’IA veut désormais agir à votre place",
-    "link": "https://www.clubic.com/actualite-633940-google-transforme-gemini-discuter-ne-suffit-plus-l-ia-veut-desormais-agir-a-votre-place.html",
-    "pubDate": "Tue, 13 Oct 2026 09:51:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Google Meet : une nouvelle fonction IA va vous permettre de mieux organiser votre journée",
-    "link": "https://www.clubic.com/actualite-633907-google-meet-affiche-vos-prochaines-etapes-apres-chaque-reunion-pour-mieux-organiser-votre-journee.html",
-    "pubDate": "Tue, 13 Oct 2026 09:14:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Le créateur de Linux a utilisé Claude Code pour modifier son propre noyau… et c'est une petite révolution",
-    "link": "https://www.clubic.com/actualite-633871-le-createur-de-linux-a-utilise-claude-code-pour-modifier-son-propre-noyau-et-c-est-une-petite-revolution.html",
-    "pubDate": "Tue, 13 Oct 2026 08:16:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Votre téléviseur pourrait bientôt héberger une IA malveillante, et ce n'est pas de la science-fiction",
-    "link": "https://www.clubic.com/actualite-633898-votre-televiseur-pourrait-bientot-heberger-une-ia-malveillante-et-ce-n-est-pas-de-la-science-fiction.html",
-    "pubDate": "Tue, 13 Oct 2026 08:09:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Maia 300 : Microsoft annonce le déploiement de sa nouvelle génération de puces IA",
-    "link": "https://www.clubic.com/actualite-633844-maia-300-microsoft-annonce-le-deploiement-de-sa-nouvelle-generation-de-puces-ia.html",
-    "pubDate": "Mon, 12 Oct 2026 17:35:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -58,17 +70,5 @@
     "title": "Que devient InstaDeep, trois ans après son rachat record par BioNTech ?",
     "link": "https://www.actuia.com/actualite/que-devient-instadeep-trois-ans-apres-son-rachat-record-par-biontech/",
     "pubDate": "Fri, 09 Oct 2026 14:51:42 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Insulter Claude pourrait bientôt vous coûter votre compte Anthropic",
-    "link": "https://siecledigital.fr/2026/10/09/insulter-claude-pourrait-bientot-vous-couter-votre-compte-anthropic/",
-    "pubDate": "Fri, 09 Oct 2026 14:01:12 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Le chiffre d&#8217;affaires d&#8217;OpenAI sème le doute à Wall Street sur la rentabilité de l&#8217;IA",
-    "link": "https://siecledigital.fr/2026/10/09/le-chiffre-daffaires-dopenai-seme-le-doute-a-wall-street-sur-la-rentabilite-de-lia/",
-    "pubDate": "Fri, 09 Oct 2026 13:42:34 +0000"
   }
 ]
