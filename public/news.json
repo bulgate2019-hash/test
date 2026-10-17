@@ -1,6 +1,24 @@
 [
   {
     "source": "Clubic",
+    "title": "IA : en Chine aussi, on commence à détecter des agents IA hors de contrôle",
+    "link": "https://www.clubic.com/actualite-634627-ia-en-chine-aussi-on-commence-a-detecter-des-agents-ia-hors-de-controle.html",
+    "pubDate": "Sat, 17 Oct 2026 05:42:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Les sites web voient leur trafic provenant de ChatGPT s&#8217;effondrer à cause d&#8217;un changement inattendu",
+    "link": "https://siecledigital.fr/2026/10/16/le-trafic-provenant-de-chatgpt-seffondre-dans-les-statistiques-mais-les-visites-nont-pas-forcement-disparu/",
+    "pubDate": "Fri, 16 Oct 2026 11:41:01 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Fini l’accent américain ! ChatGPT s’offre deux voix françaises beaucoup plus naturelles",
+    "link": "https://www.clubic.com/actualite-634546-fini-l-accent-americain-chatgpt-s-offre-deux-voix-francaises-beaucoup-plus-naturelles.html",
+    "pubDate": "Fri, 16 Oct 2026 11:31:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Le CERN et Mistral AI s'allient pour un « Large Physics Model » entraîné sur les collisions du LHC",
     "link": "https://www.clubic.com/actualite-634516-le-cern-et-mistral-ai-s-allient-pour-un-large-physics-model-entraine-sur-les-collisions-du-lhc.html",
     "pubDate": "Fri, 16 Oct 2026 10:05:00 GMT"
@@ -52,23 +70,5 @@
     "title": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
     "link": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
     "pubDate": "Fri, 16 Oct 2026 05:32:00 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Meta et Apple s’allient pour faire tourner une IA de 816 milliards de paramètres sur Mac",
-    "link": "https://www.clubic.com/actualite-634453-meta-et-apple-s-allient-pour-faire-tourner-une-ia-de-816-milliards-de-parametres-sur-mac.html",
-    "pubDate": "Fri, 16 Oct 2026 05:15:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Recours rédigés par IA : la justice administrative sous pression",
-    "link": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
-    "pubDate": "Fri, 16 Oct 2026 05:00:00 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-    "link": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
-    "pubDate": "Thu, 15 Oct 2026 22:39:08 +0000"
   }
 ]
