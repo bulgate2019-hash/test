@@ -1,6 +1,24 @@
 [
   {
     "source": "Clubic",
+    "title": "Codex fonce, Claude Code hésite, Gemini CLI dit non : YesWeHack fait un test qui en dit long sur les IA !",
+    "link": "https://www.clubic.com/actualite-634684-codex-fonce-claude-code-hesite-gemini-cli-dit-non-yeswehack-fait-un-test-qui-en-dit-long-sur-les-ia.html",
+    "pubDate": "Sun, 18 Oct 2026 06:29:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Des agents IA ont accédé aux données confidentielles d'entreprises sans être détectés",
+    "link": "https://www.clubic.com/actualite-634669-des-agents-ia-ont-accede-aux-donnees-confidentielles-d-entreprises-sans-etre-detectes.html",
+    "pubDate": "Sat, 17 Oct 2026 17:53:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Apple bannit de l'App Store les fonctions cachées et les applis de nudification par IA",
+    "link": "https://www.clubic.com/actualite-634657-app-store-apple-interdit-les-fonctions-cachees-et-cible-les-applis-de-nudification-par-ia.html",
+    "pubDate": "Sat, 17 Oct 2026 13:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "IA : en Chine aussi, on commence à détecter des agents IA hors de contrôle",
     "link": "https://www.clubic.com/actualite-634627-ia-en-chine-aussi-on-commence-a-detecter-des-agents-ia-hors-de-controle.html",
     "pubDate": "Sat, 17 Oct 2026 05:42:00 GMT"
@@ -12,34 +30,10 @@
     "pubDate": "Fri, 16 Oct 2026 11:41:01 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Fini l’accent américain ! ChatGPT s’offre deux voix françaises beaucoup plus naturelles",
-    "link": "https://www.clubic.com/actualite-634546-fini-l-accent-americain-chatgpt-s-offre-deux-voix-francaises-beaucoup-plus-naturelles.html",
-    "pubDate": "Fri, 16 Oct 2026 11:31:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Le CERN et Mistral AI s'allient pour un « Large Physics Model » entraîné sur les collisions du LHC",
-    "link": "https://www.clubic.com/actualite-634516-le-cern-et-mistral-ai-s-allient-pour-un-large-physics-model-entraine-sur-les-collisions-du-lhc.html",
-    "pubDate": "Fri, 16 Oct 2026 10:05:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "ChatGPT accusé de mettre les enfants en danger, huit États américains attaquent OpenAI",
     "link": "https://siecledigital.fr/2026/10/16/chatgpt-accuse-de-mettre-les-enfants-en-danger-huit-etats-americains-attaquent-openai/",
     "pubDate": "Fri, 16 Oct 2026 09:40:46 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "LiteLLM : deux failles permettaient de voler des clés API d'IA et de prendre le contrôle de serveurs",
-    "link": "https://www.clubic.com/actualite-634510-litellm-deux-failles-permettaient-de-voler-des-cles-api-d-ia-et-de-prendre-le-controle-de-serveurs.html",
-    "pubDate": "Fri, 16 Oct 2026 08:59:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Pas besoin d’un PC de luxe... Cette IA génère des images bluffantes avec seulement 8 Go de mémoire vidéo",
-    "link": "https://www.clubic.com/actualite-634486-pas-besoin-d-un-pc-de-luxe-cette-ia-genere-des-images-bluffantes-avec-seulement-8-go-de-memoire-video.html",
-    "pubDate": "Fri, 16 Oct 2026 08:21:00 GMT"
   },
   {
     "source": "Actu IA",
@@ -54,12 +48,6 @@
     "pubDate": "Fri, 16 Oct 2026 08:12:23 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Les yeux sont braqués sur l’industrie de l’IA : 8 États accusent OpenAI de nuire aux enfants",
-    "link": "https://www.clubic.com/actualite-634474-les-yeux-sont-braques-sur-l-industrie-de-l-ia-8-etats-accusent-openai-de-nuire-aux-enfants.html",
-    "pubDate": "Fri, 16 Oct 2026 07:32:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
     "link": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
@@ -70,5 +58,17 @@
     "title": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
     "link": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
     "pubDate": "Fri, 16 Oct 2026 05:32:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Recours rédigés par IA : la justice administrative sous pression",
+    "link": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
+    "pubDate": "Fri, 16 Oct 2026 05:00:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
+    "link": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
+    "pubDate": "Thu, 15 Oct 2026 22:39:08 +0000"
   }
 ]
