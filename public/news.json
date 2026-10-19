@@ -1,27 +1,51 @@
 [
   {
+    "source": "Actu IA",
+    "title": "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, ou 1 Md$",
+    "link": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/",
+    "pubDate": "Mon, 19 Oct 2026 11:19:32 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité",
+    "link": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/",
+    "pubDate": "Mon, 19 Oct 2026 09:18:50 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un robot jouet IA très mignon épinglé, car il promettait de garder vos secrets mais les laissait en accès libre",
+    "link": "https://www.clubic.com/actualite-634744-un-robot-jouet-ia-tres-mignon-epingle-car-il-promettait-de-garder-vos-secrets-mais-les-laissait-en-acces-libre.html",
+    "pubDate": "Mon, 19 Oct 2026 08:13:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Derrière les concerts de Céline Dion, une IA française réalise une prouesse que le public ne soupçonne pas",
+    "link": "https://www.clubic.com/actualite-634753-derriere-les-concerts-de-celine-dion-une-ia-francaise-realise-une-prouesse-que-le-public-ne-soupconne-pas.html",
+    "pubDate": "Mon, 19 Oct 2026 07:52:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "ChatGPT peut désormais interagir avec vos onglets de Chrome, Edge, Opera ou Brave",
+    "link": "https://www.clubic.com/actualite-634723-chatgpt-peut-desormais-interagir-avec-vos-onglets-de-chrome-edge-opera-ou-brave.html",
+    "pubDate": "Mon, 19 Oct 2026 07:35:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Les agents IA négocient à votre place, mais qui fixe les règles du jeu ?",
+    "link": "https://www.clubic.com/actualite-634729-les-agents-ia-negocient-a-votre-place-mais-qui-fixe-les-regles-du-jeu.html",
+    "pubDate": "Mon, 19 Oct 2026 06:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Meta autorise son IA à envoyer des sextos, mais les créateurs OnlyFans subissent la censure",
+    "link": "https://www.clubic.com/actualite-634708-meta-autorise-son-ia-a-envoyer-des-sextos-mais-les-createurs-onlyfans-subissent-la-censure.html",
+    "pubDate": "Sun, 18 Oct 2026 13:34:00 GMT"
+  },
+  {
     "source": "Clubic",
     "title": "Codex fonce, Claude Code hésite, Gemini CLI dit non : YesWeHack fait un test qui en dit long sur les IA !",
     "link": "https://www.clubic.com/actualite-634684-codex-fonce-claude-code-hesite-gemini-cli-dit-non-yeswehack-fait-un-test-qui-en-dit-long-sur-les-ia.html",
     "pubDate": "Sun, 18 Oct 2026 06:29:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Des agents IA ont accédé aux données confidentielles d'entreprises sans être détectés",
-    "link": "https://www.clubic.com/actualite-634669-des-agents-ia-ont-accede-aux-donnees-confidentielles-d-entreprises-sans-etre-detectes.html",
-    "pubDate": "Sat, 17 Oct 2026 17:53:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Apple bannit de l'App Store les fonctions cachées et les applis de nudification par IA",
-    "link": "https://www.clubic.com/actualite-634657-app-store-apple-interdit-les-fonctions-cachees-et-cible-les-applis-de-nudification-par-ia.html",
-    "pubDate": "Sat, 17 Oct 2026 13:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "IA : en Chine aussi, on commence à détecter des agents IA hors de contrôle",
-    "link": "https://www.clubic.com/actualite-634627-ia-en-chine-aussi-on-commence-a-detecter-des-agents-ia-hors-de-controle.html",
-    "pubDate": "Sat, 17 Oct 2026 05:42:00 GMT"
   },
   {
     "source": "Siècle Digital",
@@ -46,29 +70,5 @@
     "title": "Vente des renouvelables nord-américaines d'EDF à KKR, un cas test pour la FERC",
     "link": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
     "pubDate": "Fri, 16 Oct 2026 08:12:23 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
-    "link": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
-    "pubDate": "Fri, 16 Oct 2026 06:04:00 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "L’API Gemini 4 Argon doublera ses tarifs le 1er décembre",
-    "link": "https://www.actuia.com/actualite/lapi-gemini-4-argon-doublera-ses-tarifs-le-1er-decembre/",
-    "pubDate": "Fri, 16 Oct 2026 05:32:00 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Recours rédigés par IA : la justice administrative sous pression",
-    "link": "https://www.actuia.com/actualite/recours-rediges-par-ia-la-justice-administrative-sous-pression/",
-    "pubDate": "Fri, 16 Oct 2026 05:00:00 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "AI Act : les enquêtes pourraient prolonger le délai de sanction",
-    "link": "https://www.actuia.com/actualite/ai-act-les-enquetes-pourraient-prolonger-le-delai-de-sanction/",
-    "pubDate": "Thu, 15 Oct 2026 22:39:08 +0000"
   }
 ]
