@@ -1,74 +1,74 @@
 [
   {
     "source": "Actu IA",
-    "title": "Anthropic propose de ne bloquer un modèle qu'en cas de risque imminent de plus de 50 morts ou blessés graves, ou 1 Md$",
-    "link": "https://www.actuia.com/actualite/anthropic-propose-de-ne-bloquer-un-modele-quen-cas-de-risque-imminent-de-plus-de-50-morts-ou-blesses-graves-ou-1-md/",
-    "pubDate": "Mon, 19 Oct 2026 11:19:32 +0000"
+    "title": "Pékin veut restreindre l'export de 23 technologies d'IA, sans toucher à l'API de DeepSeek et Qwen",
+    "link": "https://www.actuia.com/actualite/pekin-veut-restreindre-lexport-de-23-technologies-dia-sans-toucher-a-lapi-de-deepseek-et-qwen/",
+    "pubDate": "Tue, 20 Oct 2026 10:30:00 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Fini la corvée des diaporamas ! ChatGPT lance Slides pour créer vos présentations en un clic",
+    "link": "https://www.clubic.com/actualite-635056-fini-la-corvee-des-diaporamas-chatgpt-lance-slides-pour-creer-vos-presentations-en-un-clic.html",
+    "pubDate": "Tue, 20 Oct 2026 10:21:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Pour 5000 dollars, un hacker s'introduit dans plus de 100 sites d'entreprises grâce à des agents IA",
+    "link": "https://www.clubic.com/actualite-634975-pour-5000-dollars-un-hacker-s-introduit-dans-plus-de-100-sites-d-entreprises-grace-a-des-agents-ia.html",
+    "pubDate": "Tue, 20 Oct 2026 09:41:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "L'ancien patron de Google a misé sur Claude en 2021 : sa part dans Anthropic pourrait valoir 20 milliards en Bourse",
+    "link": "https://www.clubic.com/actualite-635035-l-ancien-patron-de-google-a-mise-sur-claude-en-2021-sa-part-dans-anthropic-pourrait-valoir-20-milliards-en-bourse.html",
+    "pubDate": "Tue, 20 Oct 2026 09:33:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Ils détournent une PS5 pour faire tourner une IA locale et les résultats sont surprenants",
+    "link": "https://www.clubic.com/actualite-635008-ils-ont-detourne-une-ps5-pour-faire-tourner-une-ia-locale-et-les-resultats-sont-surprenants.html",
+    "pubDate": "Tue, 20 Oct 2026 08:51:00 GMT"
   },
   {
     "source": "Actu IA",
-    "title": "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité",
-    "link": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/",
-    "pubDate": "Mon, 19 Oct 2026 09:18:50 +0000"
+    "title": "PostgreSQL corrige 44 failles en 2026 contre 7 en 2025, sa version 19 perd 8 à 10 fonctions selon un committer",
+    "link": "https://www.actuia.com/actualite/postgresql-corrige-44-failles-en-2026-contre-7-en-2025-sa-version-19-perd-8-a-10-fonctions-selon-un-committer/",
+    "pubDate": "Tue, 20 Oct 2026 07:00:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Courbes du NIST : la graine de P-256 tirée en 1997, Filippo Valsorda vérifie le résultat d'Anthropic",
+    "link": "https://www.actuia.com/actualite/courbes-du-nist-la-graine-de-p-256-tiree-en-1997-filippo-valsorda-verifie-le-resultat-danthropic/",
+    "pubDate": "Tue, 20 Oct 2026 06:00:00 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Un robot jouet IA très mignon épinglé, car il promettait de garder vos secrets mais les laissait en accès libre",
-    "link": "https://www.clubic.com/actualite-634744-un-robot-jouet-ia-tres-mignon-epingle-car-il-promettait-de-garder-vos-secrets-mais-les-laissait-en-acces-libre.html",
-    "pubDate": "Mon, 19 Oct 2026 08:13:00 GMT"
+    "title": "OpenAI mise sur deux grands-mères pour faire connaître ChatGPT Voix en France",
+    "link": "https://www.clubic.com/actualite-634969-openai-mise-sur-deux-grands-meres-pour-faire-connaitre-chatgpt-voix-en-france.html",
+    "pubDate": "Tue, 20 Oct 2026 05:50:00 GMT"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Danfoss : Claroty reproduit avec l'IA l'exploit de failles connues en 28 minutes pour environ 6 dollars",
+    "link": "https://www.actuia.com/actualite/danfoss-claroty-reproduit-avec-lia-lexploit-de-failles-connues-en-28-minutes-pour-environ-6-dollars/",
+    "pubDate": "Tue, 20 Oct 2026 05:00:00 +0000"
+  },
+  {
+    "source": "Actu IA",
+    "title": "Mistral Large 4 devancé d'un point par Muse Spark Open, mais devant lui sur les épreuves d'agent",
+    "link": "https://www.actuia.com/actualite/mistral-large-4-devance-dun-point-par-muse-spark-open-mais-devant-lui-sur-les-epreuves-dagent/",
+    "pubDate": "Mon, 19 Oct 2026 19:18:11 +0000"
   },
   {
     "source": "Clubic",
-    "title": "Derrière les concerts de Céline Dion, une IA française réalise une prouesse que le public ne soupçonne pas",
-    "link": "https://www.clubic.com/actualite-634753-derriere-les-concerts-de-celine-dion-une-ia-francaise-realise-une-prouesse-que-le-public-ne-soupconne-pas.html",
-    "pubDate": "Mon, 19 Oct 2026 07:52:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "ChatGPT peut désormais interagir avec vos onglets de Chrome, Edge, Opera ou Brave",
-    "link": "https://www.clubic.com/actualite-634723-chatgpt-peut-desormais-interagir-avec-vos-onglets-de-chrome-edge-opera-ou-brave.html",
-    "pubDate": "Mon, 19 Oct 2026 07:35:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Les agents IA négocient à votre place, mais qui fixe les règles du jeu ?",
-    "link": "https://www.clubic.com/actualite-634729-les-agents-ia-negocient-a-votre-place-mais-qui-fixe-les-regles-du-jeu.html",
-    "pubDate": "Mon, 19 Oct 2026 06:00:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Meta autorise son IA à envoyer des sextos, mais les créateurs OnlyFans subissent la censure",
-    "link": "https://www.clubic.com/actualite-634708-meta-autorise-son-ia-a-envoyer-des-sextos-mais-les-createurs-onlyfans-subissent-la-censure.html",
-    "pubDate": "Sun, 18 Oct 2026 13:34:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Codex fonce, Claude Code hésite, Gemini CLI dit non : YesWeHack fait un test qui en dit long sur les IA !",
-    "link": "https://www.clubic.com/actualite-634684-codex-fonce-claude-code-hesite-gemini-cli-dit-non-yeswehack-fait-un-test-qui-en-dit-long-sur-les-ia.html",
-    "pubDate": "Sun, 18 Oct 2026 06:29:00 GMT"
+    "title": "Il demande à Claude de créer une application, l'IA découvre un malware caché sur son Mac",
+    "link": "https://www.clubic.com/actualite-634921-il-demande-a-claude-de-creer-une-application-l-ia-decouvre-un-malware-cache-sur-son-mac.html",
+    "pubDate": "Mon, 19 Oct 2026 15:34:00 GMT"
   },
   {
     "source": "Siècle Digital",
-    "title": "Les sites web voient leur trafic provenant de ChatGPT s&#8217;effondrer à cause d&#8217;un changement inattendu",
-    "link": "https://siecledigital.fr/2026/10/16/le-trafic-provenant-de-chatgpt-seffondre-dans-les-statistiques-mais-les-visites-nont-pas-forcement-disparu/",
-    "pubDate": "Fri, 16 Oct 2026 11:41:01 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT accusé de mettre les enfants en danger, huit États américains attaquent OpenAI",
-    "link": "https://siecledigital.fr/2026/10/16/chatgpt-accuse-de-mettre-les-enfants-en-danger-huit-etats-americains-attaquent-openai/",
-    "pubDate": "Fri, 16 Oct 2026 09:40:46 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Anthropic verrouille Claude contre la distillation, ses clients paient une part",
-    "link": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
-    "pubDate": "Fri, 16 Oct 2026 08:14:25 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Vente des renouvelables nord-américaines d'EDF à KKR, un cas test pour la FERC",
-    "link": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
-    "pubDate": "Fri, 16 Oct 2026 08:12:23 +0000"
+    "title": "Google commence à donner plus de visibilité aux sites web dans ses réponses IA",
+    "link": "https://siecledigital.fr/2026/10/19/google-commence-a-donner-plus-de-visibilite-aux-sites-web-dans-ses-reponses-ia/",
+    "pubDate": "Mon, 19 Oct 2026 13:55:20 +0000"
   }
 ]
