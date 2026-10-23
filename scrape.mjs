@@ -48,8 +48,13 @@ const FLUX_RSS = [
   { nom: "Clubic", url: "https://www.clubic.com/feed/news.rss", filtrerIA: true },
 ];
 
-const MOTS_CLES_IA = ["intelligence artificielle", " ia ", "openai", "chatgpt", "claude", "gemini", "mistral", "llm"];
-const parleDIA = (texte) => MOTS_CLES_IA.some((mot) => ` ${texte.toLowerCase()} `.includes(mot));
+const MOTS_CLES_IA = ["intelligence artificielle", "openai", "chatgpt", "claude", "gemini", "mistral", "llm", "anthropic", "deepseek", "copilot", "grok"];
+// "IA" en mot isolé, y compris après une apostrophe (l'IA, L’IA, d'IA) ou avant une ponctuation (IA :, IA,).
+const REGEX_IA = /(^|[^\p{L}\p{N}])ia(?=$|[^\p{L}\p{N}])/iu;
+const parleDIA = (texte) => {
+  const t = String(texte ?? "").toLowerCase();
+  return REGEX_IA.test(t) || MOTS_CLES_IA.some((mot) => t.includes(mot));
+};
 
 function nettoyerTexteRss(brut) {
   return String(brut ?? "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
@@ -79,19 +84,51 @@ async function recupererActus() {
     } catch (e) {}
   }
   const dejaVus = new Set();
-  return tous.filter((a) => (dejaVus.has(a.link) ? false : dejaVus.add(a.link))).sort((a, b) => (new Date(b.pubDate) || 0) - (new Date(a.pubDate) || 0)).slice(0, 12);
+  return tous.filter((a) => (dejaVus.has(a.link) ? false : dejaVus.add(a.link))).sort((a, b) => (new Date(b.pubDate).getTime() || 0) - (new Date(a.pubDate).getTime() || 0)).slice(0, 12);
 }
 
 /* ==================== 2) Classements (LM Arena & AA) ==================== */
+// Clé de correspondance entre les deux sources : on ignore les parenthèses et les
+// suffixes de variante (thinking, high, preview...). Toutes les variantes d'un même
+// modèle ("Claude Opus 5.5 (High)", "Claude Opus 5.5 (Max, Default Fallback)"...)
+// donnent donc la même clé : "claudeopus55".
+const MOTS_VARIANTE = new Set(["thinking","think","high","xhigh","low","medium","minimal","max","effort","adaptive","reasoning","reasoner","standard","default","latest","preview","exp","experimental","beta","instruct","chat","it","tuned"]);
+function cleNormalisee(nom) {
+  const s = String(nom ?? "").toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9]+/g, " ").trim();
+  return s.split(/\s+/).filter((t) => t && !MOTS_VARIANTE.has(t)).join("");
+}
+// Nom affiché d'un modèle, sans la variante : "Claude Opus 5.5 (Max, Default Fallback)" -> "Claude Opus 5.5"
+const nomDeBase = (nom) => String(nom ?? "").replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+// Variante seule, sans les mentions "…Fallback" : "Claude Opus 5.5 (Max, Default Fallback)" -> "Max"
+function variante(nom) {
+  const m = String(nom ?? "").match(/\(([^)]*)\)/);
+  if (!m) return "";
+  return m[1].split(",").map((p) => p.trim()).filter((p) => p && !/fallback/i.test(p)).join(", ");
+}
+// Une seule ligne par modèle : la liste doit être triée du meilleur au moins bon,
+// on garde donc la PREMIÈRE variante rencontrée (= la mieux notée).
+function meilleureVarianteParModele(liste, getNom) {
+  const vus = new Set();
+  return liste.filter((m) => {
+    const cle = cleNormalisee(getNom(m));
+    if (!cle || vus.has(cle)) return false;
+    vus.add(cle);
+    return true;
+  });
+}
+
 async function recupererLmArena() {
   const reponse = await fetchAvecReprises(LMARENA_API);
   const json = await reponse.json();
   const lignes = (json.rows ?? [])
     .map((r) => r.row)
-    .filter((l) => l?.category === "overall" && l.model_name);
-  lignes.sort((a, b) => a.rank - b.rank);
-  const pool = lignes.slice(0, TAILLE_POOL).map((l) => ({ model: l.model_name, elo: +l.rating, rank: l.rank }));
-  const top10 = pool.slice(0, 10).map((m) => ({ rank: m.rank, model: m.model, overall: Math.round(m.elo) }));
+    .filter((l) => l?.category === "overall" && l.model_name && Number.isFinite(+l.rating));
+  lignes.sort((a, b) => a.rank - b.rank || b.rating - a.rating);
+  const tous = lignes.map((l) => ({ model: l.model_name, elo: +l.rating, rank: l.rank }));
+  // Colonne "Top Humain" : inchangée (une ligne par variante, comme le site officiel).
+  const top10 = tous.slice(0, 10).map((m) => ({ rank: m.rank, model: m.model, overall: Math.round(m.elo) }));
+  // Pool du Mix : une ligne par modèle (meilleure variante), puis les 25 premiers.
+  const pool = meilleureVarianteParModele(tous, (m) => m.model).slice(0, TAILLE_POOL);
   return { fichier: { generated_at_iso: MAINTENANT_ISO, top10_overall: top10, top3_overall: top10.slice(0, 3) }, pool };
 }
 
@@ -100,60 +137,47 @@ async function recupererArtificialAnalysis() {
   if (!cle) throw new Error("AA_API_KEY absente.");
   const reponse = await fetchAvecReprises(AA_API, { headers: { "x-api-key": cle } });
   const json = await reponse.json();
-  const pool = (json.data ?? []).map((m) => ({ name: m.name, creator: m.model_creator?.name, index: m.evaluations?.artificial_analysis_intelligence_index })).filter((m) => m.name && Number.isFinite(m.index)).sort((a, b) => b.index - a.index).slice(0, TAILLE_POOL);
-  const top10 = pool.slice(0, 10).map((m, i) => ({ rank: i + 1, model: m.name, creator: m.creator, index: arrondi1(m.index) }));
+  const tous = (json.data ?? []).map((m) => ({ name: m.name, creator: m.model_creator?.name, index: m.evaluations?.artificial_analysis_intelligence_index })).filter((m) => m.name && Number.isFinite(m.index)).sort((a, b) => b.index - a.index);
+  // Colonne "Top Benchmark" : inchangée (une ligne par variante).
+  const top10 = tous.slice(0, 10).map((m, i) => ({ rank: i + 1, model: m.name, creator: m.creator, index: arrondi1(m.index) }));
+  // Pool du Mix (et de l'annuaire) : une ligne par modèle (meilleure variante), puis les 25 premiers.
+  const pool = meilleureVarianteParModele(tous, (m) => m.name).slice(0, TAILLE_POOL);
   return { fichier: { generated_at_iso: MAINTENANT_ISO, top10, top3: top10.slice(0, 3) }, pool };
 }
 
 /* ==================== 3) Mix, Annuaire (Ping) & Radar ==================== */
-// Clé de correspondance robuste entre les deux sources :
-// on ignore les parenthèses et les suffixes de variante (thinking, high, preview...)
-// pour que "claude-opus-4-6-thinking" <-> "Claude Opus 4.6" se reconnaissent.
-const MOTS_VARIANTE = new Set(["thinking","think","high","low","medium","minimal","max","effort","adaptive","reasoning","reasoner","standard","default","latest","preview","exp","experimental","beta","instruct","chat","it","tuned"]);
-function cleNormalisee(nom) {
-  const s = String(nom ?? "").toLowerCase().replace(/\([^)]*\)/g, " ").replace(/[^a-z0-9]+/g, " ").trim();
-  return s.split(/\s+/).filter((t) => t && !MOTS_VARIANTE.has(t)).join("");
-}
-
+// Mix = uniquement les modèles présents dans LES DEUX sources.
+// Chaque source est ramenée sur 0–100 (min-max sur son pool de 25 modèles),
+// puis score = 50 % humain + 50 % benchmark.
 function construireMix(poolHumain, poolBench) {
   const normaliseur = (valeurs) => {
     if (valeurs.length === 0) return () => 0;
     const min = Math.min(...valeurs), max = Math.max(...valeurs);
     return (v) => (max === min ? 100 : ((v - min) / (max - min)) * 100);
   };
-
   const normHumain = normaliseur(poolHumain.map((m) => m.elo));
   const normBench = normaliseur(poolBench.map((m) => m.index));
 
-  const mapModeles = new Map();
+  // Les pools sont déjà dédoublonnés : une seule entrée par clé.
+  const humainParCle = new Map(poolHumain.map((m) => [cleNormalisee(m.model), m]));
 
-  poolHumain.forEach((m) => {
-    const cle = cleNormalisee(m.model);
-    mapModeles.set(cle, { nomOriginal: m.model, scoreHumain: normHumain(m.elo), scoreBench: 0, coverage: 1, lmarena: { elo: Math.round(m.elo) } });
-  });
-
-  poolBench.forEach((m) => {
-    const cle = cleNormalisee(m.name);
-    if (mapModeles.has(cle)) {
-      const existant = mapModeles.get(cle);
-      existant.scoreBench = normBench(m.index);
-      existant.coverage = 2;
-      // on garde le nom AA (plus lisible) une fois apparié
-      existant.nomOriginal = m.name;
-    } else {
-      mapModeles.set(cle, { nomOriginal: m.name, scoreHumain: 0, scoreBench: normBench(m.index), coverage: 1, lmarena: null });
-    }
-  });
-
-  const mix = Array.from(mapModeles.values()).map((m) => {
-    const scoreFinal = (m.coverage === 2)
-      ? (m.scoreHumain * POIDS_HUMAIN) + (m.scoreBench * POIDS_BENCH)
-      : (m.scoreHumain > 0 ? m.scoreHumain : m.scoreBench);
-    return { model: m.nomOriginal, score: arrondi1(scoreFinal), coverage: m.coverage, lmarena: m.lmarena };
-  });
+  const mix = [];
+  for (const b of poolBench) {
+    const h = humainParCle.get(cleNormalisee(b.name));
+    if (!h) continue; // absent de LM Arena -> hors Mix
+    const scoreHumain = normHumain(h.elo);
+    const scoreBench = normBench(b.index);
+    mix.push({
+      model: nomDeBase(b.name) || nomDeBase(h.model),
+      score: arrondi1(scoreHumain * POIDS_HUMAIN + scoreBench * POIDS_BENCH),
+      humain: { elo: Math.round(h.elo), variante: variante(h.model), note: arrondi1(scoreHumain) },
+      bench: { index: arrondi1(b.index), variante: variante(b.name), note: arrondi1(scoreBench) },
+    });
+  }
 
   mix.sort((a, b) => b.score - a.score);
-  const top10_mix = mix.slice(0, 10).map((m, i) => ({ rank: i + 1, model: m.model, score: m.score, coverage: m.coverage, lmarena: m.lmarena }));
+  const top10_mix = mix.slice(0, 10).map((m, i) => ({ rank: i + 1, ...m }));
+  console.log(`   ↳ Mix : ${mix.length} modèle(s) présents dans les deux sources.`);
   return { generated_at_iso: MAINTENANT_ISO, top10_mix };
 }
 
@@ -278,21 +302,25 @@ async function verifierAnnuaire(poolBench) {
   return true;
 }
 
+// En cas d'échec (token absent, API en erreur, réponse vide), on lève une erreur
+// et l'ancien radar.json reste en place : on n'écrase jamais avec une liste vide.
 async function recupererRadarPH() {
   const token = process.env.PH_TOKEN;
-  if (!token) return false;
+  if (!token) throw new Error("PH_TOKEN absent — ancien radar.json conservé.");
   const query = `query { posts(first: 8, order: RANKING, topic: "artificial-intelligence") { edges { node { name tagline url } } } }`;
-  try {
-    const res = await fetch("https://api.producthunt.com/v2/api/graphql", {
-      method: "POST",
-      headers: { "Authorization": `Bearer ${token}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ query })
-    });
-    const json = await res.json();
-    const radar = (json.data?.posts?.edges || []).map(e => ({ name: e.node.name, desc: e.node.tagline, url: e.node.url }));
-    await writeFile(`${DOSSIER_SORTIE}/radar.json`, JSON.stringify(radar, null, 2), 'utf-8');
-    return true;
-  } catch (e) { return false; }
+  const res = await fetchAvecReprises("https://api.producthunt.com/v2/api/graphql", {
+    method: "POST",
+    headers: { "Authorization": `Bearer ${token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ query }),
+  });
+  const json = await res.json();
+  if (json.errors?.length) throw new Error(`API Product Hunt : ${json.errors[0]?.message ?? "erreur"} — ancien radar.json conservé.`);
+  const radar = (json.data?.posts?.edges ?? [])
+    .map((e) => ({ name: e?.node?.name, desc: e?.node?.tagline ?? "", url: e?.node?.url }))
+    .filter((a) => a.name && /^https?:\/\//i.test(a.url ?? ""));
+  if (!(await ecrireJsonSiValide("radar.json", radar, (d) => d.length > 0))) {
+    throw new Error("réponse vide — ancien radar.json conservé.");
+  }
 }
 
 /* ============================== Pilotage ============================== */
