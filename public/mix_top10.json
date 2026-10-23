@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-10-22T10:55:15.688Z",
+  "generated_at_iso": "2026-10-23T10:47:27.893Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -14,22 +14,22 @@
       "score": 73.7,
       "coverage": 2,
       "lmarena": {
-        "elo": 1524
+        "elo": 1517
       }
     },
     {
       "rank": 3,
       "model": "Muse Wonder (Max)",
-      "score": 55.7,
+      "score": 60.8,
       "coverage": 2,
       "lmarena": {
-        "elo": 1510
+        "elo": 1509
       }
     },
     {
       "rank": 4,
       "model": "Claude Opus 5.5 (Medium, Default Fallback)",
-      "score": 48.5,
+      "score": 54.5,
       "coverage": 2,
       "lmarena": {
         "elo": 1509
@@ -38,7 +38,7 @@
     {
       "rank": 5,
       "model": "Claude Opus 4.6",
-      "score": 36.3,
+      "score": 42.5,
       "coverage": 1,
       "lmarena": {
         "elo": 1497
@@ -47,7 +47,7 @@
     {
       "rank": 6,
       "model": "Gemini 3.8 Flash (High)",
-      "score": 35.2,
+      "score": 39.8,
       "coverage": 1,
       "lmarena": {
         "elo": 1496
@@ -56,16 +56,16 @@
     {
       "rank": 7,
       "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
-      "score": 34.1,
+      "score": 38.4,
       "coverage": 2,
       "lmarena": {
-        "elo": 1504
+        "elo": 1503
       }
     },
     {
       "rank": 8,
       "model": "Claude Fable 5.1 (Medium, Default Fallback)",
-      "score": 29.2,
+      "score": 34.6,
       "coverage": 2,
       "lmarena": {
         "elo": 1503
@@ -74,7 +74,7 @@
     {
       "rank": 9,
       "model": "Claude Opus 4.7",
-      "score": 29.2,
+      "score": 34.2,
       "coverage": 1,
       "lmarena": {
         "elo": 1494
@@ -83,10 +83,10 @@
     {
       "rank": 10,
       "model": "Muse Spark 1.2 (xHigh)",
-      "score": 25.2,
+      "score": 27.7,
       "coverage": 1,
       "lmarena": {
-        "elo": 1492
+        "elo": 1491
       }
     }
   ]

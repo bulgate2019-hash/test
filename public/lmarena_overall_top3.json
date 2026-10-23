@@ -1,34 +1,34 @@
 {
-  "generated_at_iso": "2026-10-22T10:55:15.688Z",
+  "generated_at_iso": "2026-10-23T10:47:27.893Z",
   "top10_overall": [
     {
       "rank": 1,
       "model": "Gemini 4 Argon (High)",
-      "overall": 1524
+      "overall": 1517
     },
     {
       "rank": 2,
-      "model": "Muse Wonder (Max)",
-      "overall": 1510
+      "model": "Claude Opus 5.5 (High)",
+      "overall": 1509
     },
     {
       "rank": 3,
-      "model": "Claude Opus 5.5 (High)",
+      "model": "Muse Wonder (Max)",
       "overall": 1509
     },
     {
       "rank": 4,
       "model": "Claude Fable 5 (High)",
-      "overall": 1504
+      "overall": 1503
     },
     {
       "rank": 5,
-      "model": "Claude Opus 4.6 (High)",
+      "model": "Claude Fable 5.1 (Max)",
       "overall": 1503
     },
     {
       "rank": 6,
-      "model": "Claude Fable 5.1 (Max)",
+      "model": "Claude Opus 4.6 (High)",
       "overall": 1503
     },
     {
@@ -49,23 +49,23 @@
     {
       "rank": 10,
       "model": "Muse Spark 1.3 (Max)",
-      "overall": 1495
+      "overall": 1496
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
       "model": "Gemini 4 Argon (High)",
-      "overall": 1524
+      "overall": 1517
     },
     {
       "rank": 2,
-      "model": "Muse Wonder (Max)",
-      "overall": 1510
+      "model": "Claude Opus 5.5 (High)",
+      "overall": 1509
     },
     {
       "rank": 3,
-      "model": "Claude Opus 5.5 (High)",
+      "model": "Muse Wonder (Max)",
       "overall": 1509
     }
   ]
