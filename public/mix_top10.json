@@ -1,92 +1,154 @@
 {
-  "generated_at_iso": "2026-10-23T10:47:27.893Z",
+  "generated_at_iso": "2026-10-23T15:39:57.606Z",
   "top10_mix": [
     {
       "rank": 1,
-      "model": "Muse Wonder Full (Max)",
-      "score": 81.1,
-      "coverage": 1,
-      "lmarena": null
+      "model": "Claude Opus 5.5",
+      "score": 88.8,
+      "humain": {
+        "elo": 1509,
+        "variante": "High",
+        "note": 77.6
+      },
+      "bench": {
+        "index": 57.6,
+        "variante": "Max",
+        "note": 100
+      }
     },
     {
       "rank": 2,
-      "model": "Gemini 4 Argon (High)",
-      "score": 73.7,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1517
+      "model": "Gemini 4 Argon",
+      "score": 83.9,
+      "humain": {
+        "elo": 1517,
+        "variante": "High",
+        "note": 100
+      },
+      "bench": {
+        "index": 52.6,
+        "variante": "High",
+        "note": 67.7
       }
     },
     {
       "rank": 3,
-      "model": "Muse Wonder (Max)",
-      "score": 60.8,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1509
+      "model": "Muse Wonder",
+      "score": 72,
+      "humain": {
+        "elo": 1509,
+        "variante": "Max",
+        "note": 77.5
+      },
+      "bench": {
+        "index": 52.4,
+        "variante": "Max",
+        "note": 66.5
       }
     },
     {
       "rank": 4,
-      "model": "Claude Opus 5.5 (Medium, Default Fallback)",
-      "score": 54.5,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1509
+      "model": "Claude Fable 5.1",
+      "score": 67.9,
+      "humain": {
+        "elo": 1503,
+        "variante": "Max",
+        "note": 62.8
+      },
+      "bench": {
+        "index": 53.4,
+        "variante": "Max",
+        "note": 72.9
       }
     },
     {
       "rank": 5,
-      "model": "Claude Opus 4.6",
-      "score": 42.5,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1497
+      "model": "Claude Fable 5",
+      "score": 55.7,
+      "humain": {
+        "elo": 1503,
+        "variante": "High",
+        "note": 63.1
+      },
+      "bench": {
+        "index": 49.6,
+        "variante": "Max",
+        "note": 48.4
       }
     },
     {
       "rank": 6,
-      "model": "Gemini 3.8 Flash (High)",
-      "score": 39.8,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1496
+      "model": "Claude Opus 5",
+      "score": 43.1,
+      "humain": {
+        "elo": 1491,
+        "variante": "Max",
+        "note": 30.1
+      },
+      "bench": {
+        "index": 50.8,
+        "variante": "Max",
+        "note": 56.1
       }
     },
     {
       "rank": 7,
-      "model": "Claude Fable 5 (Max, Opus 4.8 Fallback)",
-      "score": 38.4,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1503
+      "model": "Muse Spark 1.3",
+      "score": 40.6,
+      "humain": {
+        "elo": 1496,
+        "variante": "Max",
+        "note": 42.6
+      },
+      "bench": {
+        "index": 48.1,
+        "variante": "Max",
+        "note": 38.7
       }
     },
     {
       "rank": 8,
-      "model": "Claude Fable 5.1 (Medium, Default Fallback)",
-      "score": 34.6,
-      "coverage": 2,
-      "lmarena": {
-        "elo": 1503
+      "model": "GPT-6.1 Sol",
+      "score": 31.8,
+      "humain": {
+        "elo": 1480,
+        "variante": "Max",
+        "note": 1.1
+      },
+      "bench": {
+        "index": 51.8,
+        "variante": "Max",
+        "note": 62.6
       }
     },
     {
       "rank": 9,
-      "model": "Claude Opus 4.7",
-      "score": 34.2,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1494
+      "model": "GPT-5.6 Sol",
+      "score": 23.2,
+      "humain": {
+        "elo": 1485,
+        "variante": "xHigh",
+        "note": 14.9
+      },
+      "bench": {
+        "index": 47,
+        "variante": "Max",
+        "note": 31.6
       }
     },
     {
       "rank": 10,
-      "model": "Muse Spark 1.2 (xHigh)",
-      "score": 27.7,
-      "coverage": 1,
-      "lmarena": {
-        "elo": 1491
+      "model": "Kimi K3",
+      "score": 15.3,
+      "humain": {
+        "elo": 1487,
+        "variante": "Max",
+        "note": 20.9
+      },
+      "bench": {
+        "index": 43.6,
+        "variante": "Max",
+        "note": 9.7
       }
     }
   ]
