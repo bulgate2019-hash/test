@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-10-23T15:39:57.606Z",
+  "generated_at_iso": "2026-10-24T10:03:15.782Z",
   "top10": [
     {
       "rank": 1,
@@ -27,39 +27,39 @@
     },
     {
       "rank": 5,
+      "model": "Kimi K3.1 Pro",
+      "creator": "Kimi",
+      "index": 55.1
+    },
+    {
+      "rank": 6,
       "model": "Claude Opus 5.5 (High, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.6
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "Claude Fable 5.1 (Max, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.4
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
       "index": 53.2
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
       "index": 52.7
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Gemini 4 Argon (High)",
       "creator": "Google",
       "index": 52.6
-    },
-    {
-      "rank": 10,
-      "model": "Muse Wonder (Max)",
-      "creator": "Meta",
-      "index": 52.4
     }
   ],
   "top3": [
