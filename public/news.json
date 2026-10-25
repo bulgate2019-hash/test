@@ -1,6 +1,42 @@
 [
   {
     "source": "Clubic",
+    "title": "J'ai testé la batterie Zendure SolarFlow 2400 Pro : quand l'IA prend le contrôle de vos panneaux solaires",
+    "link": "https://www.clubic.com/test-produit-634903-zendure-solarflow-2400-pro.html",
+    "pubDate": "Sun, 25 Oct 2026 10:01:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Il vend tout et parcourt 2 000 km pour rencontrer une femme générée par l’IA",
+    "link": "https://www.clubic.com/actualite-635833-il-vend-tout-et-parcourt-2-000-km-pour-rencontrer-une-femme-generee-par-l-ia.html",
+    "pubDate": "Sun, 25 Oct 2026 08:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "En pleine polémique autour de Thélyson Orélien, cette autrice assume ses 371 livres écrits avec l’IA",
+    "link": "https://www.clubic.com/actualite-635830-en-pleine-polemique-autour-de-thelyson-orelien-cette-autrice-assume-ses-371-livres-ecrits-avec-l-ia.html",
+    "pubDate": "Sun, 25 Oct 2026 07:45:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Une IA d’Anthropic cache un message dans les étoiles et c'est... celle d’OpenAI qui le déchiffre",
+    "link": "https://www.clubic.com/actualite-635827-une-ia-d-anthropic-cache-un-message-dans-les-etoiles-et-c-est-celle-d-openai-qui-le-dechiffre.html",
+    "pubDate": "Sat, 24 Oct 2026 15:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "J’ai confié mes petites corvées à l’IA pour gagner du temps : jusqu’où lui faire confiance ?",
+    "link": "https://www.clubic.com/dossier-635533-j-ai-confie-mes-petites-corvees-a-l-ia-pour-gagner-du-temps-jusqu-ou-lui-faire-confiance.html",
+    "pubDate": "Sat, 24 Oct 2026 14:11:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Après les réseaux sociaux, les affiches générées par IA envahissent nos villes et la riposte s’organise",
+    "link": "https://www.clubic.com/actualite-635806-apres-les-reseaux-sociaux-les-affiches-generees-par-ia-envahissent-nos-villes-et-la-riposte-s-organise.html",
+    "pubDate": "Sat, 24 Oct 2026 11:15:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Brave vend son index aux IA, entre un flou juridique et une confidentialité à prouver",
     "link": "https://www.clubic.com/dossier-634783-dollars-les-1-000-requetes-comment-brave-monetise-son-index-aupres-des-ia.html",
     "pubDate": "Sat, 24 Oct 2026 09:02:00 GMT"
@@ -18,57 +54,21 @@
     "pubDate": "Fri, 23 Oct 2026 14:17:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "\"De loin la technologie la plus dangereuse jamais inventée\" : pourquoi Bill Gates réclame une taxe sur l’IA et les robots",
-    "link": "https://www.clubic.com/actualite-635659-de-loin-la-technologie-la-plus-dangereuse-jamais-inventee-pourquoi-bill-gates-reclame-une-taxe-sur-l-ia-et-les-robots.html",
-    "pubDate": "Fri, 23 Oct 2026 10:18:00 GMT"
+    "source": "Siècle Digital",
+    "title": "Avec 10 millions d&#8217;utilisateurs, l&#8217;IA de Meta connaît un démarrage spectaculaire",
+    "link": "https://siecledigital.fr/2026/10/22/avec-10-millions-dutilisateurs-lia-de-meta-connait-un-demarrage-spectaculaire/",
+    "pubDate": "Fri, 23 Oct 2026 05:30:00 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Cette banque supprime 5 000 postes en misant sur l'IA, malgré des bénéfices en hausse de 12 %",
-    "link": "https://www.clubic.com/actualite-635620-cette-banque-supprime-5-000-postes-en-misant-sur-l-ia-malgre-des-benefices-en-hausse-de-12.html",
-    "pubDate": "Fri, 23 Oct 2026 10:15:00 GMT"
+    "source": "Siècle Digital",
+    "title": "Microsoft transforme OneDrive avec Copilot, voici tout ce qui change",
+    "link": "https://siecledigital.fr/2026/10/22/microsoft-transforme-onedrive-avec-copilot-voici-tout-ce-qui-change/",
+    "pubDate": "Fri, 23 Oct 2026 05:14:01 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "Affiches IA ratées : Canva pense avoir trouvé comment éviter le carnage",
-    "link": "https://www.clubic.com/actualite-635653-canva-veut-en-finir-avec-les-affiches-ia-moches-et-son-nouveau-generateur-a-une-idee-pour-y-parvenir.html",
-    "pubDate": "Fri, 23 Oct 2026 10:04:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Les joueurs le soir, l’IA en journée : Shadow lance Blade pour rentabiliser ses 12 000 GPU",
-    "link": "https://www.clubic.com/actualite-635641-les-joueurs-le-soir-l-ia-en-journee-shadow-lance-blade-pour-rentabiliser-ses-12000-gpu.html",
-    "pubDate": "Fri, 23 Oct 2026 09:32:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Avec ce launcher dopé à l'IA, Ubuntu Linux pourrait s'inspirer de macOS Spotlight",
-    "link": "https://www.clubic.com/actualite-635617-avec-ce-launcher-dope-a-l-ia-ubuntu-linux-pourrait-s-inspirer-de-macos-spotlight.html",
-    "pubDate": "Fri, 23 Oct 2026 09:22:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "L’IA coûte 725 fois moins cher : pourquoi les géants de la tech ont des sueurs froides",
-    "link": "https://www.clubic.com/actualite-635644-l-ia-coute-725-fois-moins-cher-pourquoi-les-geants-de-la-tech-ont-des-sueurs-froides.html",
-    "pubDate": "Fri, 23 Oct 2026 09:14:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "1Password s'ouvre aux agents IA mais snobe Google et Microsoft",
-    "link": "https://www.clubic.com/actualite-635557-password-s-ouvre-aux-agents-ia-en-toute-securite.html",
-    "pubDate": "Fri, 23 Oct 2026 08:28:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Trop de produits embellis par l'IA ? Etsy impose désormais une vraie photo aux vendeurs",
-    "link": "https://www.clubic.com/actualite-635623-trop-de-produits-embellis-par-l-ia-etsy-impose-desormais-une-vraie-photo-aux-vendeurs.html",
-    "pubDate": "Fri, 23 Oct 2026 08:21:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "OpenAI réclame encore 30 milliards de dollars, mais les investisseurs commencent à tiquer",
-    "link": "https://www.clubic.com/actualite-635629-openai-reclame-encore-30-milliards-de-dollars-mais-les-investisseurs-commencent-a-tiquer.html",
-    "pubDate": "Fri, 23 Oct 2026 08:15:00 GMT"
+    "source": "Actu IA",
+    "title": "Administration : l'IA fait basculer le rapport de force vers les usagers",
+    "link": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+    "pubDate": "Fri, 23 Oct 2026 05:00:00 +0000"
   }
 ]
