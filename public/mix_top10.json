@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-10-26T11:59:28.779Z",
+  "generated_at_iso": "2026-10-27T11:20:13.826Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -19,7 +19,7 @@
     {
       "rank": 2,
       "model": "Gemini 4 Argon",
-      "score": 83.2,
+      "score": 82.4,
       "humain": {
         "elo": 1517,
         "variante": "High",
@@ -28,13 +28,13 @@
       "bench": {
         "index": 52.6,
         "variante": "High",
-        "note": 66.4
+        "note": 64.8
       }
     },
     {
       "rank": 3,
       "model": "Muse Wonder",
-      "score": 71.3,
+      "score": 70.4,
       "humain": {
         "elo": 1509,
         "variante": "Max",
@@ -43,13 +43,13 @@
       "bench": {
         "index": 52.4,
         "variante": "Max",
-        "note": 65.1
+        "note": 63.4
       }
     },
     {
       "rank": 4,
       "model": "Claude Fable 5.1",
-      "score": 67.3,
+      "score": 66.6,
       "humain": {
         "elo": 1503,
         "variante": "Max",
@@ -58,13 +58,13 @@
       "bench": {
         "index": 53.4,
         "variante": "Max",
-        "note": 71.8
+        "note": 70.4
       }
     },
     {
       "rank": 5,
       "model": "Claude Fable 5",
-      "score": 54.7,
+      "score": 53.4,
       "humain": {
         "elo": 1503,
         "variante": "High",
@@ -73,13 +73,13 @@
       "bench": {
         "index": 49.6,
         "variante": "Max",
-        "note": 46.3
+        "note": 43.7
       }
     },
     {
       "rank": 6,
       "model": "Claude Opus 5",
-      "score": 42.2,
+      "score": 41.1,
       "humain": {
         "elo": 1491,
         "variante": "Max",
@@ -88,13 +88,13 @@
       "bench": {
         "index": 50.8,
         "variante": "Max",
-        "note": 54.4
+        "note": 52.1
       }
     },
     {
       "rank": 7,
       "model": "Muse Spark 1.3",
-      "score": 39.4,
+      "score": 37.8,
       "humain": {
         "elo": 1496,
         "variante": "Max",
@@ -103,13 +103,13 @@
       "bench": {
         "index": 48.1,
         "variante": "Max",
-        "note": 36.2
+        "note": 33.1
       }
     },
     {
       "rank": 8,
       "model": "GPT-6.1 Sol",
-      "score": 31.1,
+      "score": 30.1,
       "humain": {
         "elo": 1480,
         "variante": "Max",
@@ -118,13 +118,13 @@
       "bench": {
         "index": 51.8,
         "variante": "Max",
-        "note": 61.1
+        "note": 59.2
       }
     },
     {
       "rank": 9,
       "model": "GPT-5.6 Sol",
-      "score": 21.9,
+      "score": 20.1,
       "humain": {
         "elo": 1485,
         "variante": "xHigh",
@@ -133,13 +133,13 @@
       "bench": {
         "index": 47,
         "variante": "Max",
-        "note": 28.9
+        "note": 25.4
       }
     },
     {
       "rank": 10,
       "model": "Qwen3.8 Max",
-      "score": 13.5,
+      "score": 11.5,
       "humain": {
         "elo": 1483,
         "variante": "",
@@ -148,7 +148,7 @@
       "bench": {
         "index": 45.4,
         "variante": "0902",
-        "note": 18.1
+        "note": 14.1
       }
     }
   ]
