@@ -1,65 +1,65 @@
 {
-  "generated_at_iso": "2026-10-27T11:20:13.826Z",
+  "generated_at_iso": "2026-10-28T11:53:58.920Z",
   "top10": [
     {
       "rank": 1,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 57.6
+      "index": 58.4
     },
     {
       "rank": 2,
-      "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
-      "index": 56
+      "index": 57
     },
     {
       "rank": 3,
-      "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 56
+      "model": "GPT-6 Astra (Max)",
+      "creator": "OpenAI",
+      "index": 56.9
     },
     {
       "rank": 4,
-      "model": "Muse Wonder Full (Max)",
-      "creator": "Meta",
-      "index": 55.8
+      "model": "GPT-6 Astra (Xhigh)",
+      "creator": "OpenAI",
+      "index": 55.3
     },
     {
       "rank": 5,
-      "model": "Kimi K3.1 Pro",
-      "creator": "Kimi",
-      "index": 55.1
+      "model": "GPT-6 Astra (High)",
+      "creator": "OpenAI",
+      "index": 54.8
     },
     {
       "rank": 6,
-      "model": "Claude Opus 5.5 (High, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 53.6
+      "model": "GPT-6.1 Sol (Max)",
+      "creator": "OpenAI",
+      "index": 54.5
     },
     {
       "rank": 7,
-      "model": "Claude Fable 5.1 (Max, Default Fallback)",
+      "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 53.4
+      "index": 54.2
     },
     {
       "rank": 8,
-      "model": "Claude Fable 5.1 (Xhigh, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 53.2
+      "model": "GPT-6.1 Sol (Xhigh)",
+      "creator": "OpenAI",
+      "index": 52.3
     },
     {
       "rank": 9,
-      "model": "GPT-6 Astra (Max)",
-      "creator": "OpenAI",
-      "index": 52.7
+      "model": "Claude Opus 5.5 (High, Default Fallback)",
+      "creator": "Anthropic",
+      "index": 51.7
     },
     {
       "rank": 10,
-      "model": "Gemini 4 Argon (High)",
-      "creator": "Google",
-      "index": 52.6
+      "model": "GPT-6 Astra (Medium)",
+      "creator": "OpenAI",
+      "index": 51.5
     }
   ],
   "top3": [
@@ -67,19 +67,19 @@
       "rank": 1,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 57.6
+      "index": 58.4
     },
     {
       "rank": 2,
-      "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
-      "index": 56
+      "index": 57
     },
     {
       "rank": 3,
-      "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
-      "creator": "Anthropic",
-      "index": 56
+      "model": "GPT-6 Astra (Max)",
+      "creator": "OpenAI",
+      "index": 56.9
     }
   ]
 }
