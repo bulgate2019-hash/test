@@ -1,71 +1,71 @@
 {
-  "generated_at_iso": "2026-10-28T11:53:58.920Z",
+  "generated_at_iso": "2026-10-29T12:01:20.799Z",
   "top10_overall": [
     {
       "rank": 1,
-      "model": "Gemini 4 Argon (High)",
-      "overall": 1517
+      "model": "Gemini 4 Carbon (High)",
+      "overall": 1528
     },
     {
       "rank": 2,
+      "model": "Gemini 4 Argon (High)",
+      "overall": 1520
+    },
+    {
+      "rank": 3,
       "model": "Claude Opus 5.5 (High)",
       "overall": 1509
     },
     {
-      "rank": 3,
-      "model": "Muse Wonder (Max)",
-      "overall": 1509
-    },
-    {
       "rank": 4,
-      "model": "Claude Fable 5 (High)",
-      "overall": 1503
+      "model": "Muse Wonder (Max)",
+      "overall": 1507
     },
     {
       "rank": 5,
       "model": "Claude Fable 5.1 (Max)",
-      "overall": 1503
+      "overall": 1504
     },
     {
       "rank": 6,
+      "model": "Claude Fable 5 (High)",
+      "overall": 1504
+    },
+    {
+      "rank": 7,
       "model": "Claude Opus 4.6 (High)",
       "overall": 1503
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Opus 4.7 (High)",
       "overall": 1501
     },
     {
-      "rank": 8,
-      "model": "Claude Opus 4.6",
-      "overall": 1497
-    },
-    {
       "rank": 9,
-      "model": "Gemini 3.8 Flash (High)",
+      "model": "Claude Opus 4.6",
       "overall": 1496
     },
     {
       "rank": 10,
-      "model": "Muse Spark 1.3 (Max)",
+      "model": "Gemini 3.8 Flash (High)",
       "overall": 1496
     }
   ],
   "top3_overall": [
     {
       "rank": 1,
-      "model": "Gemini 4 Argon (High)",
-      "overall": 1517
+      "model": "Gemini 4 Carbon (High)",
+      "overall": 1528
     },
     {
       "rank": 2,
-      "model": "Claude Opus 5.5 (High)",
-      "overall": 1509
+      "model": "Gemini 4 Argon (High)",
+      "overall": 1520
     },
     {
       "rank": 3,
-      "model": "Muse Wonder (Max)",
+      "model": "Claude Opus 5.5 (High)",
       "overall": 1509
     }
   ]

@@ -1,85 +1,85 @@
 {
-  "generated_at_iso": "2026-10-28T11:53:58.920Z",
+  "generated_at_iso": "2026-10-29T12:01:20.799Z",
   "top10": [
     {
       "rank": 1,
+      "model": "Gemini 4 Carbon (High)",
+      "creator": "Google",
+      "index": 59.4
+    },
+    {
+      "rank": 2,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
       "index": 58.4
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
       "index": 57
     },
     {
-      "rank": 3,
+      "rank": 4,
       "model": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
       "index": 56.9
     },
     {
-      "rank": 4,
+      "rank": 5,
       "model": "GPT-6 Astra (Xhigh)",
       "creator": "OpenAI",
       "index": 55.3
     },
     {
-      "rank": 5,
+      "rank": 6,
       "model": "GPT-6 Astra (High)",
       "creator": "OpenAI",
       "index": 54.8
     },
     {
-      "rank": 6,
+      "rank": 7,
       "model": "GPT-6.1 Sol (Max)",
       "creator": "OpenAI",
       "index": 54.5
     },
     {
-      "rank": 7,
+      "rank": 8,
       "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
       "index": 54.2
     },
     {
-      "rank": 8,
+      "rank": 9,
       "model": "GPT-6.1 Sol (Xhigh)",
       "creator": "OpenAI",
       "index": 52.3
     },
     {
-      "rank": 9,
+      "rank": 10,
       "model": "Claude Opus 5.5 (High, Default Fallback)",
       "creator": "Anthropic",
       "index": 51.7
-    },
-    {
-      "rank": 10,
-      "model": "GPT-6 Astra (Medium)",
-      "creator": "OpenAI",
-      "index": 51.5
     }
   ],
   "top3": [
     {
       "rank": 1,
+      "model": "Gemini 4 Carbon (High)",
+      "creator": "Google",
+      "index": 59.4
+    },
+    {
+      "rank": 2,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
       "index": 58.4
     },
     {
-      "rank": 2,
+      "rank": 3,
       "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
       "index": 57
-    },
-    {
-      "rank": 3,
-      "model": "GPT-6 Astra (Max)",
-      "creator": "OpenAI",
-      "index": 56.9
     }
   ]
 }
