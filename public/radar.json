@@ -1,42 +1,42 @@
 [
   {
-    "name": "Vaani Developer Platform",
-    "desc": "The only voice AI harness that you'll ever need",
-    "url": "https://www.producthunt.com/products/vaani-developer-platfrom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "SKI",
+    "desc": "Voice-first coding harness ",
+    "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "SpeakON Agent",
-    "desc": "Turn natural speech into real work for an agent to complete",
-    "url": "https://www.producthunt.com/products/speakon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Specsight",
+    "desc": "Product observability for teams shipping fast with AI",
+    "url": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "MCP Server by XWiki",
-    "desc": "Give your AI your wiki's knowledge while keeping the control",
-    "url": "https://www.producthunt.com/products/xwiki?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "telemetry.dev",
+    "desc": "LLM observability for AI agents",
+    "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Canva Brush",
-    "desc": "Canva Brush: a vision-language model that edits your designs",
-    "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "WinnerAdSpy",
+    "desc": "Turn competitor ad insights into winning app campaigns",
+    "url": "https://www.producthunt.com/products/winneradspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "fastbrowse",
-    "desc": "Fastest open source browser agent",
-    "url": "https://www.producthunt.com/products/fastbrowse?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GitHub Copilot Fusion",
+    "desc": "GitHub's AI coding agent that picks and combines models",
+    "url": "https://www.producthunt.com/products/github-copilot-fusion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Chopstick",
-    "desc": "Mac activity and action widgets that write themselves",
-    "url": "https://www.producthunt.com/products/chopstick?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Godwit",
+    "desc": "An open-source, AI-native email client",
+    "url": "https://www.producthunt.com/products/godwit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Teable Mobile",
-    "desc": "Build the systems your team runs on, now from your phone",
-    "url": "https://www.producthunt.com/products/teable-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Coding Wrapped",
+    "desc": "See how you really vibe code with Claude Code & Codex",
+    "url": "https://www.producthunt.com/products/coding-wrapped?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Faylee",
-    "desc": "Bug reports your coding agent can fix from one link",
-    "url": "https://www.producthunt.com/products/faylee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agnos",
+    "desc": "Clean documents for AI, and see what was removed",
+    "url": "https://www.producthunt.com/products/agnos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

@@ -1,6 +1,54 @@
 [
   {
     "source": "Clubic",
+    "title": "On a testé Eney, l'assistant IA pour macOS développé par MacPaw",
+    "link": "https://www.clubic.com/avis-635662-eney-que-vaut-l-assistant-ia-pour-macos-developpe-par-macpaw.html",
+    "pubDate": "Sat, 31 Oct 2026 10:05:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Meta lance un drôle de Tamagotchi dopé à l'IA qui vous écoute et tient même votre journal intime",
+    "link": "https://www.clubic.com/actualite-636949-meta-lance-un-drole-de-tamagotchi-dope-a-l-ia-qui-vous-ecoute-et-tient-meme-votre-journal-intime.html",
+    "pubDate": "Sat, 31 Oct 2026 09:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "J'ai laissé une IA prendre le contrôle de ma maison connectée : la promesse à l'épreuve du quotidien",
+    "link": "https://www.clubic.com/dossier-636637-j-ai-laisse-une-ia-piloter-ma-maison-connectee-la-promesse-a-l-epreuve-du-quotidien.html",
+    "pubDate": "Sat, 31 Oct 2026 08:31:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI veut que ChatGPT comprenne vos intentions plutôt que de suivre vos consignes à la lettre",
+    "link": "https://www.clubic.com/actualite-636943-openai-veut-que-chatgpt-comprenne-vos-intentions-plutot-que-de-suivre-vos-consignes-a-la-lettre.html",
+    "pubDate": "Sat, 31 Oct 2026 08:30:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "NVIDIA peut-il confisquer l’IA ? La justice enquête sur le rachat de Hugging Face à 13 milliards",
+    "link": "https://www.clubic.com/actualite-636850-nvidia-peut-il-confisquer-l-ia-la-justice-enquete-sur-le-rachat-de-hugging-face-a-13-milliards.html",
+    "pubDate": "Fri, 30 Oct 2026 16:03:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Vous jonglez entre Claude Code, Codex et Copilot ? Vous allez apprécier ce petit logiciel gratuit",
+    "link": "https://www.clubic.com/actualite-636568-vous-jonglez-entre-claude-code-codex-et-copilot-vous-allez-apprecier-ce-petit-logiciel-gratuit.html",
+    "pubDate": "Fri, 30 Oct 2026 16:00:00 GMT"
+  },
+  {
+    "source": "Siècle Digital",
+    "title": "Microsoft affiche des résultats historiques, mais ses dépenses dans l&#8217;IA explosent",
+    "link": "https://siecledigital.fr/2026/10/30/microsoft-affiche-des-resultats-historiques-mais-ses-depenses-dans-lia-explosent/",
+    "pubDate": "Fri, 30 Oct 2026 14:25:01 +0000"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un musée et ses visiteurs piégés par l'IA de Google, qui l'annonçait fermé à tort !",
+    "link": "https://www.clubic.com/actualite-636811-un-musee-et-ses-visiteurs-pieges-par-l-ia-de-google-qui-l-annonce-ferme-a-tort.html",
+    "pubDate": "Fri, 30 Oct 2026 13:58:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Doom n’a jamais tourné comme ça : un Raspberry Pi, deux IA et aucun moteur de jeu",
     "link": "https://www.clubic.com/actualite-636790-doom-n-a-jamais-tourne-comme-ca-un-raspberry-pi-deux-ia-et-aucun-moteur-de-jeu.html",
     "pubDate": "Fri, 30 Oct 2026 11:30:00 GMT"
@@ -18,57 +66,9 @@
     "pubDate": "Fri, 30 Oct 2026 10:57:00 GMT"
   },
   {
-    "source": "Clubic",
-    "title": "Google Gemini peut désormais modifier vos PDF : une nouveauté qui va vous simplifier la vie",
-    "link": "https://www.clubic.com/actualite-636751-google-gemini-peut-desormais-modifier-vos-pdf-une-nouveaute-qui-va-vous-simplifier-la-vie.html",
-    "pubDate": "Fri, 30 Oct 2026 10:38:00 GMT"
-  },
-  {
     "source": "Actu IA",
     "title": "La question à 10⁴² dollars, par Axel Cypel",
     "link": "https://www.actuia.com/actualite/la-question-a-1042-dollars-par-axel-cypel-archive-du-magazine-actuia/",
     "pubDate": "Fri, 30 Oct 2026 10:23:25 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Agents d'IA : jusqu'à huit points d'écart pour un même modèle selon le harnais",
-    "link": "https://www.actuia.com/actualite/agents-dia-jusqua-huit-points-decart-pour-un-meme-modele-selon-le-harnais/",
-    "pubDate": "Fri, 30 Oct 2026 10:23:25 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Cloud : au troisième trimestre, seul Microsoft a payé ses investissements avec sa trésorerie",
-    "link": "https://www.actuia.com/actualite/cloud-au-troisieme-trimestre-seul-microsoft-a-paye-ses-investissements-avec-sa-tresorerie/",
-    "pubDate": "Fri, 30 Oct 2026 10:23:24 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Gemini 4 Carbon, premier de l'indice d'Artificial Analysis, est réservé aux cyberdéfenseurs",
-    "link": "https://www.actuia.com/actualite/gemini-4-carbon-premier-de-lindice-dartificial-analysis-est-reserve-aux-cyberdefenseurs/",
-    "pubDate": "Fri, 30 Oct 2026 10:23:23 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Google Cloud ouvre à ses clients Gemini Robotics ER 2, qui planifie les tâches des robots",
-    "link": "https://www.actuia.com/actualite/google-cloud-ouvre-a-ses-clients-gemini-robotics-er-2-qui-planifie-les-taches-des-robots/",
-    "pubDate": "Fri, 30 Oct 2026 10:23:23 +0000"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Un chercheur d'Anthropic signe une faille sur dix corrigée par Chrome en octobre",
-    "link": "https://www.actuia.com/actualite/un-chercheur-danthropic-signe-une-faille-sur-dix-corrigee-par-chrome-en-octobre/",
-    "pubDate": "Fri, 30 Oct 2026 09:46:11 +0000"
-  },
-  {
-    "source": "Clubic",
-    "title": "Microsoft débranche Copilot sur les TV LG et Samsung, un an après son arrivée",
-    "link": "https://www.clubic.com/actualite-636745-microsoft-debranche-copilot-sur-les-tv-lg-et-samsung-un-an-apres-son-arrivee.html",
-    "pubDate": "Fri, 30 Oct 2026 09:45:00 GMT"
-  },
-  {
-    "source": "Actu IA",
-    "title": "Un deuxième groupe lié à Pékin mène ses intrusions avec les agents d'ARTEX",
-    "link": "https://www.actuia.com/actualite/un-deuxieme-groupe-lie-a-pekin-mene-ses-intrusions-avec-les-agents-dartex/",
-    "pubDate": "Fri, 30 Oct 2026 09:13:59 +0000"
   }
 ]
