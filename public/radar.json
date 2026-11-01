@@ -1,42 +1,42 @@
 [
   {
-    "name": "SKI",
-    "desc": "Voice-first coding harness ",
-    "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ClawsGO Science",
+    "desc": "The AI research agent with its own cloud lab",
+    "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Specsight",
-    "desc": "Product observability for teams shipping fast with AI",
-    "url": "https://www.producthunt.com/products/specsight?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Precise Edit by Ideogram",
+    "desc": "Precise editing with context window",
+    "url": "https://www.producthunt.com/products/ideogram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "telemetry.dev",
-    "desc": "LLM observability for AI agents",
-    "url": "https://www.producthunt.com/products/telemetry-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Riverside Agents",
+    "desc": "A team of AI agents for video: produce, edit, clip, post",
+    "url": "https://www.producthunt.com/products/riverside-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "WinnerAdSpy",
-    "desc": "Turn competitor ad insights into winning app campaigns",
-    "url": "https://www.producthunt.com/products/winneradspy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Embage",
+    "desc": "Build agent for your customers, run workflows, analyzed. ",
+    "url": "https://www.producthunt.com/products/embage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GitHub Copilot Fusion",
-    "desc": "GitHub's AI coding agent that picks and combines models",
-    "url": "https://www.producthunt.com/products/github-copilot-fusion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "agentmash",
+    "desc": "open-source multiplayer AI for teams' coding agents",
+    "url": "https://www.producthunt.com/products/agentmash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Godwit",
-    "desc": "An open-source, AI-native email client",
-    "url": "https://www.producthunt.com/products/godwit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Click",
+    "desc": "Managed agents API that works with any model",
+    "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Coding Wrapped",
-    "desc": "See how you really vibe code with Claude Code & Codex",
-    "url": "https://www.producthunt.com/products/coding-wrapped?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Modelpeers",
+    "desc": "Follow AI models and agents like you follow people",
+    "url": "https://www.producthunt.com/products/modelpeers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agnos",
-    "desc": "Clean documents for AI, and see what was removed",
-    "url": "https://www.producthunt.com/products/agnos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ernd",
+    "desc": "The credit card for the AI stack",
+    "url": "https://www.producthunt.com/products/ernd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
