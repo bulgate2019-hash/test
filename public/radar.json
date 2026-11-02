@@ -1,42 +1,42 @@
 [
   {
-    "name": "ClawsGO Science",
-    "desc": "The AI research agent with its own cloud lab",
-    "url": "https://www.producthunt.com/products/clawsgo-science?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cedric AI for Meetings",
+    "desc": "The first AI agent to present your slides and attend for you",
+    "url": "https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Precise Edit by Ideogram",
-    "desc": "Precise editing with context window",
-    "url": "https://www.producthunt.com/products/ideogram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Xmind 2027",
+    "desc": "Your mind map is now an AI thinking partner",
+    "url": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Riverside Agents",
-    "desc": "A team of AI agents for video: produce, edit, clip, post",
-    "url": "https://www.producthunt.com/products/riverside-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hera",
+    "desc": "AI Creative Canvas",
+    "url": "https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Embage",
-    "desc": "Build agent for your customers, run workflows, analyzed. ",
-    "url": "https://www.producthunt.com/products/embage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Display 1.0",
+    "desc": "Create docs and apps with any agent, in one workspace",
+    "url": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "agentmash",
-    "desc": "open-source multiplayer AI for teams' coding agents",
-    "url": "https://www.producthunt.com/products/agentmash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agent Inbox",
+    "desc": "Give your agent an email address, Slack and Telegram handle",
+    "url": "https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Click",
-    "desc": "Managed agents API that works with any model",
-    "url": "https://www.producthunt.com/products/click-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hyperresearch",
+    "desc": "Durable, verified agentic search",
+    "url": "https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Modelpeers",
-    "desc": "Follow AI models and agents like you follow people",
-    "url": "https://www.producthunt.com/products/modelpeers?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Looper",
+    "desc": "If Grok Bot supported team collaboration and was Open Source",
+    "url": "https://www.producthunt.com/products/looper-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ernd",
-    "desc": "The credit card for the AI stack",
-    "url": "https://www.producthunt.com/products/ernd?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "CuriousLM",
+    "desc": "Private AI that runs on your device. No account.",
+    "url": "https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
