@@ -1,42 +1,42 @@
 [
   {
-    "name": "Cedric AI for Meetings",
-    "desc": "The first AI agent to present your slides and attend for you",
-    "url": "https://www.producthunt.com/products/cedric?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Teamily AI",
+    "desc": "Your personal agent, agent teams & people in one messenger",
+    "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Xmind 2027",
-    "desc": "Your mind map is now an AI thinking partner",
-    "url": "https://www.producthunt.com/products/xmind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Synter Canvas",
+    "desc": "Your AI agent runs ads across 30+ ad platforms",
+    "url": "https://www.producthunt.com/products/synter-canvas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hera",
-    "desc": "AI Creative Canvas",
-    "url": "https://www.producthunt.com/products/hera-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MachineMail",
+    "desc": "Real inboxes for AI agents, with trust built in",
+    "url": "https://www.producthunt.com/products/machinemail?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Display 1.0",
-    "desc": "Create docs and apps with any agent, in one workspace",
-    "url": "https://www.producthunt.com/products/display-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Hookdeck Inspect",
+    "desc": "Free webhook tester for you and your agent",
+    "url": "https://www.producthunt.com/products/hookdeck?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agent Inbox",
-    "desc": "Give your agent an email address, Slack and Telegram handle",
-    "url": "https://www.producthunt.com/products/agent-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "LifeVal",
+    "desc": "OpenAI's benchmark for everyday life tasks with AI",
+    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Hyperresearch",
-    "desc": "Durable, verified agentic search",
-    "url": "https://www.producthunt.com/products/hyperresearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Prism",
+    "desc": "Cursor for hardware engineering",
+    "url": "https://www.producthunt.com/products/prism-40?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Looper",
-    "desc": "If Grok Bot supported team collaboration and was Open Source",
-    "url": "https://www.producthunt.com/products/looper-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "IQ",
+    "desc": "The dashboard for your team's AI use",
+    "url": "https://www.producthunt.com/products/iq-code?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "CuriousLM",
-    "desc": "Private AI that runs on your device. No account.",
-    "url": "https://www.producthunt.com/products/curiouslm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "SUN Web & API",
+    "desc": "Turn prompts and PDFs into audio, on the web or via API",
+    "url": "https://www.producthunt.com/products/sun-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

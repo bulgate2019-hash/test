@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-11-02T14:22:34.789Z",
+  "generated_at_iso": "2026-11-03T13:22:02.407Z",
   "top10": [
     {
       "rank": 1,
@@ -57,9 +57,9 @@
     },
     {
       "rank": 10,
-      "model": "GPT-6.1 Sol (Xhigh)",
-      "creator": "OpenAI",
-      "index": 52.3
+      "model": "Gemini 4 Carbon (Low)",
+      "creator": "Google",
+      "index": 53.7
     }
   ],
   "top3": [
