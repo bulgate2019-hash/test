@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-11-03T13:22:02.407Z",
+  "generated_at_iso": "2026-11-04T13:33:18.168Z",
   "top10_mix": [
     {
       "rank": 1,
@@ -11,15 +11,30 @@
         "note": 100
       },
       "bench": {
-        "index": 59.4,
+        "index": 60,
         "variante": "High",
         "note": 100
       }
     },
     {
       "rank": 2,
+      "model": "Claude Opus 5.5",
+      "score": 78.6,
+      "humain": {
+        "elo": 1509,
+        "variante": "High",
+        "note": 59.9
+      },
+      "bench": {
+        "index": 59.1,
+        "variante": "Max",
+        "note": 97.2
+      }
+    },
+    {
+      "rank": 3,
       "model": "Gemini 4 Argon",
-      "score": 78.5,
+      "score": 77.3,
       "humain": {
         "elo": 1520,
         "variante": "High",
@@ -28,118 +43,103 @@
       "bench": {
         "index": 50.4,
         "variante": "High",
-        "note": 72.5
-      }
-    },
-    {
-      "rank": 3,
-      "model": "Claude Opus 5.5",
-      "score": 78.4,
-      "humain": {
-        "elo": 1509,
-        "variante": "High",
-        "note": 59.9
-      },
-      "bench": {
-        "index": 58.4,
-        "variante": "Max",
-        "note": 96.9
+        "note": 70.1
       }
     },
     {
       "rank": 4,
       "model": "Claude Fable 5.1",
-      "score": 60.5,
+      "score": 59.8,
       "humain": {
         "elo": 1504,
         "variante": "Max",
         "note": 50.7
       },
       "bench": {
-        "index": 49.7,
+        "index": 50,
         "variante": "Xhigh",
-        "note": 70.3
+        "note": 68.8
       }
     },
     {
       "rank": 5,
       "model": "Muse Wonder",
-      "score": 53.6,
+      "score": 52.7,
       "humain": {
         "elo": 1507,
         "variante": "Max",
         "note": 56.5
       },
       "bench": {
-        "index": 43.3,
+        "index": 43.6,
         "variante": "Max",
-        "note": 50.8
+        "note": 48.9
       }
     },
     {
       "rank": 6,
       "model": "GPT-6.1 Sol",
-      "score": 43.3,
+      "score": 42.4,
       "humain": {
         "elo": 1481,
         "variante": "Max",
         "note": 1.6
       },
       "bench": {
-        "index": 54.5,
+        "index": 54.6,
         "variante": "Max",
-        "note": 85
+        "note": 83.2
       }
     },
     {
       "rank": 7,
       "model": "Muse Spark 1.3",
-      "score": 30.3,
+      "score": 29,
       "humain": {
         "elo": 1495,
         "variante": "Max",
         "note": 30.8
       },
       "bench": {
-        "index": 36.4,
+        "index": 36.6,
         "variante": "Max",
-        "note": 29.7
+        "note": 27.1
       }
     },
     {
       "rank": 8,
       "model": "Gemini 3.8 Flash",
-      "score": 22.2,
+      "score": 20.9,
       "humain": {
         "elo": 1496,
         "variante": "High",
         "note": 32.8
       },
       "bench": {
-        "index": 30.5,
+        "index": 30.8,
         "variante": "High",
-        "note": 11.6
+        "note": 9
       }
     },
     {
       "rank": 9,
       "model": "Qwen3.8 Max",
-      "score": 12.5,
+      "score": 11,
       "humain": {
         "elo": 1482,
         "variante": "",
         "note": 3.9
       },
       "bench": {
-        "index": 33.6,
+        "index": 33.7,
         "variante": "0902",
-        "note": 21.1
+        "note": 18.1
       }
     },
     {
       "rank": 10,
       "model": "GLM-5.3",
-      "score": 7.6,
+      "score": 5.9,
       "humain": {
         "elo": 1481,
         "variante": "Max",
@@ -148,7 +148,7 @@
       "bench": {
         "index": 31.7,
         "variante": "Max",
-        "note": 15.3
+        "note": 11.8
       }
     }
   ]

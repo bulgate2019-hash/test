@@ -1,29 +1,29 @@
 {
-  "generated_at_iso": "2026-11-03T13:22:02.407Z",
+  "generated_at_iso": "2026-11-04T13:33:18.168Z",
   "top10": [
     {
       "rank": 1,
       "model": "Gemini 4 Carbon (High)",
       "creator": "Google",
-      "index": 59.4
+      "index": 60
     },
     {
       "rank": 2,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 58.4
+      "index": 59.1
     },
     {
       "rank": 3,
       "model": "Gemini 4 Carbon (Medium)",
       "creator": "Google",
-      "index": 57.7
+      "index": 58.3
     },
     {
       "rank": 4,
       "model": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
-      "index": 57
+      "index": 57.4
     },
     {
       "rank": 5,
@@ -47,19 +47,19 @@
       "rank": 8,
       "model": "GPT-6.1 Sol (Max)",
       "creator": "OpenAI",
-      "index": 54.5
+      "index": 54.6
     },
     {
       "rank": 9,
       "model": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 54.2
+      "index": 54.5
     },
     {
       "rank": 10,
       "model": "Gemini 4 Carbon (Low)",
       "creator": "Google",
-      "index": 53.7
+      "index": 54.2
     }
   ],
   "top3": [
@@ -67,19 +67,19 @@
       "rank": 1,
       "model": "Gemini 4 Carbon (High)",
       "creator": "Google",
-      "index": 59.4
+      "index": 60
     },
     {
       "rank": 2,
       "model": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
-      "index": 58.4
+      "index": 59.1
     },
     {
       "rank": 3,
       "model": "Gemini 4 Carbon (Medium)",
       "creator": "Google",
-      "index": 57.7
+      "index": 58.3
     }
   ]
 }
