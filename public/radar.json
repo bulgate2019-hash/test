@@ -1,42 +1,42 @@
 [
   {
-    "name": "Tobira Site Agent",
-    "desc": "Turn your website into an AI agent that sells to AI agents",
-    "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Exa Monitors v2",
+    "desc": "Web search on a schedule that calls your agent, $2/1k runs",
+    "url": "https://www.producthunt.com/products/exa-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Turnstone",
-    "desc": "Grok Bot alternative that runs on your AI, completely free",
-    "url": "https://www.producthunt.com/products/turnstone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ChatGPT Images 2.6",
+    "desc": "Create, edit, and animate images with AI",
+    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Rankfender v3.0",
-    "desc": "The SEO/GEO operating system, built for people and AI agents",
-    "url": "https://www.producthunt.com/products/rankfender?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "LiveReview",
+    "desc": "Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes",
+    "url": "https://www.producthunt.com/products/livereview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "TraceX",
-    "desc": "The AI engineer for your production issues",
-    "url": "https://www.producthunt.com/products/tracex?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Quest",
+    "desc": "Your personal AI advisor for a more intentional life",
+    "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Wonder Dev View",
-    "desc": "Run many Claude Code and Codex agents in parallel",
-    "url": "https://www.producthunt.com/products/wonder-dev-view?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GPT‑6 Cyber",
+    "desc": "OpenAI’s cyber model, with vetted access for defenders",
+    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "DALI AI by SupplyzPro",
-    "desc": "The ERP you never need to open",
-    "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ClarifierAI for Chrome",
+    "desc": "Use AI for writing & translating in your Chrome",
+    "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "chalk",
-    "desc": "learn anything, anywhere",
-    "url": "https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Google Omni 1.2 Flash",
+    "desc": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
+    "url": "https://www.producthunt.com/products/google-omni-1-2-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "pwned.coffee",
-    "desc": "A live board of security flaws",
-    "url": "https://www.producthunt.com/products/pwned-coffee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Muse Realtime Avatar",
+    "desc": "Turn voice chats with Muse into live video calls",
+    "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
