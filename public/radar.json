@@ -1,42 +1,42 @@
 [
   {
-    "name": "Exa Monitors v2",
-    "desc": "Web search on a schedule that calls your agent, $2/1k runs",
-    "url": "https://www.producthunt.com/products/exa-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Inkling 2 Small",
+    "desc": "A model that can see and refine what it builds",
+    "url": "https://www.producthunt.com/products/tinker-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ChatGPT Images 2.6",
-    "desc": "Create, edit, and animate images with AI",
-    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Sage2 by Levanto Labs",
+    "desc": "Turn live talk into structured data and instant actions",
+    "url": "https://www.producthunt.com/products/sagecraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "LiveReview",
-    "desc": "Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes",
-    "url": "https://www.producthunt.com/products/livereview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "AXL",
+    "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
+    "url": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Quest",
-    "desc": "Your personal AI advisor for a more intentional life",
-    "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "NoMac",
+    "desc": "Your AI agent's own Mac, billed per minute. No subscription",
+    "url": "https://www.producthunt.com/products/nomac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GPT‑6 Cyber",
-    "desc": "OpenAI’s cyber model, with vetted access for defenders",
-    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Agent Clan",
+    "desc": "Command your Claude Code and Codex agents with gestures",
+    "url": "https://www.producthunt.com/products/agent-clan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ClarifierAI for Chrome",
-    "desc": "Use AI for writing & translating in your Chrome",
-    "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "outages.live",
+    "desc": "A free live outage feed for your agents",
+    "url": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Google Omni 1.2 Flash",
-    "desc": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
-    "url": "https://www.producthunt.com/products/google-omni-1-2-flash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Frameboy by World Labs",
+    "desc": "Interactive world exploration with Atlas",
+    "url": "https://www.producthunt.com/products/marble-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Muse Realtime Avatar",
-    "desc": "Turn voice chats with Muse into live video calls",
-    "url": "https://www.producthunt.com/products/meta-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Memorias",
+    "desc": "An AI biographer that turns your stories into a book",
+    "url": "https://www.producthunt.com/products/memorias-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]

@@ -1,6 +1,36 @@
 [
   {
     "source": "Clubic",
+    "title": "Meta vous laisse ajouter vos propres outils à son application Muse en les décrivant à son IA",
+    "link": "https://www.clubic.com/actualite-638230-meta-vous-laisse-ajouter-vos-propres-outils-a-son-application-muse-en-les-decrivant-a-son-ia.html",
+    "pubDate": "Sun, 08 Nov 2026 11:03:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Et si le monde se portait mieux sans IA ? Un pionnier de la discipline envisage ce scénario",
+    "link": "https://www.clubic.com/actualite-638224-et-si-le-monde-se-portait-mieux-sans-ia-un-pionnier-de-la-discipline-envisage-ce-scenario.html",
+    "pubDate": "Sun, 08 Nov 2026 09:00:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Un ingénieur de Claude Code alerte sur les compétences qu’on risque de perdre en déléguant à l’IA",
+    "link": "https://www.clubic.com/actualite-638209-un-ingenieur-de-claude-code-alerte-sur-les-competences-qu-on-risque-de-perdre-en-deleguant-a-l-ia.html",
+    "pubDate": "Sat, 07 Nov 2026 17:48:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "OpenAI achève sa dernière levée de fonds dans la difficulté",
+    "link": "https://www.clubic.com/actualite-638218-openai-acheve-sa-derniere-levee-de-fonds-dans-la-difficulte.html",
+    "pubDate": "Sat, 07 Nov 2026 17:07:00 GMT"
+  },
+  {
+    "source": "Clubic",
+    "title": "Confier ses courses à ChatGPT : combien de temps faut-il pour en gagner ?",
+    "link": "https://www.clubic.com/dossier-637900-confier-ses-courses-a-chatgpt-combien-de-temps-faut-il-pour-en-gagner.html",
+    "pubDate": "Sat, 07 Nov 2026 15:16:00 GMT"
+  },
+  {
+    "source": "Clubic",
     "title": "Open source ou open weights : votre IA est-elle vraiment ouverte ?",
     "link": "https://www.clubic.com/dossier-637561-ia-ouverte-open-source-open-weights-ce-que-cachent-les-etiquettes.html",
     "pubDate": "Sat, 07 Nov 2026 09:49:00 GMT"
@@ -30,24 +60,6 @@
     "pubDate": "Fri, 06 Nov 2026 14:26:27 +0000"
   },
   {
-    "source": "Clubic",
-    "title": "WhatsApp prépare une fonction IA bien pratique pour vos photos, et certains iPhone en profitent déjà",
-    "link": "https://www.clubic.com/actualite-637951-whatsapp-deploie-sur-iphone-un-outil-d-ia-qui-agrandit-vos-photos-au-dela-de-leurs-bords.html",
-    "pubDate": "Fri, 06 Nov 2026 11:12:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "« Ils nous ont licenciés, on reconstruit leurs logiciels » : avec l’IA, un mouvement s’attaque aux abonnements SaaS",
-    "link": "https://www.clubic.com/actualite-637996-ils-nous-ont-licencies-on-reconstruit-leurs-logiciels-avec-l-ia-un-mouvement-s-attaque-aux-abonnements.html",
-    "pubDate": "Fri, 06 Nov 2026 10:52:00 GMT"
-  },
-  {
-    "source": "Clubic",
-    "title": "Airbnb prépare un agent de voyage IA pour planifier, réserver et gérer les imprévus",
-    "link": "https://www.clubic.com/actualite-637975-airbnb-prepare-un-agent-ia-pour-planifier-et-reserver-vos-voyages-attendu-au-premier-semestre-2027.html",
-    "pubDate": "Fri, 06 Nov 2026 10:21:00 GMT"
-  },
-  {
     "source": "Siècle Digital",
     "title": "Canva en difficulté face à l&#8217;IA, plus de 1 200 salariés concernés par une restructuration",
     "link": "https://siecledigital.fr/2026/11/05/canva-en-difficulte-face-a-lia-plus-de-1-200-salaries-concernes-par-une-restructuration/",
@@ -58,17 +70,5 @@
     "title": "Pangram étend sa technologie de détection de l&#8217;IA aux images et aux vidéos",
     "link": "https://siecledigital.fr/2026/11/05/pangram-etend-sa-technologie-de-detection-de-lia-aux-images-et-aux-videos/",
     "pubDate": "Thu, 05 Nov 2026 13:25:40 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "Chez Anthropic, chaque salarié coûte en moyenne 100 000 dollars par mois !",
-    "link": "https://siecledigital.fr/2026/11/05/chez-anthropic-chaque-salarie-coute-en-moyenne-100-000-dollars-par-mois/",
-    "pubDate": "Thu, 05 Nov 2026 12:36:10 +0000"
-  },
-  {
-    "source": "Siècle Digital",
-    "title": "ChatGPT représente désormais 20 % du volume de recherches de Google, selon OpenAI",
-    "link": "https://siecledigital.fr/2026/11/04/chatgpt-represente-desormais-20-du-volume-de-recherches-de-google-selon-openai/",
-    "pubDate": "Wed, 04 Nov 2026 15:17:11 +0000"
   }
 ]
