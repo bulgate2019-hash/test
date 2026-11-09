@@ -1,42 +1,42 @@
 [
   {
-    "name": "Inkling 2 Small",
-    "desc": "A model that can see and refine what it builds",
-    "url": "https://www.producthunt.com/products/tinker-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Product Hunt MCP",
+    "desc": "The community you trust in the assistant you use",
+    "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Sage2 by Levanto Labs",
-    "desc": "Turn live talk into structured data and instant actions",
-    "url": "https://www.producthunt.com/products/sagecraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Arcjet AI security models",
+    "desc": "A family of custom-trained security models for coding agents",
+    "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "AXL",
-    "desc": "GTM copilot for AI product founders: 1,200+ actions via MCP",
-    "url": "https://www.producthunt.com/products/axl-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ProtoMap",
+    "desc": "Stop wasting AI tokens rediscovering dependencies",
+    "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "NoMac",
-    "desc": "Your AI agent's own Mac, billed per minute. No subscription",
-    "url": "https://www.producthunt.com/products/nomac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Higgsfield Miracle",
+    "desc": "Edit any part of a video without changing the rest",
+    "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Agent Clan",
-    "desc": "Command your Claude Code and Codex agents with gestures",
-    "url": "https://www.producthunt.com/products/agent-clan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MCP1",
+    "desc": "One URL for every MCP server.",
+    "url": "https://www.producthunt.com/products/appwrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "outages.live",
-    "desc": "A free live outage feed for your agents",
-    "url": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Voyager",
+    "desc": "✴️ An agentic file browser to navigate your work context",
+    "url": "https://www.producthunt.com/products/vygr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Frameboy by World Labs",
-    "desc": "Interactive world exploration with Atlas",
-    "url": "https://www.producthunt.com/products/marble-by-world-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Egoist AI Passport",
+    "desc": "Secure and share your personal data with AI tools.",
+    "url": "https://www.producthunt.com/products/egoist-ai-passport?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Memorias",
-    "desc": "An AI biographer that turns your stories into a book",
-    "url": "https://www.producthunt.com/products/memorias-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ClipsPal",
+    "desc": "AI video editor that edits your talking-head videos",
+    "url": "https://www.producthunt.com/products/clipspal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
