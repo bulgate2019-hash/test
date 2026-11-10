@@ -1,42 +1,42 @@
 [
   {
-    "name": "Product Hunt MCP",
-    "desc": "The community you trust in the assistant you use",
-    "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Alsona",
+    "desc": "AI agents that turn buying signals into booked sales calls",
+    "url": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Arcjet AI security models",
-    "desc": "A family of custom-trained security models for coding agents",
-    "url": "https://www.producthunt.com/products/arcjet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Latch.ai",
+    "desc": "Automate complex accounting work without a single prompt",
+    "url": "https://www.producthunt.com/products/latch-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ProtoMap",
-    "desc": "Stop wasting AI tokens rediscovering dependencies",
-    "url": "https://www.producthunt.com/products/hounddog-ai-static-code-scanner-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Seldon",
+    "desc": "Behavioral QA agents that use your product like customers do",
+    "url": "https://www.producthunt.com/products/seldon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Higgsfield Miracle",
-    "desc": "Edit any part of a video without changing the rest",
-    "url": "https://www.producthunt.com/products/higgsfield?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "TK by Medium",
+    "desc": "An agentic notebook to build your best thinking",
+    "url": "https://www.producthunt.com/products/medium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "MCP1",
-    "desc": "One URL for every MCP server.",
-    "url": "https://www.producthunt.com/products/appwrite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Co-Review",
+    "desc": "Read the whole repository with the agent that built it",
+    "url": "https://www.producthunt.com/products/co-review?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Voyager",
-    "desc": "✴️ An agentic file browser to navigate your work context",
-    "url": "https://www.producthunt.com/products/vygr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MuJoCo 4",
+    "desc": "A physics engine for robots with its own studio",
+    "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Egoist AI Passport",
-    "desc": "Secure and share your personal data with AI tools.",
-    "url": "https://www.producthunt.com/products/egoist-ai-passport?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Almanzor",
+    "desc": "Ask AI + MCP server for your docs, with cited answers",
+    "url": "https://www.producthunt.com/products/almanzor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ClipsPal",
-    "desc": "AI video editor that edits your talking-head videos",
-    "url": "https://www.producthunt.com/products/clipspal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "SideKick By Open ",
+    "desc": "“Claude, but for your product” is here.",
+    "url": "https://www.producthunt.com/products/open-for-sales?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
