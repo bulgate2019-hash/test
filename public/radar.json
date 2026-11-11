@@ -1,42 +1,42 @@
 [
   {
-    "name": "Alsona",
-    "desc": "AI agents that turn buying signals into booked sales calls",
-    "url": "https://www.producthunt.com/products/alsona?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ScroogeFrog AI ",
+    "desc": "AI ad fraud detection that protects your marketing budget ",
+    "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Latch.ai",
-    "desc": "Automate complex accounting work without a single prompt",
-    "url": "https://www.producthunt.com/products/latch-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Nod by n8n",
+    "desc": "Open source personal agent with its own computer",
+    "url": "https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Seldon",
-    "desc": "Behavioral QA agents that use your product like customers do",
-    "url": "https://www.producthunt.com/products/seldon?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "CALL-E",
+    "desc": "The phone line for AI agents",
+    "url": "https://www.producthunt.com/products/call-e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "TK by Medium",
-    "desc": "An agentic notebook to build your best thinking",
-    "url": "https://www.producthunt.com/products/medium?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Scribe v3 by ElevenLabs",
+    "desc": "Speech to text with 27% fewer errors in 90+ languages",
+    "url": "https://www.producthunt.com/products/elevenlabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Co-Review",
-    "desc": "Read the whole repository with the agent that built it",
-    "url": "https://www.producthunt.com/products/co-review?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MiniMax H3-Image",
+    "desc": "Bringing 4K image generation into the 10-second era",
+    "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "MuJoCo 4",
-    "desc": "A physics engine for robots with its own studio",
-    "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Shot.video",
+    "desc": "Multi-camera videos with the phones you already own",
+    "url": "https://www.producthunt.com/products/shot-video?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Almanzor",
-    "desc": "Ask AI + MCP server for your docs, with cited answers",
-    "url": "https://www.producthunt.com/products/almanzor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Relay",
+    "desc": "DocSend for AI agents: send and receive docs with context",
+    "url": "https://www.producthunt.com/products/relaytoai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "SideKick By Open ",
-    "desc": "“Claude, but for your product” is here.",
-    "url": "https://www.producthunt.com/products/open-for-sales?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Seedream 5.5 by ByteDance",
+    "desc": "ByteDance's AI image model built for 100-round editing",
+    "url": "https://www.producthunt.com/products/seedream-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
