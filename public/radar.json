@@ -1,42 +1,42 @@
 [
   {
-    "name": "ScroogeFrog AI ",
-    "desc": "AI ad fraud detection that protects your marketing budget ",
-    "url": "https://www.producthunt.com/products/scroogefrog-ai-antifraud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "YouArt Desktop App",
+    "desc": "Codex for creative team",
+    "url": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Nod by n8n",
-    "desc": "Open source personal agent with its own computer",
-    "url": "https://www.producthunt.com/products/n8n-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Plurai Simulation",
+    "desc": "A simulated world that makes your agent improve on every run",
+    "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "CALL-E",
-    "desc": "The phone line for AI agents",
-    "url": "https://www.producthunt.com/products/call-e?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Adobe AI Assistant",
+    "desc": "Create and edit faster with AI across Adobe apps",
+    "url": "https://www.producthunt.com/products/adobe-ai-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Scribe v3 by ElevenLabs",
-    "desc": "Speech to text with 27% fewer errors in 90+ languages",
-    "url": "https://www.producthunt.com/products/elevenlabs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Harness Memory",
+    "desc": "Long-term memory for agents, across every harness",
+    "url": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "MiniMax H3-Image",
-    "desc": "Bringing 4K image generation into the 10-second era",
-    "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Grok Bot 1.0",
+    "desc": "Bots work together alongside your team",
+    "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Shot.video",
-    "desc": "Multi-camera videos with the phones you already own",
-    "url": "https://www.producthunt.com/products/shot-video?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Didit MCP",
+    "desc": "The MCP server for identity verification and fraud checks",
+    "url": "https://www.producthunt.com/products/didit-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Relay",
-    "desc": "DocSend for AI agents: send and receive docs with context",
-    "url": "https://www.producthunt.com/products/relaytoai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Sendr V4: Lovable for GTM",
+    "desc": "Your AI GTM engineer to build signal based go-to-market",
+    "url": "https://www.producthunt.com/products/sendr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Seedream 5.5 by ByteDance",
-    "desc": "ByteDance's AI image model built for 100-round editing",
-    "url": "https://www.producthunt.com/products/seedream-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "three.dev",
+    "desc": "Find out how your AI agent fails. Before your users do.",
+    "url": "https://www.producthunt.com/products/three-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
