@@ -1,5 +1,5 @@
 {
-  "generated_at_iso": "2026-11-12T14:22:57.030Z",
+  "generated_at_iso": "2026-11-13T13:42:33.519Z",
   "top10_overall": [
     {
       "rank": 1,
@@ -19,7 +19,7 @@
     {
       "rank": 4,
       "model": "Claude Opus 5.5 (High)",
-      "overall": 1506
+      "overall": 1507
     },
     {
       "rank": 5,
@@ -34,7 +34,7 @@
     {
       "rank": 7,
       "model": "Claude Fable 5.1 (Max)",
-      "overall": 1503
+      "overall": 1502
     },
     {
       "rank": 8,
@@ -48,8 +48,8 @@
     },
     {
       "rank": 10,
-      "model": "Claude Opus 4.6",
-      "overall": 1496
+      "model": "Muse Spark 1.3 (Max)",
+      "overall": 1497
     }
   ],
   "top3_overall": [

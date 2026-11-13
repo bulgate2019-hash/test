@@ -1,42 +1,42 @@
 [
   {
-    "name": "YouArt Desktop App",
-    "desc": "Codex for creative team",
-    "url": "https://www.producthunt.com/products/youart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Claude Meetings",
+    "desc": "Add Claude to your call and get work started as you talk",
+    "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Plurai Simulation",
-    "desc": "A simulated world that makes your agent improve on every run",
-    "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Trainn MCP",
+    "desc": "Create product videos and courses from any AI chat",
+    "url": "https://www.producthunt.com/products/trainn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Adobe AI Assistant",
-    "desc": "Create and edit faster with AI across Adobe apps",
-    "url": "https://www.producthunt.com/products/adobe-ai-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini 4 Hydrogen",
+    "desc": "Fast agentic development for coders",
+    "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Harness Memory",
-    "desc": "Long-term memory for agents, across every harness",
-    "url": "https://www.producthunt.com/products/epsilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "GAtrends",
+    "desc": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+    "url": "https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Grok Bot 1.0",
-    "desc": "Bots work together alongside your team",
-    "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Paxper",
+    "desc": "Create cloud infrastructure visually and review every change",
+    "url": "https://www.producthunt.com/products/paxper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Didit MCP",
-    "desc": "The MCP server for identity verification and fraud checks",
-    "url": "https://www.producthunt.com/products/didit-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Aven App Agent",
+    "desc": "AI that guides users through your app",
+    "url": "https://www.producthunt.com/products/aven-app-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Sendr V4: Lovable for GTM",
-    "desc": "Your AI GTM engineer to build signal based go-to-market",
-    "url": "https://www.producthunt.com/products/sendr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Burnstate",
+    "desc": "Claude Code, Codex & Cursor limits, paced in your menu bar",
+    "url": "https://www.producthunt.com/products/burnstate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "three.dev",
-    "desc": "Find out how your AI agent fails. Before your users do.",
-    "url": "https://www.producthunt.com/products/three-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Qwen4-Max-Preview",
+    "desc": "A multimodal AI model for reasoning, coding, and agents",
+    "url": "https://www.producthunt.com/products/qwen4-max-preview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
