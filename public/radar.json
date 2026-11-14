@@ -1,42 +1,42 @@
 [
   {
-    "name": "Claude Meetings",
-    "desc": "Add Claude to your call and get work started as you talk",
-    "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "HiringNow",
+    "desc": "AI job agent that finds & apply for jobs before anyone else.",
+    "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Trainn MCP",
-    "desc": "Create product videos and courses from any AI chat",
-    "url": "https://www.producthunt.com/products/trainn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Businesses in ChatGPT",
+    "desc": "Help customers discover your business through ChatGPT",
+    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gemini 4 Hydrogen",
-    "desc": "Fast agentic development for coders",
-    "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "MAP & GO!",
+    "desc": "See your day on the map",
+    "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GAtrends",
-    "desc": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
-    "url": "https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini Robotics 2.5",
+    "desc": "Gemini Robotics 2.5: Google’s most capable robot model",
+    "url": "https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Paxper",
-    "desc": "Create cloud infrastructure visually and review every change",
-    "url": "https://www.producthunt.com/products/paxper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Antelog",
+    "desc": "Stops AI coding agents from leaking or destroying your data",
+    "url": "https://www.producthunt.com/products/antelog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Aven App Agent",
-    "desc": "AI that guides users through your app",
-    "url": "https://www.producthunt.com/products/aven-app-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Kokonut UI",
+    "desc": "Open-source UI components for your AI agent",
+    "url": "https://www.producthunt.com/products/kokonutui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Burnstate",
-    "desc": "Claude Code, Codex & Cursor limits, paced in your menu bar",
-    "url": "https://www.producthunt.com/products/burnstate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Tabletop by Google Labs",
+    "desc": "Build interactive group experiences with AI.",
+    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Qwen4-Max-Preview",
-    "desc": "A multimodal AI model for reasoning, coding, and agents",
-    "url": "https://www.producthunt.com/products/qwen4-max-preview?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Thunder",
+    "desc": "A blazing-fast, persistent, key-value AI workload database",
+    "url": "https://www.producthunt.com/products/thunder-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
