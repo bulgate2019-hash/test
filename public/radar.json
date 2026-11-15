@@ -1,42 +1,42 @@
 [
   {
-    "name": "HiringNow",
-    "desc": "AI job agent that finds & apply for jobs before anyone else.",
-    "url": "https://www.producthunt.com/products/hiringnow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Rakazo",
+    "desc": "The open source Grok Bot alternative you actually own",
+    "url": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Businesses in ChatGPT",
-    "desc": "Help customers discover your business through ChatGPT",
-    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Tulvo",
+    "desc": "Smart & adaptive workspace to manage all your work",
+    "url": "https://www.producthunt.com/products/tulvo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "MAP & GO!",
-    "desc": "See your day on the map",
-    "url": "https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Frevana Multiplayer",
+    "desc": "AI that grows your business alongside your team",
+    "url": "https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Gemini Robotics 2.5",
-    "desc": "Gemini Robotics 2.5: Google’s most capable robot model",
-    "url": "https://www.producthunt.com/products/gemini-robotics-2-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Canvas by AgentGrid.io",
+    "desc": "Agentic Design Canvas - A visual way to collaborate with AI",
+    "url": "https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Antelog",
-    "desc": "Stops AI coding agents from leaking or destroying your data",
-    "url": "https://www.producthunt.com/products/antelog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Polylane for Security",
+    "desc": "Catch exploitable vulnerabilities before they ship",
+    "url": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Kokonut UI",
-    "desc": "Open-source UI components for your AI agent",
-    "url": "https://www.producthunt.com/products/kokonutui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ByteAsk Cloud Agents",
+    "desc": "Find the fix in big codebases. Ship it from Slack.",
+    "url": "https://www.producthunt.com/products/byteask-cloud-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Tabletop by Google Labs",
-    "desc": "Build interactive group experiences with AI.",
-    "url": "https://www.producthunt.com/products/google-labs?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Perit Marketplace",
+    "desc": "Sell your data and RL tasks to frontier AI labs",
+    "url": "https://www.producthunt.com/products/perit-marketplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Thunder",
-    "desc": "A blazing-fast, persistent, key-value AI workload database",
-    "url": "https://www.producthunt.com/products/thunder-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Spiik",
+    "desc": "AI note taker for meetings & lectures. No bot on your calls.",
+    "url": "https://www.producthunt.com/products/spiik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
