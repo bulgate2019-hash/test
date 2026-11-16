@@ -1,42 +1,42 @@
 [
   {
-    "name": "Rakazo",
-    "desc": "The open source Grok Bot alternative you actually own",
-    "url": "https://www.producthunt.com/products/rakazo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Zoom Slides",
+    "desc": "Turn your Zoom meetings into ready-to-present slides",
+    "url": "https://www.producthunt.com/products/zoom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Tulvo",
-    "desc": "Smart & adaptive workspace to manage all your work",
-    "url": "https://www.producthunt.com/products/tulvo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "readywhen",
+    "desc": "Your personal assistant that lives in email around the clock",
+    "url": "https://www.producthunt.com/products/readywhen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Frevana Multiplayer",
-    "desc": "AI that grows your business alongside your team",
-    "url": "https://www.producthunt.com/products/frevana-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Boost.space AgentOS",
+    "desc": "One operating system for all your AI agents",
+    "url": "https://www.producthunt.com/products/boost-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Canvas by AgentGrid.io",
-    "desc": "Agentic Design Canvas - A visual way to collaborate with AI",
-    "url": "https://www.producthunt.com/products/agentgrid-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenBot",
+    "desc": "Grok Bot alternative: self-host, fully customize, any stack",
+    "url": "https://www.producthunt.com/products/copilotkit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Polylane for Security",
-    "desc": "Catch exploitable vulnerabilities before they ship",
-    "url": "https://www.producthunt.com/products/polylane?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "OpenFrame",
+    "desc": "AI agents that run your IT. You approve every fix.",
+    "url": "https://www.producthunt.com/products/openframe-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "ByteAsk Cloud Agents",
-    "desc": "Find the fix in big codebases. Ship it from Slack.",
-    "url": "https://www.producthunt.com/products/byteask-cloud-agents?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Cal.com v7",
+    "desc": "Cal.com now has events, discover, an assistant + more",
+    "url": "https://www.producthunt.com/products/cal?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Perit Marketplace",
-    "desc": "Sell your data and RL tasks to frontier AI labs",
-    "url": "https://www.producthunt.com/products/perit-marketplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "ChatGPT Wallet",
+    "desc": "Let ChatGPT agents buy things without seeing your card",
+    "url": "https://www.producthunt.com/products/chatgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Spiik",
-    "desc": "AI note taker for meetings & lectures. No bot on your calls.",
-    "url": "https://www.producthunt.com/products/spiik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "StateWeave",
+    "desc": "Test your AI agent on working clones of the apps it uses",
+    "url": "https://www.producthunt.com/products/stateweave?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
