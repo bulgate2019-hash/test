@@ -1,42 +1,42 @@
 [
   {
-    "name": "S.Space",
-    "desc": "Your team and everyone's AI agents, in one workspace",
-    "url": "https://www.producthunt.com/products/s-space?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "TestSprite 4.0",
+    "desc": "Fix one thing, break another? This agent checks it all",
+    "url": "https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Toone",
-    "desc": "Grokbot meets n8n/zapier",
-    "url": "https://www.producthunt.com/products/toone?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Netlify Server",
+    "desc": "Run WebSockets, multiplayer apps, and long-running agents",
+    "url": "https://www.producthunt.com/products/netlify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Waldo by Wherobots",
-    "desc": "The AI agent that accelerates engineering with spatial data",
-    "url": "https://www.producthunt.com/products/waldo-by-wherobots?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Stripo Email Widgets",
+    "desc": "Put a game, quiz or survey in your next email. No coding",
+    "url": "https://www.producthunt.com/products/stripo-email?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Dippr",
-    "desc": "A data platform served to your agents, with one prompt",
-    "url": "https://www.producthunt.com/products/dippr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Teaflask",
+    "desc": "Self-improving AI copilot for your app. No backend changes.",
+    "url": "https://www.producthunt.com/products/teaflask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "dusk bot",
-    "desc": "free open source Grok bot alternative",
-    "url": "https://www.producthunt.com/products/dusk-bot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Tabstack by Mozilla",
+    "desc": "Give your model the web without giving up your privacy",
+    "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Pitch Avatar HR Suite",
-    "desc": "Onboarding, training & comms with conversational AI avatars",
-    "url": "https://www.producthunt.com/products/pitchavatar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Manufact",
+    "desc": "Ship and test your MCP to every plugin marketplace",
+    "url": "https://www.producthunt.com/products/manufact?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "Mermaid Flow",
-    "desc": "The visual builder for agentic workflows",
-    "url": "https://www.producthunt.com/products/mermaid-chart?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Gemini 4 Neon",
+    "desc": "Frontier reasoning with faster task completion",
+    "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   },
   {
-    "name": "GPT-6.2 Astra and Sol",
-    "desc": "Two new OpenAI models: frontier Astra and efficient Sol",
-    "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
+    "name": "Adside",
+    "desc": "A team of specialized AI agents that manage paid ads for you",
+    "url": "https://www.producthunt.com/products/adside?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Mon+Radar+Bot+%28ID%3A+287686%29"
   }
 ]
